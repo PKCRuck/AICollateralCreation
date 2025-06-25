@@ -1,0 +1,1042 @@
+DATA SHEET
+
+RUCKUS® T670
+Outdoor Wi-Fi 7 (802.11be) Access Point with
+
+9.34 Gbps Data Rate
+
+Bandwidth-hungry ultra-high definition video, virtual reality, an explosion of new devices
+and content. With these kinds of demands, organizations in every industry need more from
+their Wi-Fi. But with hundreds of devices and nonstop wireless noise and interference, busy
+outdoor spaces can make challenging wireless environments.
+
+Benefits
+
+The dawn of the Wi-Fi 7 era ushers in a new wave of possibilities. With its groundbreaking
+advancements in speed, capacity, latency, and reliability, Wi-Fi 7 will transform the way we
+connect and interact with the digital world.
+
+Connect more devices simultaneously
+Improve device performance, by enabling more
+simultaneous device connections with 6 spatial
+streams (2x2:2 in 2.4GHz, 5GHz, and 6GHz)
+technology. 9.34 Gbps Combined data rate.
+High client density and performance
+Provides exceptional end-user experience within large
+meeting halls, general enterprise spaces, and large
+classrooms.
+BeamFlex+ Adaptive Antenna Technology
+For greater speed, fewer errors, and instant bandwidth
+delivery, RUCKUS BeamFlex+ patented technology offers
+first-of-its-kind smart antenna technology that
+maximizes signal coverage, throughput, and network
+capacity and work with any client. It further increases
+MIMO diversity gain and maximizes spatial multiplexing
+potential.
+
+From seamless streaming of ultra-high-definition content to immersive virtual and augmented
+reality experiences, Wi-Fi 7 enables applications that were previously unimaginable. Real-time
+social gaming can reach new heights, allowing for lag-free, competitive multiplayer experiences
+with unparalleled responsiveness.
+Moreover, industries such as hospitality and education can benefit immensely from Wi-Fi 7 low
+latency and high reliability. Other verticals like, MDUs, large public venues and service
+providers gain greatly from Wi-Fi 7 unprecedented advancements in speed and capacity.
+The RUCKUS T670 is a high-end Wi-Fi 7, tri-band concurrent outdoor AP that delivers 6 spatial
+streams (2x2:2 in 2.4GHz/5GHz/6GHz or, in dual-band mode, 2x2:2 in 2.4GHz and 4x4:4 in 5GHz)
+With Multi-Link-Operation (MLO), Preamble Puncturing, 4K QAM Modulation and 320MHz channels.
+It delivers industry-leading performance environments with a combined data rate of 9.34 Gbps.
+F. urthermore, a 5 Gbps Ethernet port eliminates wired backhaul bottleneck for full use of available
+Wi-Fi capacity.
+
+Great Outdoor Wi-Fi
+Experience high performance outdoor Wi-Fi 7 with IP-67
+weather proofing and multi-gigabit 5 GbE Ethernet port.
+
+The T670 addresses the increasing client demands in transit hubs, stadiums, conference centers,
+and other high traffic outdoor spaces. It is the perfect choice for data-intensive streaming multimedia
+applications like 4K/8K video transmissions, while supporting latency sensitive voice and data
+applications with stringent quality-of-service requirements.
+
+5 GbE eliminates bottleneck
+Optimized multi-gigabit Wi-Fi performance delivered
+using the built-in 1/2.5/5GbE port to connect to
+multi-gigabit switches.
+Multiple management options
+Manage the T670 with on premise physical/ virtual
+appliances and control auto-provisioning for faster
+deployment and seamless firmware upgrades.
+Enhanced Security
+The latest Wi-Fi security standard with WPA3 and receive
+enhanced protection from man-in-the-middle attacks.
+Adds the power of RUCKUS DPSK3 to WPA3/SAE
+combining enhanced security with the flexibility and
+ease of use of dynamic passphrase to secure network
+access.
+More Than Wi-Fi
+Support solutions beyond Wi-Fi with RUCKUS AI,
+RUCKUS One, RUCKUS Cloudpath Enrollment
+System and onboarding software
+
+The T670, with built-in RUCKUS exclusive technology, dramatically improves network performance
+through a combination of patented wireless innovations and learning algorithms that includes:
+·
+
+Airtime Decongestion: Increases average network throughput in heavily congested environments
+
+·
+
+Transient Client management: Reduces interference traffic from unconnected Wi-Fi devices
+
+·
+
+BeamFlex®+ Adaptive Antennas: Extended coverage range and optimized throughput with
+patented dynamic multi-directional antennas and radio patterns and work with any client.
+
+Whether you are deploying ten or ten thousand APs, the T670 is also easy to manage through
+RUCKUS multiple management options including cloud based and on premises controllers.
+
+RUCKUS® T670
+outdoor Wi-Fi 7 (802.11be) Access Point with 12.22 Gbps Data Rate
+
+© 2023 CommScope, Inc. All rights reserved.
+
+2
+
+RUCKUS® T670
+outdoor Wi-Fi 7 (802.11be) Access Point with 12.22 Gbps Data Rate
+Access Point BeamFlex Antenna Pattern
+
+Figure 1. Example of BeamFlex+ pattern
+
+RUCKUS’ BeamFlex+ adaptive antennas allow the T670 AP to dynamically choose among a host of
+antenna patterns (over 4,000 possible combinations) in real-time to establish the best possible
+connection with every device. This leads to:
+·
+
+Better Wi-Fi coverage
+
+·
+
+Reduced RF interference
+
+Traditional omni-directional antennas, found in generic access points, oversaturate the environment
+by needlessly radiating RF signals in all directions. In contrast, the RUCKUS BeamFlex+ adaptive
+antenna directs the radio signals per-device on a packet by-packet basis to optimize Wi-Fi coverage
+and capacity in real-time to support high device density environments. BeamFlex+ operates without
+the need for device feedback and hence can benefit even devices using legacy standards.
+
+Figure 2. T670 2.4GHz Azimuth Antenna Patterns
+
+Figure 3. T670 5GHz Azimuth Antenna Patterns
+
+Figure 4. T670 6GHz Azimuth Antenna Patterns
+
+Figure 5. T670 2.4GHz Elevation Antenna Patterns
+
+Figure 6. T670 5GHz Elevation Antenna Patterns
+
+Figure 7. T670 6GHz Elevation Antenna Patterns
+
+Note: The outer trace represents the composite RF footprint of all possible BeamFlex+ antenna patterns, while the inner trace represents one BeamFlex+ antenna
+pattern within the composite outer trace.
+
+© 2023 CommScope, Inc. All rights reserved.
+
+3
+
+RUCKUS® T670
+outdoor Wi-Fi 7 (802.11be) Access Point with 9.34 Gbps Data Rate
+WI-FI
+
+5GHZ RECEIVE SENSITIVITY (dBm) in 2x2 tri-band mode
+
+Wi-Fi Standards
+
+·
+
+IEEE 802/11a/b/g/n/ac/ax/be, Wi-Fi 7
+
+·
+
+802.11be: 4 to 5765 Mbps
+802.11ax: 4 to 4804 Mbps
+802.11ac: 6.5 to 866 Mbps
+802.11n: 6.5 to 300 Mbps
+802.11a/g: 6 to 54 Mbps
+802.11b: 1 to 11 Mbps
+
+·
+·
+
+Supported Rates
+
+·
+·
+·
+
+HT20/VHT20
+
+HT40/VHT40
+
+VHT80
+
+MCS0 MCS7 MCS8 MCS9 MCS0 MCS7 MCS8 MCS9 MCS0 MCS7 MCS8 MCS9
+-96
+
+-79
+
+-76
+
+-73
+
+HE20/EHT20
+
+-93
+
+-75
+
+-73
+
+-70
+
+-90
+
+-72
+
+HE80/EHT80
+
+HE40/EHT40
+
+-70
+
+-67
+
+HE160/EHT160
+
+MCS0 MCS9 MCS13 MCS0 MCS9 MCS13 MCS0 MCS9 MCS13 MCS0 MCS9 MCS13
+-96
+
+-73
+
+-61
+
+-93
+
+-70
+
+-58
+
+-90
+
+-67
+
+-55
+
+-87
+
+-64
+
+-52
+
+·
+
+2.4GHz: 1-13
+· 5GHz: 36-64, 100-144, 149-165
+· 6GHz: 1-233
+
+Supported Channels
+
+·
+
+MIMO
+
+·
+
+5GHZRECEIVE
+RECEIVESENSITIVITY
+SENSITIVITY(dBm)
+(dBm) in 4x4 dual-band mode
+5GHZ
+
+2x2 SU-MIMO in tri-band mode. 4x4(5GHz) in dual-band
+2x2 MU-MIMO in tri-band mode. 4x4(5GHz) in dual-band
+
+Spatial Streams
+
+·
+
+2 in tri-band mode or 4 in dual-band mode at 5GHz
+
+Radio Chains and Streams
+
+·
+
+2x2:2 in all 3 bands. 4x4:4(5GHz) in dual-band mode
+
+Channelization
+
+·
+
+20, 40, 80, 160, 320 MHz
+
+-100
+
+HT80/VHT80
+VHT80
+
+-82
+
+-79
+
+-76
+
+-97
+
+-79
+
+-76
+
+-73
+
+-94
+
+-76
+
+HE80/EHT80
+
+HE40/EHT40
+
+-73
+
+-70
+
+HE160/EHT160
+
+MCS0 MCS9 MCS13 MCS0 MCS9 MCS13 MCS0 MCS9 MCS13 MCS0 MCS9 MCS13
+
+WEP, WPA, WPA-PSK, WPA2, WPA2-PSK, WPA3, WPA3-SAE,
+OWE, PMF (802.11w), Dynamic PSK, DPSK3
+· WIPS/WIDS. TPM 2.0, Secure Boot
+
+-100
+
+-76
+
+-64
+
+-97
+
+-73
+
+-61
+
+-94
+
+-70
+
+-58
+
+-91
+
+-67
+
+-55
+
+6GHZ RECEIVE SENSITIVITY (dBm)
+
+·
+
+WMM, Power Save, Tx Beamforming, LDPC, STBC,
+802.11r/k/v, MBO
+· MLO (Multi-link operation ), Preamble Puncturing
+
+HE20/EHT20
+
+·
+
+Web Authentication and Guest Access
+· Hotspot, Hotspot 2.0
+· Captive Portal
+· WISPr
+
+Other Wi-Fi Features
+
+HT40/VHT40
+
+HE20/EHT20
+
+·
+
+Security
+
+HT20/VHT20
+
+MCS0 MCS7 MCS8 MCS9 MCS0 MCS7 MCS8 MCS9 MCS0 MCS7 MCS8 MCS9
+
+HE40/EHT40
+
+HE80/EHT80
+
+MCS0
+
+MCS9
+
+MCS13
+
+MCS0
+
+MCS9
+
+MCS13
+
+MCS0
+
+MCS9
+
+MCS13
+
+-96
+
+-73
+
+-61
+
+-93
+
+-70
+
+-58
+
+-90
+
+-67
+
+-55
+
+HE160/EHT160
+
+EHT320
+
+MCS0
+
+MCS9
+
+MCS11
+
+MCS13
+
+MCS0
+
+MCS9
+
+MCS11
+
+MCS13
+
+-87
+
+-64
+
+-58
+
+-52
+
+-84
+
+-61
+
+-55
+
+-49
+
+RF
+·
+
+Antenna Type
+
+·
+
+Antenna Gain (max)
+Peak Transmit Power (Tx port/
+chain + Combining gain)
+
+MCS9, VHT20
+
+18
+
+·
+
+6GHz: 25dBm
+
+MCS11, HE40
+
+16
+
+·
+
+ISM (2.4-2.484GHz)
+U-NII-1 (5.15-5.25GHz)
+U-NII-2A (5.25-5.35GHz)
+U-NII-2C (5.47-5.725GHz)
+U-NII-3 (5.725-5.85GHz)
+U-NII-5 (5.925–6.425GHz)
+U-NII-6 (6.425–6.525GHz)
+U-NII-7 (6.525–6.875GHz)
+U-NII-8 (6.875–7.125GHz)
+
+MCS13, EHT40
+
+12
+
+·
+·
+·
+
+5GHZ TX POWER TARGET (PER CHAIN)
+Rate
+
+2.4GHZ RECEIVE SENSITIVITY (dBm)
+HT40
+
+VHT20
+
+MCS7
+
+MCS0
+
+MCS7
+
+MCS0
+
+MCS7
+
+MCS0
+
+MCS7
+
+-97
+
+-79
+
+-94
+
+-76
+
+-97
+
+-79
+
+-94
+
+-76
+
+HE20/EHT20
+
+-79
+
+-74
+
+-68
+
+MCS0
+-94
+
+MCS0, HT40
+
+22
+
+MCS7, HT40
+
+19
+
+MCS9, VHT80
+
+17.5
+
+MCS11, HE160
+
+16
+
+MCS13, EHT160
+
+14
+
+MCS7
+-76
+
+MCS9
+-71
+
+6GHZ TX POWER TARGET (PER CHAIN)
+Rate
+MCS0, HT40
+
+HE40/EHT40
+MCS11
+
+Pout (dBm)
+
+VHT40
+
+MCS0
+
+-97
+
+19
+
+2.4GHz: 26dBm
+5GHz: 25dBm(2x2). 28dBm(4x4)
+
+·
+
+MCS9
+
+22
+
+MCS7, HT20
+
+·
+
+·
+
+MCS7
+
+Pout (dBm)
+
+·
+
+·
+
+MCS0
+
+Rate
+MCS0, HT20
+
+Up to 4dBi
+
+·
+
+HT20
+
+2.4GHZ TX POWER TARGET (PER CHAIN)
+
+·
+
+·
+
+Frequency Bands
+
+BeamFlex+ adaptive antennas with polarization diversity
+Adaptive antenna that provides 4,000+ unique antenna
+patterns per band
+
+Pout (dBm)
+22
+
+MCS11
+
+MCS7, HT40
+
+17.5
+
+-65
+
+MCS9, VHT80
+
+16.5
+
+MCS11, HE160
+
+15
+
+MCS1
+, EHT320
+MCS9,3HE160
+
+16.5
+13
+
+© 2024 CommScope, Inc. All rights reserved.
+
+4
+
+RUCKUS® T670
+outdoor Wi-Fi 7 (802.11be) Access Point with 9.34 Gbps Data Rate
+
+POWER CONSUMPTION
+Mode
+
+NETWORKING
+
+Power
+Consumption
+
+System Configuration
+·
+
+DC Power
+
+33W
+
+5Gbps Ethernet Enabled
+
+·
+
+1Gbps Ethernet Enabled
+· GPS Enabled
+
+Wi-Fi Radios
+2.4GHz (2x2) Tx 22dBm
+5GHz (2x2) Tx 22dBm
+6GHz (2x2) Tx 22dBm
+
+802.3bt5
+PoH, uPoE
+
+·
+
+33W
+
+5Gbps Ethernet Enabled
+
+·
+
+1Gbps Ethernet Enabled
+· GPS Enabled
+
+802.3at
+
+25.5W
+
+5Gbps Ethernet Enabled
+
+·
+
+1Gbps Ethernet Disabled
+GPS Enabled
+
+·
+
+Mesh
+IP
+
+2.4GHz (2x2) Tx 22dBm
+5GHz (2x2) Tx 22dBm
+6Ghz (2x2) Tx 22dBm
+
+·
+
+·
+
+Controller Platform Support
+
+2.4GHz (2x2) Tx 16dBm
+5GHz (2x2) Tx 17dBm
+
+2.4GHz: 689 Mbps
+5GHz: 5765 Mbps (4x4:4) or 2882 Mbps (2x2:2)
+
+·
+
+6GHz: 5765 Mbps
+
+Client Capacity
+
+·
+
+Up to 768 clients per AP
+
+SSID
+
+·
+
+Up to 36 per AP
+
+RUCKUS RADIO MANAGEMENT
+·
+
+Antenna Optimization
+
+Wi-Fi Channel Management
+
+BeamFlex+
+· Polarization Diversity with Maximal Ratio Combining (PDMRC)
+
+Client Density Management
+
+Adaptive Band Balancing
+Client Load Balancing
+· Airtime Fairness
+· Airtime-based WLAN Prioritization
+·
+
+SmartCast Quality of Service
+Mobility
+Diagnostic Tools
+
+QoS-based scheduling, QoS Mirroring
+Directed Multicast
+· L2/L3/L4 ACLs
+·
+
+·
+
+SmartRoam
+
+IPv4, IPv6, dual-stack
+
+802.1Q (1 per BSSID or dynamic per user based on RADIUS)
+VLAN Pooling
+· Port-based
+
+·
+
+Authenticator & Supplicant
+
+Tunnel
+
+·
+
+GRE, Soft-GRE
+
+·
+
+Application Recognition and Control
+Access Control Lists
+· Device Fingerprinting
+· Rate Limiting
+· URL Filtering
+·
+
+PHYSICAL INTERFACES
+
+Ethernet
+
+One 100M/1/2.5/5GbE Ethernet (PoE) port and one 10M/
+100M/1GbE Ethernet port
+· Power over Ethernet (802.3af/at/bt) with Category 5e (or
+better) cable
+· LLDP support
+
+DC Power
+
+· 48V DC Terminal Block
+
+·
+
+PHYSICAL CHARACTERISTICS
+Physical Size
+
+·
+
+·
+
+·
+
+802.1x
+
+·
+
+ChannelFly
+· Background Scan Based
+
+RUCKUS One
+SmartMesh™ wireless meshing technology. Self-healing
+Mesh in 2.4 GHz, 5GHz, and 6GHz
+
+·
+
+PERFORMANCE AND CAPACITY
+·
+
+·
+·
+
+VLAN
+
+Policy Management Tools
+
+·
+
+SmartZone
+RUCKUS Unleashed*
+
+·
+
+6Ghz (2x2) Tx 17dBm
+
+Peak PHY Rates
+
+·
+
+Weight
+
+·
+·
+·
+·
+·
+
+24.8cm (L), 23.8cm (W), 10.8.cm (H)
+9.8in (L) x 9.4in (W) x 4.3in (H)
+2.8kg
+5lbs
+
+·
+
+Wall Mount, Pole Mount, Flat Surface.
+Bracket included in the box
+
+Operating Temperature
+
+·
+
+-40
+. ºC (-40ºF) to 65ºC (145ºF)
+
+Operating Humidity
+
+·
+
+Up to 95%, non-condensing
+
+Wind Survivability
+
+·
+
+165 Miles Per Hour
+
+Mounting
+
+·
+
+Spectrum Analysis
+· SpeedFlex
+
+Product owner is responsible to abide by the country of deployment spectrum regulations when configuring and deploying this product/device.
+The 6GHz band is enabled in countries where it is authorized by the local regulations. AP operates as per local regulations via country regulatory domain, otherwise 6GHz radio is disabled. Once
+this product is certified to operate in a particular country the 6GHz band may be enabled with a future software release..
+
+* Expected in a future software release
+
+© 2024 CommScope, Inc. All rights reserved.
+
+5
+
+RUCKUS® T670
+outdoor Wi-Fi 7 (802.11be) Access Point with 9.34 Gbps Data Rate
+
+ORDERING INFORMATION
+
+CERTIFICATIONS AND COMPLIANCE
+Wi-Fi Alliance1
+
+·
+·
+·
+·
+·
+·
+·
+
+Standards Compliance2
+
+·
+·
+·
+·
+·
+
+Wi-Fi CERTIFIED™ a, b, g, n, ac, ax, be (Wi-Fi 6, Wi-Fi 7)
+Passpoint®, Vantage
+IEC/EN/UL 60950-1 Safety
+IEC/EN/UL 62368-1 Safety
+EN 60601-1-2 Medical
+EN 61000-4-2/3/5 Immunity
+EN 50121-1 Railway EMC
+EN 50121-4 Railway Immunity
+IEC 61373 Railway Shock & Vibration
+EN 62311 Human Safety/RF Exposure
+WEEE & RoHS
+ISTA 2A Transportation
+
+· RUCKUS T670 Wi-Fi 7 tri-band outdoor wireless Access
+
+Point with 2x2:2 (2.4GHz) + 2x2:2 (5GHz) + 2x2:2 (6GHz).
+Wi-Fi 7 in all three bands. 6GHz SP mode support with
+AFC. Software configurable to 2x2 (2.4GHz) + 4x4 (5GHz)
+dual-band mode. BeamFlex+, one 5/2.5/1-Gigabit Ethernet
+backhaul, one 1-Gigabit port, PoH/uPoE/ 802.3bt PoE
+support, TPM 2.0, and Secure Boot.
+Power adapter not included. Includes one year limited
+warranty. Mounting brackets included.
+
+901-T670-XX01
+
+See RUCKUS price list for country-specific ordering information.
+Warranty: Sold with a one year limited warranty.
+For details see: http://support.ruckuswireless.com/warranty.
+OPTIONAL ACCESSORIES
+
+SOFTWARE AND SERVICES
+Cloud Based Services
+
+·
+
+RUCKUS One
+
+Network Analytics
+
+·
+
+RUCKUS AI (Formerly known as RUCKUS Analytics)
+
+Security and Policy
+
+·
+
+Cloudpath
+
+902-1180-XX00
+
+·
+
+902-0125-0000
+902-0134-0000
+
+·
+
+902-0183-0000
+
+·
+
+Multigigabit PoE injector (2.5/5/10)-BaseT PoE port, 60W
+
+Secure Articulating Mounting Bracket
+· Secure Articulating Mounting Bracket with 10º increment
+Spare cable gland for weathering the RJ45 port, outdoor AP
+
+PLEASE NOTE: When ordering APs, you must specify the destination region by indicating -US,
+-WW, or -Z2 instead of XX. When ordering PoE injectors or power supplies, you must specify the
+destination region by indicating -US, -EU, -AU, -BR, -CN, -IN, -JP, -KR, -SA, -UK, or -UN instead of -XX.
+For access points, -Z2 applies to the following countries: Algeria, Egypt, Israel, Morocco, Tunisia, and
+Vietnam.
+
+1 For complete list of WFA certifications, please see Wi-Fi Alliance website.
+2 For current certification status, please see price list.
+
+About RUCKUS Networks
+RUCKUS Networks builds and delivers purpose-driven networks that perform in the demanding environments of the industries
+we serve. Together with our network of trusted go-to-market partners, we empower our customers to deliver exceptional
+experiences to the guests, students, residents, citizens and employees who count on them.
+
+www.ruckusnetworks.com
+Visit our website or contact your local RUCKUS representative for more information.
+© 2024 CommScope, LLC. All rights reserved.
+All trademarks identified by ™ or ® are trademarks or registered trademarks in the US and may be registered in other countries. All product names, trademarks
+and registered trademarks are property of their respective owners. This document is for planning purposes only and is not intended to modify or supplement any
+specifications or warranties relating to CommScope products or services.
+
+PA-118919-EN (5/3/24)
+
+

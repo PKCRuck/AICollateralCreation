@@ -1,0 +1,177 @@
+DATA SHEET
+
+BEAMFLEX®
+Smart antenna system
+
+The industry’s only smart antenna
+system that delivers stable connectivity
+and higher performance
+FEATURES
+
+· Multiple directional high-gain elements
+· Real-time optimization system
+· Works with Wi-Fi 6
+of antenna patterns that
+· Thousands
+are optimized via patented software to
+ensure the best path to the client
+
+with 802.11a/b/g/n networks
+· Compatible
+and clients
+learning based on inputs
+· Continuous
+from network layers 0 through 7
+antenna reconfiguration and
+· On-the-fly
+transmission policy management per
+
+BeamFlex® is a combination of multiple high-gain polarized antenna elements and
+patented software algorithms that are combined in real time to offer an exponential
+increase in performance. With up to 21 high-gain, directional antenna elements, a
+BeamFlex smart antenna offers more than 4,200 unique antenna patterns to optimize
+the reception of a given client.
+The RUCKUS® adaptive antenna technology also includes adaptive polarization
+diversity—further increasing signal gain. Translating to better reception and
+transmission, polarization diversity is particularly advantageous for handheld devices
+that are hard to hear and constantly change direction.
+Completely standards based, and Wi-Fi 6, the BeamFlex smart antenna system works
+with any off-the-shelf 802.11a/b/g/n chipset and is integrated into every RUCKUS smart
+Wi-Fi access point.
+
+packet, per flow, per receiving device
+
+to 6 dBi signal gain and 15 dB
+· Up
+interference mitigation
+
+How it works
+
+BENEFITS
+
+transmit energy toward the best path to the receiving device. And, unlike fixed-position
+
+fewer APs to deliver a higher
+· Requires
+capacity coverage over a greater
+area—delivering more reliable client
+connectivity
+
+a self-healing, self-optimizing
+· Has
+antenna system proven in more than 3.5
+million installations
+
+·
+Wi-Fi range and coverage by
+· Extends
+focusing Wi-Fi signals toward client
+· Maximizes AP and client performance
+· Eliminates dead spots
+better reception and
+· Provides
+transmission for handheld clients that
+
+Mitigates interference in a high-density
+client and AP environment
+
+are both hard to hear and constantly
+change direction
+© 2023 CommScope, Inc. All rights reserved.
+
+Unlike omnidirectional antennas that radiate signals in all directions, BeamFlex directs
+directional antennas, BeamFlex dynamically configures and re-configures its antenna
+pattern to achieve focused coverage with directional performance within a given
+environment—thus increasing signal gain.
+The BeamFlex smart antenna is controlled by an optimization engine that automatically
+reconfigures the antenna patterns on a packet-by-packet basis—selecting the best
+performing and highest quality signal path and optimum data rate for each receiving
+device.
+The expert software system within BeamFlex extracts important information from
+all 802.11 packets received, such as the sender’s performance, the optimum data
+rate, RSSI, error rates and approximate location. It then ranks the optimum antenna
+patterns for each communicating device—keeping track of the best performing signal
+path at any time for any given client. The resulting antenna pattern shows RF energy
+directed toward the client, thus increasing performance while mitigating interference by
+removing energy where it does not need to go for each packet transmitted.
+
+What’s the big deal?
+
+Better RF neighbor
+
+Consistent performance
+
+Because BeamFlex only focuses RF energy where it’s needed, it
+
+By continuously steering transmissions to high-quality signal
+
+interferes less with other Wi-Fi access points and clients.
+
+paths, BeamFlex maximizes and sustains Wi-Fi transmission
+
+Automatic adaptation
+
+speeds while minimizing transmission errors. BeamFlex
+stabilizes wireless network performance to enable consistent
+throughput at range.
+
+Dynamically configuring the Wi-Fi “beam” hundreds of times
+each second, BeamFlex can adapt in real time to environmental
+changes—steering signals around obstacles, interference
+
+Extended range
+
+and other hazards that would otherwise negatively affect
+
+And, because BeamFlex enables high-gain, directional Wi-Fi
+
+performance.
+
+signals to clients, it delivers up to a four-fold increase in range
+over any other Wi-Fi access point.
+Stable connections
+
+BeamFlex effectively allows each RUCKUS AP to deliver high-gain
+directional Wi-Fi signals in 360 degrees while simultaneously
+minimizing noise to nearby networks, devices and other APs.
+
+Through antenna diversity and dynamic adaptation, BeamFlex
+ensures that the best performing and most reliable signal path
+is used at any given time—thereby minimizing erratic Wi-Fi
+behavior such as dropped connections.
+Interference mitigation
+BeamFlex is able to select antenna patterns that focus RF energy
+away from the direction of interference—thereby attenuating
+noise to the receiving station. This enables remarkable
+improvements in signal gain while, at the same time, reducing
+interference or contention among other APs. Using these
+interference mitigation techniques, a single ZoneFlex AP can
+realize up to 6 dBi in signal gain and 15 dB in interference
+mitigation. An interference mitigation algorithm enables the
+BeamFlex software to detect the direction of interference from,
+for example, a neighboring network, a microwave oven, or a
+nearby Bluetooth device. In response, BeamFlex is able to select
+antenna patterns that direct energy away from the direction of
+interference—attenuating noise to the receiving station.
+Client
+
+Composite pattern
+
+BeamFlex+
+
+Figure 1. Example of BeamFlex+ pattern
+BeamFlex not only focuses RF energy where it’s needed but also
+mitigates interference coming from other directions. This ensures
+that the highest possible PHY rate is used and that the highest
+possible throughput is achieved for all clients.
+
+www.ruckusnetworks.com
+Visit our website or contact your local RUCKUS representative for more information.
+© 2023 CommScope, Inc. All rights reserved.
+All trademarks identified by ™ or ® are trademarks or registered trademarks in the US and may be registered in other
+countries. All product names, trademarks and registered trademarks are property of their respective owners. This document
+is for planning purposes only and is not intended to modify or supplement any specifications or warranties relating to
+CommScope products or services.
+PA-115628.1-EN (02/23)
+
+

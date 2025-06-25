@@ -1,0 +1,711 @@
+DRAFT: CONFIDENTIAL
+
+RUCKUS® R350e
+
+DATA SHEET
+
+Indoor Wi-Fi 6 (802.11ax) Access Point
+
+Benefits
+COST EFFECTIVE SOLUTION FOR SMALL FACILITIES
+The R350e Wi-Fi 6 (802.11ax) access point (AP) is a cost
+effective solution that can deliver fast and reliable Wi-Fi
+services to up to 128 client devices.
+INDUSTRY LEADING WI-FI PERFORMANCE
+Patented RUCKUS technologies for performance
+optimization and interference mitigation delivers
+superior user experience.
+MESH NETWORKING
+Dynamically create self-forming, self-healing network
+mesh with RUCKUS patented SmartMesh technology
+reducing expensive cabling, and complex configurations
+by checking a box.
+MULTIPLE UNIFIED MANAGEMENT OPTIONS
+Manage the R350e from the cloud, with on-premises
+physical/virtual appliances, or without a controller.
+KEEP EXISTING SWITCHES AND CABLES
+Designed to operate on existing PoE switches and CAT 5e
+cabling to minimize costly power infrastructure
+upgrades.
+
+Small facilities can face big-time demands on their wireless infrastructure.
+Whether staying overnight in a motel, working out of a small office or connecting
+to a public hotspot, users are often still accessing the same high-bandwidth
+applications and content they’d consume anywhere else. And they expect
+reliable connectivity. How can you provide it at a price even the smallest business
+can afford?
+The RUCKUS® R350e delivers consistent, reliable Wi-Fi 6 (802.11ax) wireless networking at an
+affordable price. The AP features several patented RUCKUS technologies for performance
+optimization and interference mitigation found in our premier access points, delivering superior user
+experiences. But it provides them in an ultra-compact form factor built for small venues—with a
+price tag to match.
+The R350e is an ideal choice for low-density environments will less coverage areas including small
+and medium-size economy hotels and motels, small and medium-size businesses, retail locations,
+restaurants, and multi-tenant small offices and branch offices.
+The R350e Wi-Fi 6 AP incorporates patented technologies found only in the RUCKUS Wi-Fi portfolio.
+·
+
+Improve throughput with ChannelFly®, which dynamically finds less congested Wi-Fi channels to
+use.
+
+·
+
+Supports up to 128 clients and 8 SSIDs per AP.
+
+The R350e provides an ideal combination of features and performance for smaller environments at
+a price any business can afford.
+
+RUCKUS® R350e
+Indoor Wi-Fi 6 (802.11ax) Access Point
+
+Access point antenna pattern
+RUCKUS superior antenna technology enables the best possible connection with every devices, delivering
+·
+
+Better Wi-Fi coverage
+
+·
+
+Reduced RF interference
+
+Figure 1. R350e 2.4GHz Azimuth
+Antenna Patterns
+
+Figure 2. R350e 5GHz
+AzimuthAntenna Patterns
+
+Figure 3. R350e 2.4GHz Elevation
+Antenna Patterns
+
+Figure 4. R350e 5GHz Elevation
+Antenna Patterns
+
+© 2024 Commscope, Inc. All rights reserved.
+
+2
+
+RUCKUS® R350e
+Indoor Wi-Fi 6 (802.11ax) Access Point
+
+© 2024 CommScope, Inc. All rights reserved.
+
+3
+
+RUCKUS® R350e
+Indoor Wi-Fi 6 (802.11ax) Access Point
+
+WI-FI
+
+5GHZ RECEIVE SENSITIVITY (dBm)
+
+Wi-Fi Standards
+
+·
+
+IEEE 802.11a/b/g/n/ac/ax
+
+·
+
+802.11ax: 4 to 1774 Mbps
+802.11ac: 6.5 to 867 Mbps (MCS0 to MCS9, NSS = 1 to 2 for
+VHT20/40/80)
+802.11n: 6.5 Mbps to 300 Mbps (MCS0 to MCS15)
+802.11a/g: 54, 48, 36, 24, 18, 12, 9, 6Mbps
+802.11b: 11, 5.5, 2 and 1 Mbps
+
+·
+
+Supported Rates
+
+·
+·
+·
+
+VHT20
+MCS0
+
+MCS7
+
+MCS0
+
+MCS7
+
+-95
+
+-76
+
+-92
+
+-73
+
+-89
+
+-70
+
+MCS0
+
+MCS7
+
+MCS0
+
+MCS7
+
+MCS0
+
+MCS7
+
+-95
+
+-76
+
+-92
+
+-73
+
+-89
+
+-70
+
+HE20
+
+2.4GHz: 1-13
+· 5GHz: 36-64, 100-144, 149-165
+
+2x2 SU-MIMO
+· 2x2 MU-MIMO
+
+Radio Chains and Streams
+
+·
+
+2x2:2 (5 GHz)
+· 2x2:2 (2.4GHz)
+·
+
+Channelization
+
+20, 40, 80MHz
+
+·
+
+WPA-PSK, WPA-TKIP, WPA2 , WPA3-Personal, WPA3Enterprise, AES, WPA3, 802.11i, Dynamic PSK
+· WIPS/WIDS
+
+Security
+
+·
+
+Other Wi-Fi Features
+
+·
+·
+·
+·
+
+WMM, Power Save, Tx Beamforming, LDPC, STBC,
+802.11r/k/v
+Hotspot
+Hotspot 2.0
+Captive Portal
+WISPr
+
+RF
+Antenna Gain (max)
+
+·
+
+Peak Transmit Power
+(aggregate across MIMO
+chains)
+
+·
+
+Minimum Receive Sensitivity1
+
+Up to 3dBi
+
+19
+
+MCS7 HT20
+
+14
+
+MCS8 VHT20
+
+13.5
+
+MCS9 VHT40
+
+12
+
+MCS11 HE40
+
+11
+
+5GHZ TX POWER TARGET
+Rate
+MCS0 VHT20
+
+19
+
+MCS7 VHT20
+
+16
+
+MCS0 VHT40, VHT80
+
+19
+
+MCS7 VHT40, VHT80
+
+16
+
+MCS11, HE20, HE40, HE80
+
+12
+
+Peak PHY Rates
+
+·
+·
+
+2.4GHz: 574Mbps
+5 GHz: 1200Mbps
+
+·
+
+-101 dBm
+
+Client Capacity
+
+·
+
+Up to 128 clients per AP
+
+ISM (2.4-2.484GHz)
+U-NII-1 (5.15-5.25GHz)
+U-NII-2A (5.25-5.35GHz)
+U-NII-2C (5.47-5.725GHz)
+U-NII-3 (5.725-5.85GHz)
+
+SSID
+
+·
+
+Up to 8 per AP (4 per band)
+
+·
+
+ChannelFly
+Background Scan Based
+
+·
+·
+
+RUCKUS RADIO MANAGEMENT
+Wi-Fi Channel Management
+
+·
+·
+
+2.4GHZ RECEIVE SENSITIVITY (dBm)
+HT20
+
+-94
+
+Pout (dBm)
+
+·
+
+·
+
+MCS0
+
+Pout (dBm)
+
+MCS0 HT20
+
+PERFORMANCE AND CAPACITY
+
+2.4GHz: 22 dBm
+· 5GHz: 22 dBm
+
+·
+
+Frequency Bands
+
+HE80
+
+Rate
+
+2 streams SU/MU-MIMO 5GHz
+· 2 streams SU/MU-MIMO 2.4GHz
+
+·
+
+Spatial Streams
+
+HE40
+
+2.4GHZ TX POWER TARGET
+
+·
+
+MIMO
+
+VHT80
+
+MCS7
+
+·
+
+Supported Channels
+
+VHT40
+
+MCS0
+
+HT40
+MCS7
+
+MCS0
+
+-70
+
+-91
+
+Client Density Management
+MCS7
+-72
+
+HE40
+
+HE20
+MCS0
+
+MCS7
+
+MCS0
+
+MCS7
+
+-94
+
+-70
+
+-91
+
+-72
+
+Adaptive Band Balancing
+Client Load Balancing
+· Airtime Fairness
+· Airtime-based WLAN Prioritization
+·
+
+·
+
+SmartCast Quality of Service
+
+QoS-based scheduling
+Directed Multicast
+· L2/L3/L4 ACLs
+
+Mobility
+
+·
+
+·
+
+SmartRoam
+
+1 Rx sensitivity varies by band, channel width and MCS rate.
+
+© 2024 CommScope, Inc. All rights reserved.
+
+4
+
+RUCKUS® R350e
+Indoor Wi-Fi 6 (802.11ax) Access Point
+
+NETWORKING
+
+CERTIFICATIONS AND COMPLIANCE
+·
+
+Controller Platform Support
+
+Mesh
+IP
+
+·
+
+RUCKUS One
+· SmartZone
+· Unleashed2
+
+·
+·
+
+·
+
+SmartMesh™ wireless meshing technology. Self-healing
+Mesh
+
+·
+
+IPv4, IPv6
+
+Wi-Fi Alliance4
+
+·
+
+802.1Q (1 per BSSID or dynamic per use based on RADIUS
+VLAN Pooling
+· Port-based
+
+·
+
+·
+
+·
+
+802.1x
+
+·
+
+·
+
+EN 60950-1 Safety
+EN 60601-1-2 Medical
+EN 61000-4-2/3/5 Immunity
+EN 50121-1 Railway EMC
+EN 50121-4 Railway Immunity
+IEC 61373 Railway Shock & Vibration
+UL 2043 Plenum
+EN 62311 Human Safety/RF Exposure
+WEEE & RoHS
+ISTA 2A Transportation
+
+Network Analytics
+
+·
+
+RUCKUS® AI
+
+·
+
+Cloudpath
+
+·
+
+R350e dual-band (5GHz and 2.4GHz concurrent) 802.11ax
+Entry-Level wireless access point (up to 128 concurrent
+clients), 2x2:2 streams (2.4GHz/5GHz), PoE support. Does not
+include power adaptor or PoE injector. Includes 1 year Limited
+Warranty.
+
+·
+
+Authenticator & Supplicant
+
+·
+·
+
+·
+
+Policy Management Tools
+
+·
+·
+
+·
+
+VLAN
+
+·
+
+Access Control Lists
+· Device Fingerprinting
+· Rate Limiting
+
+Standards Compliance5
+
+·
+·
+·
+·
+
+PHYSICAL INTERFACES
+
+·
+
+Ethernet
+
+·
+
+1 x 1GbE port, RJ-45
+
+USB
+
+·
+
+Disabled
+
+Wi-Fi CERTIFIED™ a, b, g, n, ac
+Wi-Fi CERTIFIED 6™
+WPA3™ -Enterprise, Personal
+Wi-Fi Enhanced Open™
+Wi-Fi Agile Multiband™
+Passpoint®
+Vantage
+WMM
+
+SOFTWARE AND SERVICES
+PHYSICAL CHARACTERISTICS
+Physical Size
+Weight
+
+14.60(L) x 15.59(W) x 3.93(H) cm
+5.75(L) x 6.14(W) x 1.55(H) in
+
+Security and Policy
+
+·
+·
+
+368g (13 oz)
+
+ORDERING INFORMATION
+
+·
+
+·
+
+Wall, Drop ceiling, Desk
+· Secure bracket (sold separately)
+
+Mounting
+Physical Security
+
+·
+·
+
+Hidden latching mechanism
+T-bar Torx
+
+Operating Temperature
+
+·
+
+0 ºC (32 ºF) to 40 ºC (104 ºF)
+
+Operating Humidity
+
+·
+
+Up to 95%, non-condensing
+
+901-R350-XX03
+
+Warranty: Sold with a 1 year limited warranty.
+For details see: http://support.ruckuswireless.com/warranty.
+OPTIONAL ACCESSORIES
+
+POWER3
+Power Supply
+
+Maximum Power Consumption
+
+902-0162-XXYY
+
+PoE (Full Functionality)
+
+·
+
+12.62W
+
+902-0195-0000
+
+DC input
+
+·
+
+11.4 W
+
+902-0120-0000
+902-0173-XXYY
+
+·
+
+PoE injector (24W) (Sold in quantities of 1, 10 or 100)
+
+·
+
+Spare, T-bar ceiling mount kit for mounting to flush frame
+ceiling
+
+·
+
+Spare, Accessory Mounting Bracket
+
+·
+
+Power Adapter (12V, 1.0A, 12W) (Sold in quantities of 1 or
+10)
+
+PLEASE NOTE: When ordering Indoor APs, you must specify the destination region by indicating -US
+or -WW, instead of XX. When ordering PoE injectors or power supplies, you must specify the
+destination region by indicating -US, -EU, -AU, -BR, -CN, -IN, -KR, -SA, -UK, or -UN instead of -XX.
+PACKAGING
+DIMENSIONS AND WEIGHT
+PHYSICAL
+CHARACTERISTICS
+Physical
+Package Size
+Package Weight
+
+·
+·
+
+14.60(L)
+15.59(W)x x6.9(H)
+3.93(H)
+19.40(L) x 19.4(W)
+cmcm
+5.75(L) x 7.64(W)
+6.14(W) x 2.71(H)
+1.55(H) in
+7.64(L)
+
+·
+
+544g (19.2 oz)
+
+2 Refer to Unleashed datasheets for SKU ordering information.
+3 Max power varies by country setting, band, and MCS rate.
+4 For complete list of WFA certifications, please see the Wi-Fi Alliance website.
+5 For current certification status, please see the price list.
+
+© 2024 CommScope, Inc. All rights reserved.
+
+5
+
+RUCKUS® R350e
+Indoor Wi-Fi 6 (802.11ax) Access Point
+
+About RUCKUS Networks
+RUCKUS Networks builds and delivers purpose-driven networks that perform in the demanding environments of the industries
+we serve. Together with our network of trusted go-to-market partners, we empower our customers to deliver exceptional
+experiences to the guests, students, residents, citizens and employees who count on them.
+
+www.ruckusnetworks.com
+Visit our website or contact your local RUCKUS representative for more information.
+© 2024 CommScope, LLC. All rights reserved.
+All trademarks identified by ™ or ® are trademarks or registered trademarks in the US and may be registered in other countries. All product names, trademarks
+and registered trademarks are property of their respective owners. This document is for planning purposes only and is not intended to modify or supplement any
+specifications or warranties relating to CommScope products or services.
+
+PA-118274.1-EN (7/24)
+
+

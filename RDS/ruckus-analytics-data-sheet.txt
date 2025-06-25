@@ -1,0 +1,625 @@
+DATA SHEET
+
+RUCKUS AI™
+AI-Driven Service Assurance and Business Intelligence for RUCKUS
+enterprise networks
+
+IT teams often lack the tools to ensure required network service levels in an
+environment of ever-increasing user connectivity demands and network complexity.
+Helpdesk tickets from user connectivity issues pile up while IT struggles to glean insight
+from network data. When service issues affect user experience, IT often lacks a way to
+identify root causes and define a course of action to fix the problem.
+
+BENEFITS
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+AI powered network incident
+identification, prioritization, and
+resolution AI Operations.
+AI powered RRM to optimize network
+by reducing interference links
+
+RUCKUS AI™ from CommScope is a cloud service for network intelligence and service
+assurance. Powered by machine learning (ML) and artificial intelligence (AI), it helps
+you get the most from your RUCKUS® network. The service gives IT comprehensive
+visibility into network operations. It accelerates troubleshooting and helps IT teams
+meet their network service level agreements (SLAs).
+The service identifies network assurance incidents, classifies them by severity, traces
+
+AI driven AppInsights for visibility into
+wired, wireless and application server
+performance over time.
+
+root causes and makes specific AI recommendations for remediation. It automatically
+
+Accelerates network and client
+troubleshooting
+
+Advanced client troubleshooting and AI incident intelligence give IT teams the power
+
+Helps IT teams improve the user
+experience
+
+RUCKUS network to allow it to self-validate—without the need for overlay sensors. You
+
+Service Assurance works with your
+RUCKUS network to automatically
+validate service levels
+
+monitors network health relative to configurable thresholds.
+
+to address service issues for individual users and devices. RUCKUS AI works with your
+can identify and address many service issues before they even affect users.
+The service also delivers robust reporting and informative dashboards. Create custom
+dashboards and data visualizations with the Data Studio tool—and flexibly explore
+your network data warehouse with drag-and-drop ease.
+
+This network navigation widget
+present in the dashboard and
+other pages enables you to
+browse across your entire network
+organization. It enables you to
+drilldown and filter parts of the
+network hierarchy. Levels to
+browse include overall network,
+domain, zone, AP group, AP.You can
+also search for a specific network
+element in the search box above
+the navigation.
+
+© 2023 CommScope, Inc. All rights reserved.
+
+RUCKUS AI aggregates raw data and automatically transforms
+it into deep insight into network operations. This ML- and AIpowered service frees you from a wide variety of manual tasks
+associated with network assurance. Comprehensive network
+intelligence helps you deliver on network SLAs in support of
+users, devices and applications.
+RUCKUS AI automatically measures the impact of the RUCKUS
+SmartZone™ software configuration changes on network
+performance. You can observe the effects of each change on
+a portion of the network before rolling it out more broadly.
+This helps to avoid fully rolling out changes that might have an
+adverse effect on network performance.
+
+Streaming telemetry with a modern data stack
+for advanced service assurance
+RUCKUS AI is designed for the unique data profile generated
+by network devices. On-premises controllers securely connect
+to the cloud and stream lightweight health KPIs and telemetry.
+The high-performance data stack ingests and processes the
+data to serve as the basis for queries, reports and
+baseline metrics.
+
+Comprehensive visibility into network
+operations
+“Health” page provides users visibility to monitor network
+health,, with an overview tab that provides a high-level
+
+It scales to support the largest deployments—expanding
+
+summary view. Select other health monitoring tabs to view
+
+capacity transparently to meet your requirements. RUCKUS AI
+
+metrics in specific health categories: connection, performance,
+
+supports two control and management architectures: RUCKUS
+
+and infrastructure. Network health monitoring gives you instant
+
+SmartZone software* for on-premises and private cloud/data
+
+visibility into metrics like AP service uptime, time to connect,
+
+center deployments, and RUCKUS Cloud™ for cloud-managed
+
+connection success rate, client throughput and more. You
+
+deployments.
+
+define the service levels you want to measure against. For
+example, you might want to set the “time to connect” goal at
+
+RUCKUS AI has an industry-unique combination of attributes:
+
+five seconds—RUCKUS AI will tell you what percentage of the
+time the network meets that goal. The service lets you readily
+
+•
+
+Automated data baselining and insights driven by ML and AI
+
+•
+
+Health and SLA monitoring
+
+•
+
+Powerful, holistic troubleshooting
+
+•
+
+Automatic classification of incident severity
+
+•
+
+Service validation without the need for an on-site data
+collector or overlay sensors
+
+•
+
+Granular access to raw data with deep exploration and
+custom dashboards
+
+•
+
+12 months of storage with flexible data reporting
+
+demonstrate to others in your organization performance to
+SLAs. You can also setup custom SLA and measure compliance
+of network values with custom thresholds.
+
+Network Incident creation powered by machine
+learning and artificial intelligence.
+RUCKUS AI enables machine-assisted proactive networking
+for your RUCKUS deployment. It automatically establishes a
+normal range of behavior for each network element, without
+requiring any input from IT. Then it uses machine learning to
+automatically identify service incidents related to connectivity,
+performance and infrastructure that affect user experience.
+
+* RUCKUS SmartZone 5.1.2 or higher is required.
+
+2
+
+RUCKUS AI™ AI-driven Service Assurance and Business Intelligence for RUCKUS enterprise networks
+
+It uses artificial intelligence to classify service incidents by
+severity—so you can address the highest-priority issues first.
+
+AppInsights – Application Quality of Experience
+RUCKUS AI also provides the user insights linked to application
+
+The system provides details for each incident, including:
+•
+
+Root cause and recommended action
+
+•
+
+Affected areas (client operating system types, access point
+models, firmware versions, WLANs and more)
+
+•
+
+Other impact details, including severity, client impact and
+duration.
+
+•
+
+List of impacted clients
+
+•
+
+Presentation of the underlying data that drives the incident.
+
+outcomes by scoring an application quality of experience.
+This is especially useful to monitor collaboration application
+traffic over the network and drive to administrators - incident
+notifications and corrective action steps within their network
+infrastructure in order to improve the end user experience
+with various applications.
+
+Powerful client troubleshooting
+With simple and flexible search and a holistic client
+troubleshooting page, RUCKUS AI gives you a complete picture
+
+RUCKUS AI dramatically reduces mean time to resolution
+
+of client experience for easy connectivity and user experience
+
+for service incidents. It can eliminate some helpdesk tickets
+
+diagnostics, including:
+
+by letting you address issues before they affect users. By
+
+•
+
+Successful, slow, and failed connections
+
+incidents that might arise from that cause. Service providers
+
+•
+
+Disconnect events.
+
+can realize instant business value when level 1/2 helpdesk
+
+•
+
+Roaming events and failed roams
+
+•
+
+Connection quality (RSSI, MCS, client throughput)
+
+•
+
+Network incidents affecting users, with links to see incident
+
+addressing the root cause for one incident, you can avoid other
+
+personnel can remediate complex network problems using
+RUCKUS AI.
+
+AI driven Cloud RRM
+With compute intensive AI capabilities such as RRM, RUCKUS
+
+details.
+•
+
+packet analysis.
+
+AI can drive optimization to each zone of your network by
+recommending ideal channel plan and channel bandwidth
+along with changes to AP transmit power to reduce interfering
+links and bring about improved speed throughput for your
+users. You will visually be presented with a prediction of this
+optimization and reduction of interference. RUCKUS AI runs
+simulations every 24 hours to get the best possible solution of
+
+Network pcap download for all failure events for detailed
+
+Client troubleshooting is a powerful tool that helps you
+understand and address issues affecting specific clients on the
+network.
+
+Automatic service validation
+
+driving down to zero interference. You also have an ability to
+
+RUCKUS AI works with your RUCKUS network to automatically
+
+schedule applying the recommended setting and to revert if
+
+validate service levels without the need for overlay sensors.
+
+the need arises.
+
+Access points act as virtual clients to identify possible service
+disruptions, often before they affect users. The system can
+
+AI Operations
+
+perform a variety of tests, including:
+
+RUCKUS AI also helps automate solutions and task sequences
+
+•
+
+WLAN, LAN and WAN connectivity
+
+•
+
+EAP, RADIUS, DHCP and DNS
+
+•
+
+Ping, traceroute and speed test (upload/download)
+
+to the customer by simplifying action as a single click and
+taking away manual search, operations management and helps
+remove chances of manual error. Like AI driven Cloud RRM, the
+user can view the prediction, schedule the recommendation
+and revert if the need arises.
+
+3
+
+RUCKUS AI™ Network intelligence and service assurance for RUCKUS enterprise networks
+
+Melissa™ Virtual Assistant infused with
+chatGPT —your own AI-powered virtual
+network assistant.
+
+to initiate helpdesk tickets automatically and let IT get a head
+
+RUCKUS AI includes a powerful AI-powered virtual network
+
+go unreported.
+
+assistant called Melissa™ which has also been infused with
+chatGPT capabilities. Combining an intuitive interface with
+advanced natural language processing, Melissa determines
+the administrator’s intent in posing a wide variety of inquiries
+and delivers highly insightful responses. IT teams save valuable
+time with ready access to information that helps them manage
+
+start in resolving them. This ensures that, when a service issue
+occurs, it is flagged for the helpdesk to address. Without such a
+system in place many issues that affect user experience
+
+Business Insights
+RUCKUS AI also delivers valuable insights for business
+decisions with features such as Brand 360 that enables
+hospitality properties to monitor brand compliance scores.
+
+network operations—without the need for any coding.
+
+They can share the scores with ecosystem partners to help
+
+Health
+
+service level agreements, hotel operators can ensure that
+
+RUCKUS AI includes a feature to view 15 metrics over time
+
+for the end customer guests.
+
+identify issues and make improvements quickly. With custom
+networks are available, reliable, and performing at their best
+
+categorized amongst Connection, Performance, Infrastructure,
+Application such as connection success ratio, time to connect,
+client throughput, AP capacity, and many more. You can also
+setup custom SLA and measure compliance of network values
+with custom thresholds.
+
+Config change
+
+Prepackaged reports and dashboards
+A wide variety of standardized reports provides visibility into
+network performance, traffic patterns, application usage and
+more. Summary views provide high-level information, and you
+can drill down to the level of individual network components
+and devices. Examples of standardized reports include:
+
+RUCKUS AI includes a feature as a method to quantify impact
+of making config changes to network and these can be
+
+•
+
+measured across 15 different SLA points.
+
+AI Driven Probe suppression
+RUCKUS AI can intelligently help reduce channel congestion
+linked to excessive probes in high density venues with transient
+
+traffic distribution and more
+•
+
+Occupancy Analytics
+The Occupancy page provides insights into space utilization
+within a facility, such as the most heavily used area or the
+predominantly least used area within the facility along with
+network metrics. It includes Utilization rate, total In-Site visitors,
+average dwell time for each site along with the set of clients.
+
+IT service management integration
+RUCKUS AI integrates closely with leading IT service
+management (ITSM) products from ServiceNow and Salesforce
+
+4
+
+Client—reports by OS and device manufacturer, top clients
+by usage, client trends, session details and more
+
+•
+
+Inventory—AP, switch and controller count, models,
+firmware, status and more
+
+devices or large number of Wi-Fi clients and ultimately improve
+network performance.
+
+Network—traffic and client trends, top devices, top SSIDs,
+
+•
+
+Application—top apps and their usage trends, top app
+groups and usage, top ports and more
+
+•
+
+Device-specific reports—complete visibility and usage
+reports for clients, APs, and switches
+
+The service lets you download reports as raw data, a PDF file,
+or a CSV file. Forward the results to stakeholders inside or
+outside the organization.
+
+Data Studio—custom dashboards, data
+visualizations and more
+The RUCKUS AI Data Studio tool lets you create custom
+dashboards with multiple charts to dissect and analyze data
+
+RUCKUS AI™ AI-driven Service Assurance and Business Intelligence for RUCKUS enterprise networks
+
+from your network ecosystem. Drag-and-drop dashboard creation makes it easy to design views tailored to your needs. You can easily
+position and reposition dashboard tiles, edit tiles at will and toggle between different views.
+Analyze and filter data by dozens of data sets (AP Hardware, AP, Applications, Client, Client Connection, Client Sessions, Controller and
+Switch Inventory). Data Studio puts your full network data warehouse at your fingertips so you can answer any number of network
+questions.
+
+Cloud deployment for scalability and expandability
+As a completely hosted service, without the need for any on-site data collectors, RUCKUS AI relieves you of the burden of managing an
+in-house network intelligence platform. Leveraging on the latest software technologies in scalable cloud microservices, databases and
+real-time data pipelines, RUCKUS AI constantly learns and improves its AI models to provide maximum insights and optimization for
+your network.
+Customers can designate a third party—such as a RUCKUS networking solution provider—to administer their account. Managed
+service providers (MSPs) can manage multiple end- customer RUCKUS AI accounts from within their own account.
+
+New Dashboard
+New Dashboard | RUCKUS AI includes a dashboard with all your network summarized for AI Incidents, AI Operations, AI driven RRM,
+AppInsights and Melissa infused with chatGPT capabilities.
+
+5
+
+RUCKUS AI™ AI-driven Service Assurance and Business Intelligence for RUCKUS enterprise networks
+
+AI Driven Cloud RRM
+AI-Driven RRM | RUCKUS AI drives network optimizations in reduction in co channel interference links by adjusting channel plan,
+bandwidth and AP transmit power through large number of simulations and linking with a single click apply
+
+Network Assurance
+Network Assurance | Health | RUCKUS AI automatically monitors network health across a variety of metrics in three areas:
+connection, performance, and infrastructure.
+
+6
+
+RUCKUS AI™ AI-driven Service Assurance and Business Intelligence for RUCKUS enterprise networks
+
+AI Incidents
+AI Incidents | RUCKUS AI provides a root cause analysis of each service incident with specific recommendations for how
+to resolve the issue.
+
+Advanced Client Troubleshooting
+Advanced Client Troubleshooting | Lets you investigate and resolve issues that have impacted a specific client on the network.
+
+7
+
+RUCKUS AI™ AI-driven Service Assurance and Business Intelligence for RUCKUS enterprise networks
+
+Data Studio
+Data Studio | The Data Studio tool in RUCKUS AI lets you create custom dashboards with drag-and-drop ease.
+
+AI Assurance
+AI Assurance | Service Validation | RUCKUS AI works with your RUCKUS network to allow the network to automatically validate
+network service levels.
+
+8
+
+RUCKUS AI™ AI-driven Service Assurance and Business Intelligence for RUCKUS enterprise networks
+
+Reporting
+Reporting | RUCKUS AI includes a wide variety of pre-packaged reports. This report shows metrics related to the RUCKUS switches in
+the network.
+
+Specifications
+Security,
+privacy and
+data protection
+
+•
+•
+•
+
+•
+•
+•
+•
+
+All traffic to and from the cloud is encrypted.
+Only AP, switch, and client management traffic are sent to the cloud.
+Client data traffic stays local (broken out to local LAN and sent through existing
+firewall)
+All data stored in RUCKUS AI is encrypted at rest.
+RUCKUS offers EU-located data centers for European customers.
+Latest security patches are automatically updated.
+Role-based access control is provided for administrative privileges
+
+Admin can grant and
+revoke access to
+partners and RUCKUS
+support
+
+Ability to choose the
+hosting region for your
+service (USA, EU or
+Asia)
+
+Cloud data
+center
+
+•
+
+Hosted in USA, Europe and Asia on world-class IAAS provider with:
+– ISO 27001 information security certification
+– SSAE-16, SOC 1, SOC 2 and SOC 3 certifications
+– Stringent physical, data access and data disposal security measures
+– Per-tenant migration capabilities
+– Green carbon-neutral facilities
+– Dedicated inter-DC fiber connectivity
+
+SLA
+
+•
+
+99.9 percent network availability (does not include planned maintenance, including
+periodic software upgrades and other pre-announced activities)
+
+9
+
+RUCKUS AI™ AI-driven Service Assurance and Business Intelligence for RUCKUS enterprise networks
+
+View RUCKUS Cloud
+privacy policy
+
+Support
+
+•
+
+24x7 chat/web/phone support included for the term of the subscription
+
+Part numbers
+
+•
+
+CLD-ANAP-1001
+– RUCKUS AI one-year subscription for RUCKUS Cloud or AP managed by
+SmartZone controllers or ICX® switch
+
+•
+
+CLD-ANAP-3001
+– RUCKUS AI three-year subscription for RUCKUS Cloud or AP managed by
+SmartZone controller or ICX® switch
+
+•
+
+CLD-ANAP-5001
+– RUCKUS AI five-year subscription for RUCKUS Cloud or AP managed by SmartZone
+controller or ICX® switch
+
+•
+
+CLR-ANAP-1001
+– RUCKUS AI one-year renewal for RUCKUS Cloud or AP managed by SmartZone
+controller or ICX® switch
+
+•
+
+CLR-ANAP-3001
+– RUCKUS AI three-year renewal for RUCKUS Cloud or AP managed by SmartZone
+controller or ICX® switch
+
+•
+
+CLR-ANAP-5001
+– RUCKUS AI five-year renewal for RUCKUS Cloud or AP managed by SmartZone
+controller or ICX® switch
+
+About Ruckus Networks
+Ruckus Networks builds and delivers purpose-driven networks that perform in the demanding environments of
+the industries we serve. Together with our network of trusted go-to-market partners, we empower our customers
+to deliver exceptional experiences to the guests, students, residents, citizens and employees who count on them.
+
+www.ruckusnetworks.com
+Visit our website or contact your local RUCKUS representative for more information.
+© 2023 CommScope, Inc. All rights reserved.
+CommScope and the CommScope logo are registered trademarks of CommScope and/or its affiliates in the U.S. and other countries.
+For additional trademark information see https://www.commscope.com/trademarks. All product names, trademarks and registered
+trademarks are property of their respective owners.
+PA-114203.4-EN (10/23)
+
+

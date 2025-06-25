@@ -1,0 +1,65 @@
+FIVE THINGS to Look for in
+a Network Assurance Tool
+Assuring required service levels for complex networks means having the right analytics
+capabilities at your disposal. Here are five things to look for when considering a network
+analytics and assurance product as part of a broader wired and wireless network offering:
+
+1.
+
+Unified, all-in-one
+product.
+Too many vendors ask you to buy multiple products
+to get the network intelligence you need. An all-inone analytics product is ideal because it provides
+comprehensive, unified network intelligence.
+
+3.
+
+All network service issues are not created equal.
+Seek out network analytics tools that rank
+service incidents by severity, including which
+service issues are the highest priority. That way
+you can address what matters most, first.
+
+Granular
+troubleshooting.
+Summary views are great, but in-depth client
+troubleshooting requires maximum granularity
+so that you can pinpoint the problem. Seek out
+technologies that give you a detailed view of the
+connectivity experience from the perspective of
+individual clients.
+
+5.
+
+2.
+
+Simple deployment.
+The antidote to network complexity is not more
+complexity. Look for a product that doesn’t sacrifice
+simplicity for power—that’s a false trade-off. Look
+for cloud services that don’t require a separate onsite data collector or appliance.
+
+Incident
+classification by
+severity.
+
+4.
+
+Flexible access to
+your network data
+warehouse.
+Some analytics products don’t let you drill down
+into your network data. Rigidity is not your ally.
+Make sure you choose a product that delivers
+drag-and-drop simplicity with flexible options for
+visualizing your data.
+
+The right tool can dramatically improve your efficiency in assuring required network service levels.
+Advanced network analytics frees up resources so your team can focus on higher value-added
+activities. You accelerate troubleshooting for a lower mean time to resolution, and users get the
+service levels they expect.
+Learn more at www.commscope.com/analytics.
+
+© 2021 CommScope, Inc. All rights reserved. | IG-114469.1-EN (03/21)
+
+

@@ -1,0 +1,242 @@
+PRODUCT BRIEF
+
+VIRTUAL SMARTZONE
+Full-featured network control with the flexibility and savings of the cloud
+
+For service providers and enterprises, managing large-scale wired and wireless networks is
+difficult and complex. It requires a converged control and management architecture that’s easy
+to use, reliable and delivers consistently great user experience. For years, organizations have
+trusted RUCKUS® SmartZone network controllers. Now we’ve made controlling your large-scale
+networks and managed network services even easier.
+The Virtual SmartZone network controller—everything you love about SmartZone with the flexibility, on-demand scalability, and low
+upfront costs of the cloud.
+
+The challenge
+Large wired and wireless networks can get very complicated in
+
+Service providers and large enterprises are now able to manage
+their networks via:
+•
+
+Public cloud, on infrastructure hosted by a hyperscale cloud
+provider such as Google Cloud Platform, Amazon Web Services,
+or Microsoft Azure
+
+businesses across complex multitenant architectures.
+
+•
+
+Private cloud, either hosted in an on-premises data center or
+on private/dedicated infrastructure in a public cloud
+
+Historically, controlling large decentralized networks and managed
+
+•
+
+Hybrid cloud, where some parts of the service or data live on
+premises while others are hosted in a public cloud
+
+a hurry. Before you know it, you’re managing hundreds or even
+thousands of wireless access points (APs) and wired switches and
+supporting multiple Wi-Fi and network-as-a-service (WaaS/NaaS)
+
+services involved a sprawling infrastructure of physical network
+controllers that are expensive to deploy, maintain and scale.
+Providing additional capacity to meet growing demand meant
+acquiring, deploying and configuring more boxes. Providing reliable,
+high-quality performance to users across this ecosystem was hard
+enough; managing the economics was even harder. Not anymore.
+
+Cloud changes everything
+The cloud is transforming the economics of all types of service
+delivery—including the management of wireless and wired LANs.
+Cloud technology eliminates the costs and hassles of buying,
+deploying, operating, maintaining, and scaling physical appliances.
+Instead, organizations can deploy and consume services from the
+cloud, and seamlessly scale them up and down as needed.
+
+© 2023 CommScope, Inc. All rights reserved.
+
+Public Cloud
+Cloud Service Providers:
+• Amazon Web Services
+• Google Cloud Platform
+• Microsoft Azure
+
+Hybrid Cloud
+Private Cloud
+On-premise
+
+Virtual SmartZone: The best of both worlds
+Virtual SmartZone provides all the full-featured capabilities of CommScope’s industry-leading RUCKUS SmartZone network controller
+plus the flexibility, scalability and cost-efficiency of the cloud. Virtual SmartZone deploys easily and runs seamlessly in any private, public
+or hybrid cloud environment.
+With Virtual SmartZone, you can:
+•
+
+Support cloud-readiness: Deploy in any private, public or hybrid cloud environment with support for all popular hyperscale cloud
+providers.
+
+•
+
+Lower costs: By virtualizing your network controller installation, you can focus your capital investments where they’re needed most,
+while making your network more flexible. All you need is a commercial off-the-shelf x86 server running any popular hypervisor.
+SmartZone clusters can scale up to 450,000 clients, 30,000 APs and 1,500 switches.
+
+•
+
+Easily deliver great WaaS and NaaS: Use our open APIs to integrate with your management system and allow third-party tools
+to invoke the full range of SmartZone functions and configurations. Use sophisticated zone and domain segmentation, and our
+containerized architecture, to support complex multitenant environments.
+
+•
+
+Reduce IT workloads: Control wired switches, wireless APs, private cloud NaaS offerings, and enterprise network elements all
+from a single dashboard. Manage the complete network lifecycle—configuration, monitoring, provisioning, discovery, planning,
+troubleshooting, performance management, security and reporting. SmartZone’s intuitive web interface gives you visibility from the
+wireless edge to the network core.
+
+•
+
+Provide a superior user experience: When paired with RUCKUS Analytics, Virtual SmartZone provides comprehensive visibility into
+network operations, accelerates real-time network and client troubleshooting, identifies, prioritizes and recommends remediation
+steps for service issues, and aids in capacity planning.
+
+How it works
+Virtual SmartZone deploys on any standard virtual machine, like KVM, VMware or Hyper-V, and uses minimal resources—four cores, 16
+gigabytes of RAM and 100-gigabyte disk storage.
+
+vSZ
+vSZ
+
+vSZ
+vSZ
+KVM
+VMWare
+Hypervisor
+
+Hyper-V
+
+X86 Hosts
+
+Azure
+GCE
+AWS
+
+Like physical SmartZone network controllers, Virtual SmartZone gives you the flexibility to support a wide range of architectures and
+customer/tenant requirements. With control plane/data plane separation and multiple data planes support , Virtual SmartZone lets you
+optimize latency and quality of experience across different environments. Simultaneously control multiple remote sites involving various
+data plane models—local breakout, tunneling through the network controller, tunneling to multiple WLAN gateways—with a single
+SmartZone instance. You can also support multiple high-availability strategies for cluster redundancy and AP and switch survivability to
+deliver the nonstop connectivity your users and customers expect.
+
+2
+
+VIRTUAL SMARTZONE | Full-featured network control with the flexibility and savings of the cloud
+
+© 2023 CommScope, Inc. All rights reserved.
+
+RUCKUS
+APs
+
+3rd party
+gateway
+
+3
+L2/L3
+Network
+
+vSZ-H
+vSZ-D
+
+AP Control/Management
+Data
+
+2
+1
+Data Plane Options
+1
+
+Local breakout
+
+2
+
+Tunneling through SmartZone
+
+3
+
+Tunneling to multiple WLAN gateways
+
+The Virtual SmartZone advantage
+You don’t have to sacrifice cloud economics and flexibility to get carrier-class control of your network. Virtual SmartZone gives you:
+•
+
+Powerful network management wherever you need it: Run Virtual SmartZone on any popular virtualization architecture
+(VMware, Nutanix, Microsoft), and in any of the leading public clouds (Microsoft Azure, Amazon Web Services, Google Cloud).
+
+•
+
+Consolidated wired/wireless management: Deploy, monitor, and troubleshoot your wireless APs and wired switches through a
+single interface.
+
+•
+
+Automated discovery and provisioning: Eliminate guesswork and decrease deployment times and manual effort by provisioning
+APs and switches automatically.
+
+•
+
+Unmatched scale: A single Virtual SmartZone instance can manage 10,000 APs, 150,000 clients and up to 20 Gbps of throughput.
+Use 3+1 active clustering to bump up capacity to 30,000 APs, 450,000 clients and up to 60 Gbps of aggregate throughput.
+
+•
+
+Ultra-high resiliency: Protect your business and customers from catastrophic failures with intra-cluster and inter-cluster failover.
+Use geo-redundancy with active/active clusters to gain higher availability than traditional hot-standby models.
+
+•
+
+Fast troubleshooting: Use tools like Visual Connection Diagnostics to quickly troubleshoot and resolve wireless client problems.
+And draw on SmartZone “super KPIs” to quickly spot the signs of degrading user experience.
+
+•
+
+Host complex managed services: With support for multi-tenancy, domain segmentation and containerization, you can deliver
+secure managed networking services and support multi-tiered service levels.
+
+•
+
+Advanced features and services: Take advantage of rogue AP detection and mitigation, adaptive band balancing, load balancing,
+hotspot and guest services, capacity-based admission control, and more.
+
+3
+
+VIRTUAL SMARTZONE | Full-featured network control with the flexibility and savings of the cloud
+
+© 2023 CommScope, Inc. All rights reserved.
+
+Conclusion
+Managing a large-scale network—delivering services relied on by thousands or even millions of users—is hard enough on its own.
+Why add the high costs and complexity of dedicated physical appliances if you don’t have to? With Virtual SmartZone, you get the cost
+savings, flexibility, and on-demand scalability of the cloud, without sacrificing the features and reliability you expect from RUCKUS.
+Virtual SmartZone reflects our promise to support customers today while preparing them for tomorrow. No matter how technology
+evolves, you can count on us for innovative design and solid strategies to keep you out in front. It’s part of our larger commitment to
+help you achieve favorable business outcomes.
+For more information on Virtual SmartZone, contact your RUCKUS representative or visit us at ruckusnetworks.com.
+
+About RUCKUS Networks
+RUCKUS Networks builds and delivers purpose-driven networks that perform in the demanding
+environments of the industries we serve. Together with our network of trusted go-to-market partners,
+we empower our customers to deliver exceptional experiences to the guests, students, residents,
+citizens and employees who count on them.
+
+www.ruckusnetworks.com
+Visit our website or contact your local RUCKUS representative for more information.
+© 2023 CommScope, Inc. All rights reserved.
+All trademarks identified by ™ or ® are trademarks or registered trademarks in the US and may be registered in other
+countries. All product names, trademarks and registered trademarks are property of their respective owners. This document
+is for planning purposes only and is not intended to modify or supplement any specifications or warranties relating to
+CommScope products or services.
+CO-114151.2-EN (01/23)
+
+

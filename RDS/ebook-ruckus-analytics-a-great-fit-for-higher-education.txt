@@ -1,0 +1,132 @@
+RUCKUS Analytics
+®
+
+A great fit for higher education
+
+First things first. What is RUCKUS® Analytics?
+
+RUCKUS® Analytics is a cloud service for network analytics and assurance.
+Powered by machine learning (ML) and artificial intelligence (AI), it helps you get
+the most from your RUCKUS network.
+
+2
+
+RUCKUS® Analytics: A great fit for higher education
+
+Why is RUCKUS Analytics such a great fit for higher education?
+
+Networks in higher education have grown increasingly complex. They must support more users, devices,
+and data traffic than ever before. That trend shows no sign of reversing—it’s with us to stay.
+High expectations among students, faculty and staff for network service levels also show no sign of
+abating. Users have little patience when their devices can’t connect, take too long to connect, or get
+disconnected from the network—or when they can’t get the kind of throughput they need to run dataintensive applications. Institutions must compete for top talent, and a poor connectivity experience is
+a major inhibitor in their ability to do so. Mobility is engrained into the college experience, and a poor
+connectivity experience can adversely affect a school’s reputation on social media and review sites.
+
+3
+
+RUCKUS® Analytics: A great fit for higher education
+
+Why is RUCKUS Analytics such a great fit for higher education?
+
+IT teams in higher ed often lack the level of staffing seen in corporate environments, so
+efficiency is critical. Network service issues are notorious for consuming inordinate amounts of
+time to resolve. Network admins must use multiple data sources, manual processes and lots of
+guesswork to determine the root causes and troubleshoot connectivity issues. Lack of visibility
+into network operations is a major inhibitor to IT effectiveness.
+
+4
+
+RUCKUS® Analytics: A great fit for higher education
+
+Why is RUCKUS Analytics such a great fit for higher education?
+
+RUCKUS Analytics is the perfect tool to help you get the most from your RUCKUS network. It
+leverages machine learning and artificial intelligence to automate many of the tasks associated
+with network assurance. It provides comprehensive visibility into network operations, accelerates
+troubleshooting and helps IT improve the connectivity experience for students, faculty and staff.
+
+5
+
+RUCKUS® Analytics: A great fit for higher education
+
+Why is RUCKUS Analytics such a great fit for higher education?
+
+RUCKUS Analytics helps enable a smart campus by making sure network service issues
+don’t stand in the way of a great college experience. It enables proactive IT and gives you
+the insight to prevent incidents from becoming service-affecting. By helping you deliver the
+service levels that students expect, network performance becomes a differentiator that drives
+student preference for attending your institution.
+
+6
+
+RUCKUS® Analytics: A great fit for higher education
+
+Higher education networking challenges—and how
+RUCKUS Analytics helps
+
+7
+
+Challenge
+
+How RUCKUS Analytics helps
+
+Poor wireless coverage and blind spots
+on campus
+
+Incident analytics, powered by ML and AI, automatically
+identifies areas with low received signal strength (RSS)
+
+Difficulty troubleshooting individual
+students’ Wi-Fi issues
+
+Client troubleshooting module delivers insight into the
+connectivity experience of a specific user/device
+
+Inadequate throughput to stream videos,
+access websites/web applications, and
+use virtual reality tools
+
+Health monitoring automatically measures network
+performance vs. admin-defined SLA thresholds
+
+Disruption of classes/exams by network
+service issues
+
+Incident analytics enables proactive IT and helps IT
+dramatically improve service levels for students, faculty
+and staff
+
+RUCKUS® Analytics: A great fit for higher education
+
+Where can I learn more?
+
+Your institution may be just starting to consider deploying advanced network analytics—or
+maybe you’re farther along in the consideration process. Regardless, we invite you to learn
+more at www.commscope.com/analytics. There you will find a wide range of materials
+about RUCKUS Analytics, including videos, infographics, a data sheet and more. When
+you’re ready, you can even request a free trial or a live online demo.
+
+Contact CommScope
+
+8
+
+RUCKUS® Analytics: A great fit for higher education
+
+CommScope pushes the boundaries of communications
+technology with game-changing ideas and ground-breaking
+discoveries that spark profound human achievement.
+We collaborate with our customers and partners to design,
+create and build the world’s most advanced networks. It is our
+passion and commitment to identify the next opportunity and
+realize a better tomorrow. Discover more at commscope.com
+
+commscope.com
+Visit our website or contact your local CommScope representative for more information.
+© 2021 CommScope, Inc. All rights reserved.
+Unless otherwise noted, all trademarks identified by ® or ™ are registered trademarks or trademarks, respectively, of CommScope, Inc. This document is for planning purposes only and is not intended to modify or supplement any specifications or
+warranties relating to CommScope products or services. CommScope is committed to the highest standards of business integrity and environmental sustainability, with a number of CommScope’s facilities across the globe certified in accordance with
+international standards, including ISO 9001, TL 9000, and ISO 14001. Further information regarding CommScope’s commitment can be found at www.commscope.com/corporate-responsibility-and-sustainability.
+EB-114975.1-EN (05/21)
+
+

@@ -1,0 +1,86 @@
+The RUCKUS® optics advantage
+The value of RUCKUS optics
+
+The risk of deploying third party optics
+
+Optics are critical components that can make or break your network.
+
+Unlike RUCKUS, third party vendors do not test their optics with
+
+The quality of the optics you deploy will dramatically affect the overall
+
+the entire line of RUCKUS ICX switches. Only limited testing with a
+
+performance and reliability of your entire network. When you deploy
+
+few RUCKUS switches is conducted to claim compatibility.
+
+RUCKUS optics with RUCKUS switches, you are guaranteed the best
+
+RUCKUS cannot guarantee third party optics will work reliably with
+
+user experience. RUCKUS cannot make the same guarantees with
+
+RUCKUS switches.
+
+third party optics.
+
+of equipment damage: A low quality or defective third-party optic could
+· Risk
+be running hot or cause an electrical surge that can damage the switch, voiding
+
+TAC experience: Single point of support for switches and optics
+· Streamlined
+enables fastest problem resolution and minimizes downtime
+reliability: We select the best optical transceivers from the top tier
+· Highest
+vendors to insure the highest reliability.
+
+compatibility: We test every RUCKUS optic with every RUCKUS
+· Guaranteed
+switch to insure full compatibility. RUCKUS switches are tuned to deliver the best
+performance with RUCKUS optics.
+
+compliance: All our optics are tested for compliance with the latest industry
+· Full
+standards.
+
+certifications: Every RUCKUS optic has been certified with US and
+· International
+international safety agencies to comply with the latest country laws and regulations.
+
+· Warranty: RUCKUS optics come with a five-year warranty for peace of mind.
+For the best performance, reliability,
+compliance and support experience,
+deploy RUCKUS optics with your
+RUCKUS switches!
+
+the warranty for the customer.
+
+risk: Optics might not operate with the specific ICX model you
+· Compatibility
+acquired or might stop working after a switch software update.
+
+risk: Without proper certification by safety agencies, the laser could be
+· Safety
+running too hot or too cold creating a safety hazard.
+
+risk: The quality of the optical transceiver could be lacking,
+· Reliability
+introducing issues such as out of specs power dissipation, noise tolerance, or bit
+rate error resulting in data loss.
+
+issues: Stacking links require tighter tolerance to operate properly.
+· Stacking
+RUCKUS cannot guarantee stacking will function reliably with third party optics
+or cables. This is a common issue with third party transceivers.
+
+of consistency: Third party vendors frequently switch suppliers without
+· Lack
+running extensive re-certification or qualification plans. The transceivers
+you received last time might differ greatly from the ones you will get with your
+next order.
+
+© 2022 CommScope, Inc. All rights reserved. | CO-115248.1-EN (10/22)
+
+

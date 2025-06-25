@@ -1,0 +1,126 @@
+AT-A-GLANCE
+
+RUCKUS® SmartZoneOS 5
+
+Single Network Element to Manage Wired and Wireless Networks
+
+For the first time in the industry, CommScope is enabling IT to deploy a single
+network element, the network controller, to simultaneously and directly control
+and manage both wired and wireless networks. IT no longer needs to deploy a
+separate, stand-alone network management system to manage their switches and
+access points. Simple.
+
+HIGHLIGHTS
+CONSOLIDATED WIRED-WIRELESS
+MANAGEMENT
+A single wired and wireless network management
+user interface for deploying, monitoring, and
+troubleshooting access points and switches.
+AUTOMATED DEVICE DISCOVERY
+
+Powered by SmartZoneOS 5, the new network controllers bring to converged
+management the same attributes that have made SmartZone network controllers
+the preferred choice for service providers and enterprises seeking:
+•
+
+wired and wireless networks.
+•
+
+•
+
+FLEXIBLE DEPLOYMENT OPTIONS
+
+•
+
+EXPEDITE TROUBLESHOOTING
+Visual Connection Diagnostics speeds and
+simplifies troubleshooting and wireless client
+problem resolution while unique “super-KPIs”
+enable IT to more quickly detect and react to
+potential user experience degradation.
+CONTENT FILTERING
+Easily create and enforce content polices
+to protect wireless users from accessing
+inappropriate websites using URL Filtering.
+MULTI-TIER MANAGED SERVICES
+Multi-tenancy, domain segmentation and
+containerization enable secure delivery of
+managed networking services with complex,
+multi-tiered service levels.
+
+Simplicity: Network management becomes accessible to general IT personnel
+without CLI expertise.
+Openness: Open APIs allow IT to call controller functions and streaming APIs
+push in near real-time the full array of network data, statistics, and alarms.
+
+•
+
+Flexibility: IT deploys the network architecture of its choice, at any scale:
+centralized or distributed, physical or virtual, on-premises or data center/private
+cloud.
+
+UMATCHED SCALE
+A SmartZone network controller can manage
+10K APs, 150K clients and up to 20 Gbps of
+throughput, while 3+1 active clustering increases
+capacity to 30K APs, 450K clients and up to
+60 Gbps of aggregate throughput depending
+on model.
+
+Ease: Provisioning delays and errors are eliminated through a common
+automated discovery process.
+
+L3 and L2 auto-discovery and auto- provisioning
+of APs and switches eliminates the guesswork,
+reduces manual administration, and cut down
+deployment time.
+
+SmartZone network controllers come in multiple
+versions to accommodate customer preferences
+and organization sizes. It can be deployed as a
+physical appliance or a virtual appliance.
+
+Breadth: IT controls and manages through a single controller console both
+
+•
+
+Scale: Controllers that scale to a network of up to 450K clients.
+
+Completely
+redesigned
+dashboard
+experience.
+
+Google
+maps
+integration
+and indoor
+floorplans.
+
+Global filter
+preserves
+admin
+context
+throughout
+menus and
+pages.
+Fresh
+layout, user
+interaction,
+and styling
+throughout.
+
+New menu
+structure
+with
+simplified
+navigation.
+
+For more information: www.commscope.com/product-type/enterprise-networking/
+control-management/
+
+© 2020 CommScope, Inc. All rights reserved.
+
+CO-114559-EN (05/20)
+
+

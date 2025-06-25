@@ -1,0 +1,236 @@
+SOLUTION BRIEF
+
+Keep Hotel Staff Safe with
+TraknProtect Safety Buttons
+
+The hospitality industry is using Internet of Things (IoT) solutions like safety buttons to protect employees in
+emergencies. Now, two industry leaders, CommScope and TraknProtect, are joining forces to make these IoT
+systems much simpler and less expensive. With smarter wireless connectivity, hotels can keep their workers safe
+while building a foundation for tomorrow’s IoT applications.
+
+The Challenge
+
+Solution
+
+Organizations worldwide are taking strong stands to protect their
+
+Adding new IoT applications doesn’t have to be a complex, costly
+
+employees from sexual misconduct in the workplace. In industries
+
+exercise. By combining their innovative IoT solutions, CommScope
+
+like hospitality however, the nature of the work poses unique
+
+and TraknProtect are making safety button systems much simpler
+
+challenges. Hotel employees often work alone with customers in
+
+to deploy and operate. At the same time, they’re helping hotels
+
+private settings like guest rooms, where guest misconduct is all
+
+build a flexible wireless foundation for the full range of emerging
+
+too common. Industry studies indicate that most hotel workers
+
+IoT applications.
+
+have experienced at least one incident of sexual harassment by
+guests.
+
+•
+
+built specifically for hospitality. Within seconds of staff
+triggering the system, hotel management or security personnel
+
+To protect their workers, hotel operators are turning to personal
+
+receive alerts with the employee’s precise location, so they can
+
+safety buttons that staff can activate in an emergency. Deploying
+
+provide immediate assistance.
+
+and operating these systems, however, is neither simple nor
+cheap. Effective solutions must be highly accurate, providing
+
+TraknProtect provides the only wireless safety button system
+
+•
+
+CommScope’s RUCKUS Networks solution brings industry-
+
+an employee’s exact location across sprawling properties with
+
+leading wireless, wired and IoT connectivity to the world’s
+
+hundreds of rooms and multiple floors and wings. To do it, they
+
+premier hotel and hospitality brands. With the versatile RUCKUS
+
+typically rely on Bluetooth Low Energy (BLE) beacons and wireless
+
+IoT Suite, hotels can connect multiple IoT devices, using multiple
+
+hubs to calculate and transmit an employee’s exact location to
+
+wireless protocols, over a single infrastructure.
+
+hotel management or security personnel.
+With the combined solution, hotel operators can take advantage
+For hotel operators, this often means running a separate,
+
+of TraknProtect’s real-time safety solution without having to
+
+standalone wireless network—in addition to all the other wireless
+
+deploy a separate, proprietary infrastructure. Instead, TraknProtect
+
+services (door locks, Wi-Fi connected thermostats, guest Internet
+
+safety buttons and BLE beacons communicate with the RUCKUS
+
+access, in-room entertainment) already deployed. As hotels add
+
+IoT Suite, so they can run over the Wi-Fi network hotels
+
+more IoT services, IT departments can quickly find themselves
+
+already have in place. The RUCKUS IoT Suite acts as a universal
+
+swimming in a sea of complex networks and protocols, all of
+
+translator for IoT protocols like ZigBee and BLE, allowing them to
+
+which require their own separate power, management and
+
+communicate over a single, consolidated infrastructure. Hotels
+
+maintenance.
+
+can start with the TraknProtect safety button solution and use
+the same platform to launch other new IoT-powered guest
+experiences and hotel efficiencies.
+
+How it Works
+TraknProtect provides real-time staff protection through its cloud-based application. The application tracks the location of safety buttons
+via BLE beacons, so it can triangulate the precise location of workers, even when they’re on the move. In the integrated solution, all
+communications between safety buttons, BLE beacons, cloud application and hotel staff run over the hotel’s Wi-Fi infrastructure, eliminating
+the need to install proprietary wireless hubs.
+When a worker activates a safety button, the TraknProtect system calculates the location and transmits the alarm via RUCKUS IoT- enabled
+access points (APs). Within seconds, designated hotel management or security staff receive the alert on their workstations or mobile devices.
+The unified infrastructure can support additional TraknProtect solutions (room tray tracking, asset management, vendor management), as
+well as other IoT applications for a wide range of guest services and operational efficiencies.
+
+Ruckus and TraknProtect Safety Button Solution
+
+Software sends
+Immediate Active
+Panic Button Alerts
+with location
+(via desktop, SMS,
+email, or phone call)
+
+Panic Buttons
+
+BLE Enabled
+Access Points
+
+Inventory Trackers
+Room Tray Trackers
+Vendor/Staff Trackers
+(BLE Beacons)
+
+TraknProtect Dashboard
+
+Data Cloud
+Triangulates
+Real-Time
+Location Data
+
+Real-time analytics
+across multiple properties
+Inventory Tracking in app
+F&B Room Tray Tracking in app +
+location alerts
+Vendor/Staff Tracking in app
++ location alerts
+This document is proprietary and confidential. No part of
+this document may be disclosed in any manner to a third
+party without the prior written consent of TraknProtect.
+
+Business Benefits
+With the combined solution, hotel operators can:
+•
+
+Eliminate the complexity of maintaining multiple infrastructures: Using RUCKUS high-performance access points and RUCKUS
+ICX™ switches, hotels can deploy TraknProtect alongside other hotel and guest applications on a single, consolidated network.
+
+•
+
+Get more value for their money: With RUCKUS APs and IoT Suite supporting multiple applications, hotels see a greater return on their
+wireless safety button investment and a platform that can continue to deliver new value far into the future.
+
+•
+
+Reduce costs and disruption: Using an integrated solution, hotels drive down the costs of installing, powering, managing and
+maintaining multiple wireless and IoT systems. It also becomes much easier to launch new IoT services with minimal disruption to hotel
+operations and guests.
+
+Get Started
+Keeping employees safe doesn’t have to mean taking on high costs and spiraling technical complexity. With the combined strengths of
+CommScope and TraknProtect, hotel operators can implement a state-of-the-art IoT safety button solution quickly and easily. At the same
+time, they can build a versatile foundation to make deploying new IoT services simpler and less expensive.
+Contact us today to learn more.
+
+Keep Hotel Staff Safe with TraknProtect Safety Buttons
+
+2
+
+RUCKUS solutions are part of CommScope’s comprehensive portfolio for Enterprise environments (indoor and outdoor).
+We encourage you to visit www.commscope.com to learn more about:
+•
+
+RUCKUS Wi-Fi Access Points
+
+•
+
+RUCKUS ICX switches
+
+•
+
+RUCKUS Cloud management software
+
+•
+
+SYSTIMAX and NETCONNECT: Structured cabling solutions (copper and fiber)
+
+•
+
+mVision: Automated Infrastructure Management
+
+•
+
+Era and OneCell: In-building cellular solutions
+
+•
+
+Our extensive experience about supporting PoE and IoT
+
+CommScope pushes the boundaries of communications technology with game-changing ideas
+and ground-breaking discoveries that spark profound human achievement. We collaborate with our
+customers and partners to design, create and build the world’s most advanced networks. It is our
+passion and commitment to identify the next opportunity and realize a better tomorrow. Discover more
+at commscope.com
+
+commscope.com
+Visit our website or contact your local CommScope representative for more information.
+© 2020 CommScope, Inc. All rights reserved.
+Unless otherwise noted, all trademarks identified by ® or ™ are registered trademarks, respectively, of CommScope, Inc. This document is for planning purposes only and is not intended to
+modify or supplement any specifications or warranties relating to CommScope products or services. CommScope is committed to the highest standards of business integrity and environmental
+sustainability with a number of CommScope’s facilities across the globe certified in accordance with international standards, including ISO 9001, TL 9000, and ISO 14001.
+Further information regarding CommScope’s commitment can be found at www.commscope.com/About-Us/Corporate-Responsibility-and-Sustainability.
+CO-113779.1-EN (05/20)
+
+

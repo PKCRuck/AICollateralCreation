@@ -1,0 +1,1227 @@
+DATA SHEET
+
+RUCKUS® ICX 8100
+Enterprise-class access switch with flexible AI driven management options
+
+Enterprise-Class Connectivity With Cost
+Effective Simplicity
+The RUCKUS ICX 8100 is designed to deliver enterprise-class
+connectivity to businesses of any size without additional complexity
+or cost. Whether you’re managing a hotel, multi-dwelling residential
+property, or an educational institution, this family of switches provides
+the reliability and scalability needed to support modern connectivity
+demands—without paying for features you don’t need.
+Flexible AI driven, converged wired and wireless management options
+With flexible management options, including on-premises controllers, AI-driven cloud- based management, command line interface
+(CLI), and a web-based standalone interface, IT teams of all sizes can easily configure, monitor, and optimize their network. Whether you
+need hands-on control or simple plug-and-play operation, the RUCKUS ICX 8100 adapts to your needs, making it an ideal solution for
+organizations with limited IT resources.
+
+Reliable and efficient, fits any budget
+Built for cost-conscious organizations, the RUCKUS ICX 8100 delivers enterprise-grade networking at an affordable price. Its optimized
+feature set ensures you’re not overpaying for unnecessary capabilities, while still offering the performance, security, and scalability required
+to support today’s demanding environments. Easy to deploy and manage, this switch provides the perfect balance of power, simplicity, and
+value, tailored to the needs of specific verticals like hospitality, multi-dwelling residential properties, and educational institutions.
+
+Benefits
+Complete range of access switches covering a wide array
+of deployment scenarios
+
+· Gigabit, access ports with 10GbE uplinks
+· 8, 16, 24 and 48 Gigabit Ethernet ports for maximum
+flexibility
+
+· Up to 4x 10GbE SFP+ uplink fiber ports
+· Optimized for latest generation Wi-Fi APs deployment
+Power next generation APs and PoE devices
+
+· PoE+ 802.3at, up to 30W per port on all ports
+· Up to 740W PoE budget with integrated power supply
+
+Silent Operation, no distracting noise
+
+· Fanless compact switches and full size non-PoE switches
+· Fanless mode config option for full size PoE switches
+· Space-saving, clutter-free setup for deployment in any workspace
+Broad range of enterprise-class converged wired + wireless
+management options for maximum flexibility
+
+· Cloud Based: RUCKUS One, AI driven management & assurance
+· On Premises: RUCKUS SmartZone, Network controller*
+· Controllerless: RUCKUS Unleashed*
+· Command Line Interface (CLI)
+· Web based stand-alone management interface
+* Available in a future software release
+
+© 2025 CommScope, LLC. All rights reserved.
+
+RUCKUS ICX 8100 One Rack Unit switches
+RUCKUS ICX 8100 models offer a single integrated power supply, one USB Type-C port for console management.
+ICX 8100-24
+• 24× 10/100/1000 Mbps RJ-45 ports
+• Choice of 4× 1GbE SFP or 4× 1/10GbE SFP+ uplink ports*
+• Fanless
+ICX 8100-24P PoE
+• 24× 10/100/1000 Mbps RJ-45 PoE+ ports
+• Choice of 4× 1GbE SFP or 4× 1/10GbE SFP+ uplink ports*
+• 370W PoE budget. PoE+ 802.3at, up to 30W of PoE power per port
+ICX 8100-48
+• 48× 10/100/1000 Mbps RJ-45 ports
+• Choice of 4× 1GbE SFP or 4× 1/10GbE SFP+ uplink ports*
+• Fanless
+ICX 8100-48P PoE
+• 48× 10/100/1000 Mbps RJ-45 PoE+ ports
+• Choice of 4× 1GbE SFP or 4× 1/10GbE SFP+ uplink ports*
+• 370W PoE budget. PoE+ 802.3at, up to 30W of PoE power per port
+ICX 8100-48PF PoE†
+• 48× 10/100/1000 Mbps RJ-45 PoE+ ports
+• Choice of 4× 1GbE SFP or 4× 1/10GbE SFP+ uplink ports*
+• 740W PoE budget. PoE+ 802.3at, up to 30W of PoE power per port
+
+RUCKUS ICX 8100 Compact Switches
+RUCKUS ICX 8100 compact models offer a single integrated power supply, one USB Type-C port for console management.
+ICX 8100-C08PF PoE
+• 8× 10/100/1000 Mbps RJ-45 PoE+ ports
+• Choice of 2× 1GbE SFP or 2× 1/10GbE SFP+ uplink ports*
+• 124W PoE budget PoE+ 802.3at, up to 30W of PoE power per port
+• Fanless
+ICX 8100-C16PF PoE†
+• 16× 10/100/1000 Mbps RJ-45 PoE+ ports
+• Choice of 2× 1GbE SFP or 2× 1/10GbE SFP+ uplink ports*
+• 124W PoE budget PoE+ 802.3at, up to 30W of PoE power per port
+• Fanless
+* SFP+, 10Gbps speed available on “-X” SKUs only
+† The ICX 8100-C16PF and ICX 8100-48PF are planned for a later release. Specifications for these models are estimates and may be
+subject to change.
+
+RUCKUS ICX 8100 | Enterprise-class access switch with flexible AI driven management options
+
+2
+
+RUCKUS ICX 8100 Feature/Model Comparison
+
+Compact
+PoE
+
+1RU
+Non-PoE
+
+1RU
+PoE
+
+RUCKUS ICX
+8100-C08PF
+
+RUCKUS ICX
+8100-C16PF
+
+RUCKUS ICX
+8100-24
+
+RUCKUS ICX
+8100-48
+
+RUCKUS ICX
+8100-24P
+
+RUCKUS ICX
+8100-48P
+
+RUCKUS ICX
+8100-48PF
+
+Switching capacity
+(data rate, full duplex)
+
+56 Gbps
+
+72 Gbps
+
+128 Gbps
+
+176 Gbps
+
+128 Gbps
+
+176 Gbps
+
+176 Gbps
+
+Forwarding capacity
+(data rate, full duplex)
+
+42 Mpps
+
+54 Mpps
+
+96 Mpps
+
+132 Mpps
+
+96 Mpps
+
+132 Mpps
+
+132 Mpps
+
+10/100/1000 Mbps RJ45
+
+8
+
+16
+
+24
+
+48
+
+24
+
+48
+
+48
+
+1/10 Gbps SFP/SFP+ uplinks
+
+2*
+
+2*
+
+4*
+
+4*
+
+4*
+
+4*
+
+4*
+
+PoE/PoE+ 802.3at ports
+
+8
+
+16
+
+24
+
+48
+
+48
+
+Max PoE Class 3 ports
+(15.4 W per port)
+
+8
+
+8
+
+24
+
+24
+
+48
+
+Max PoE+ Class 4 ports
+(30 W per port)
+
+4
+
+4
+
+12
+
+12
+
+24
+
+Feature
+
+Energy Efficient Ethernet (802.3az)
+
+Yes
+
+Layer 3 routing
+
+No
+
+Stacking
+
+No
+
+* SFP+, 10Gbps speed available on “-X” SKUs only
+
+RUCKUS ICX 8100 | Enterprise-class access switch with flexible AI driven management options
+
+3
+
+RUCKUS ICX 8100 Feature/Model Comparison
+
+Compact
+PoE
+
+RUCKUS ICX
+8100-C08PF
+
+1RU
+Non-PoE
+
+RUCKUS ICX
+8100-C16PF†
+
+RUCKUS ICX
+8100-24
+
+1RU
+PoE
+
+RUCKUS ICX
+8100-48
+
+Features
+
+RUCKUS ICX
+8100-24P
+
+RUCKUS ICX
+8100-48P
+
+RUCKUS ICX
+8100-48PF†
+
+POWER
+
+Power inlet (AC)
+
+C14
+
+Input voltage/frequency
+
+AC: 100 to 240 VAC @ 50 to 60 Hz
+
+Power Supply Hold Time
+
+16ms
+
+16ms
+
+20ms
+
+20ms
+
+10ms
+
+10ms
+
+10ms
+
+Power supply rated max (AC)
+
+154 W
+
+154 W
+
+65 W
+
+65 W
+
+550 W
+
+550 W
+
+920W
+
+PoE power budget (AC)
+
+124 W
+
+124 W
+
+370 W
+
+370 W
+
+740 W
+
+Switch power usage (25°C)
+10% traffic* (no PoE load)
+100% traffic** (full PoE load)
+
+16.8 W
+150 W
+
+20 W
+150 W
+
+29 W
+435 W
+
+42W
+470 W
+
+49 W
+854 W
+
+Airflow
+Switch power dissipation (25°C)
+10% traffic* (no PoE load)
+100% traffic** (full PoE load)
+
+23 W
+23 W
+
+35 W
+35 W
+
+Fanless
+
+Fanless Mode.***
+Front and side to back
+
+Fanless
+
+57 BTU/hr
+528 BTU/hr
+
+70 BTU/hr
+528 BTU/hr
+
+80 BTU/hr.
+80 BTU/hr
+
+120 BTU/hr
+120 BTU/hr
+
+102 BTU/hr
+1547 BTU/hr
+
+146 BTU/hr
+1603 BTU/hr
+
+167 BTU/hr
+2900 BTU/hr
+
+2.11 kg
+5.00 lb
+
+2.50 kg
+8.24 lb
+
+3.6 kg
+10.93 lb
+
+4.61 kg
+9.57 lb
+
+4.3 kg
+12.28 lb
+
+5.35kg
+12.15 lb
+
+6.39 kg
+14.08 lb
+
+4.40 cm
+1.73 Inches
+
+4.40 cm
+1.73 Inches
+
+4.40 cm
+1.73 inches
+
+4.40 cm
+1.73 inches
+
+4.40 cm
+1.73 inches
+
+4.40 cm
+1.73 inches
+
+4.40 cm
+1.73 inches
+
+Width
+
+27.00 cm
+10.63 inches
+
+27.00 cm
+10.63 inches
+
+44.00 cm
+17.32 inches
+
+44.00 cm
+17.32 inches
+
+44.00 cm
+17.32 inches
+
+44.00 cm
+17.32 inches
+
+44.00 cm
+17.32 inches
+
+Depth
+
+21.40 cm
+8.42 inches
+
+27.00 cm
+10.63 inches
+
+28.00 cm
+11.02 inches
+
+37.00 cm
+14.57 inches
+
+28.00 cm
+11.02 inches
+
+37.00 cm
+14.57 inches
+
+37.00 cm
+14.57 inches
+
+Fanless
+
+Fanless
+
+Fanless
+
+Fanless
+
+23.2 dBA
+
+24.5 dBA
+
+41.0 dBA
+
+1,194,958hr
+
+1,194,000hr
+
+2,046,035hr
+
+895,504hr
+
+741,863hr
+
+642,435hr
+
+561,966hr
+
+Features
+Net Weight
+Dimensions
+Height
+
+Acoustics (25°C, min fan speed)
+MTBF (25°C)
+Features
+USB Type-C port
+(For console management)
+
+MANAGEMENT PORTS
+Yes
+
+† The ICX 8100-C16PF and ICX 8100-48PF are planned for a later release. Specifications for these models are estimates and may be
+subject to change.
+.
+* All downlink ports and uplink ports are linked up with 10% traffic rate. No PoE load on PoE models. Fans are at nominal speed.
+** All downlink ports and uplink ports are linked up with 100% traffic rate. 100% PoE load on PoE models. Fans are at high speed.
+*** In Fanless Mode, PoE budget is restricted to 150W max per switch.
+
+RUCKUS ICX 8100 | Enterprise-class access switch with flexible AI driven management options
+
+4
+
+RUCKUS ICX 8100 Specifications
+Features
+
+SPECIFICATIONS
+
+Connector options
+
+• 10/100/1000 Mbps RJ-45
+• 1 Gbps SFP ports
+• 1/10 Gbps SFP+ ports
+
+DRAM
+NVRAM (eMMC)
+Packet buffer size
+
+• 2 GB
+• 8 GB
+• 4 MB
+
+Maximum MAC addresses
+
+• 32K
+
+Maximum VLANs
+Maximum PVLANs
+
+• 4,095
+• 32
+
+Maximum STP
+(spanning trees instances)
+
+• 254
+
+Maximum VEs
+
+• 1
+
+Maximum ARP entries
+
+• 8192
+
+Maximum routes (in
+hardware)
+
+• Routing not supported
+
+Trunking
+
+• Maximum ports per LAG: 8
+• Maximum Link Aggregation Groups: 128
+
+Maximum jumbo frame size
+
+• 9,216 bytes
+
+QoS priority queues
+
+• 8 per port
+
+Multicast groups
+
+• 4096 (Layer2 IGMP) 512 (Layer2 MLD)
+
+Quality of Service (QoS)
+
+•
+•
+•
+•
+•
+
+Traffic management
+
+• ACL-based inbound rate limiting and traffic policies
+• Broadcast, multicast, and unknown unicast rate
+limiting
+• Inbound rate limiting per port
+• Outbound rate limiting per port and per queue
+
+Security
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+ACL Mapping and Marking of ToS/DSCP (CoS)
+ACL Mapping and Marking of 802.1p
+ACL Mapping to Priority Queue
+Classifying and Limiting Flows Based on TCP Flags
+DiffServ Support
+
+802.1X authentication
+MAC authentication
+Flexible authentication
+Web authentication
+DHCP snooping
+Dynamic ARP inspection
+Neighbor Discovery (ND) Inspection
+Bi-level Access Mode (Standard and EXEC Level)
+EAP pass-through support
+IEEE 802.1X username export in sFlow
+Protection against Denial of Service (DoS) attacks
+Authentication, Authorization, and Accounting (AAA)
+
+For the latest information about supported optics,
+please visit www.commscope.com/ruckus.
+
+• Honoring DSCP and 802.1p (CoS)
+• MAC Address Mapping to Priority Queue
+• Priority Queue Management using Weighted Round
+Robin (WRR), Strict Priority (SP), and a combination of
+WRR and SP
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+MAC Address Locking MAC Port Security
+Advanced Encryption Standard (AES) with SSHv2
+RADIUS/TACACS/TACACS+
+Secure Copy (SCP)
+Secure Shell (SSHv2)
+Protected Ports
+Local Username/Password
+Change of Authorization (CoA) RFC 5176
+Trusted Platform Module
+RADSEC (RFC 6614)
+Encrypted Syslog (RFC 5425
+
+RUCKUS ICX 8100 | Enterprise-class access switch with flexible AI driven management options
+
+5
+
+RUCKUS ICX 8100 Specifications
+Features
+
+SPECIFICATIONS
+
+High availability
+
+• Layer 2 VSRP switch redundancy
+
+Layer 2 feature set
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+802.1s Multiple Spanning Tree
+802.1x Authentication
+Auto MDI/MDIX
+BPDU Guard, Root Guard
+Dual-Mode VLANs
+MAC-based VLANs, Dynamic MAC-based VLAN
+activation
+Dynamic VLAN Assignment
+Dynamic Voice VLAN Assignment
+Fast Port Span
+GVRP : GARP VLAN Registration Protocol
+IGMP Snooping (v1/v2/v3)
+IGMP Proxy for Static Groups
+IGMP v2/v3 Fast Leave
+Inter-Packet Gap (IPG) adjustment
+Link Fault Signaling (LFS)
+MAC Address Filtering
+MAC Learning Disable
+
+Base Layer 3 IP routing
+
+• Routing not supported
+
+Features
+
+STANDARD COMPLIANCE
+
+IEEE standards compliance
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+802.1AB LLDP/ LLDP-MED
+802.1D MAC Bridging
+802.1p Mapping to Priority Queue
+802.1s Multiple Spanning Tree (MST)
+802.1w Rapid Reconfiguration of Spanning Tree
+(RSTP)
+802.1x Port-based Network Access Control (PNAC)
+802.3 Carrier Sense Multiple Access/Collision
+Detection (CSMA/CD)
+802.3ab 1000BASE-T
+802.3 10Base-T
+802.3ad Link Aggregation (Dynamic and Static)
+802.1 AX-2008 Link Aggregation
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+MLD Snooping (v1/v2)
+Multi-device Authentication
+Per-VLAN Spanning Tree (PVST/PVST+/PRST)
+Mirroring: Port-based, ACL-based, MAC Filter-based,
+and VLAN-based
+PIM-SM v2 Snooping, PIMv4-SM snooping, PIMv6-SM
+snooping
+Port Loop Detection
+Private VLAN
+Remote Fault Notification (RFN)
+Single-instance Spanning Tree
+Trunk Groups (static, LACP)
+Uni-Directional Link Detection (UDLD)
+Metro-Ring Protocol (MRP) (v1, v2)
+Virtual Switch Redundancy Protocol (VSRP)
+Q-in-Q and selective Q-in-Q
+VLAN Mapping
+Topology Groups
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+802.3ae 10 Gigabit Ethernet
+802.3af Power over Ethernet
+802.3at Power over Ethernet Plus
+802.3bz Multigigabit Ethernet
+802.3u 100Base-TX
+802.3x Flow Control
+802.3z 1000Base-SX/LX
+802.3 MAU MIB (RFC 2239)
+802.1Q VLAN Tagging
+802.1BR Bridge Port Extension
+802.3az Energy Efficient Ethernet
+802.3bt PoE++
+
+•
+•
+•
+•
+•
+
+RFC standards compliance
+
+For a complete list of RFCs supported by the ICX 8100 product family, please visit docs.commscope.com.
+
+Features
+
+FEATURE SETS
+
+Management
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+DHCP Auto-Configuration
+Configuration Logging
+Digital Optical Monitoring
+Display Log Messages on Multiple Terminals
+Embedded Web Management (HTTP/HTTPS)
+Embedded DHCP Server
+Industry-standard Command Line Interface (CLI)
+RUCKUS SmartZone, RUCKUS One, RUCKUS
+Unleashed
+CLI activation of optional software features
+Macro for batch execution
+RSPAN
+TFTP
+TELNET Client and Server
+SSH / SSH V2
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Bootp
+SNMPv1/v2c
+DHCP Server and DHCP Relay
+SNMPv3 Intro to Framework
+Architecture for Describing SNMP Framework
+SNMP Message Processing and Dispatching
+SNMPv3 Applications
+SNMPv3 User-based Security Model
+SNMP View-based Access Control Model SNMP
+sFlow
+Network Time Protocol (NTP)
+Multiple Syslog Servers
+SCP
+Virtual Cable Tester (VCT)
+
+From management MIB, please see the ICX technical
+documentation at www.commscope.com/ruckus
+
+RUCKUS ICX 8100 | Enterprise-class access switch with flexible AI driven management options
+
+6
+
+RUCKUS ICX 8100 Specifications
+Features
+
+ENVIRONMENT
+
+Ambient Temperature
+
+• Operational: 0°C to 45°C (32°F to 113°F) at sea level
+• Non-operational: 40°C to 70°C (-40°F to 158°F)
+
+Relative Humidity
+(non-condensing)
+
+• Operational: 10% to 90% at 50°C (122°F)
+• Non-operational: 10% to 90% at 70°C (158°F)
+
+Altitude
+(above sea level)
+
+• Operational 0 to 3,048 m (10,000 ft)
+• Non-operational: 0 to 12,000 m (39,370 ft)
+
+Features
+
+COMPLIANCE/CERTIFICATION
+
+Electromagnetic emissions
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+FCC Part 15, Subpart B (Class A)
+EN 55032 (CE mark) (Class A)
+EN 55035 (CE mark) (Immunity) for Information Technology Equipment
+EN 55024 (CE mark) (Immunity) for Information Technology Equipment
+ICES-003 (Canada) (Class A)
+AS/NZ 55032 (Australia/New Zealand) (Class A)
+VCCI (Japan) (Class A)
+EN 300 386
+CNS 15936-1 (BSMI) (Taiwan) (Class A)
+KN 32 (South Korea) (Class A)
+KN 35 (South Korea) (Class A)
+TCVN 7189 / TCVN 7317 (Vietnam) (Class A)
+EN 61000-3-2
+EN 61000-3-3
+
+Safety
+
+•
+•
+•
+•
+
+CAN/CSA-C22.2 No. 62368-1/UL 62368-1 - Safety of Information Technology Equipment
+EN 60825 Safety of Laser Products - Part 1: Equipment Classification, Requirements and User’s Guide
+EN 60950-1/IEC 60950-1/EN 62368-1/EC 62368-1 Safety of Information Technology Equipment
+CNS 15598-1 (BSMI) (Taiwan)
+
+Environmental regulatory
+compliance
+
+• 2014/35/EU and 2014/30/EU
+• 2011/65/EU – Restriction of the use of certain hazardous substance in electrical and electronic equipment (EU
+RoHS)
+• 2012/19/EU – Waste electrical and electronic equipment (EU WEEE)
+• 94/62/EC – packaging and packaging waste (EU)
+• 2006/66/EC – batteries and accumulators and waste batteries and accumulators (EU battery directive)
+• 1907/2006 of the European Parliament and of the Council of 18 December 2006 concerning the Registration,
+Evaluation,
+• Authorisation and Restriction of Chemicals (EU REACH)
+• Section 1502 of the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 – U.S. Conflict
+Minerals
+• 30/2011/TT-BCT – Vietnam circular
+• SJ/T 11363-2006 Requirements for Concentration Limits for Certain Hazardous Substances in EIPs (China)
+• SJ/T 11364-2006 Marking for the Control of Pollution Caused by EIPs (China)
+• CNS 15663 (BSMI) (Taiwan)
+
+Vibration
+
+• IEC 68-2-36, IEC 68-2-6
+
+Shock and drop
+
+• IEC 68-2-27, IEC 68-2-32
+
+RUCKUS ICX 8100 | Enterprise-class access switch with flexible AI driven management options
+
+7
+
+RUCKUS ICX 8100 Ordering Information
+Part Number
+
+RUCKUS ICX 8100 Switches
+
+ICX8100-C08PF
+
+RUCKUS ICX 8100 Compact Switch, 8×10/100/1000 Mbps PoE+ 802.3at, 30W Class 4 ports, 2×1GbE SFP uplink-ports,
+124W PoE budget. Power cord not included
+
+ICX8100-C08PF-X
+
+RUCKUS ICX 8100 Compact Switch, 8×10/100/1000 Mbps PoE+ 802.3at, 30W Class 4 ports, 2×10GbE SFP+ uplink-ports,
+124W PoE budget. Power cord not included
+
+ICX8100-C16PF
+
+RUCKUS ICX 8100 Compact Switch, 16×10/100/1000 Mbps PoE+ 802.3at, 30W Class 4 ports, 2×1GbE SFP uplink-ports,
+124W PoE budget. Power cord not included
+
+ICX8100-C16PF-X
+
+RUCKUS ICX 8100 Compact Switch, 16×10/100/1000 Mbps PoE+ 802.3at, 30W Class 4 ports, 2×10GbE SFP+ uplink-ports,
+124W PoE budget. Power cord not included
+
+ICX8100-24
+
+RUCKUS ICX 8100 1RU Switch, 24×10/100/1000 Mbps ports, 4×1GbE SFP uplink-ports. Power cord not included
+
+ICX8100-24-X
+
+RUCKUS ICX 8100 1RU Switch, 24×10/100/1000 Mbps ports, 4×10 GbE SFP+ uplink-ports. Power cord not included
+
+ICX8100-24P
+
+RUCKUS ICX 8100 1RU Switch, 24×10/100/1000 Mbps PoE+ 802.3at, 30W Class 4 ports, 4×1GbE SFP uplink-ports,
+370W PoE budget. Power cord not included
+
+ICX8100-24P-X
+
+RUCKUS ICX 8100 1RU Switch, 24×10/100/1000 Mbps PoE+ 802.3at, 30W Class 4 ports, 4×10GbE SFP+ uplink-ports,
+370W PoE budget. Power cord not included
+
+ICX8100-48
+
+RUCKUS ICX 8100 1RU Switch, 48×10/100/1000 Mbps ports, 4×1GbE SFP uplink-ports. Power cord not included
+
+ICX8100-48-X
+
+RUCKUS ICX 8100 1RU Switch, 48×10/100/1000 Mbps ports, 4×10 GbE SFP+ uplink-ports. Power cord not included
+
+ICX8100-48P
+
+RUCKUS ICX 8100 1RU Switch, 48×10/100/1000 Mbps PoE+ 802.3at, 30W Class 4 ports, 4×1GbE SFP uplink-ports,
+370W PoE budget. Power cord not included
+
+ICX8100-48P-X
+
+RUCKUS ICX 8100 1RU Switch, 48×10/100/1000 Mbps PoE+ 802.3at, 30W Class 4 ports, 4×10GbE SFP+ uplink-ports,
+370W PoE budget. Power cord not included
+
+ICX8100-48PF
+
+RUCKUS ICX 8100 1RU Switch, 48×10/100/1000 Mbps PoE+ 802.3at, 30W Class 4 ports, 4×1GbE SFP uplink-ports,
+740W PoE budget. Power cord not included
+
+ICX8100-48PF-X
+
+RUCKUS ICX 8100 1RU Switch, 48×10/100/1000 Mbps PoE+ 802.3at, 30W Class 4 ports, 4×10GbE SFP+ uplink-ports,
+740W PoE budget. Power cord not included
+
+Part Number
+
+RUCKUS ICX 8100 Accessories
+
+XBR-R000295
+
+1U, 1.5U, and 2U Universal Kit for Four-Post Racks
+
+ICX7000-RMK
+
+Two-post fixed rack mount kit
+
+ICX7000-C12-RMK
+
+Rack mount kit for compact switches
+
+ICX7000-C12-WMK
+
+Wall Mount Bracket Kit for compact switches
+
+CC-USBC-USBA
+
+USB 2.0 Cable, Type-C to Type-A, 1 meter (for USB Type-C console port)
+
+Part Number
+
+Power Cords for All ICX 8100 models
+
+PCUSA2
+
+C13 POWER CORD for USA, NEMA5-15/C13, 13A, 125V
+
+PCEURO
+
+C13 Power Cord for Europe
+
+PCAUS
+
+C13 POWER CORD FOR AUSTRALIA
+
+PCCHINA2-IEC309
+
+C13 Power Cord for China, 250V 10A
+
+PCINDIA
+
+C13 6 FOOT AC POWER CORD FOR INDIA
+
+PCJAPAN
+
+C13 Power Cord for Japan version
+
+PCSWISS-C1312G-HF
+
+C13 POWER CORD for Switzerland, SEV1011 TO C13, 10A, 250V, HALOGEN-FREE
+
+PCUK
+
+C13 Power Cord for United Kingdom
+
+PC-C13C14
+
+C13/C14 15A Power Cord extension
+
+* Check RUCKUS accessory guide for a comprehensive list of international power cords
+
+RUCKUS ICX 8100 | Enterprise-class access switch with flexible AI driven management options
+
+8
+
+Warranty
+
+Legal Disclaimer
+
+Limited Lifetime Warranty. For details, visit: support.
+
+Product features, functionality and specifications may change or
+
+ruckuswireless.com/programs-warranty_registration.
+
+Best-in-Class Support
+RUCKUS ICX 8100 switches are supported by next-business-day
+advance replacement where available, as well as software defect
+
+be discontinued without notice. Nothing in this document shall
+be deemed to create a warranty of any kind, either express or
+implied, statutory or otherwise, including but not limited to, any
+implied warranties of merchantability, fitness for a particular
+purpose, non- infringement of third-party rights or availability with
+
+repairs and maintenance updates.
+
+respect to any products and services.
+
+Many on-site and TAC support options are available and can be
+
+Refer to www.commscope.com/ruckus for the latest version of
+
+purchased with the product or separately.
+
+this document.
+Notice: This document is for informational purposes only and
+does not set forth any warranty, expressed or implied, concerning
+any equipment, equipment feature, or service offered or to
+be offered by CommScope. CommScope reserves the right to
+make changes to this document at any time, without notice,
+and assumes no responsibility for its use. This informational
+document describes features that may not be currently available.
+Contact a CommScope sales office for information on feature
+and product availability. Export of technical data contained in this
+document may require an export license from the United States
+government.
+
+About RUCKUS Networks
+RUCKUS Networks builds and delivers purpose-driven networks that perform in the demanding
+environments of the industries we serve. Together with our network of trusted go-to-market partners,
+we empower our customers to deliver exceptional experiences to the guests, students, residents,
+citizens and employees who count on them.
+
+www.ruckusnetworks.com
+Visit our website or contact your local RUCKUS representative for more information.
+© 2025 CommScope, LLC. All rights reserved.
+CommScope and the CommScope logo are registered trademarks of CommScope and/or its affiliates in the U.S. and other countries.
+For additional trademark information, see https://www.commscope.com/trademarks. All product names, trademarks and registered
+trademarks are property of their respective owners.
+
+RUCKUS ICX
+8100
+PA-119962-EN
+(04/25)
+
+| Enterprise-class access switch with flexible AI driven management options
+
+9
+
+

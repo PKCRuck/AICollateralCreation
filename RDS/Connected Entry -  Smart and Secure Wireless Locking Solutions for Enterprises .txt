@@ -1,0 +1,152 @@
+SOLUTION BRIEF
+
+CONNECTED ENTRY
+Smart and Secure Wireless Locking Solutions for Enterprises
+
+COMPLETE SOLUTIONS
+•
+
+RUCKUS® IoT-ready Wi-Fi access points
+
+•
+
+RUCKUS IoT modules
+
+•
+
+RUCKUS IoT controller
+
+•
+
+RUCKUS SmartZone network controller
+
+•
+
+Connected smart door locks
+
+•
+
+RUCKUS ICX switches
+
+INTRODUCTION
+Scores of organizations from schools to hotels are using the Internet of Things (IoT) to replace standard
+door locks with smart and secure wireless locking solutions. Joining forces with industry leaders in the
+connected entry space, CommScope is making it easy to implement smart, secure wireless online door
+locks—and build a flexible foundation for tomorrow’s IoT applications.
+
+THE CHALLENGE
+The challenge of any enterprise is to secure its perimeter and protect its staff, guest and visitors. The following verticals are especially
+challenged as they balance ease of access with security.
+•
+
+Hospitality
+How do you protect guest valuables if they drop their key card? How do hotels ensure guest safety when doors to rooms are left
+accidentally open? Today, hotel operators are exploring connected wireless door locks that can send alerts to staff to indicate an
+unlocked and open status to enhance guest satisfaction and safety.
+
+•
+
+Schools/Universities
+From 2013 to 2018, Everytown Research identified 405 incidents of gunfire on school grounds in the United States. How do schools
+trigger a lockdown during an active shooter event when seconds matter? How do institutions make efficient use of limited staff to
+unlock and lock doors before, during and after school events? Universities and schools are evaluating connected locks to automate and
+speed lockdown procedures to improve school safety and efficiency.
+
+•
+
+MDU
+Building operators of multi-dwelling units and apartment complexes want smoother building automation and enhanced tenant safety,
+which potentially lowers insurance costs. How are unintended open doors monitored? How can entire floors or buildings be “rekeyed”
+virtually and efficiently?
+
+IoT-enabled wireless door locks can be remotely monitored, locked, unlocked and reprogrammed in real time during a security incident.
+In addition to improving security, smart and secure wireless locks enable enterprises to automatically lock or unlock classrooms, lecture
+halls, operating rooms, hotel rooms, labs and equipment storage. This results in significant cost savings, as enterprises do not have to hire
+maintenance staff to lock and unlock rooms.
+Unfortunately, many organizations quickly find themselves bogged down in IoT complexity when deploying wireless door locks. This is
+because IoT applications are still highly fragmented, as they rely on multiple wireless connectivity protocols. Wireless door locks, for example,
+might use Zigbee, while online thermostats run over standard Wi-Fi and panic buttons use yet another IoT protocol such as Bluetooth
+Low Energy (BLE). Even if organizations recognize the value each IoT solutions brings, they are often reluctant to implement, support and
+maintain multiple separate wireless networks. Start deploying IoT hubs for Zigbee/BLE, pulling cable, adding extra switch ports and switches
+and the costs add up quickly.
+
+2
+
+CONNECTED ENTRY Smart and Secure Wireless Locking Solutions for Enterprises
+
+SOLUTION BENEFITS
+With the combined RUCKUS IoT Suite and smart door lock solution, administrators can build a versatile
+IoT platform to improve overall guest and employee safety. Key features and benefits include:
+• Safety: IoT-enabled wireless door locks can be remotely monitored, locked, unlocked and reprogrammed in
+
+real time during a security incident.
+• Convenience: Guest and staff can reprogram key cards remotely—no trip to IT is required.
+• Robust school security: Forced entry can alert security or other staff. Dropped or lost key cards can be
+
+instantly and remotely disabled.
+• Staff mobile access: Connected locks can support remote keyless entry options, which reduces time needed
+
+to get keys from inconvenient locations or in a timely manner.
+
+SOLUTION
+CommScope and industry leaders have joined forces to make wireless door locks and other IoT applications much simpler and more costeffective. CommScope along with our global connected entry ecosystem partners are offering a fully integrated, easy-to-manage IoT wireless
+door lock solution for all industries.
+With the combined solution, administrators can use state-of-the-art IoT connected door locks to make their organization’s security easier to
+manage, more convenient and more cost-effective. Enterprises can implement wireless locks without having to deploy separate networks
+for Wi-Fi and IoT services, reducing costs and complexity. Once the solution is in place, they can use the same RUCKUS IoT Suite to connect
+a wide range of other IoT devices and services, all running on the same consolidated network. Suddenly, it becomes much simpler and less
+expensive to deploy new IoT infrastructure and improve overall guest and employee safety.
+
+GET STARTED
+Improving business safety doesn’t have to mean high costs and technical complexity. CommScope and our connected entry ecosystem
+partners make wireless door locks and other IoT services simple and cost-effective.
+Contact us today to learn more.
+
+IoT Management system
+
+Connected entry solutions help
+organizations increase staff safety,
+reduce facility costs and improve
+customer satisfaction. Businesses can
+remotely monitor and control doors
+through their IoT-ready RUCKUS
+WLAN infrastructure and Zigbee or
+BLE-based smart door locks.
+
+Wi-Fi
+
+Ruckus IoT Management
+
+NETWORK
+
+IoT Communication protocol
+Smart Lock
+
+Ruckus vSZ
+LEGEND
+
+WI-FI
+IoT
+
+3
+
+CONNECTED ENTRY Smart and Secure Wireless Locking Solutions for Enterprises
+
+CommScope pushes the boundaries of communications technology with game-changing ideas and
+ground-breaking discoveries that spark profound human achievement. We collaborate with our customers
+and partners to design, create and build the world’s most advanced networks. It is our passion and commitment
+to identify the next opportunity and realize a better tomorrow. Discover more at commscope.com
+
+commscope.com
+Visit our website or contact your local CommScope representative for more information.
+© 2019 CommScope, Inc. All rights reserved.
+Unless otherwise noted, all trademarks identified by ® or ™ are registered trademarks, respectively, of CommScope, Inc. This document is for planning purposes only and is not intended to modify or supplement any specifications or warranties relating to CommScope products or services. CommScope is committed to the highest standards of business integrity and environmental sustainability with a number of
+CommScope’s facilities across the globe certified in accordance with international standards, including ISO 9001, TL 9000, and ISO 14001. Further information regarding CommScope’s commitment can
+be found at www.commscope.com/About-Us/Corporate-Responsibility-and-Sustainability.
+CO-113899.1-EN (05/20)
+
+4
+
+CONNECTED ENTRY Smart and Secure Wireless Locking Solutions for Enterprises
+
+

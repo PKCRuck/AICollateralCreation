@@ -1,0 +1,143 @@
+SOLUTION BRIEF
+
+STAFF ALERTS
+Secure Wireless Panic Buttons and Staff Alert for Enterprises
+
+COMPLETE SOLUTIONS
+•
+
+RUCKUS IoT-ready Wi-Fi access points
+
+•
+
+RUCKUS IoT modules
+
+•
+
+RUCKUS IoT controller
+
+•
+
+RUCKUS SmartZone network controller
+
+•
+
+Panic buttons
+
+•
+
+RUCKUS ICX switches
+
+EMPLOYEE SAFETY
+Employees are the greatest asset to any organization. But employee safety concerns are on the rise
+across all industries. Joining forces with industry leaders, CommScope is making it easy to implement
+staff alert solutions while building a flexible foundation for tomorrow’s IoT applications.
+
+THE CHALLENGE
+Employees must feel safe and protected from harassment at work or be notified of events as soon as they happen. The following verticals
+are especially challenged to enhance safety for staff.
+•
+
+Hospitality
+In 2018, the American Hotel & Lodging Association (AH&LA) announced a new workplace safety initiative designed to pro-vide
+emergency communications and location-based services for employees. Backed by major hotels—including Marriott International,
+InterContinental, Hilton and Hyatt—the 5-Star Promise has committed to providing staff alerts and panic buttons to hospitality workers
+across the United States. Several U.S. cities have backed similar initiatives with many, such as Seattle, New York and Las Vegas, enacting
+new regulations to provide employees with a panic button for emergencies.
+
+•
+
+Schools/Universities
+Officials are grappling with how to respond to public safety incidents quickly, whether its harassment or gun safety. Panic button apps
+and wireless panic buttons are now being used to send out 911-style alerts to emergency personnel as well as school staff and/or
+students and friends in the vicinity.
+
+•
+
+Healthcare
+Healthcare providers must offer timely responses to incidents that range from staff harassment to patient falls. Through the press of a
+button, staff can be alerted to a medical emergency. Panic buttons must be strategically placed or worn so that they automatically alert
+police or security to an emergency.
+
+Small wearable personal transmitters on a necklace, wrist or belt attachment can provide a location, along with the wearer’s name, picture
+or other information through the enterprise wireless network whenever someone presses their panic button. Panic buttons can send an alert
+to a nursing station, to security or to a preset list of notification devices. For example, a panic button can push out an alert that displays
+“harassment alarm” or “intruder alarm” along with the wearer’s name and location.
+Unfortunately, the deployment of staff alert systems is challenging. The type of panic button chosen may mandate the use of a dedicated
+network built around Bluetooth Low Energy (BLE) or Zigbee or even Wi-Fi. Each of these networks requires dedicated networking hubs,
+pulling cable, adding extra switch ports and switches, and ongoing maintenance.
+
+2
+
+STAFF ALERTS Secure Wireless Panic Buttons and Staff Alert for Enterprises
+
+SOLUTION BENEFITS
+With the combined RUCKUS® IoT Suite and staff alert solution, administrators can build a versatile IoT
+platform to improve overall employee safety. Key features and benefits include:
+• Locate: Panic buttons can help security or staff locate and help an employee in need.
+• Timely: Instant notification of a safety-related incident helps protect not just staff but also visitors and guests.
+• Discretion: Panic buttons can silently alert security without warning the perpetrators.
+
+Wireless dead zones must be eliminated to reliably support hotel staff panic buttons. This means full property coverage is required, which
+includes the back of the house, parking lots and everywhere staff is present as part of their functions in their daily roles.
+
+LEVERAGING THE RUCKUS WI-FI NETWORK
+CommScope and industry leaders have joined forces to make staff alert solutions much simpler and more cost-effective. CommScope along
+with our global staff alert ecosystem partners are offering a fully integrated, easy-to-manage IoT panic button solution for all industries.
+With a RUCKUS IoT Suite staff alert solution, employees will have security and peace of mind knowing that help is just a click away. In
+addition, staff and security can quickly and easily identify the exact location of an employee when his or her alert button is activated.
+
+GET STARTED
+Improving business safety doesn’t have to mean high costs and technical complexity. CommScope and our staff alert ecosystem partners
+make wireless panic buttons and other IoT services simple and cost-effective. Contact us today to learn more.
+
+IoT Management system
+
+Panic buttons help organizations
+protect their employees. In the
+event of an alert triggered by their
+staff, businesses can locate the
+panic button through the use of
+their IoT-ready RUCKUS network
+infrastructure.
+
+Wi-Fi
+
+Ruckus IoT Management
+
+NETWORK
+
+IoT Communication protocol
+Ruckus vSZ
+Panic button
+
+LEGEND
+
+WI-FI
+IoT
+
+3
+
+STAFF ALERTS Secure Wireless Panic Buttons and Staff Alert for Enterprises
+
+CommScope pushes the boundaries of communications
+technology with game-changing ideas and ground-breaking
+discoveries that spark profound human achievement.
+We collaborate with our customers and partners to design,
+create and build the world’s most advanced networks. It is our
+passion and commitment to identify the next opportunity and
+realize a better tomorrow. Discover more at commscope.com
+
+commscope.com
+Visit our website or contact your local CommScope representative for more information.
+© 2020 CommScope, Inc. All rights reserved.
+Unless otherwise noted, all trademarks identified by ® or ™ are registered trademarks, respectively, of CommScope, Inc. This document is for planning purposes only and is not intended to modify or supplement any specifications or warranties relating to CommScope products or services. CommScope is committed to the highest standards of business integrity and environmental sustainability with a number of
+CommScope’s facilities across the globe certified in accordance with international standards, including ISO 9001, TL 9000, and ISO 14001. Further information regarding CommScope’s commitment can
+be found at www.commscope.com/About-Us/Corporate-Responsibility-and-Sustainability.
+CO-113895.1-EN (05/20)
+
+4
+
+STAFF ALERTS Secure Wireless Panic Buttons and Staff Alert for Enterprises
+
+

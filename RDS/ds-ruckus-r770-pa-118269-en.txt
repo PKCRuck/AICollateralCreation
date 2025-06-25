@@ -1,0 +1,1000 @@
+DATA SHEET
+
+RUCKUS® R770
+Indoor Wi-Fi 7 (802.11be) Access Point with 12.22 Gbps Data Rate
+
+Bandwidth-hungry ultra-high definition video, virtual reality, Internet of Things (IoT), an explosion
+of new devices and content. With these kinds of demands, organizations in every industry need
+more from their Wi-Fi. But with hundreds of devices and nonstop wireless noise and interference,
+busy indoor spaces can make challenging wireless environments.
+
+Benefits
+
+The dawn of the Wi-Fi 7 era ushers in a new wave of possibilities. With its groundbreaking
+advancements in speed, capacity, latency, and reliability, Wi-Fi 7 has the potential to transform
+the way we connect and interact with the digital world.
+
+Connect more devices simultaneously
+Improve device performance, by enabling more
+simultaneous device connections with built-in 8 spatial
+streams (2x2:2 in 2.4GHz, 4x4:4 in 5GHz, 2x2:2 in 6GHz)
+technology. 12.22 Gbps Combined data rate.
+
+From seamless streaming of ultra-high-definition content to immersive virtual and augmented
+reality experiences, Wi-Fi 7 enables applications that were previously unimaginable. Real-time
+social gaming can reach new heights, allowing for lag-free, competitive multiplayer experiences
+with unparalleled responsiveness.
+
+High client density and performance
+Provides exceptional end-user experience within large
+meeting halls, general enterprise spaces, and large
+classrooms.
+BeamFlex+ Adaptive Antenna Technology
+For greater speed, fewer errors, and instant bandwidth
+delivery, RUCKUS BeamFlex+ patented technology offers
+first-of-its-kind smart antenna technology that
+maximizes signal coverage, throughput, and network
+capacity and work with any client. It further increases
+MIMO diversity gain and maximizes spatial multiplexing
+potential.
+
+The Internet of Things (IoT) also receive a significant boost, as Wi-Fi 7 supports a massive
+number of connected devices simultaneously, facilitating smart homes, smart cities, and
+intelligent automation on a grand scale.
+Moreover, industries such as hospitality and education can benefit immensely from Wi-Fi 7' s low
+latency and high reliability. Other verticals like, MDUs, large public venues and service
+providers gain greatly from Wi-Fi 7 unprecedented advancements in speed and capacity.
+The RUCKUS R770 is a high-end Wi-Fi 7, tri-band concurrent indoor AP that delivers 8 spatial
+streams (2x2:2 in 2.4GHz, 4x4:4 in 5GHz, 2x2:2 in 6GHz) and supports Wi-Fi 7 features such as,
+Multi-Link-Operation (MLO), Preamble Puncturing, 4K QAM Modulation and 320MHz channels.
+It delivers industry-leading performance environments with a combined data rate of 12.22 Gbps.
+F. urthermore, a 10 Gbps Ethernet port eliminates wired backhaul bottleneck for full use of available
+Wi-Fi capacity.
+
+Converged Access Point
+Allows customers to eliminate siloed networks and
+unify Wi-Fi and non Wi-Fi wireless technologies into
+one single network by using built-in BLE or Zigbee
+with support for Matter and Thread*. Expandable to
+future wireless technologies through USB port.
+
+Wireless requirements within enterprises are expanding beyond Wi-Fi. The R770 has one built-in
+IoT radio offering onboard BLE or Zigbee capabilities. The R770 is a converged access point
+that allows customers to seamlessly integrate any new wireless technologies with the USB port.
+
+10 GbE eliminates bottleneck
+Optimized multi-gigabit Wi-Fi performance delivered
+using the built-in 1/2.5/5/10GbE port to connect to
+multi-gigabit switches.
+
+The R770 addresses the increasing client demands in transit hubs, auditoriums, conference centers,
+and other high traffic indoor spaces. It is the perfect choice for data-intensive streaming multimedia
+applications like 4K/8K video transmissions, while supporting latency sensitive voice and data
+applications with stringent quality-of-service requirements.
+
+Multiple management options
+Manage the R770 with on premise physical/ virtual
+appliances and control auto-provisioning for faster
+deployment and seamless firmware upgrades.
+Enhanced Security
+The latest Wi-Fi security standard with WPA3 and receive
+enhanced protection from man-in-the-middle attacks.
+Adds the power of RUCKUS DPSK3 to WPA3/SAE
+combining enhanced security with the flexibility and
+ease of use of dynamic passphrase to secure network
+access.
+More Than Wi-Fi
+Support solutions beyond Wi-Fi with RUCKUS IoT Suite,
+RUCKUS AI, RUCKUS One, RUCKUS Cloudpath
+Enrollment System and onboarding software
+
+The R770, with built-in RUCKUS exclusive technology, dramatically improves network performance
+through a combination of patented wireless innovations and learning algorithms that includes:
+·
+
+Airtime Decongestion: Increases average network throughput in heavily congested environments
+
+·
+
+Transient Client management: Reduces interference traffic from unconnected Wi-Fi devices
+
+·
+
+BeamFlex®+ Adaptive Antennas: Extended coverage range and optimized throughput with
+patented dynamic multi-directional antennas and radio patterns and work with any client.
+
+Whether you are deploying ten or ten thousand APs, the R770 is also easy to manage through
+RUCKUS multiple management options including cloud based and on premises controllers.
+
+RUCKUS® R770
+Indoor Wi-Fi 7 (802.11be) Access Point with 12.22 Gbps Data Rate
+
+© 2023 CommScope, Inc. All rights reserved.
+
+2
+
+RUCKUS® R770
+Indoor Wi-Fi 7 (802.11be) Access Point with 12.22 Gbps Data Rate
+
+Access Point BeamFlex Antenna Pattern
+
+Figure 1. Example of BeamFlex+ pattern
+
+RUCKUS’ BeamFlex+ adaptive antennas allow the R770 AP to dynamically choose among a host of
+antenna patterns (over 4,000 possible combinations) in real-time to establish the best possible
+connection with every device. This leads to:
+·
+
+Better Wi-Fi coverage
+
+·
+
+Reduced RF interference
+
+Traditional omni-directional antennas, found in generic access points, oversaturate the environment
+by needlessly radiating RF signals in all directions. In contrast, the RUCKUS BeamFlex+ adaptive
+antenna directs the radio signals per-device on a packet by-packet basis to optimize Wi-Fi coverage
+and capacity in real-time to support high device density environments. BeamFlex+ operates without
+the need for device feedback and hence can benefit even devices using legacy standards.
+
+Figure 2. R770 2.4GHz Azimuth Antenna Patterns
+
+Figure 3. R770 5GHz Azimuth Antenna Patterns
+
+Figure 4. R770 6GHz Azimuth Antenna Patterns
+
+Figure 5. R770 2.4GHz Elevation Antenna Patterns
+
+Figure 6. R770 5GHz Elevation Antenna Patterns
+
+Figure 7. R770 6GHz Elevation Antenna Patterns
+
+Note: The outer trace represents the composite RF footprint of all possible BeamFlex+ antenna patterns, while the inner trace represents one BeamFlex+ antenna
+pattern within the composite outer trace.
+
+© 2023 CommScope, Inc. All rights reserved.
+
+3
+
+RUCKUS® R770
+Indoor Wi-Fi 7 (802.11be) Access Point with 12.22 Gbps Data Rate
+
+WI-FI
+
+5GHZ RECEIVE SENSITIVITY (dBm)
+
+Wi-Fi Standards
+
+·
+
+IEEE 802/11a/b/g/n/ac/ax/be, Wi-Fi 7
+
+·
+
+802.11be: 4 to 5765 Mbps
+802.11ax: 4 to 4804 Mbps
+802.11ac: 6.5 to 866 Mbps
+802.11n: 6.5 to 300 Mbps
+802.11a/g: 6 to 54 Mbps
+802.11b: 1 to 11 Mbps
+
+·
+·
+
+Supported Rates
+
+·
+·
+·
+
+HT20/VHT20
+
+HT40/VHT40
+
+HT80/VHT80
+
+MCS0 MCS7 MCS8 MCS9 MCS0 MCS7 MCS8 MCS9 MCS0 MCS7 MCS8 MCS9
+-100
+
+-82
+
+-79
+
+-76
+
+HE20/EHT20
+
+-97
+
+-79
+
+-76
+
+-73
+
+-94
+
+HE80/EHT80
+
+HE40/EHT40
+
+-76
+
+-73
+
+-70
+
+HE160/EHT160
+
+MCS0 MCS9 MCS13 MCS0 MCS9 MCS13 MCS0 MCS9 MCS13 MCS0 MCS9 MCS13
+-100
+
+-76
+
+-64
+
+-97
+
+-73
+
+-61
+
+-94
+
+-70
+
+-58
+
+-91
+
+-67
+
+-55
+
+·
+
+2.4GHz: 1-13
+· 5GHz: 36-64, 100-144, 149-165
+· 6GHz: 1-233
+
+Supported Channels
+
+6GHZ RECEIVE SENSITIVITY (dBm)
+HE20/EHT20
+
+·
+
+2x2 (2.4 and 6 GHz) and 4x4 (5 GHz) SU-MIMO
+2x2 (2.4 and 6 GHz) and 4x4 (5 GHz) MU-MIMO
+
+Spatial Streams
+
+·
+
+2 (2.4 and 6 GHz) or 4 (5 GHz) for SU-MIMO & MU-MIMO
+
+Radio Chains and Streams
+
+·
+
+2x2:2 (2.4 and 6 GHz), 4x4:4 (5 GHz)
+
+Channelization
+
+·
+
+20, 40, 80, 160, 320 MHz
+
+·
+
+MIMO
+
+WEP, WPA, WPA-PSK, WPA2, WPA2-PSK, WPA3, WPA3-SAE,
+OWE, PMF (802.11w), Dynamic PSK
+· WIPS/WIDS
+
+MCS11
+
+MCS13
+
+MCS0
+
+MCS9
+
+MCS11
+
+MCS13
+
+-96
+
+-73
+
+-67
+
+-61
+
+-93
+
+-70
+
+-64
+
+-58
+
+MCS0
+
+MCS9
+
+MCS11
+
+MCS13
+
+MCS0
+
+MCS9
+
+MCS11
+
+MCS13
+
+-90
+
+-67
+
+-61
+
+-55
+
+-87
+
+-64
+
+-58
+
+-58
+
+HE160/EHT160
+
+2.4GHZ TX POWER TARGET (PER CHAIN)
+
+·
+
+WMM, Power Save, Tx Beamforming, LDPC, STBC,
+802.11r/k/v, MBO
+· MLO (Multi-link operation ), Preamble Puncturing
+
+Rate
+
+Pout (dBm)
+
+·
+
+MCS0, HT20
+
+23
+
+·
+
+MCS7, HT20
+
+19
+
+MCS9, VHT20
+
+17.5
+
+Web Authentication and Guest Access
+Hotspot, Hotspot 2.0
+· Captive Portal
+· WISPr
+
+Other Wi-Fi Features
+
+MCS9
+
+HE80/EHT80
+
+·
+
+Security
+
+HE40/EHT40
+
+MCS0
+
+MCS11, HE40
+
+16.5
+
+MCS13, EHT40
+
+15
+
+RF
+·
+
+Antenna Type
+
+·
+
+BeamFlex+ adaptive antennas with polarization diversity
+Adaptive antenna that provides 4,000+ unique antenna
+patterns per band
+
+Antenna Gain (max)
+
+·
+
+Up to 4dBi
+
+·
+
+Peak Transmit Power (Tx port/
+chain + Combining gain)
+
+Pout (dBm)
+
+MCS0, HT40
+
+22
+
+MCS7, HT40
+
+20
+
+2.4GHz: 26dBm
+5GHz: 28dBm
+
+MCS9, VHT80
+
+18.5
+
+·
+
+6GHz: 25dBm
+
+MCS11, HE160
+
+17
+
+·
+
+ISM (2.4-2.484GHz)
+U-NII-1 (5.15-5.25GHz)
+U-NII-2A (5.25-5.35GHz)
+U-NII-2C (5.47-5.725GHz)
+U-NII-3 (5.725-5.85GHz)
+U-NII-5 (5.925–6.425GHz)
+U-NII-6 (6.425–6.525GHz)
+U-NII-7 (6.525–6.875GHz)
+U-NII-8 (6.875–7.125GHz)
+
+MCS13, EHT160
+
+16
+
+·
+·
+·
+·
+·
+·
+·
+
+6GHZ TX POWER TARGET (PER CHAIN)
+Rate
+MCS0, HT40
+
+2.4GHZ RECEIVE SENSITIVITY (dBm)
+HT20
+
+Rate
+
+·
+
+·
+
+Frequency Bands
+
+5GHZ TX POWER TARGET (PER CHAIN)
+
+HT40
+
+VHT20
+
+Pout (dBm)
+22
+
+MCS7, HT40
+
+17.5
+
+MCS9, VHT80
+
+16.5
+
+MCS11, HE160
+
+15
+
+MCS1
+, EHT320
+MCS9,3HE160
+
+16.5
+13
+
+VHT40
+
+MCS0
+
+MCS7
+
+MCS0
+
+MCS7
+
+MCS0
+
+MCS7
+
+MCS0
+
+MCS7
+
+-97
+
+-79
+
+-94
+
+-76
+
+-97
+
+-79
+
+-94
+
+-76
+
+HE20/EHT20
+
+HE40/EHT40
+
+MCS0
+
+MCS9
+
+MCS11
+
+MCS13
+
+MCS0
+
+MCS9
+
+MCS11
+
+MCS13
+
+-97
+
+-74
+
+-68
+
+-61
+
+-94
+
+-71
+
+-65
+
+-58
+
+© 2023 CommScope, Inc. All rights reserved.
+
+4
+
+RUCKUS® R770
+Indoor Wi-Fi 7 (802.11be) Access Point with 12.22 Gbps Data Rate
+
+POWER CONSUMPTION
+Mode
+
+NETWORKING
+
+Power
+Consumption
+
+System Configuration
+·
+
+DC Power
+
+802.3bt5
+PoH, uPoE
+
+32W
+
+(Average/RMS)
+
+32W
+
+(Average/RMS)
+
+40W
+
+(Peak/LLDP)
+
+802.3at
+
+25.5W
+
+Wi-Fi Radios
+
+10Gbps Ethernet Enabled
+1Gbps Ethernet Enabled
+· USB Enabled (3W)
+· IoT Enabled (selectable)
+
+2.4GHz (2x2) Tx 23dBm
+
+·
+
+10Gbps Ethernet Enabled
+· 1Gbps Ethernet Enabled
+· USB Enabled (3W)
+· IoT Enabled (selectable)
+
+2.4GHz (2x2) Tx 23dBm
+
+·
+
+2.4GHz (2x2) Tx 16dBm
+
+·
+
+10Gbps Ethernet Enabled
+· 1Gbps Ethernet Disabled
+· USB Disabled (0W)
+· IoT Disabled
+
+5GHz (4x4) Tx 22dBm
+6GHz (2x2) Tx 22dBm
+
+5GHz (4x4) Tx 22dBm
+6Ghz (2x2) Tx 22dBm
+
+5GHz (4x4) Tx 15dBm
+
+·
+
+Controller Platform Support
+
+Mesh
+IP
+
+Authenticator & Supplicant
+
+·
+
+GRE, Soft-GRE
+
+·
+
+Policy Management Tools
+
+Application Recognition and Control
+Access Control Lists
+· Device Fingerprinting
+· Rate Limiting
+· URL Filtering
+·
+
+·
+
+Client Capacity
+
+·
+
+Up to 1024 clients per AP
+
+PHYSICAL INTERFACES
+
+SSID
+
+·
+
+Up to 36 per AP
+
+·
+
+·
+
+ChannelFly
+Background Scan Based
+
+·
+
+Client Density Management
+
+Adaptive Band Balancing
+· Client Load Balancing
+· Airtime Fairness
+· Airtime-based WLAN Prioritization
+·
+
+SmartCast Quality of Service
+Mobility
+Diagnostic Tools
+
+QoS-based scheduling, QoS Mirroring
+· Directed Multicast
+· L2/L3/L4 ACLs
+·
+·
+
+SmartRoam
+
+Spectrum Analysis
+· SpeedFlex
+
+Integrated BLE or Zigbee (one IoT radio)
+Matter & Thread support*
+
+·
+
+Ethernet
+
+One 100M/1/2.5/5/10G Ethernet (PoE) port and one 10M/
+100M/1G Ethernet port
+· Power over Ethernet (802.3af/at/bt) with Category 6a (or
+better) cable
+· LLDP support
+
+USB
+
+·
+
+1 USB 2.0 port, Type A
+
+·
+
+23.3cm (L), 23.3cm (W), 5.9cm (H)
+9.2in (L) x 9.2in (W) x 2.3in (H)
+
+RUCKUS RADIO MANAGEMENT
+
+·
+
+802.1Q (1 per BSSID or dynamic per user based on RADIUS)
+VLAN Pooling
+· Port-based
+
+·
+
+IoT Onboard
+
+Wi-Fi Channel Management
+
+IPv4, IPv6, dual-stack
+
+Tunnel
+
+2.4GHz: 689 Mbps
+5GHz: 5765 Mbps
+· 6GHz: 5765 Mbps
+
+BeamFlex+
+Polarization Diversity with Maximal Ratio Combining (PDMRC)
+
+·
+
+802.1x
+
+·
+
+·
+
+RUCKUS One
+SmartMesh™ wireless meshing technology. Self-healing
+Mesh in 2.4 GHz, 5GHz, and 6GHz
+
+·
+
+Peak PHY Rates
+
+·
+
+·
+·
+
+VLAN
+
+PERFORMANCE AND CAPACITY
+
+Antenna Optimization
+
+SmartZone
+RUCKUS Unleashed*
+
+·
+
+6Ghz (2x2) Tx 16dBm
+
+·
+
+·
+
+PHYSICAL CHARACTERISTICS
+Physical Size
+Weight
+Mounting
+
+·
+·
+·
+·
+·
+·
+
+1.36kg
+3lbs
+Wall, acoustic ceiling, desk
+Bracket (902-0120-0000)
+
+·
+
+Padlock feature
+Secure bracket (sold separately) (902-0120-0000)
+
+Operating Temperature
+
+·
+
+-10 ºC (14ºF) to 50ºC (122ºF)
+
+Operating Humidity
+
+·
+
+Up to 95%, non-condensing
+
+Physical Security
+
+* Expected in a future software release
+
+© 2023 CommScope, Inc. All rights reserved.
+
+5
+
+RUCKUS® R770
+Indoor Wi-Fi 7 (802.11be) Access Point with 12.22 Gbps Data Rate
+
+ORDERING INFORMATION
+
+CERTIFICATIONS AND COMPLIANCE
+Wi-Fi Alliance1
+
+·
+·
+·
+·
+·
+·
+·
+
+Standards Compliance2
+
+·
+·
+·
+·
+·
+·
+·
+·
+
+Wi-Fi CERTIFIED™ a, b, g, n, ac, ax, be (Wi-Fi 6, Wi-Fi 7)
+Passpoint®, Vantage
+IEC/EN/UL 60950-1 Safety
+IEC/EN/UL 62368-1 Safety
+EN 60601-1-2 Medical
+EN 61000-4-2/3/5 Immunity
+EN 50121-1 Railway EMC
+EN 50121-4 Railway Immunity
+IEC 61373 Railway Shock & Vibration
+UL 2043 Plenum
+EN 62311 Human Safety/RF Exposure
+WEEE & RoHS
+ISTA 2A Transportation
+GNSS Geolocation – (Rx mode only, L1 & L5 bands)
+Zigbee & BLE (IEEE 802.15 in 2.4GHz ISM band)
+
+SOFTWARE AND SERVICES
+RUCKUS One
+
+Cloud Based Services
+
+·
+
+Network Analytics
+
+·
+
+RUCKUS AI (Formerly known as RUCKUS Analytics)
+
+Security and Policy
+
+·
+
+Cloudpath
+
+· RUCKUS R770 Wi-Fi 7 tri-band concurrent wireless Access
+
+Point with 2x2:2 (2.4GHz) + 4x4:4 (5GHz) + 2x2:2 (6GHz).
+Wi-Fi 7 in all three bands. 6GHz LPI mode and SP mode
+support with AFC. Software configurable to 2x2 (2.4GHz) +
+4x4 (5GHz) dual-band mode. BeamFlex+, one 10/5/2.5/1Gigabit Ethernet backhaul, one 1-Gigabit port, PoH/uPoE/
+802.3bt PoE support, onboard BLE and Zigbee selectable
+IoT radio, USB 2.0, TPM 2.0, and Secure Boot. Adjustable
+acoustic drop ceiling bracket included. Power adapter not
+included. Includes Limited Lifetime Warranty.
+
+901-R770-XX00
+
+See RUCKUS price list for country-specific ordering information.
+Warranty: Sold with a limited lifetime warranty.
+For details see: http://support.ruckuswireless.com/warranty.
+OPTIONAL ACCESSORIES
+902-1180-XX00
+
+·
+
+Multigigabit PoE injector (2.5/5/10)-BaseT PoE port, 60W
+
+902-0120-0000
+
+·
+
+Spare, Accessory Mounting Bracket
+
+902-1170-XX00
+
+·
+
+Power Supply (48V, 0.75A, 36W)
+
+902-0196-0000
+
+·
+
+T-bar Bracket
+
+PLEASE NOTE: When ordering Indoor APs, you must specify the destination region by indicating -US,
+-WW, or -Z2 instead of XX. When ordering PoE injectors or power supplies, you must specify the
+destination region by indicating -US, -EU, -AU, -BR, -CN, -IN, -JP, -KR, -SA, -UK, or -UN instead of -XX.
+For access points, -Z2 applies to the following countries: Algeria, Egypt, Israel, Morocco, Tunisia, and
+Vietnam.
+
+1 For complete list of WFA certifications, please see Wi-Fi Alliance website.
+2 For current certification status, please see price list.
+
+About RUCKUS Networks
+RUCKUS Networks builds and delivers purpose-driven networks that perform in the demanding environments of the industries
+we serve. Together with our network of trusted go-to-market partners, we empower our customers to deliver exceptional
+experiences to the guests, students, residents, citizens and employees who count on them.
+
+www.ruckusnetworks.com
+Visit our website or contact your local RUCKUS representative for more information.
+© 2023 CommScope, Inc. All rights reserved.
+All trademarks identified by ™ or ® are trademarks or registered trademarks in the US and may be registered in other countries. All product names, trademarks
+and registered trademarks are property of their respective owners. This document is for planning purposes only and is not intended to modify or supplement any
+specifications or warranties relating to CommScope products or services.
+
+PA-118269.2-EN (12/23)
+
+

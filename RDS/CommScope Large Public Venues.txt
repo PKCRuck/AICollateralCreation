@@ -1,0 +1,877 @@
+Transforming Networks
+in Large Public Venues
+Enhancing experiences and operations through innovation
+
+Game Highlights
+Venue owners are re-thinking
+the way networks are deployed
+and managed
+They are realizing more efficiencies
+through a holistic approach to solving
+network and connectivity needs across
+the entire complex.
+Innovative wireless technology
+is transforming the industry with
+game changing performance and
+cost savings
+Venue owners are enabling fan
+experiences and services with 5G and
+LTE, while leveraging digital wireless
+
+THE DIGITAL SHIFT IN VENUES
+As the guest experience in large venues is transforming from a purely physical one
+to a combination of physical and digital, the network has become the backbone
+of its success. New integrated network functions and services are driving a shift
+in design and procurement of network connectivity solutions. As a result, venue
+owners are realizing new efficiencies through a holistic approach to solving
+network and connectivity needs across large public venues (LPVs).
+
+NETWORKS ARE AT AN INFLECTION POINT
+
+systems for significant cost savings in
+
+Due to the ever-increasing demand of high-bandwidth mobile user applications
+
+equipment, space and power.
+
+such as video sharing, and the proliferation of IoT devices, networks have become
+a critical component for LPVs’ revenue generation and cost-effective operations.
+
+Convergence is the network
+
+At the same time, the introduction of network technologies such as Wi-Fi 6, 5G
+
+strategy of the future-and the
+
+and private networks are creating an inflection point that is driving complexity
+
+future is already here
+
+resulting from the need to deploy and manage independent networks and
+
+Delivering multiple network services on
+
+vendors. Together, these forces are causing venue owners to re-think the way
+
+a common infrastructure is critical to
+
+networks are deployed and managed. A transformational approach is needed
+
+meeting the ever-increasing demand
+
+that considers all the network requirements up front and defines a solution that
+
+for bandwidth, and the need to reduce
+
+is flexible and adapts to future needs. Doing this facilitates use of the most
+
+CapEx and OpEx costs.
+
+appropriate technologies and provides the opportunity to leverage a common
+infrastructure. These enhanced methods drive cost savings through the reduction
+of space, equipment, materials and labor required to deliver a network that meets
+
+“We’ll transform the network
+
+high visitor expectations while minimizing inefficiency and network complexity.
+
+to provide an exceptional
+
+A WINNING STRATEGY
+
+user experience by creating
+
+CommScope’s integrated framework for network connectivity provides a
+
+solutions that are simple,
+reliable, and adaptable”
+
+unique alternative that streamlines the transformation journey while improving
+network performance and lowering cost. Leveraging our experience with over
+250 large public venue implementations worldwide, CommScope is shaping
+tomorrow’s large public venue networks with a robust portfolio of Wi-Fi,
+
+Ben Cardwell
+
+switching, distributed antenna systems (DAS), copper, fiber and services to
+
+SVP Venue and Campus Networks,
+
+enable transformation end to end. We work collaboratively with venue owners,
+
+CommScope
+
+consultants, engineers and contractors to meet the evolving needs of the venue
+and its stakeholders.
+
+2
+
+Transforming Networks in Large Public Venues
+
+EVOLVING FAN EXPECTATIONS
+Large public venues compete for their share of consumer dollars against an
+increasingly immersive in-home experience that is fueled by large-screen highresolution displays and audio, social media connectedness, and augmented
+reality experiences. To respond, LPV owners and managers are expanding
+their core sports/entertainment offerings with new ways to connect with
+their brands: social sharing, player stats and betting, and amenities like easy
+concession ordering. LPVs must also support complex operations while meeting
+public health and safety regulations by controlling congestion, access and
+tracking movement of people.
+These challenges require robust and high-capacity communication networks
+to support multiple different classes of users, services and applications that run
+in the network and at the edge. CommScope meets these challenges with a
+technology and service portfolio that delivers high performance and cost-saving
+
+250
+
+Large public venue
+implementations
+world-wide
+
+advantages along with the efficiencies of a single solution provider.
+
+THE GAME PLAN
+CommScope’s strategy is to offer – along with our partner network – a unique
+combination of products and services. Our team brings together CommScope’s
+connectivity solutions and expertise across licensed and unlicensed wireless
+spectrum, along with wired infrastructure and cloud-based management
+solutions. Our partners provide software and value-added integration services
+enhancing the CommScope portfolio by delivering fully integrated network
+systems that provide agility, high availability, security, and flexibility of the
+network while reducing overall costs. Collectively, our team offers an integrated
+capability spanning technology, design, implementation and management to
+drive outcomes drawing on our strengths, namely:
+•
+
+80%
+
+Reduction in DAS
+headend footprint
+
+Complete connectivity portfolio of DAS, Wi-Fi, switching, IoT and cabling
+infrastructure
+
+•
+
+Scalable, modular all-digital DAS that delivers massive mobile capacity while
+reducing data center (head-end) footprint by up to 80%
+
+•
+
+Patented technology and multi-protocol access points (APs) that eliminate
+wireless network silos and maximize Wi-Fi system capacity
+
+•
+
+Converged wired, Wi-Fi and IoT network management platforms that
+reduce management complexity and cost up to 40%
+
+•
+
+Design and deployment expertise capable of addressing unique
+configuration requirements and reducing project risk, while driving
+structured cabling CapEx and OpEx savings up to 20% through a shared
+network infrastructure
+
+•
+
+Financial flexibility reducing upfront capital requirements or shifting CapEx
+to OpEx entirely.
+
+3
+
+20%
+
+Cost savings in
+converged
+infrastructure
+
+One platform unlocking
+performance today with the
+simplicity to realize 5G’s full
+potential in the future
+
+UNLOCKING 5G’S POTENTIAL
+For LPVs, 5G creates a better user experience and a competitive
+
+HIGH PERFORMING WIRELESS
+IN A SMALL FOOTPRINT
+
+advantage. 5G networks enable exciting new services and
+
+Fans now expect to instantly share their experiences with their
+
+applications, such as ultra-high definition video camera angles,
+
+family and friends at the game and their social media network
+
+augmented reality and virtual reality, and player tracking. 5G
+
+around the world. With visitor capacities of up to one hundred
+
+will be a foundation for tomorrow’s LPVs and the spaces that
+
+thousand, venues must deliver reliable bandwidth to meet fan
+
+surround them. For venue owners this represents a massive
+
+expectations on game days. Stadium owners around the world
+
+business opportunity. Many venues are looking for ways
+
+consistently turn to CommScope to meet these high demands for
+
+to interact digitally with their audiences, enabling fans to
+
+their fans’ wireless capacity and coverage needs. With our ERA
+
+experience events in new ways. Now is the time to think about
+
+digital DAS, venue owners realize the following advantages:
+
+and plan for the future of 5G to address these evolving trends.
+•
+
+is scalable for future demand
+
+How do you start positioning yourself for the future with 5G? It
+begins with keeping in mind that 4G isn’t going away anytime
+soon and identifying the possibilities of 5G technologies using
+a simplified approach for migration in a cost-effective manner.
+According to the GSMA, even by 2025 global 4G connections
+
+•
+•
+
+Substantial reduction in power, space, and fiber relative to
+analog DAS alternatives, driving down total cost of ownership
+(TCO) and reducing the headend footprint up to 80 percent.
+
+identify the possibilities for future 5G applications, identify the
+required to support future 5G enabled experiences.
+
+Support for current and emerging technologies
+(5G/4G/3G/2G and CBRS)
+
+will outnumber 5G connections by a factor of 2.8 to 11. Begin to
+5G performance requirements, and plan for the infrastructure
+
+A platform that meets current bandwidth needs and
+
+•
+
+Advanced capabilities that enable flexible software-defined
+capacity allocation across the entire stadium complex.
+
+As the leader in distributed antenna systems2, CommScope
+anticipated the challenge years ago. The result is a digital DAS
+architecture (ERA) that is “frequency agnostic”, meaning it can
+support 3G, 4G/LTE and 5G enabling maximum flexibility today
+and into the future. CommScope’s solution delivers multioperator support, massive scalability and maximum investment
+protection. CommScope delivers both LTE and 5G service with
+
+“Providing an exceptional experience for our
+fans—on the field and in the stands—is a top
+priority for the entire Panthers organization,”
+
+the performance, simplicity and economics venue owners and
+
+James Hammond
+
+mobile network operators need to realize 5G’s full business
+
+Director of IT for the Carolina Panthers
+
+potential. CommScope anticipates and innovates to develop the
+solutions you need now and prepare you for what’s next.
+1
+
+GSMA, The Mobile Economy 2020, at https://www.gsma.com/mobileeconomy/
+
+2
+
+Mobile Experts, LLC, Distributed Antenna Systems, November 2019.
+
+4
+
+Transforming Networks in Large Public Venues
+
+Everyone carries a mobile
+device and expects Wi-Fi
+connectivity everywhere
+
+Case Study
+BANC OF CALIFORNIA WI-FI
+There are only a small number of soccer- specific
+stadiums in the U.S. One of the newest is the Banc of
+California Stadium, home of the Los Angeles Football
+
+SCORING BIG WITH WI-FI
+
+Club (LAFC). Just one of the stadium’s many distinctions
+
+New Wi-Fi 6 technology brings fast, reliable connectivity to ultra-
+
+the attention of major corporations in entertainment,
+
+dense LPV environments, enabling immersive, interactive fan
+
+broadcasting and sports. The centerpiece is the
+
+experiences. Guests can be engaged, rewarded, and impressed
+
+RUCKUS Wi-Fi network, the foundation for delivering
+
+through personalized applications and targeted marketing. A robust
+
+a great wireless experience to LAFC fans.
+
+is its technology infrastructure, which has captured
+
+Wi-Fi platform can enable innovative ways of interacting, creating
+new fan engagement opportunities. Additionally, the Wi-Fi network
+
+RUCKUS was chosen as the Wi-Fi vendor of choice for
+
+must deliver a secure and reliable connection that can scale to support
+
+the network. “Frankly, I thought the default would
+
+a wide range of new applications, devices, and use cases.
+
+be Cisco. But we certainly made the right choice
+with RUCKUS. RUCKUS Wi-Fi performs flawlessly in
+
+CommScope addresses these challenges with RUCKUS high
+
+this environment. I know that other stadiums have
+
+performance Wi-Fi and switch technology. CommScope continues to
+
+ongoing problems with other Wi-Fi vendors; they can’t
+
+preserve the RUCKUS heritage of Wi-Fi innovation, which includes:
+
+handle the interference, high density usage and other
+challenges. In our stadium, we had every intention
+
+•
+•
+
+Patented RF performance and radio innovations that improve
+
+of pushing Wi-Fi to its limits. We had to start with
+
+performance for all clients, even ultra-high-density environments
+
+the right foundation, and that was RUCKUS.” Said
+
+Advanced SmartZoneOS network controller architecture for
+converged wired and wireless management
+
+•
+
+AI/ML-enabled network analytics and assurance for SLA
+management and proactive trouble resolution
+
+•
+
+Christian Lau, VP of Technology for the LAFC.
+The RUCKUS solution delivers a great user experience
+for mobile oriented soccer fans with 500 indoor and
+outdoor access points with 3 RUCKUS ZoneDirector
+
+Experienced in-house RF and LAN design team with
+
+Controllers. The day to day demands on the IT staff are
+
+the latest 3D modeling tools
+
+minimized with a network that allows them to “Set it
+and forget it”
+
+CommScope has a vision and understanding of Wi-Fi innovation that
+gives customers the confidence the network will easily scale to meet
+increasing guest demands. The RUCKUS platform includes privateor public cloud-based controllers along with footfall and presence
+analytics to support venue operations and marketing objectives.
+A RUCKUS Wi-Fi network delivers the exceptional application
+performance for every fan and every client, giving guests the data
+when they need it for that great immersive game day digital and
+physical experience. No matter where a user is in the venue, they get
+
+“The opening game for the Los
+Angeles Football Club (LAFC) included
+paratroopers landing on the field,
+a falcon circling above the crowd,
+and the best Wi-Fi experience of
+any stadium in the U.S.”
+
+an amazing connection to venue and team applications for ordering
+
+Christian Lau
+
+food and beverages, merchandise, or checking on their favorite player.
+
+VP of IT for the LAFC
+
+5
+
+Transforming Networks in Large Public Venues
+
+The Internet of Things (IoT) is transforming
+the way guests are entertained and
+operations maximize resources
+
+SMART IOT PLAYS
+
+UP THE GAME WITH CROWD INTELLIGENCE
+
+Large public venue owners are looking to the Internet of
+
+Using data to drive more revenue and improve operations is
+
+Things (IoT) to transform the way guests are entertained and
+
+presenting new opportunities in LPVs. Guest engagement and
+
+maximize operational efficiency. However, current models for
+
+interaction is being enhanced through knowing their precise
+
+implementing IoT solutions are often complex and expensive.
+
+location in and around the venue. RUCKUS SpoT analytics
+
+Applications can be highly fragmented, relying on multiple
+
+dashboard identifies where crowds are and enables better decision-
+
+wireless connectivity protocols. Smart lighting infrastructure, for
+
+making using data and predictive intelligence. This gives venue
+
+example, might use Bluetooth, while connected environmental
+
+owners and operators powerful insights for planning security,
+
+systems run over Wi-Fi, while smart door locks run over yet
+
+staffing, optimizing traffic flows, and guest services. Social
+
+another protocol like Zigbee. Each connected application
+
+distancing guidelines can also be monitored for compliance and
+
+typically functions as a self-contained system requiring its own
+
+anomalies. Multiple use cases for smart venues are now enabled by
+
+dedicated wireless network and management infrastructure.
+
+location analytics capabilities to:
+
+CommScope makes it easy to integrate Smart Building IoT
+
+•
+
+applications into LPVs, making them safer, greener and more
+comfortable. With a growing platform of building automation
+solutions, all running over the RUCKUS network with the
+RUCKUS IoT Suite, LPV owners and operators can build a flexible
+foundation for a world of new IoT experiences. Large public
+
+section, best exit routes, traffic and hot spot flow analysis
+•
+•
+•
+
+Increase customer spend – retail, food & beverage, merchandise
+through personalized and context specific advertising
+
+•
+
+Wayfinding to seat & line wait times updates, in-game stats
+
+RUCKUS IoT Suite
+
+Things
+1
+
+IoT-ready
+APs
+
+2
+
+Transforming Networks in Large Public Venues
+
+Services
+
+3
+
++
+
+6
+
+Drive new ticket sales from non-season ticket holders with
+tailored offers
+
+their venues and have them all run over the same converged
+RUCKUS wireless network.
+
+Enhance Public Health – touchless payments, air quality
+monitoring, improve contact tracing
+
+venue owners can deploy solutions to optimize comfort and
+convenience, safety and security, and resource management in
+
+Improve situation awareness and safety –notifications by
+
+Network
+Controller
+
++
+RUCKUS IoT
+Modules
+
+4
+
+RUCKUS IoT
+Controller
+
+Building Automation
+Energy Management
+Access Control
+Safety and Health
+Traffic Management
+
+The long-term economics point to convergence which
+requires cooperation of multiple stakeholders
+INTEGRATION FOR PEAK PERFORMANCE
+For any LPV environment, the key to efficient connectivity
+depends on an informed strategy and an integrated deployment
+approach. The temptation is to regard large venue connectivity
+as a series of related but distinct challenges, such as Power
+
+Case study
+ALLEGIANT STADIUM
+
+over Ethernet (PoE), wireless DAS coverage, fiber and copper
+
+For the Las Vegas Raiders, the 65,000 seat venue boasts 2,400
+
+connectivity and integration into the data center. However,
+
+multi-media screens and 1,700 WiFi access points. Supported
+
+dealing with these challenges individually invites complexity,
+
+by the CommScope-enabled infrastructure, fans and staff will
+
+where vital efficiency gains can be diminished—or even
+
+enjoy connectivity at all ten levels of Allegiant Stadium, including
+
+reversed—by dealing with multiple solution providers, a lack of
+
+some 2,400 video screens, dynamic displays and smart signs.
+
+asset optimization and even redundant layers of infrastructure.
+
+The network will enable fans to use their Raiders and Allegiant
+
+To be effective, integrated connectivity should be:
+
+Stadium mobile app throughout the facility to find parking
+spaces, locate concession stands, order food directly to their seats
+
+Comprehensive - The strategy must emphasize both wired
+
+and share their experience on social sites via livestreamed videos.
+
+and wireless connectivity needs. Starting with a common robust
+fiber and copper infrastructure for all systems including Wi-Fi,
+
+The result of the CommScope/Raiders partnership is a vast yet
+
+IoT wireless connectivity, as well as cellular connectivity systems,
+
+highly integrated cabling infrastructure featuring 227 miles
+
+DAS, CBRS and small cells. Taking this approach with a single
+
+of fiber and 284 miles of Category 6A copper cabling. The
+
+vendor can result in substantial savings through increased
+
+CommScope SYSTIMAX 100G fiber backbone and 10G CAT
+
+design velocity, reduced material, labor and maintenance costs.
+
+6A copper delivers connectivity for critical stadium systems
+and applications such as high-resolution security cameras, fire
+
+Simple - Complexity is a hidden-but-enduring cost for a
+
+and safety, HVAC and lighting controls, wayfinding, ticketing,
+
+piecemeal connectivity execution. Done well, a deployment
+
+concessions, merchandise, and parking.
+
+will take advantage of time and cost-saving opportunities
+like modular design, pre-terminated cables and the capacity
+
+Supporting the various wired and wireless applications with a
+
+to share multiple services across a converged physical
+
+single unified and integrated infrastructure involved multiple
+
+infrastructure realizing fiber and copper savings up to 20%.
+
+product portfolios, including network fiber, copper, coaxial
+cabling, ribbon fiber for DAS and more. CommScope is one
+
+Flexible - While each LPV deployment is unique, all LPVs need
+
+of the only companies with the breadth and depth in its
+
+the flexibility to move services and add new services quickly
+
+portfolio to provide the necessary infrastructure.
+
+and simply as the needs of the venue change. A common
+robust infrastructure will help your network support the latest
+technologies and applications from Wi-Fi, LTE, 5G and IoT to
+keep your venue on the leading edge of guest experience and
+operational efficiency.
+Automated Management - Automated Infrastructure
+
+“CommScope fiber optic cabling delivers the
+high bandwidth connectivity needed for a truly
+compelling and interactive Las Vegas Raiders
+fan experience.”
+
+Management (AIM) solutions should provide clear visibility into
+the network for LPV IT managers showing the connectivity of
+
+Matthew Pasco
+
+every device, down to the port level. CommScope’s imVision
+
+Technology VP, Las Vegas Raiders
+
+AIM solution can reveal potential trouble spots, security
+breaches and underutilized assets that could undermine
+your LPV business goals.
+
+7
+
+Transforming Networks in Large Public Venues
+
+We keep
+an eye on
+the future,
+making it our
+job to know
+what’s next.
+
+BEYOND THE BOWL
+LPVs are increasingly becoming full lifestyle centers including retail stores, hotels,
+restaurants and multi-dwelling unit (MDU) residential properties in addition to the
+anchor stadium. All the capabilities that CommScope brings to the stadium are equally
+critical to ensuring the value of the surrounding property. Leading global hospitality
+brands and MDUs rely on CommScope to achieve ‘5-star’ connectivity ratings.
+
+ENVISION THE FUTURE
+
+MAKING THE RIGHT CALL
+
+Before embarking on a full network
+
+Holistic approaches to solving network
+
+design and deployment initiative,
+
+and connectivity needs across LPVs have
+
+consider developing a vision for the
+
+arrived, with converged infrastructures
+
+guest experience and how technology
+
+becoming mainstream drivers of
+
+will be used to shape those experiences.
+
+enabling connectivity for new technology
+
+A journey map of the technology
+
+demands in LPVs. To be successful,
+
+touchpoints can help define what the
+
+venue owners must secure the interest
+
+connectivity requirements need to be to
+
+and cooperation of multiple providers of
+
+support your guests from driveway to
+
+services in their venues.
+
+seat and seat to driveway.
+Consider a provider that can take
+Once the high-level requirements are
+
+an end-to-end view to your network
+
+defined then it’s time to start asking
+
+needs and has innovative approaches
+
+important questions. The following are
+
+and a comprehensive portfolio that
+
+questions you should consider before
+
+includes DAS, Wi-Fi, infrastructure and
+
+beginning your network plan and design:
+
+professional services. Doing so will help
+you drive cost savings, reduce project
+
+•
+
+•
+
+Are the various design teams involved
+
+risk, improve operational efficiencies,
+
+in the project aware of each other’s
+
+and unlock new revenue opportunities
+
+network plans?
+
+with an enhanced guest experience.
+
+Do these teams cooperate to
+avoid inefficiencies like running
+multiple infrastructures for separate
+networks?
+
+•
+
+Could a single point of contact
+solution integrator reduce complexity
+with overall project management and
+a cohesive plan?
+
+•
+
+Are emerging technologies and
+services such as 5G, Wi-Fi 6 and 6E,
+CBRS and powered fiber accounted
+for?
+
+•
+
+If not converging your network
+infrastructures, what are your
+CapEx and OpEx costs for building,
+maintaining, and operating separate
+infrastructures compared to a single
+converged one?
+
+8
+
+The industry’s most comprehensive end to end portfolio that minimizes
+supply-chain complexity and decreases global fulfillment costs.
+
+A WINNING TEAM
+
+WHY TEAM WITH COMMSCOPE?
+
+CommScope gives you one source for a broad range of LPV
+
+CommScope provides a single source with capacity to provide the
+
+infrastructure needs. Our technology portfolio includes RF
+
+following equipment and solution design.
+
+and fiber connectivity, cellular and Wi-Fi, converged network
+management, small cell and backhaul, along with the services
+
+•
+
+All-digital DAS and Wi-Fi, including carrier-approved CPRI interface
+
+and expertise to bring it all together. We also keep an eye on
+
+•
+
+CBRS for private LTE networks
+
+•
+
+Small cells for additional capacity and cell virtualization
+
+•
+
+Public Safety DAS Ensures Emergency Radio Coverage (ERRCS)
+
+the future with a long-range vision for 5G, Wi-Fi 6, IoT, making
+it our job to know what’s next. With a proven track record
+of delivering high-performance LPV solutions, CommScope
+
+For First Responders
+
+provides the deep experience that ensures the infrastructure
+you deploy today will be ready for the communication
+challenges of tomorrow. Our project management team
+works collaboratively with your project team and contractors
+
+•
+
+Full design services across our entire product portfolio
+
+•
+
+Full program management and installation of wired and wireless
+solutions
+
+to simplify the process. Our partner ecosystem and alliances
+include application developers, distributors, installers,
+
+•
+
+Managed Network Solutions expertise to provide real-time health
+
+integrators and consultants all of whom are dedicated to
+
+and monitoring of the network and instantly provide alerts to the
+
+keeping our customers ready for whatever is next.
+
+identified dispatch team
+
+Explore large public venue solutions at www.commscope.com.
+
+commscope.com
+Visit our website or contact your local CommScope representative for more information.
+© 2021 CommScope, Inc. All rights reserved.
+Unless otherwise noted, all trademarks identified by ® or ™ are registered trademarks, respectively, of CommScope, Inc. This document is for planning purposes only and is not intended to
+modify or supplement any specifications or warranties relating to CommScope products or services. CommScope is committed to the highest standards of business integrity and environmental
+sustainability with a number of CommScope’s facilities across the globe certified in accordance with international standards, including ISO 9001, TL 9000, and ISO 14001.
+Further information regarding CommScope’s commitment can be found at www.commscope.com/About-Us/Corporate-Responsibility-and-Sustainability.
+BR-115300-EN (01/21)
+
+

@@ -1,0 +1,270 @@
+RUCKUS Analytics
+
+Solving the service assurance challenge for the hospitality industry
+
+Simplifying service assurance
+Hotel guests care more than ever before about the availability of Wi-Fi. Wireless access also depends upon the wired
+network. It’s one of the most important services a hotel offers – and keeping the network performing to guest
+expectations is one of the most difficult and time-consuming tasks for the IT team.
+As the number of support tickets mounts, it becomes harder to meet SLAs, and many hospitality groups are spending
+thousands of man hours trying to resolve problems with network connectivity.
+Unhappy guests. Unproductive employees. Stretched budgets.
+There has to be a better way.
+
+RUCKUS IS A MARKET
+CommScope is pushing the boundaries of technology to create the world’s
+most advanced wired and wireless networks. Our global team of employees,
+innovators and technologists empower customers to anticipate what’s next and
+invent what’s possible. Discover more at www.commscope.com.
+
+70%
+
+market share
+
+LEADER IN THE HOTEL
+INDUSTRY, WITH 70%
+MARKET SHARE IN THE
+4* & 5* HOTEL BRANDS
+WORLDWIDE.
+
+RUCKUS Analytics
+
+1
+
+Contents
+
+The context
+
+The solution
+
+The need for 5* connectivity
+
+Introducing RUCKUS Analytics
+
+The challenge facing help desks
+
+Automated decision making
+Key features
+Learn more
+
+RUCKUS Analytics
+
+2
+
+The need for 5* connectivity
+Three broad trends need to be addressed to provide some context: network complexity, cloud adoption and automation.
+
+Automation
+
+Cloud services
+
+Network complexity
+
+Networks are not just becoming larger and more
+
+As in other industries, hospitality groups increasingly
+
+Exponential growth of data use places ever-increasing
+
+powerful; they are becoming smarter. Innovations such
+
+look to the cloud when it comes to deploying new
+
+demands on networks. As demand increases, so does
+
+as machine learning (ML) and artificial intelligence (AI)
+
+software technologies. Cloud services provide many
+
+the complexity of the networks. Hospitality groups
+
+are making it easier for IT teams to cope with the burden
+
+benefits that on-premises software cannot provide.
+
+need to maintain large, often fragmented networks
+
+and deliver a 5* Wi-Fi experience to every guest.
+
+For example, cloud services offer effortless capacity
+
+across multiple properties. There is a lot that can go
+
+expansion – ideal for supporting multi-site networks.
+
+wrong – and a lot at risk if it does.
+
+RUCKUS Analytics
+
+3
+
+From front desk
+to help desk.
+And beyond
+If a guest has a problem, they go to the front desk. They refer the problem to the IT
+help desk. Without the proper tools for network intelligence and service assurance,
+each issue requires manual investigation by one or more team members.
+From knowing there is a problem to fixing it can take significant time, resource
+effort and disruption, impacting guest satisfaction and often operations. It’s reactive,
+and inefficient. And all the while, the number of support tickets continues to grow.
+Imagine how much time and money could be saved if there was a system that
+provided actionable intelligence, one that told you exactly what was wrong and
+how to fix it? Better still, how much more efficient could the team be if they could
+address network issues before they affect guests and employees?
+
+RUCKUS Analytics
+
+4
+
+Introducing RUCKUS Analytics:
+automation with machine
+learning and artificial intelligence
+Full visibility into all your hotels.
+
+RUCKUS Analytics is a cloud service for network intelligence and service assurance. Powered by machine
+learning and artificial intelligence, it gives IT comprehensive visibility into network operations. It accelerates
+troubleshooting and helps IT teams meet their network SLAs.
+
+Future
+Past
+Basic Reporting
+DATA AGGREGATION
+
+Present
+
+Auto-remediate
+ARTIFICIAL INTELLIGENCE
+
+Auto-identify & Recommend
+MACHINE LEARNING
+
+RUCKUS Analytics
+
+5
+
+Key features
+Incident analytics
+
+Network health monitoring
+
+RUCKUS Analytics automatically detects network incidents flowing from network
+
+RUCKUS analytics automatically monitors network health, continuously measuring a
+
+anomalies that can affect service for guests, and classifies the incidents by severity.
+
+variety of metrics across three categories: connection, performance and infrastructure.
+
+It performs a root cause analysis and makes specific recommendations for steps that
+
+IT teams can establish SLA thresholds for metrics across these categories, and the
+
+the IT help desk can take to remediate the issue.
+
+system measures performance to those SLAs.
+
+Because one root cause has the potential to affect multiple guests, by taking steps to
+
+IT gains insight into network operations across multiple locations, with the ability to
+
+remediate an issue some future service issues can be avoided entirely. The system
+
+readily demonstrate to others the status of network health.
+
+also identifies some incidents before they affect service, allowing the IT help desk to
+act proactively to avoid service disruption.
+
+RUCKUS Analytics
+
+6
+
+Key features
+Client troubleshooting
+Client troubleshooting lets IT search for individual clients on the network and drill down
+into their connectivity history. IT gains visibility into connectivity events such as when a
+client connects or disconnects, fails to connect, roams between access points and more.
+This helps IT to address service issues affecting specific clients quickly and effectively.
+
+Pre-packaged reports and
+summary dashboard
+RUCKUS Analytics includes an intuitive summary dashboard that provides a high-level
+view of network operations across all your locations, with the ability to easily drill down
+to the most granular levels.
+The service comes with a wide variety of pre-packaged reports so that you can get
+started fast. You can download reports as raw data, a PDF file or a CSV file. Forward the
+results to stakeholders inside or outside the organization.
+
+RUCKUS Analytics
+
+7
+
+Key features
+Data explorer
+The Data Explorer tool provides flexible access to the entire data warehouse. It also lets
+you create custom dashboards tailored to your needs with drag-and-drop ease.
+
+RUCKUS Analytics
+
+8
+
+Take the pressure off
+with RUCKUS Analytics
+RUCKUS Analytics brings relief to hard-pressed IT teams. It automates routine service
+assurance tasks with artificial intelligence and machine-learning techniques to make IT
+more efficient.
+It gives you complete visibility over the entire network, identifying the root cause of any
+network issue and helping you quickly resolve it. It also helps prevent problems from
+affecting guests and internal users by letting you remediate network issues before they
+become critical.
+IT can deliver a better user experience and is no longer forced to over-allocate resources to
+help desk activities associated with service assurance. You’re free to focus on other
+projects rather than connectivity issues.
+
+RUCKUS Analytics
+
+9
+
+Learn more
+Find out more about how RUCKUS Analytics can make
+life easier for your IT team and better for your guests.
+
+Download the IDC technology brief >
+View the product walkthrough video >
+View the on-demand webinar >
+Learn more >
+
+“
+
+Enterprise network operators today have an unprecedented amount
+of network health and performance data. But harnessing that data
+for maximum benefit is an immense challenge and requires a modern
+cloud-supported, machine learning–powered analytics platform.
+IDC Technology Spotlight
+
+sponsored by Commscope, Network Visibility
+
+and Analytics: Gain Insights and Actionable Data from Your Network, December 2019
+©2020 CommScope, Inc. All rights reserved. AD-112253-EN
+
+RUCKUS Analytics
+
+10
+
+CommScope pushes the boundaries of
+communications technology with game-changing
+ideas and ground-breaking discoveries that spark
+profound human achievement. We collaborate
+with our customers and partners to design, create
+and build the world’s most advanced networks.
+It is our passion and commitment to identify the
+next opportunity and realize a better tomorrow.
+Discover more at commscope.com
+
+www.commscope.com
+Visit our website or contact your local CommScope representative for more information.
+© 2020 CommScope, Inc. All rights reserved.
+All trademarks identified by ® or ™ are registered trademarks or trademarks, respectively, of CommScope, Inc.
+This document is for planning purposes only and is not intended to modify or supplement any specifications or warranties relating to CommScope products or services.
+EB-112900-EN (7/18)
+
+

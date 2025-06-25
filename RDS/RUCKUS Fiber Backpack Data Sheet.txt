@@ -1,0 +1,239 @@
+DATA SHEET
+
+RUCKUS® Fiber Backpack
+
+Fiber Backpack For H510
+
+Benefits
+·
+
+Provides fiber backhaul option for the
+H510 access point (AP).
+
+·
+
+Converts the 10/100/1000Mbps
+ethernet from the AP to fiber via an SFP
+cage.
+
+·
+
+Supports both PON and Active Fiber SFP
+modules
+
+·
+
+Provides power supply to AP by
+converting DC input power to PoE out.
+
+·
+
+Installs unnoticeably with H510 AP.
+
+In the hospitality segment today, fiber-based deployments require an
+Optical Network Terminal (ONT) to connect access points (APs),
+deployed in hotel room, to fiber media. Most ONTs today don't
+support active and passive types of fiber SFP modules. In addition,
+installing an ONT along with an AP leads to wire clutter and other
+challenges, which can impact room aesthetics.
+RUCKUS Fiber Backpack is an optional, field installable, Fiber-toEthernet Media Converter accessory providing customers a fiber
+Optic Network Terminal (ONT) backhaul interface for H510 Wall-plate
+AP, our leading hospitality AP.
+RUCKUS Fiber Backpack simplifies Wi-Fi deployments for fiber-ready
+hotels/ MDU. The custom designed fiber backpack attaches
+unnoticeably to the H510. It supports both PON and Active Fiber SFP
+modules. It also provides power over PoE to the attached H510 AP.
+
+Figure 1. H510 Fiber Backpack Wall Bracket
+
+RUCKUS® Fiber Backpack
+PRODUCT ORDERING INFORMATION
+
+SPECIFICATIONS
+PHYSICAL CHARACTERISTICS
+
+Model
+
+·
+
+Power Supply
+
+External 48V DC Power Supply 902-0170-XXYY
+· DC Terminal Block
+– DC Input Voltage Range: 42.5V to 57V
+– Wire Gauge: 12 to 22 (AWG)
+·
+
+Physical Size
+
+8.95 x 14.67 x 2.45 cm (without cover)
+· 8.95 x 14.67 x 4.18 cm (with cover)
+
+Weight
+
+·
+
+0.132 Kg (0.29 lb)
+
+Ethernet Ports
+
+·
+
+1Gbps port
+
+Fiber
+
+·
+
+SFP, 1Gbps, NBASE-X
+
+Environmental
+Conditions
+
+·
+
+Mounting Options
+
+Operating Temperature range: 0 to 40C
+· Humidity: Up to 95% non-condensing
+
+·
+
+Mounts on the wall with H510 mounted on the other
+(non-wall) side
+
+·
+
+1 W (max) without SFP module
+
+Management and Monitoring Capabilities
+PON
+1000Base-LX
+
+·
+
+Fiber Optic Enclosure, Fiber-to-Ethernet Media Converter.
+Field Installable Accessory for H510
+
+ACCESSORIES
+OPTIONAL ACCESSORIES
+RUCKUS NBASE-X SFP MODULES
+E1MG-LX-OM
+E1MG-SX-OM
+
+·
+
+1000Base-LX SFP optic, SMF, LC connector, Optical
+Monitoring Capable
+
+·
+
+1000Base-SX SFP optic, MMF, LC connector, Optical
+Monitoring Capable
+
+·
+
+Power Supply (48V, 0.63A, 30.24W) (Sold in quantities of
+1 or 10)
+
+·
+
+Installation kit with Backpack cover and installation wall
+bracket for Standalone Backpack use-case. Available in
+bulk packs (x25)
+
+·
+
+Cable cover to be installed on Backpack when 902-I100XXXX (Ruckus IoT module with cover) is installed on H510.
+Available in bulk packs (x25)
+
+POWER SUPPLY
+902-0170-XXYY
+BACKPACK ACCESSORIES
+
+POWER
+Max. Power Consumption
+
+P01-0500-0000
+
+Description
+
+·
+
+IIEEE 802.3ah-2005 compliance
+
+·
+
+IEEE 802.3ah-2005 compliance
+TS-1000 compliance
+
+·
+
+902-0501-0000
+
+902-0502-0000
+
+PLEASE NOTE: When ordering PoE injectors or power supplies, you must specify the destination
+region by indicating -US, -EU, -AU, -BR, -CN, -IN, -JP, -KR, -SA, -UK, or -UN instead of -XX.
+YY specifies the quanity: 00 = 1 unit, 01 = 10 units.
+
+Certification Specifications
+·
+
+·
+
+EN 55032 Level 2/3 EMC
+EN 55024 EMC
+EN 50121-1 Railway EMC
+EN 50121-4 Railway Immunity
+EN 60601-1-2 Medical
+IEC 60950-1 & IEC 62368-1 Safety
+IEC 61373 Shock & Vibration
+EN 50155 Transportation
+ISTA 2A Transportation
+
+Hazardous Materials
+
+·
+
+RoHS
+
+Recycle Design
+
+·
+
+WEEE
+
+·
+·
+·
+
+Standards Compliance
+
+·
+·
+·
+·
+
+© 2021 Commscope, Inc. All rights reserved.
+
+2
+
+RUCKUS® Fiber Backpack
+
+CommScope pushes the boundaries of communications technology with game-changing ideas and groundbreaking discoveries that spark profound human achievement. We collaborate with our customers and
+partners to design, create and build the world’s most advanced networks. It is our passion and commitment
+to identify the next opportunity and realize a better tomorrow. Discover more at commscope.com
+
+commscope.com
+Visit our website or contact your local CommScope representative for more information.
+
+© 2021 CommScope, Inc. All rights reserved.
+Unless otherwise noted, all trademarks identified by ® or ™ are registered trademarks, respectively, of CommScope, Inc. This document is for planning purposes only and is not intended to modify
+or supplement any specifications or warranties relating to CommScope products or services. CommScope is committed to the highest standards of business integrity and environmental sustainability
+with a number of CommScope's facilities across the globe certified in accordance with international standards, including ISO 9001, TL 9000, and ISO 14001.
+Further information regarding CommScope's commitment can be found at www.commscope.com/About-Us/Corporate-Responsibility-and-Sustainability .
+
+PA-115404-EN (02/21)
+
+

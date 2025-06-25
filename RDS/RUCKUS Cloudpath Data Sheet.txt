@@ -1,0 +1,636 @@
+DATA SHEET
+
+RUCKUS® Cloudpath® Enrollment System
+Secure network access for BYOD, guest users and
+IT-owned devices
+
+RUCKUS® Cloudpath® Enrollment System is a cloud service (or onpremises software) that delivers secure network access for any user, and
+any device, on any network.
+Cloudpath secures every connection with WPA2/WPA3-Enterprise, protecting data in transit
+between the device and the access point with powerful encryption. You gain visibility
+and control over which devices are on the network, and can define and manage policies
+
+COMPOSED OF:
+user-based license or
+· All-inclusive
+subscription
+
+so every user sees only the network resources they should see. The Cloudpath service
+checks the security posture of devices during onboarding to ensure they comply with your
+organization’s security policies. The system redirects users with noncompliant devices to
+remediate them before granting access. It associates every device with a user, and you can
+
+DEPLOYMENT OPTIONS:
+
+· Cloud-based
+on-premises (VMware ,
+· Virtualized
+Hyper-V )
+®
+
+®
+
+BENEFITS
+
+·
+network onboarding for BYOD
+· Streamlines
+users, guests and IT-owned devices
+you the power to define and manage
+· Gives
+policies for role-based access
+visibility and control over what
+· Delivers
+devices are on the network
+reduces helpdesk tickets
+· Dramatically
+related to network access
+Increases security for the network, devices,
+users and data
+
+easily revoke access at any time—for example, when a BYOD user leaves the organization.
+The service supports any Wi-Fi enabled device, including headless and IoT devices.
+Intuitive self-service workflows streamline network onboarding—users gain network access
+simply and securely without IT intervention. The service lets you deliver a great onboarding
+experience while dramatically reducing helpdesk tickets related to network access. Internal
+users can easily self-provision any device for network access using their existing login
+credentials. Cloudpath installs a digital certificate for network authentication so that,
+after the initial connection, users don’t need to re-enter credentials when they connect
+again. Guest users access a self-service login portal and receive credentials in the form of
+a CommScope-patented Dynamic PSK™ via email or SMS. Dynamic PSKs remove the need
+to install a certificate on the device, and offer similar security benefits. They are intuitive
+for users and much more secure than conventional PSKs because every user/device gets a
+unique key.
+Cloudpath Enrollment System
+
+FEATURES
+
+· Secure network access
+· Digital certificates and Dynamic PSKs
+onboarding and device
+· Self-service
+enablement
+· Policy management
+· Third-party product integration via APIs
+
+Active
+Directory
+& LDAP
+(Optional)
+RADIUS
+(AAA)
+(Built-in/
+External)
+
+Social Media Login (Optional)
+
+Certiﬁcate
+Authority
+(Built-in/
+External)
+
+CUSTOM
+OAUTH
+
+RADIUS
+
+HTTP/
+HTTPS
+
+LAN
+
+Onboarding
+Network
+
+(Wired Access)
+
+WLAN
+
+(Wireless Access)
+
+Secure
+Network
+
+Cloudpath Enrollment System delivers secure network access for any device and any
+user on any network.
+
+Secure network onboarding workflow
+
+1.
+
+Who are you? Internal user or guest?
+
+Start Over
+
+2.
+
+3.
+
+Enter credentials
+
+Download certificate
+
+Powered by Cloudpath Enrollment System
+
+Please enter your username and password to access the network.
+Internal User
+Log in using your regular credentials.
+Follow the prompt to download a digital
+certificate. The next time you connect,
+your device will authenticate automatically
+without having to repeat this process.
+
+Username: bob
+Password:
+
+....
+
+Guest User
+The system requires a voucher before
+granting newtwork access. You can
+request a voucher by SMS.
+
+< Back
+
+Continue >
+
+< Back
+
+Show all operating systems
+
+BYOD and guest users can easily onboard their devices for secure network access with intuitive self-service workflows—without
+IT intervention.
+
+The Cloudpath service interoperates via its APIs with third-
+
+•
+
+party products to further enhance security and improve user
+experience. It works flawlessly with any vendor’s wired and wireless
+infrastructure. Unlike leading competitors, the Cloudpath service
+offers a unique combination of cloud-based or virtualized onpremises deployment, built-in multi-tenancy, cost-effective per-user
+licensing, and superior ease of use.
+Secure multi-vendor network access
+The Cloudpath service delivers secure network access for every
+
+CommScope patented Dynamic PSKs improve security because,
+unlike conventional PSKs, each user gets a unique key—revoke a
+user’s access at any time without affecting other users
+
+Self-service onboarding and device enablement
+Easy self-service onboarding ensures that users gain network access
+quickly and securely—without helpdesk involvement.
+•
+
+Customizable workflows—entirely self-service or with internal
+sponsors—to tailor the user experience
+
+•
+
+Optional pre-boarding lets users set up their devices for secure
+access before arriving at a given location
+
+•
+
+Device provisioning capability can prompt users to install specific
+software during onboarding
+
+•
+
+Customizable onboarding portal for guest access—including
+optional social login with Google, Facebook, LinkedIn and other
+popular identity providers
+
+user, and every device, on any vendor’s network.
+•
+
+Secure connections with WPA2/WPA3-Enterprise via 802.1X
+authentication
+
+•
+
+Powerful encryption for data in transit over the air
+
+•
+
+Support for BYOD, guest and IT-owned devices—including
+headless and IoT devices
+
+•
+
+•
+
+Up-front-posture check with remediation
+
+Guest credentials via email, SMS or printed voucher
+
+•
+
+•
+
+Visibility and control over devices on the network—with the
+power to revoke access
+
+Management portal and resident portal for multi-dwelling
+units help residents and their guests connect quickly, easily and
+securely
+
+•
+
+Automated IT-managed onboarding via integration with thirdparty endpoint management products
+
+Digital certificates and Dynamic Pre-Shared Keys
+The Cloudpath service includes a built-in, comprehensive certificate
+authority (CA) that lets you create and manage your own public
+
+Policy management
+
+key infrastructure (PKI). Dynamic PSKs are a great alternative
+
+The Cloudpath service lets you define and manage policies that
+
+for guest users and devices that don’t support certificates. They
+
+govern network access for all users. It works with your network
+
+provide similar security benefits to digital certificates without the
+
+infrastructure to enforce policies for role-based access.
+
+need to install a certificate on the device.
+•
+
+Built-in RADIUS server and user database
+
+•
+
+Integration with external certificate authorities and user database
+infrastructures
+
+•
+
+Certificate-based authentication, authorization and accounting
+(AAA)
+
+2
+
+•
+
+Granular per-user, per-device policies, including bandwidth
+management and application-based access
+
+•
+
+Role-based access—users get only the appropriate level of access
+
+•
+
+Private per-user networks via VLANs, VXLANs or access policies—
+users see only their devices and traffic
+
+RUCKUS Cloudpath Enrollment System | Secure network access for BYOD, guest users and IT-owned devices
+
+Third-party product integration via API
+
+•
+
+Mobile device management—works with MDM products to support
+both managed and unmanaged devices with appropriate policies
+(technology partnership: AirWatch®)
+
+•
+
+eduroam®—facilitates inter-campus roaming
+
+•
+
+Google Chromebooks™—IT can onboard devices directly through
+the Google console, eliminating the need for users to onboard their
+own devices
+
+The Cloudpath service integrates via its APIs with third-party
+products to enhance security and user experience. It works with any
+product that can consume its APIs.
+•
+
+Web content filters—lets these products filter encrypted content
+and apply role-based filtering rules (technology partnerships:
+iBoss® and Lightspeed Systems®)
+
+•
+
+Next-generation firewalls—enables per-user and per-device
+policies (technology partnership: Palo Alto Networks®)
+
+Specifications
+Deployment options
+Redundancy and multitenancy
+
+· Cloud-based deployment
+· On-premises virtualized deployment (VMware or Hyper-V)
+Cloudpath Enrollment System can be deployed · Multi-tenant mode enables MSPs to host multiple tenants
+· VM-based
+as a standalone server or as a cluster in both active-active
+within a single instance
+mode or as a star-hub for data replication and redundancy
+
+Certificate infrastructure (PKI)
+
+RADIUS
+
+Onboarding
+
+Visibility and reporting
+Authentication protocols
+
+User identity support
+
+certificate management system
+· Built-in
+Unique
+for every tenant within the multi-tenant mode
+· Ability toCAconnect
+to external PKI
+· Standalone or subordinate
+to integrate with existing PKI
+·
+for dynamic VLANs, ACLs and more
+· Support
+Streamlined
+for EAP-TLS and MAC filtering
+· Client-basedsupport
+support
+for PEAP
+·
+onboarding with customizable workflows
+· Self-service
+Support
+for
+wired/wireless infrastructure from any
+· standards-based
+vendor
+and per-user visibility and control
+· Per-device
+Association
+between user, device, certificate and policy
+·
+(EAP methods: EAP-TLS, PEAP/MSCHAPv2, EAP· 802.1X
+SIM, EAP-AKA, EAP-AKA’)
+PSK
+· Dynamic
+Web
+authentication
+· Non-802.1X (MAC authentication)
+·
+Active Directory
+· Microsoft
+RADIUS
+via
+PAP
+· Any LDAP-compliant
+directory
+· LDAP/S
+· Novell
+·
+6.0 and higher
+· Android
+iOS
+9
+and
+· Chromebookhigher
+· Windows 7 and higher
+· Mac OS X 10.7 and higher
+·
+integration with Twilio and CDYNE
+· Native
+Ability
+to configure any custom SMS gateway
+·
+firewalls
+· Next-generation
+Web
+content
+filters
+· Mobile device management
+·
+®
+
+®
+
+®
+
+Device support
+
+™
+
+®
+
+™
+
+®
+
+SMS and email
+Third-party integrations via
+API
+
+3
+
+®
+
+®
+
+templates that integrate with policy
+· Certificate
+Supports
+OCSP
+with automatic revocation
+· Automatic deployment
+of certificates and secure networks
+· using Group Policy Objects,
+MSI and SCEP calls
+RADIUS server
+· Built-in
+Ability
+to
+connect to an external RADIUS infrastructure
+· RADIUS accounting
+·
+· Unified wired or wireless access
+
+· RADIUS accounting
+for Passpoint 2.0 R1 and HS2.0 R2 via OSU
+· Support
+(online signup server)
+CoA
+· RADIUS
+DPSK
+configuration
+for RUCKUS WLAN
+·
+
+· Google
+· Azure
+· OAuth2.0
+· SAML
+· Internal user database
+Ubuntu 16.04 and higher
+· Linux
+Fedora
+and higher
+· Windows18Phone
+· BlackBerry 8.1
+·
+®
+
+®
+
+®
+
+®
+
+· Built-in SMTP server or configure SMTP server
+· eduroam
+Chromebooks
+· Google
+Any
+platform
+that can consume APIs
+·
+
+RUCKUS Cloudpath Enrollment System | Secure network access for BYOD, guest users and IT-owned devices
+
+Licensing overview
+Subscription
+(Support included)
+Cloud
+Step 1
+
+Choose number of users
+
+<1K
+
+1K–5K
+
+Step 2
+
+Choose subscription duration
+
+<1K
+
+1 year
+
+5K–10K
+
+3 years
+
+10K+
+
+5 years
+
+1. S elect from cloud or on-premises deployment
+model.
+
+On-premises
+Step 1
+
+Choose number of users
+
+<1K
+
+1K–5K
+
+Step 2
+
+Choose subscription duration
+
+<1K
+
+1 year
+
+Step 3
+
+5K–10K
+
+3 years
+
+Ordering guidance
+
+10K+
+
+5 years
+
+2. If you select on-premises, choose from
+subscription or perpetual licensing model.
+3. Cloud deployment requires subscription model.
+4. D
+ etermine the number of users in your
+environment, including guests.
+
+Choose server license quantity
+
+5. C
+ hoose the appropriate SKU based upon
+subscription duration and user count.
+
+1 license per 20K users
+by user, not device
+· Licensed
+User
+count
+volume discount
+· Separate listdetermines
+price
+for
+education
+customers
+·
+
+6. A
+ dd optional white glove service for remotely
+assisted deployment.
+
+Perpetual license
+Step 1
+
+Choose number of users
+
+<1K
+
+1K–5K
+
+Step 2
+
+Choose server license quantity
+
+5K–10K
+
+10K+
+
+1 license per 20K users
+Step 3
+
+Choose support duration
+
+<1K
+
+1 year
+
+3 years
+
+5 years
+
+by user, not device
+· Licensed
+count determines volume discount
+· User
+· Separate list price for education customers
+
+commscope.com
+Visit our website or contact your local CommScope representative for more information.
+© 2022 CommScope, Inc. All rights reserved.
+All trademarks identified by ™ or ® are trademarks or registered trademarks in the US and may be registered in other countries. All product names, trademarks and registered trademarks
+are property of their respective owners. This document is for planning purposes only and is not intended to modify or supplement any specifications or warranties relating to CommScope
+products or services.
+PA-115144.2-EN (03/22)
+
+

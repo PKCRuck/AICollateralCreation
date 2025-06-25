@@ -1,0 +1,220 @@
+DATA SHEET
+
+RUCKUS® WATCHDOG
+End user support for ICX switches
+
+Enabling non-stop networking with flexible support options
+RUCKUS understands that every network is unique and requires a different level of
+technical support to meet the customer’s business requirements. RUCKUS provides
+a single support contact for ICX Switching products purchased through all existing
+channels. Organizations facing the challenges of maintaining large or complex networking
+BENEFITS
+24x7 access to RUCKUS
+· Provides
+Technicial Support expertise, reducing
+time to resolution
+
+unmatched expertise to
+· Provides
+optimize network performance
+a variety of Service Level
+· Offers
+Agreements (SLAs) tailored to meet
+organizations’ unique support needs
+
+environments gain immediate access to RUCKUS expertise and resources to accelerate
+problem resolution, increase uptime, and improve overall efficiency.
+
+Watchdog end user support service-level options
+WatchDog End User Support provides software and hardware support to ICX switching
+customers. Support includes 24×7 access to the Technical Assistance Center (TAC)
+(available through phone, chat and the web), software updates, online self- service tools,
+and offers several hardware replacement options.
+
+Service levels defined
+To help customers meet critical business objectives, WatchDog End User Support offers
+two SLA options, providing increased flexibility and choice.
+4-Hour Parts (4P)
+Provides 4-hour response for parts replacement from the time RUCKUS has determined a
+replacement is required and confirmed dispatch with the customer. Physical installation of
+the replacement part and defective product return are to be performed by the customer.
+4P is available in most major metropolitan areas worldwide and is available 24×7, including
+holidays. Click here to find out whether your location is within the required distance for a
+4-hour or next-business-day response.
+Next-Business-Day Parts (NDP)
+Provides next-business-day response for parts replacement from the time RUCKUS has
+determined a replacement is required and confirmed dispatch with the customer. Physical
+installation of the replacement part and defective product return are to be performed
+by the customer. NDP is available in most major metropolitan areas worldwide and is
+available on business days 9×5 local time to customer site. Offer also includes 24×7 access
+to the TAC, software updates, and online self-service tools. For ICX switches, this support
+is needed to provide next-business-day replacement of removable optics and LEDs, which
+are not covered under the RUCKUS Assurance Limited Lifetime Warranty.
+
+© 2023 CommScope, Inc. All rights reserved.
+
+Remote Technical Support (RMT)
+Provides 24×7 access to the TAC, software updates, and online self-service tools. RMT support is available worldwide and 24×7,
+including holidays. This is a good option for customers who are satisfied with the parts replacement coverage available under the
+RUCKUS Assurance Limited Lifetime Warranty.
+
+Table 1. Summary of RUCKUS service Level Agreements (SLAs).
+
+Purpose
+
+Technical Assistance
+Center (TAC)
+
+RUCKUS Support Portal: Online
+Welf Service, KB and Case
+Management
+
+Software Updates and
+Downloads (as available)
+
+24x7 Access
+
+Unlimited
+
+Unlimited
+
+Support level agreements (SLAs)
+4-hour2 parts (-4P)
+Next-business-day1,2,3 parts
+(-NBD)
+Remote support4 (-RMT)
+Software support (-SW)
+1
+
+Subject to customer providing RUCKUS with a description of the repair problem, part number, serial number, and return address. To determine if your specific location is within the
+required distance for a 4-hour or next-business day response please visit https://support.ruckuswireless.com/documents/2026-enterprise-network-direct-support-coverage.
+
+2
+
+Additional limitations and/or restrictions may apply. Hardware delivery times are based on a single point of failure incident. Delivery times for failures including but not limited to
+non-standard/variable configuration unit replacements, oversized/heavy weight items, or non-single point of failures may fall outside the posted SLA. Non-mechanical supplies and
+accessories (e.g. sheet metal, rack mounts, hinges, etc.) are excluded from the delivery SLA. Software version levels on replacement hardware may require upgrade/downgrade
+based on your current operating environment.
+
+3
+
+Next-business-day delivery is available when RUCKUS determines a replacement is required by 2:00 p.m. local time and customer distance from the nearest parts distribution center
+is within commercial carrier’s standard next-business-day delivery area (some restrictions may apply). If customer location is outside the commercial carrier’s next-business-day
+delivery area parts will ship the same or next day (2:00 p.m. local time cutoff for same day shipping, some restrictions may apply). Delivery times may vary due to customs and local
+regulations which are outside of RUCKUS control. Customers may be responsible for importation costs, brokerage fees, import duties, and taxes. Next-business-day is not available
+on selected holidays.
+
+4
+
+Available only for RUCKUS hardware products with Assurance Limited Lifetime Warranty (ALLW). 3rd party optics and transceivers are not covered in ALLW or any RUCKUS support
+programs.
+
+Online technical support tools
+Customers with a valid RUCKUS Technical Support contract have 24×7 access to several online tools through the RUCKUS Support
+Portal:
+•
+
+Downloads: Allows customers to obtain OS firmware and code updates as well as drivers, MIBs, utilities, and documentation.
+
+•
+
+Knowledge base: Enables customers to research and solve technical questions through a robust database of articles.
+
+World class support infrastructure
+RUCKUS Technical Support is designed to provide optimal support for WatchDog End User Support customers. They can leverage
+the RUCKUS worldwide support infrastructure, expertise, best-practice guidance, and commitment to quality to maximize their
+network uptime.
+Table 2. Severity levels and RUCKUS Technical Support response and escalation times.5
+Case Severity
+
+Technical Engagement Time
+
+Communication Frequency
+
+Management Escalation
+
+Within 30 minutes
+
+Updates hourly
+
+2 hours
+
+Severity 2 High
+
+Within 2 hours
+
+Updates every 12 hours
+
+One business day
+
+Severity 3 Medium
+
+Within one day
+
+Updates daily
+
+N/A
+
+Severity 4 Low
+
+Within one day
+
+Updates every 3 days
+
+N/A
+
+Severity 1 Critical
+
+5
+
+2
+
+The times listed are targets only and not a guarantee that RUCKUS will respond or escalate with the target time.
+
+RUCKUS WATCHDOG | End user support for ICX switches
+
+© 2023 CommScope, Inc. All rights reserved.
+
+World wide coverage
+RUCKUS WatchDog End User Support customers have access to a strong partner ecosystem capable of providing additional services,
+including onsite support if desired. In addition, toll-free numbers and local language support enable easy communication with
+RUCKUS Technical Support.
+
+Warranty
+RUCKUS ICX switches are covered by the RUCKUS Assurance® Limited Lifetime Warranty.
+For details, visit https://support.ruckuswireless.com/warranty
+
+RUCKUS expertise
+RUCKUS Technical Support engineers have deep networking expertise and are trained to resolve network problems as quickly as
+possible to minimize downtime. Furthermore, RUCKUS Technical Support engineers receive ongoing training and certification to
+provide customers with the most skilled team to address their issues.
+
+Commitment to quality
+Leveraging best practices and fostering a culture of continuous improvement, RUCKUS offers high-quality technical support for its
+networking solutions by investing in its processes, people, and partnerships. RUCKUS gathers customer feedback on service delivery,
+procedures, systems, products, and offerings, and makes necessary adjustments to optimize its processes. In addition, RUCKUS
+invests in its people through continuous education, providing customers a professional team with the networking expertise to quickly
+resolve issues.
+
+Maximizing investments
+To help optimize technology investments, RUCKUS and its partners offer complete solutions that include professional services,
+technical support, and education. For more information, contact a RUCKUS authorized partner or visit www.ruckusnetworks.com.
+Note: Until further notice, the legacy Brocade support SKUs that were used for ordering the support levels described in this
+document will remain in place. Onsite support SLAs are no longer provided, except to customers with existing contracts.
+
+About RUCKUS Networks
+RUCKUS Networks builds and delivers purpose-driven networks that perform in the demanding
+environments of the industries we serve. Together with our network of trusted go-to-market partners,
+we empower our customers to deliver exceptional experiences to the guests, students, residents,
+citizens and employees who count on them.
+
+www.ruckusnetworks.com
+Visit our website or contact your local RUCKUS representative for more information.
+© 2023 CommScope, Inc. All rights reserved.
+All trademarks identified by ™ or ® are trademarks or registered trademarks in the US and may be registered in other
+countries. All product names, trademarks and registered trademarks are property of their respective owners. This document
+is for planning purposes only and is not intended to modify or supplement any specifications or warranties relating to
+CommScope products or services.
+PA-117384-EN (01/23)
+
+
