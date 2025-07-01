@@ -1,3 +1,7 @@
 streamlit
 openai
+groq
 pandas
+reportlab
+markdown
+beautifulsoup4
