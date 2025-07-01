@@ -38,6 +38,20 @@ except ImportError:
     PDF_AVAILABLE = False
     st.warning("PDF export not available. Install: pip install reportlab markdown beautifulsoup4")
 
+# Document processing imports
+try:
+    import docx
+    from docx import Document
+    DOCX_AVAILABLE = True
+except ImportError:
+    DOCX_AVAILABLE = False
+
+try:
+    import PyPDF2
+    PDF_READ_AVAILABLE = True
+except ImportError:
+    PDF_READ_AVAILABLE = False
+
 # Page configuration
 st.set_page_config(
     page_title="Ruckus Datasheet Generator",
@@ -48,12 +62,16 @@ st.set_page_config(
 # Initialize session state
 if "templates" not in st.session_state:
     st.session_state.templates = {}
+if "prd_documents" not in st.session_state:
+    st.session_state.prd_documents = {}
 if "generated_datasheets" not in st.session_state:
     st.session_state.generated_datasheets = []
 if "current_step" not in st.session_state:
     st.session_state.current_step = 1
 if "selected_template_id" not in st.session_state:
     st.session_state.selected_template_id = None
+if "selected_prd_id" not in st.session_state:
+    st.session_state.selected_prd_id = None
 if "new_specs" not in st.session_state:
     st.session_state.new_specs = {}
 if "new_features" not in st.session_state:
@@ -62,6 +80,8 @@ if "trained_templates" not in st.session_state:
     st.session_state.trained_templates = {}
 if "template_analysis" not in st.session_state:
     st.session_state.template_analysis = {}
+if "extracted_specs" not in st.session_state:
+    st.session_state.extracted_specs = {}
 
 # Product type configurations
 PRODUCT_TYPES = {
@@ -83,7 +103,8 @@ PRODUCT_TYPES = {
             ("weight", "Weight", "text"),
             ("operating_temp", "Operating Temperature", "text"),
             ("certifications", "Certifications", "textarea")
-        ]
+        ],
+        "prd_keywords": ["model", "wireless", "frequency", "data rate", "antenna", "mimo", "clients", "ethernet", "poe", "power", "dimensions", "weight", "temperature", "certification"]
     },
     "switch": {
         "name": "Network Switch",
@@ -104,7 +125,8 @@ PRODUCT_TYPES = {
             ("rack_units", "Rack Units", "text"),
             ("power_consumption", "Power Consumption", "text"),
             ("certifications", "Certifications", "textarea")
-        ]
+        ],
+        "prd_keywords": ["port", "switching", "forwarding", "mac", "vlan", "poe", "management", "layer 3", "redundancy", "dimensions", "rack", "power", "certification"]
     },
     "controller": {
         "name": "Wireless Controller",
@@ -123,9 +145,231 @@ PRODUCT_TYPES = {
             ("dimensions", "Dimensions", "text"),
             ("power_requirements", "Power Requirements", "text"),
             ("certifications", "Certifications", "textarea")
-        ]
+        ],
+        "prd_keywords": ["aps", "clients", "throughput", "interfaces", "redundancy", "clustering", "guest", "security", "api", "management", "dimensions", "power", "certification"]
     }
 }
+
+def extract_text_from_docx(file_content: bytes) -> str:
+    """Extract text from DOCX file"""
+    if not DOCX_AVAILABLE:
+        return None
+    
+    try:
+        # Create a BytesIO object from the file content
+        doc_stream = BytesIO(file_content)
+        doc = Document(doc_stream)
+        
+        text_content = []
+        for paragraph in doc.paragraphs:
+            if paragraph.text.strip():
+                text_content.append(paragraph.text.strip())
+        
+        # Also extract text from tables
+        for table in doc.tables:
+            for row in table.rows:
+                row_text = []
+                for cell in row.cells:
+                    if cell.text.strip():
+                        row_text.append(cell.text.strip())
+                if row_text:
+                    text_content.append(" | ".join(row_text))
+        
+        return "\n".join(text_content)
+    except Exception as e:
+        st.error(f"Error extracting text from DOCX: {str(e)}")
+        return None
+
+def extract_text_from_pdf(file_content: bytes) -> str:
+    """Extract text from PDF file"""
+    if not PDF_READ_AVAILABLE:
+        return None
+    
+    try:
+        pdf_stream = BytesIO(file_content)
+        pdf_reader = PyPDF2.PdfReader(pdf_stream)
+        
+        text_content = []
+        for page in pdf_reader.pages:
+            page_text = page.extract_text()
+            if page_text.strip():
+                text_content.append(page_text.strip())
+        
+        return "\n".join(text_content)
+    except Exception as e:
+        st.error(f"Error extracting text from PDF: {str(e)}")
+        return None
+
+def extract_specifications_with_ai(document_content: str, product_type: str, api_key: str, provider: str = "groq_free", model: str = "llama-3.1-8b-instant") -> Dict:
+    """Extract specifications from PRD/HRD document using AI"""
+    if not api_key:
+        return {}
+    
+    try:
+        # Get spec fields and keywords for the product type
+        spec_fields = PRODUCT_TYPES[product_type]['spec_fields']
+        prd_keywords = PRODUCT_TYPES[product_type]['prd_keywords']
+        
+        # Create a mapping of field IDs to labels for the AI
+        field_mapping = {field_id: label for field_id, label, _ in spec_fields}
+        
+        prompt = f"""You are a technical document analyzer specializing in Product Requirements Documents (PRDs) and Hardware Requirements Documents (HRDs) for networking equipment.
+
+DOCUMENT CONTENT TO ANALYZE:
+{document_content[:3000]}...
+
+PRODUCT TYPE: {PRODUCT_TYPES[product_type]['name']}
+
+SPECIFICATION FIELDS TO EXTRACT:
+{json.dumps(field_mapping, indent=2)}
+
+INSTRUCTIONS:
+1. Carefully analyze the document content above
+2. Extract specifications that match the field labels provided
+3. Look for technical specifications, requirements, and product details
+4. Return ONLY specifications that are clearly stated in the document
+5. Use exact values and units when available
+6. For features/benefits, extract clear, specific capabilities
+7. Return results in JSON format with field_id as keys
+
+IMPORTANT KEYWORDS TO LOOK FOR:
+{', '.join(prd_keywords)}
+
+Example output format:
+{{
+    "model_number": "R770",
+    "wireless_standards": "802.11ax/ac/n/g/a",
+    "max_data_rate": "2.4 Gbps",
+    "power_consumption": "25W maximum"
+}}
+
+Extract specifications now:"""
+
+        if provider == "groq_free" and GROQ_AVAILABLE:
+            client = Groq(api_key=api_key)
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": "You are an expert technical document analyzer. Extract only specifications that are clearly stated in the document. Return valid JSON format."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.1,
+                max_tokens=1500
+            )
+            ai_response = response.choices[0].message.content
+        elif provider == "openai_paid" and OPENAI_AVAILABLE:
+            client = OpenAI(api_key=api_key)
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": "You are an expert technical document analyzer. Extract only specifications that are clearly stated in the document. Return valid JSON format."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.1,
+                max_tokens=1500
+            )
+            ai_response = response.choices[0].message.content
+        else:
+            return {}
+        
+        # Try to parse the AI response as JSON
+        try:
+            # Clean the response to extract JSON
+            json_start = ai_response.find('{')
+            json_end = ai_response.rfind('}') + 1
+            
+            if json_start >= 0 and json_end > json_start:
+                json_str = ai_response[json_start:json_end]
+                extracted_specs = json.loads(json_str)
+                
+                # Validate that extracted specs match our field IDs
+                valid_specs = {}
+                for field_id, label, _ in spec_fields:
+                    if field_id in extracted_specs and extracted_specs[field_id]:
+                        valid_specs[field_id] = extracted_specs[field_id]
+                
+                return valid_specs
+            else:
+                return {}
+                
+        except json.JSONDecodeError:
+            st.error("AI returned invalid JSON format")
+            return {}
+            
+    except Exception as e:
+        st.error(f"Error extracting specifications: {str(e)}")
+        return {}
+
+def extract_features_with_ai(document_content: str, api_key: str, provider: str = "groq_free", model: str = "llama-3.1-8b-instant") -> List[str]:
+    """Extract product features from PRD/HRD document using AI"""
+    if not api_key:
+        return []
+    
+    try:
+        prompt = f"""You are analyzing a Product Requirements Document (PRD) or Hardware Requirements Document (HRD) for networking equipment.
+
+DOCUMENT CONTENT:
+{document_content[:2000]}...
+
+TASK: Extract key product features, capabilities, and benefits mentioned in this document.
+
+INSTRUCTIONS:
+1. Look for features, capabilities, benefits, and key selling points
+2. Extract specific technical features and enhancements
+3. Focus on customer-facing benefits and differentiators
+4. Return each feature as a separate line
+5. Keep features concise but descriptive (1-2 sentences max)
+6. Only include features that are clearly stated or implied in the document
+
+EXAMPLE FEATURES:
+- Advanced beamforming technology for improved coverage
+- AI-powered RF optimization
+- Enhanced security with WPA3 support
+- High-density client support up to 512 concurrent users
+
+Extract features now (one per line):"""
+
+        if provider == "groq_free" and GROQ_AVAILABLE:
+            client = Groq(api_key=api_key)
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": "You are an expert at extracting product features from technical documents. Focus on customer benefits and key capabilities."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.2,
+                max_tokens=1000
+            )
+            ai_response = response.choices[0].message.content
+        elif provider == "openai_paid" and OPENAI_AVAILABLE:
+            client = OpenAI(api_key=api_key)
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": "You are an expert at extracting product features from technical documents. Focus on customer benefits and key capabilities."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.2,
+                max_tokens=1000
+            )
+            ai_response = response.choices[0].message.content
+        else:
+            return []
+        
+        # Parse features from response
+        features = []
+        for line in ai_response.split('\n'):
+            line = line.strip()
+            # Remove bullet points and numbering
+            line = re.sub(r'^[\-\*\•\d\.\)]+\s*', '', line)
+            if line and len(line) > 10:  # Filter out very short lines
+                features.append(line)
+        
+        return features[:10]  # Limit to 10 features
+        
+    except Exception as e:
+        st.error(f"Error extracting features: {str(e)}")
+        return []
 
 def load_preloaded_datasheets():
     """Load pre-existing datasheets from the RDS folder into the template library"""
@@ -296,7 +540,7 @@ def calculate_template_quality(sections: Dict) -> float:
     
     return round(score, 2)
 
-def analyze_templates_with_ai(api_key: str, provider: str = "groq_free") -> Dict:
+def analyze_templates_with_ai(api_key: str, provider: str = "groq_free", model: str = "llama-3.1-8b-instant") -> Dict:
     """Use AI to analyze all templates and create improved template patterns"""
     if not st.session_state.templates:
         return {}
@@ -339,7 +583,7 @@ Provide your analysis in a structured JSON format."""
             if provider == "groq_free" and GROQ_AVAILABLE:
                 client = Groq(api_key=api_key)
                 response = client.chat.completions.create(
-                    model="llama-3.1-70b-versatile",
+                    model=model,
                     messages=[
                         {"role": "system", "content": "You are an expert technical writer and document analyst. Analyze datasheet patterns and provide structured insights."},
                         {"role": "user", "content": prompt}
@@ -458,7 +702,7 @@ def extract_key_sections(content: str) -> Dict:
     
     return sections
 
-def generate_datasheet_with_groq(template: Dict, specs: Dict, features: List[str], api_key: str, model: str = "llama-3.1-70b-versatile") -> str:
+def generate_datasheet_with_groq(template: Dict, specs: Dict, features: List[str], api_key: str, model: str = "llama-3.1-8b-instant") -> str:
     """Generate new datasheet using Groq API with enhanced template analysis"""
     if not GROQ_AVAILABLE:
         st.error("Groq library not installed. Please run: pip install groq")
@@ -705,9 +949,10 @@ def markdown_to_pdf(markdown_content: str, filename: str) -> BytesIO:
 def export_library() -> str:
     """Export the entire library as JSON"""
     export_data = {
-        "version": "2.0",
+        "version": "3.0",
         "export_date": datetime.now().isoformat(),
         "templates": st.session_state.templates,
+        "prd_documents": st.session_state.prd_documents,
         "generated_datasheets": st.session_state.generated_datasheets,
         "template_analysis": st.session_state.template_analysis
     }
@@ -718,6 +963,7 @@ def import_library(file_content: str) -> bool:
     try:
         data = json.loads(file_content)
         st.session_state.templates = data.get("templates", {})
+        st.session_state.prd_documents = data.get("prd_documents", {})
         st.session_state.generated_datasheets = data.get("generated_datasheets", [])
         st.session_state.template_analysis = data.get("template_analysis", {})
         return True
@@ -727,19 +973,23 @@ def import_library(file_content: str) -> bool:
 
 # Main UI
 st.title("📊 Ruckus Datasheet Generator")
-st.markdown("Generate professional datasheets for new Ruckus products using AI with enhanced template analysis")
+st.markdown("Generate professional datasheets for new Ruckus products using AI with PRD/HRD integration")
 
 # Top navigation bar
-col1, col2, col3, col4, col5 = st.columns([2, 1, 1, 1, 1])
+col1, col2, col3, col4, col5, col6 = st.columns([2, 1, 1, 1, 1, 1])
 with col2:
+    if st.button("📄 PRD Library", type="secondary" if st.session_state.current_step != 6 else "primary"):
+        st.session_state.current_step = 6
+        st.rerun()
+with col3:
     if st.button("🧠 AI Training", type="secondary" if st.session_state.current_step != 5 else "primary"):
         st.session_state.current_step = 5
         st.rerun()
-with col3:
+with col4:
     if st.button("📋 Library", type="secondary" if st.session_state.current_step != 4 else "primary"):
         st.session_state.current_step = 4
         st.rerun()
-with col4:
+with col5:
     if st.button("🏠 Home", type="secondary" if st.session_state.current_step not in [1, 2, 3] else "primary"):
         st.session_state.current_step = 1
         st.rerun()
@@ -772,9 +1022,9 @@ with st.sidebar:
                 # Model selection for Groq
                 model_choice = st.selectbox(
                     "Groq Model",
-                    ["llama-3.1-70b-versatile", "llama-3.1-8b-instant", "mixtral-8x7b-32768"],
+                    ["llama-3.1-8b-instant", "llama-3.2-3b-preview", "mixtral-8x7b-32768"],
                     index=0,
-                    help="70b model is highest quality, 8b is fastest, Mixtral is good balance"
+                    help="8b model is fastest and most reliable, 3b is lighter, Mixtral is good balance"
                 )
             else:
                 st.info("📝 Sign up at console.groq.com for free API access")
@@ -816,6 +1066,25 @@ with st.sidebar:
     
     st.divider()
     
+    # Document processing status
+    st.subheader("📄 Document Processing")
+    
+    doc_status = []
+    if DOCX_AVAILABLE:
+        doc_status.append("✅ DOCX Support")
+    else:
+        doc_status.append("❌ DOCX (pip install python-docx)")
+    
+    if PDF_READ_AVAILABLE:
+        doc_status.append("✅ PDF Support")
+    else:
+        doc_status.append("❌ PDF (pip install PyPDF2)")
+    
+    for status in doc_status:
+        st.write(status)
+    
+    st.divider()
+    
     # Show API usage info
     if ai_provider == "groq_free":
         st.info("""
@@ -841,6 +1110,7 @@ with st.sidebar:
     col1, col2 = st.columns(2)
     with col1:
         st.metric("Templates", len(st.session_state.templates))
+        st.metric("PRD Docs", len(st.session_state.prd_documents))
     with col2:
         st.metric("Generated", len(st.session_state.generated_datasheets))
     
@@ -885,7 +1155,7 @@ with st.sidebar:
             st.rerun()
 
 # Main content based on current step
-if st.session_state.current_step not in [4, 5]:
+if st.session_state.current_step not in [4, 5, 6]:
     # Step indicator
     steps = ["Select Template", "Enter Specifications", "Generate Datasheet"]
     cols = st.columns(len(steps))
@@ -920,6 +1190,10 @@ if st.session_state.current_step == 1:
         # Show AI training recommendation
         if not st.session_state.template_analysis and len(st.session_state.templates) > 0:
             st.warning("🧠 **Recommendation**: Visit the AI Training tab to analyze your templates for better results!")
+        
+        # Show PRD integration recommendation
+        if not st.session_state.prd_documents:
+            st.info("📄 **New**: Upload PRD/HRD documents to the PRD Library for automatic specification extraction!")
         
         # Filter and sort options
         col1, col2 = st.columns(2)
@@ -1011,13 +1285,103 @@ elif st.session_state.current_step == 2:
         
         st.info(f"Using template: **{template['name']}** ({PRODUCT_TYPES[template['product_type']]['name']}) - {quality_indicator}")
         
+        # PRD/HRD Integration Section
+        st.subheader("📄 PRD/HRD Document Integration (Recommended)")
+        
+        # Show available PRD documents for this product type
+        compatible_prds = {
+            pid: pdata for pid, pdata in st.session_state.prd_documents.items()
+            if pdata['product_type'] == template['product_type']
+        }
+        
+        if compatible_prds:
+            st.write(f"Found {len(compatible_prds)} compatible PRD/HRD documents for {PRODUCT_TYPES[template['product_type']]['name']}:")
+            
+            # PRD selection
+            col1, col2 = st.columns([3, 1])
+            with col1:
+                prd_options = ["None - Manual Entry"] + [f"{pdata['name']} ({pdata['upload_date']})" for pdata in compatible_prds.values()]
+                selected_prd = st.selectbox("Select PRD/HRD Document", prd_options)
+                
+                if selected_prd != "None - Manual Entry":
+                    # Find the selected PRD ID
+                    selected_prd_id = None
+                    for pid, pdata in compatible_prds.items():
+                        if f"{pdata['name']} ({pdata['upload_date']})" == selected_prd:
+                            selected_prd_id = pid
+                            break
+                    
+                    if selected_prd_id:
+                        st.session_state.selected_prd_id = selected_prd_id
+                        prd_data = st.session_state.prd_documents[selected_prd_id]
+                        
+                        # Show PRD info
+                        st.success(f"✅ Selected: {prd_data['name']}")
+                        if prd_data.get('extracted_specs'):
+                            st.write(f"📊 **{len(prd_data['extracted_specs'])} specifications** extracted from this document")
+                        if prd_data.get('extracted_features'):
+                            st.write(f"🎯 **{len(prd_data['extracted_features'])} features** extracted from this document")
+            
+            with col2:
+                if st.button("🔄 Extract Specs from PRD", type="primary", disabled=not api_key):
+                    if selected_prd_id and api_key:
+                        with st.spinner("🧠 Extracting specifications from PRD/HRD document..."):
+                            prd_data = st.session_state.prd_documents[selected_prd_id]
+                            
+                            # Extract specifications
+                            extracted_specs = extract_specifications_with_ai(
+                                prd_data['content'],
+                                template['product_type'],
+                                api_key,
+                                ai_provider,
+                                model_choice
+                            )
+                            
+                            # Extract features
+                            extracted_features = extract_features_with_ai(
+                                prd_data['content'],
+                                api_key,
+                                ai_provider,
+                                model_choice
+                            )
+                            
+                            if extracted_specs or extracted_features:
+                                # Save extracted data to PRD document
+                                st.session_state.prd_documents[selected_prd_id]['extracted_specs'] = extracted_specs
+                                st.session_state.prd_documents[selected_prd_id]['extracted_features'] = extracted_features
+                                
+                                # Pre-populate session state
+                                st.session_state.extracted_specs = extracted_specs
+                                st.session_state.new_features = extracted_features
+                                
+                                st.success(f"✅ Extracted {len(extracted_specs)} specifications and {len(extracted_features)} features!")
+                                time.sleep(1)
+                                st.rerun()
+                            else:
+                                st.warning("❌ No specifications could be extracted. Try manual entry.")
+                    else:
+                        st.error("Please configure your API key in the sidebar.")
+        else:
+            st.info("📄 No PRD/HRD documents found for this product type. Upload documents in the PRD Library or enter specifications manually below.")
+            if st.button("📄 Go to PRD Library"):
+                st.session_state.current_step = 6
+                st.rerun()
+        
+        st.divider()
+        
         # Get spec fields for this product type
         spec_fields = PRODUCT_TYPES[template['product_type']]['spec_fields']
         
         # Create form for specifications
         with st.form("specifications_form"):
             st.subheader("Product Specifications")
-            st.write("Fill in the specifications for your new product. At least one field is required.")
+            
+            # Show if PRD specs were extracted
+            if st.session_state.extracted_specs:
+                st.success(f"✅ {len(st.session_state.extracted_specs)} specifications pre-populated from PRD/HRD document")
+                st.info("Review and modify the extracted specifications below, or add additional ones.")
+            else:
+                st.write("Fill in the specifications for your new product. At least one field is required.")
             
             # Two column layout for specs
             col1, col2 = st.columns(2)
@@ -1026,20 +1390,30 @@ elif st.session_state.current_step == 2:
             for idx, (field_id, label, field_type) in enumerate(spec_fields):
                 col = col1 if idx % 2 == 0 else col2
                 
+                # Get pre-populated value from extracted specs
+                default_value = st.session_state.extracted_specs.get(field_id, "")
+                
                 with col:
                     if field_type == "text":
-                        specs[field_id] = st.text_input(label, key=f"spec_{field_id}")
+                        specs[field_id] = st.text_input(label, value=default_value, key=f"spec_{field_id}")
                     elif field_type == "number":
-                        specs[field_id] = st.text_input(label, key=f"spec_{field_id}")
+                        specs[field_id] = st.text_input(label, value=default_value, key=f"spec_{field_id}")
                     elif field_type == "textarea":
-                        specs[field_id] = st.text_area(label, height=100, key=f"spec_{field_id}")
+                        specs[field_id] = st.text_area(label, value=default_value, height=100, key=f"spec_{field_id}")
             
             st.divider()
             
             # New features section
             st.subheader("New/Enhanced Features")
+            
+            # Pre-populate features if extracted from PRD
+            default_features = "\n".join(st.session_state.new_features) if st.session_state.new_features else ""
+            if default_features:
+                st.success(f"✅ {len(st.session_state.new_features)} features pre-populated from PRD/HRD document")
+            
             features_text = st.text_area(
                 "List new or enhanced features (one per line)",
+                value=default_features,
                 height=150,
                 help="Enter each feature on a new line. Be specific and highlight the benefits.",
                 placeholder="Example:\nAdvanced beamforming technology for improved coverage\nAI-powered RF optimization\nEnhanced security with WPA3 support"
@@ -1060,6 +1434,8 @@ elif st.session_state.current_step == 2:
             with col1:
                 if st.form_submit_button("← Back"):
                     st.session_state.current_step = 1
+                    st.session_state.extracted_specs = {}  # Clear extracted specs
+                    st.session_state.selected_prd_id = None
                     st.rerun()
             
             with col3:
@@ -1098,6 +1474,11 @@ elif st.session_state.current_step == 3:
             st.write(f"**Base Template:** {template['name']}")
             st.write(f"**Product Type:** {PRODUCT_TYPES[template['product_type']]['name']}")
             st.write(f"**Quality Score:** {template.get('quality_score', 'N/A')}")
+            
+            # Show PRD integration info
+            if st.session_state.selected_prd_id:
+                prd_data = st.session_state.prd_documents[st.session_state.selected_prd_id]
+                st.success(f"📄 **PRD Used:** {prd_data['name']}")
         
         with col2:
             st.subheader("New Specifications")
@@ -1109,6 +1490,12 @@ elif st.session_state.current_step == 3:
                 st.success("🧠 AI Template Analysis: Active")
             else:
                 st.info("💡 AI Template Analysis: Not available")
+            
+            # Show PRD integration status
+            if st.session_state.selected_prd_id:
+                st.success("📄 PRD Integration: Active")
+            else:
+                st.info("📄 PRD Integration: Manual entry")
         
         st.divider()
         
@@ -1166,7 +1553,9 @@ elif st.session_state.current_step == 3:
                                 "model_used": f"{ai_provider}: {model_choice}",
                                 "ai_provider": ai_provider,
                                 "template_quality": template.get('quality_score', 0),
-                                "ai_analysis_used": bool(st.session_state.template_analysis.get(template['product_type']))
+                                "ai_analysis_used": bool(st.session_state.template_analysis.get(template['product_type'])),
+                                "prd_integration": bool(st.session_state.selected_prd_id),
+                                "prd_used": st.session_state.prd_documents[st.session_state.selected_prd_id]['name'] if st.session_state.selected_prd_id else None
                             }
                             st.session_state.generated_datasheets.append(datasheet)
                             st.success(f"✅ Datasheet generated successfully using {ai_provider.replace('_', ' ').title()}!")
@@ -1230,6 +1619,8 @@ elif st.session_state.current_step == 3:
                                     st.session_state.current_step = 1
                                     st.session_state.new_specs = {}
                                     st.session_state.new_features = []
+                                    st.session_state.extracted_specs = {}
+                                    st.session_state.selected_prd_id = None
                                     st.rerun()
                             
                             # Preview
@@ -1293,11 +1684,13 @@ elif st.session_state.current_step == 4:
             # Quality and AI indicators
             template_quality = ds.get('template_quality', 0)
             ai_analysis = ds.get('ai_analysis_used', False)
+            prd_integration = ds.get('prd_integration', False)
             
             quality_emoji = "🏆" if template_quality >= 0.8 else "⭐" if template_quality >= 0.6 else "👍" if template_quality >= 0.4 else "📄"
             ai_emoji = "🧠" if ai_analysis else "💡"
+            prd_emoji = "📄" if prd_integration else ""
             
-            with st.expander(f"{quality_emoji}{ai_emoji} {ds['product_name']} - Generated {ds['generation_date']}"):
+            with st.expander(f"{quality_emoji}{ai_emoji}{prd_emoji} {ds['product_name']} - Generated {ds['generation_date']}"):
                 col1, col2 = st.columns([3, 1])
                 
                 with col1:
@@ -1306,8 +1699,12 @@ elif st.session_state.current_step == 4:
                     st.write(f"**AI Model Used:** {ds.get('model_used', 'Unknown')}")
                     st.write(f"**Template Quality:** {template_quality}")
                     
+                    # Show PRD integration info
+                    if prd_integration and ds.get('prd_used'):
+                        st.write(f"**PRD Document Used:** {ds['prd_used']}")
+                    
                     # Show AI provider and analysis badges
-                    col_a, col_b = st.columns(2)
+                    col_a, col_b, col_c = st.columns(3)
                     with col_a:
                         if ds.get('ai_provider') == 'groq_free':
                             st.success("🆓 Generated with Groq (Free)")
@@ -1319,6 +1716,12 @@ elif st.session_state.current_step == 4:
                             st.success("🧠 AI Analysis Used")
                         else:
                             st.info("💡 Basic Template Used")
+                    
+                    with col_c:
+                        if prd_integration:
+                            st.success("📄 PRD Integration Used")
+                        else:
+                            st.info("✏️ Manual Entry Used")
                     
                     # Show specs summary
                     if ds['specs']:
@@ -1442,7 +1845,8 @@ elif st.session_state.current_step == 5:
                 if st.button("🧠 Start Training", type="primary", use_container_width=True):
                     if api_key:
                         with st.spinner("🧠 Analyzing templates with AI... This may take a few minutes."):
-                            analysis_results = analyze_templates_with_ai(api_key, ai_provider)
+                            # Pass the selected model to the analysis function
+                            analysis_results = analyze_templates_with_ai(api_key, ai_provider, model_choice)
                             
                             if analysis_results:
                                 st.session_state.template_analysis = analysis_results
@@ -1521,9 +1925,237 @@ elif st.session_state.current_step == 5:
             if not st.session_state.template_analysis:
                 st.write("🧠 **Run AI training** to unlock advanced template analysis and improved generation quality.")
 
+# Step 6: PRD Library Tab
+elif st.session_state.current_step == 6:
+    st.header("📄 PRD/HRD Document Library")
+    st.markdown("Upload and manage Product Requirements Documents (PRDs) and Hardware Requirements Documents (HRDs) for automatic specification extraction.")
+    
+    # Upload section
+    st.subheader("📤 Upload New PRD/HRD Document")
+    
+    # File uploader
+    uploaded_file = st.file_uploader(
+        "Upload PRD/HRD Document",
+        type=['txt', 'docx', 'pdf'],
+        help="Supported formats: TXT, DOCX, PDF. The AI will extract specifications and features from these documents."
+    )
+    
+    if uploaded_file:
+        col1, col2 = st.columns([2, 1])
+        
+        with col1:
+            # Document details
+            st.write(f"**Filename:** {uploaded_file.name}")
+            st.write(f"**File Size:** {uploaded_file.size:,} bytes")
+            st.write(f"**File Type:** {uploaded_file.type}")
+            
+            # Product type selection
+            product_type = st.selectbox(
+                "Select Product Type",
+                list(PRODUCT_TYPES.keys()),
+                format_func=lambda x: PRODUCT_TYPES[x]['name']
+            )
+            
+            # Document name
+            doc_name = st.text_input(
+                "Document Name",
+                value=uploaded_file.name.split('.')[0],
+                help="Give this document a descriptive name"
+            )
+        
+        with col2:
+            if st.button("📄 Add to PRD Library", type="primary", use_container_width=True):
+                if doc_name:
+                    try:
+                        # Read file content
+                        file_content = uploaded_file.read()
+                        
+                        # Extract text based on file type
+                        if uploaded_file.type == "text/plain":
+                            text_content = file_content.decode('utf-8')
+                        elif uploaded_file.type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
+                            text_content = extract_text_from_docx(file_content)
+                        elif uploaded_file.type == "application/pdf":
+                            text_content = extract_text_from_pdf(file_content)
+                        else:
+                            st.error("Unsupported file type")
+                            text_content = None
+                        
+                        if text_content:
+                            # Create PRD document entry
+                            prd_id = f"prd_{datetime.now().strftime('%Y%m%d%H%M%S')}"
+                            
+                            st.session_state.prd_documents[prd_id] = {
+                                "name": doc_name,
+                                "original_filename": uploaded_file.name,
+                                "product_type": product_type,
+                                "content": text_content,
+                                "upload_date": datetime.now().strftime("%Y-%m-%d %H:%M"),
+                                "file_size": uploaded_file.size,
+                                "file_type": uploaded_file.type,
+                                "extracted_specs": {},
+                                "extracted_features": []
+                            }
+                            
+                            st.success(f"✅ PRD/HRD document '{doc_name}' added to library!")
+                            time.sleep(1)
+                            st.rerun()
+                        else:
+                            st.error("Could not extract text from the uploaded file.")
+                    except Exception as e:
+                        st.error(f"Error processing file: {str(e)}")
+                else:
+                    st.error("Please provide a document name.")
+    
+    st.divider()
+    
+    # PRD Library display
+    st.subheader("📚 PRD/HRD Document Library")
+    
+    if not st.session_state.prd_documents:
+        st.info("📄 No PRD/HRD documents uploaded yet. Upload documents above to get started.")
+    else:
+        # Filter and search
+        col1, col2 = st.columns(2)
+        with col1:
+            search_prd = st.text_input("Search PRD documents", placeholder="Search by document name...")
+        with col2:
+            filter_prd_type = st.selectbox(
+                "Filter by product type",
+                ["All"] + list(PRODUCT_TYPES.keys()),
+                format_func=lambda x: "All Types" if x == "All" else PRODUCT_TYPES[x]['name']
+            )
+        
+        # Filter PRD documents
+        filtered_prds = []
+        for prd_id, prd_data in st.session_state.prd_documents.items():
+            if search_prd and search_prd.lower() not in prd_data['name'].lower():
+                continue
+            if filter_prd_type != "All" and prd_data['product_type'] != filter_prd_type:
+                continue
+            filtered_prds.append((prd_id, prd_data))
+        
+        # Sort by upload date (newest first)
+        filtered_prds.sort(key=lambda x: x[1]['upload_date'], reverse=True)
+        
+        st.write(f"**{len(filtered_prds)} document(s) found**")
+        
+        # Display PRD documents
+        for prd_id, prd_data in filtered_prds:
+            # Check if specs have been extracted
+            has_extracted_specs = bool(prd_data.get('extracted_specs'))
+            has_extracted_features = bool(prd_data.get('extracted_features'))
+            
+            status_emoji = "✅" if has_extracted_specs or has_extracted_features else "📄"
+            
+            with st.expander(f"{status_emoji} {prd_data['name']} ({PRODUCT_TYPES[prd_data['product_type']]['name']})", expanded=False):
+                col1, col2 = st.columns([3, 1])
+                
+                with col1:
+                    st.write(f"**Product Type:** {PRODUCT_TYPES[prd_data['product_type']]['name']}")
+                    st.write(f"**Original Filename:** {prd_data['original_filename']}")
+                    st.write(f"**Upload Date:** {prd_data['upload_date']}")
+                    st.write(f"**File Size:** {prd_data['file_size']:,} bytes")
+                    
+                    # Show extraction status
+                    if has_extracted_specs:
+                        st.success(f"✅ **{len(prd_data['extracted_specs'])} specifications** extracted")
+                    if has_extracted_features:
+                        st.success(f"✅ **{len(prd_data['extracted_features'])} features** extracted")
+                    
+                    if not has_extracted_specs and not has_extracted_features:
+                        st.info("💡 Click 'Extract Specs' to analyze this document with AI")
+                    
+                    # Show content preview
+                    if st.checkbox(f"Show content preview", key=f"preview_prd_{prd_id}"):
+                        st.write("**Document Content Preview:**")
+                        preview_content = prd_data['content'][:500] + "..." if len(prd_data['content']) > 500 else prd_data['content']
+                        st.text_area("", value=preview_content, height=200, disabled=True, key=f"preview_content_{prd_id}")
+                
+                with col2:
+                    # Extract specifications button
+                    if st.button("🧠 Extract Specs", key=f"extract_{prd_id}", 
+                                type="primary" if not has_extracted_specs else "secondary",
+                                use_container_width=True, disabled=not api_key):
+                        if api_key:
+                            with st.spinner("🧠 Extracting specifications and features..."):
+                                # Extract specifications
+                                extracted_specs = extract_specifications_with_ai(
+                                    prd_data['content'],
+                                    prd_data['product_type'],
+                                    api_key,
+                                    ai_provider,
+                                    model_choice
+                                )
+                                
+                                # Extract features
+                                extracted_features = extract_features_with_ai(
+                                    prd_data['content'],
+                                    api_key,
+                                    ai_provider,
+                                    model_choice
+                                )
+                                
+                                # Save extracted data
+                                st.session_state.prd_documents[prd_id]['extracted_specs'] = extracted_specs
+                                st.session_state.prd_documents[prd_id]['extracted_features'] = extracted_features
+                                
+                                if extracted_specs or extracted_features:
+                                    st.success(f"✅ Extracted {len(extracted_specs)} specs and {len(extracted_features)} features!")
+                                else:
+                                    st.warning("❌ No specifications could be extracted from this document.")
+                                
+                                time.sleep(2)
+                                st.rerun()
+                        else:
+                            st.error("Please configure your API key in the sidebar.")
+                    
+                    # Show extracted data button
+                    if has_extracted_specs or has_extracted_features:
+                        if st.button("📊 View Extracted Data", key=f"view_{prd_id}", use_container_width=True):
+                            st.session_state[f"show_extracted_{prd_id}"] = not st.session_state.get(f"show_extracted_{prd_id}", False)
+                            st.rerun()
+                    
+                    # Delete button
+                    if st.button("🗑️ Delete", key=f"delete_prd_{prd_id}", use_container_width=True):
+                        del st.session_state.prd_documents[prd_id]
+                        st.success("Document deleted!")
+                        time.sleep(1)
+                        st.rerun()
+                
+                # Show extracted data if requested
+                if st.session_state.get(f"show_extracted_{prd_id}", False):
+                    st.divider()
+                    
+                    if prd_data.get('extracted_specs'):
+                        st.write("**Extracted Specifications:**")
+                        spec_cols = st.columns(2)
+                        for idx, (key, value) in enumerate(prd_data['extracted_specs'].items()):
+                            col = spec_cols[idx % 2]
+                            with col:
+                                st.write(f"• **{key.replace('_', ' ').title()}:** {value}")
+                    
+                    if prd_data.get('extracted_features'):
+                        st.write("**Extracted Features:**")
+                        for feature in prd_data['extracted_features']:
+                            st.write(f"• {feature}")
+        
+        # Show usage instructions if PRDs exist but no extractions
+        if st.session_state.prd_documents and not any(
+            prd.get('extracted_specs') or prd.get('extracted_features') 
+            for prd in st.session_state.prd_documents.values()
+        ):
+            st.divider()
+            st.subheader("💡 How to Use PRD Integration")
+            st.write("1. **Extract specifications** from your uploaded PRD/HRD documents using the 'Extract Specs' button")
+            st.write("2. **Go to the Home tab** and select a template for datasheet generation")
+            st.write("3. **In Step 2**, compatible PRD documents will be available for automatic spec population")
+            st.write("4. **Select a PRD document** to pre-populate specifications and features automatically")
+            st.write("5. **Review and modify** the extracted data as needed before generating the datasheet")
+
 # Footer
 st.divider()
-footer_text = f"Ruckus Datasheet Generator v3.0 | Powered by "
+footer_text = f"Ruckus Datasheet Generator v3.0 with PRD/HRD Integration | Powered by "
 if ai_provider == "groq_free":
     footer_text += "🆓 Groq (Free)"
 else:
@@ -1531,6 +2163,9 @@ else:
 
 if st.session_state.template_analysis:
     footer_text += " | 🧠 AI Enhanced"
+
+if st.session_state.prd_documents:
+    footer_text += " | 📄 PRD Integrated"
 
 if PDF_AVAILABLE:
     footer_text += " | 📄 PDF Ready"

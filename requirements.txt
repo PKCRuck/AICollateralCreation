@@ -5,3 +5,5 @@ pandas
 reportlab
 markdown
 beautifulsoup4
+python-docx
+PyPDF2
