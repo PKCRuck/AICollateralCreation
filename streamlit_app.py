@@ -1022,67 +1022,58 @@ def extract_text_from_docx(file_content: bytes) -> str:
     except Exception as e:
         return f"Error extracting DOCX text: {str(e)}"
 
-def analyze_prd_with_ai(prd_content: str, model: str = "llama-3.1-8b-instant") -> Dict:
-    """Analyze PRD content using AI to extract specifications with enhanced accuracy"""
+def analyze_prd_with_ai(prd_content: str, model: str = "llama-3.1-8b-instant", expected_product_type: Optional[str] = None) -> Dict:
+    """Analyze PRD content using AI to extract specifications with enhanced accuracy (product-type aware)"""
+    # Determine target product type to guide extraction
+    target_type = expected_product_type or detect_product_type(prd_content)
+    product_type_options = "|".join(PRODUCT_TYPES.keys())
+
+    # Build spec keys dynamically for the target type
+    spec_fields = PRODUCT_TYPES.get(target_type, {}).get('spec_fields', [])
+    spec_keys = [field_id for (field_id, _label, _ftype) in spec_fields]
+
     if not GROQ_AVAILABLE:
-        return {"error": "Groq library not available"}
+        return extract_specs_fallback(prd_content, expected_product_type=target_type)
     
     try:
         client = Groq(api_key=GROQ_API_KEY)
         
-        # Enhanced prompt for more accurate PRD analysis
-        prompt = f"""You are an expert technical analyst for network equipment Product Requirements Documents (PRDs). 
+        # Enhanced prompt tailored to target product type
+        spec_keys_list = ", ".join(spec_keys) if spec_keys else ""
+        type_name = PRODUCT_TYPES.get(target_type, {}).get('name', target_type)
+        prompt = f"""You are an expert technical analyst for network equipment Product Requirements Documents (PRDs).
 
-Analyze the following PRD content and extract ALL technical specifications and product details with HIGH ACCURACY.
+Analyze the following PRD content and extract ONLY factual technical specifications. Never fabricate or estimate values.
 
 CRITICAL REQUIREMENTS:
-1. Extract ONLY factual specifications that are explicitly stated
-2. Do NOT fabricate or estimate values
-3. Be precise with units and measurements
-4. Identify the correct product type based on technical details
-5. Extract complete feature lists with technical benefits
+1. Extract ONLY values explicitly stated in the PRD
+2. Be precise with units and measurements
+3. Identify and set the correct product_type
+4. Use EXACT field names in 'specifications' for the detected product type
+
+Focus on product type: {type_name} ("{target_type}"). If the content clearly indicates a different type among [{', '.join(PRODUCT_TYPES.keys())}], set 'product_type' accordingly; otherwise use "{target_type}".
 
 Return ONLY a valid JSON object with these keys:
 {{
-    "product_type": "wireless_ap|switch|controller",
+    "product_type": "one of: {product_type_options}",
     "model_number": "extracted model number or null",
     "specifications": {{
-        "wireless_standards": "exact standards from document",
-        "frequency_bands": "exact frequency information", 
-        "max_data_rate": "exact data rate with units",
-        "spatial_streams": "exact stream configuration",
-        "mimo_config": "exact MIMO details",
-        "antenna_type": "exact antenna specifications",
-        "max_clients": "exact client capacity",
-        "ssid_support": "exact SSID support",
-        "ethernet_ports": "exact port specifications",
-        "poe_requirements": "exact PoE details",
-        "power_consumption": "exact power specifications",
-        "transmit_power_2_4": "exact 2.4GHz transmit power",
-        "transmit_power_5": "exact 5GHz transmit power",
-        "transmit_power_6": "exact 6GHz transmit power",
-        "receive_sensitivity_2_4": "exact 2.4GHz sensitivity",
-        "receive_sensitivity_5": "exact 5GHz sensitivity",
-        "receive_sensitivity_6": "exact 6GHz sensitivity",
-        "dimensions": "exact dimensions with units",
-        "weight": "exact weight with units",
-        "operating_temp": "exact temperature range",
-        "humidity_rating": "exact humidity specifications",
-        "mounting_options": "exact mounting information",
-        "security_protocols": "exact security standards",
-        "management_protocols": "exact management protocols",
-        "certifications": "exact certifications listed",
-        "warranty": "exact warranty information"
+        {', '.join([f'"{k}": "value or null"' for k in spec_keys])}
     }},
-    "features": ["exact feature 1", "exact feature 2", "exact feature 3"],
+    "features": ["verbatim feature 1", "verbatim feature 2"],
     "performance_metrics": {{
-        "throughput": "exact throughput specifications",
-        "capacity": "exact capacity metrics",
-        "coverage": "exact coverage information"
+        "throughput": "value or null",
+        "capacity": "value or null",
+        "coverage": "value or null"
     }},
     "confidence_score": 0.0-1.0,
     "extraction_notes": "Notes about extraction quality and missing information"
 }}
+
+IMPORTANT:
+- Use EXACT spec field names: {spec_keys_list}
+- If any field is not present, set it to null
+- Do NOT invent values
 
 PRD CONTENT:
 {prd_content[:8000]}"""
@@ -1093,7 +1084,7 @@ PRD CONTENT:
                 {"role": "system", "content": "You are an expert technical analyst specializing in network equipment PRDs. Extract specifications with 100% accuracy - never fabricate data."},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.05,  # Very low temperature for accuracy
+            temperature=0.05,
             max_tokens=4000
         )
         
@@ -1112,62 +1103,98 @@ PRD CONTENT:
             
             parsed_data = json.loads(content)
             
-            # Validate extracted data
-            if not parsed_data.get("product_type"):
-                parsed_data["product_type"] = detect_product_type(prd_content)
+            # Normalize and validate product type
+            parsed_type = parsed_data.get("product_type")
+            if not parsed_type or parsed_type not in PRODUCT_TYPES:
+                parsed_data["product_type"] = target_type
+            
+            # Normalize specification keys to our canonical keys
+            input_specs = parsed_data.get("specifications", {}) or {}
+            normalized_specs = {}
+            for key, value in input_specs.items():
+                norm_key = re.sub(r"[^a-z0-9]+", "_", str(key).strip().lower())
+                normalized_specs[norm_key] = value
+            
+            filtered_specs: Dict[str, Optional[str]] = {}
+            for key in spec_keys:
+                filtered_specs[key] = normalized_specs.get(key, input_specs.get(key))
+            
+            parsed_data["specifications"] = filtered_specs
+            
+            # Ensure features and performance_metrics exist
+            if "features" not in parsed_data or not isinstance(parsed_data.get("features"), list):
+                parsed_data["features"] = []
+            if "performance_metrics" not in parsed_data or not isinstance(parsed_data.get("performance_metrics"), dict):
+                parsed_data["performance_metrics"] = {}
+            if "confidence_score" not in parsed_data:
+                # Heuristic confidence based on number of populated specs
+                filled = len([v for v in filtered_specs.values() if v])
+                total = len(filtered_specs) if filtered_specs else 1
+                parsed_data["confidence_score"] = min(1.0, 0.4 + (filled / total) * 0.6)
             
             return parsed_data
             
-        except json.JSONDecodeError as e:
-            return extract_specs_fallback(prd_content)
-            
-    except Exception as e:
-        return {"error": f"Error analyzing PRD: {str(e)}"}
+        except json.JSONDecodeError:
+            return extract_specs_fallback(prd_content, expected_product_type=target_type)
+        
+    except Exception:
+        return extract_specs_fallback(prd_content, expected_product_type=target_type)
 
-def extract_specs_fallback(content: str) -> Dict:
-    """Enhanced fallback specification extraction"""
-    specs = {
-        "product_type": detect_product_type(content),
-        "specifications": {},
-        "features": [],
-        "confidence_score": 0.5,
-        "extraction_notes": "Fallback extraction method used"
-    }
-    
-    # Enhanced patterns for better accuracy
-    patterns = {
-        "model_number": r'(?:Model|Part|Product)\s*(?:Number|#|ID):\s*([A-Z0-9\-]+)',
-        "max_data_rate": r'(?:Data\s*Rate|Speed|Throughput):\s*([0-9.,]+\s*[GMK]?bps)',
-        "frequency_bands": r'(?:Frequency|Band):\s*([0-9.]+\s*GHz[^.]*)',
-        "power_consumption": r'(?:Power|Consumption):\s*([0-9.]+\s*W)',
-        "dimensions": r'(?:Dimensions|Size):\s*([0-9.,\s×x]+\s*(?:cm|mm|in))',
-        "weight": r'(?:Weight):\s*([0-9.]+\s*(?:kg|lbs|g))',
-        "operating_temp": r'(?:Operating\s*Temperature|Temp):\s*([0-9\-°C\s]+)',
-        "max_clients": r'(?:Up to|Maximum)\s*(\d+)\s*clients',
-        "spatial_streams": r'(\d+)\s*spatial\s*streams',
-        "transmit_power_2_4": r'2\.4\s*GHz:\s*(\d+\.?\d*\s*dBm)',
-        "transmit_power_5": r'5\s*GHz:\s*(\d+\.?\d*\s*dBm)'
-    }
-    
-    for key, pattern in patterns.items():
-        match = re.search(pattern, content, re.IGNORECASE)
-        if match:
-            specs["specifications"][key] = match.group(1).strip()
-    
-    # Enhanced feature extraction
+def extract_specs_fallback(content: str, expected_product_type: Optional[str] = None) -> Dict:
+    """Enhanced fallback specification extraction that uses product-type specific patterns"""
+    product_type = expected_product_type or detect_product_type(content)
+
+    specs: Dict[str, str] = {}
+
+    # Use product-type specific regex patterns when available
+    type_patterns = SPEC_EXTRACTION_PATTERNS.get(product_type, {})
+    for field, patterns in type_patterns.items():
+        if isinstance(patterns, list):
+            for pattern in patterns:
+                match = re.search(pattern, content, re.IGNORECASE | re.MULTILINE)
+                if match:
+                    try:
+                        specs[field] = match.group(1).strip()
+                    except IndexError:
+                        specs[field] = match.group(0).strip()
+                    break
+        else:
+            match = re.search(patterns, content, re.IGNORECASE | re.MULTILINE)
+            if match:
+                try:
+                    specs[field] = match.group(1).strip()
+                except IndexError:
+                    specs[field] = match.group(0).strip()
+
+    # Fallback generic feature extraction
+    features: List[str] = []
     feature_patterns = [
         r'[•\-\*]\s*([^.\n]+)',
         r'\d+\.\s*([^.\n]+)',
         r'^\s*([A-Z][^.]+)$'
     ]
-    
     for pattern in feature_patterns:
         matches = re.findall(pattern, content, re.MULTILINE)
-        for match in matches[:15]:  # Increased limit
-            if len(match.strip()) > 10 and len(match.strip()) < 150:
-                specs["features"].append(match.strip())
-    
-    return specs
+        for match in matches[:20]:
+            text = match.strip()
+            if 10 < len(text) < 180:
+                features.append(text)
+
+    # Confidence heuristic based on number of extracted specs vs expected spec fields
+    expected_fields = PRODUCT_TYPES.get(product_type, {}).get('spec_fields', [])
+    total_expected = len(expected_fields)
+    found_specs = len([v for v in specs.values() if v])
+    confidence = min(1.0, 0.4 + (found_specs / max(1, total_expected)) * 0.6) if found_specs else 0.3
+
+    return {
+        "product_type": product_type,
+        "model_number": specs.get("model_number"),
+        "specifications": specs,
+        "features": features,
+        "performance_metrics": {},
+        "confidence_score": confidence,
+        "extraction_notes": "Fallback extraction (regex-based) used"
+    }
 
 def detect_product_type(content: str) -> str:
     """Enhanced product type detection"""
@@ -3163,7 +3190,7 @@ elif st.session_state.current_step == 5:
                             st.text_area("First 1000 characters", extracted_text[:1000], height=200, disabled=True)
                         
                         # Analyze with enhanced AI
-                        analysis_result = analyze_prd_with_ai(extracted_text, model_choice)
+                        analysis_result = analyze_prd_with_ai(extracted_text, model_choice, expected_type)
                         
                         if "error" not in analysis_result:
                             prd_id = datetime.now().strftime("%Y%m%d%H%M%S")
