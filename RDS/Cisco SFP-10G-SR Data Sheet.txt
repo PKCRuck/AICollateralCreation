@@ -1,0 +1,607 @@
+CISCO SFP-10G-SR
+
+Dual-LC, 850nm, MMF, 300m
+
+Part Number:
+
+SFP-10G-SR
+
+CISCO SFP-10G-SR Quick Spec:
+Form Factor:
+TX Wavelength:
+Reach:
+Cable Type:
+Rate Category:
+Interface Type:
+DDM:
+Connector Type:
+Temperature:
+Power Budget:
+TX Power Min/Max:
+RX Power Min/Max:
+
+SFP+
+850nm
+300m
+MMF
+10GBase
+SR
+Yes
+Dual-LC
+Commercial
+5.1dB
+-6.00 to -1.00
+-11.1 to -1.00
+
+CISCO SFP-10G-SR Features
+•
+•
+•
+•
+•
+
+•
+
+Operating Data Rate up to 10.3Gbps
+Single 3. 3V Power Supply and TTL Logic Interface
+Hot Pluggable
+850nm VCSEL Transmitter
+Reach:
+o OM1 (62.5/125micron) 33m
+o OM2 (50/125micron 400 MHz*km) 82m
+o OM3 (50/125micron 2000 MHz*km) 300m
+o OM4 (50/125micron 4700) 300m
+Operating Case Temperature
+o
+
+•
+•
+•
+•
+•
+
+Standard: 0℃~+70℃
+
+o Industrial: -40℃~+85℃
+Compliant with MSA
+Compliant with IEEE 802.3ae 10GBASE-SR
+Digital Diagnostic Monitor Interface
+Compliant with SFF-8472
+RoHS 6 Compliant
+
+CISCO SFP-10G-SR Applications
+•
+
+10G Ethernet at 10.3125Gbps
+
+FluxLight, Inc.
+
+Tel: 888-874-7574
+
+|
+
+Fax: 866-267-3045
+
+|
+
+E-mail: sales@fluxlight.com
+
+|
+
+www.fluxlight.com
+
+Page 1 of 3
+Revision: 0718
+
+CISCO SFP-10G-SR
+
+Dual-LC, 850nm, MMF, 300m
+
+CISCO SFP-10G-SR Electrical Characteristics (Condition: Ta=TOP)
+Parameter
+
+Symbol
+
+Min.
+
+CML Inputs(Differential)
+
+Vin
+
+150
+
+Supply Current
+
+ICC
+
+Input Impedance (Differential)
+
+Zin
+
+85
+
+Tx_Disable Input Voltage – Low
+
+VIL
+
+Tx_Disable Input Voltage – High
+
+Typ
+
+Max.
+
+Unit
+
+1200
+
+mV p-p
+
+300
+
+mA
+
+115
+
+ohm
+
+0
+
+0.8
+
+V
+
+VIH
+
+2.0
+
+3.45
+
+V
+
+Tx_Fault Output Voltage – Low
+
+VOL
+
+0
+
+0.5
+
+V
+
+Tx_Fault Output Voltage – High
+
+VOH
+
+2.0
+
+Vcc+0.3
+
+V
+
+CML Outputs (Differential)
+
+Vout
+
+350
+
+700
+
+mV pp
+
+Output Impedance (Differential)
+
+Zout
+
+85
+
+115
+
+ohms
+
+Rx_LOS Output Voltage- Low
+
+VOL
+
+0
+
+0.5
+
+V
+
+Rx_LOS Output Voltage- High
+
+VOH
+
+2.5
+
+100
+
+100
+
+Notes
+AC coupled inputs
+
+Rin > 100 kohm @ DC
+
+AC coupled outputs
+
+V
+
+CISCO SFP-10G-SR Optical Characteristics (Condition: Ta=TOP)
+TX
+Parameter
+
+Symbol
+
+Data Rate
+
+Min
+
+Typ
+
+Max
+
+Unit
+
+-
+
+10.3
+
+-
+
+Gb/s
+
+50/125mm MMF
+
+300
+
+m
+
+Centre wavelength
+
+λc
+
+840
+
+850
+
+860
+
+nm
+
+Output Spectral Width(RMS)
+
+△λ
+
+-
+
+-
+
+0.45
+
+nm
+
+Average Output Power
+
+Pout
+
+-6
+
+-
+
+-1
+
+dBm
+
+Extinction Ratio
+
+ER
+
+3.0
+
+5.0
+
+-
+
+dB
+
+Output Optical Eye
+
+IEEE 802.3-2005 Compliant
+
+Transmitter Dispersion Penalty
+
+TDP
+
+Input Differential Impedance
+
+Zin
+
+Disable
+
+TX Disable
+
+Enable
+Fault
+
+TX Fault
+
+Normal
+
+TX Disable Assert Time
+
+FluxLight, Inc.
+
+Tel: 888-874-7574
+
+|
+
+Fax: 866-267-3045
+
+3.9
+
+dB
+
+110
+
+Ω
+
+2.0
+0
+
+Vcc+0.3
+0.8
+
+V
+
+2.0
+0
+
+Vcc+0.3
+0.8
+
+V
+
+10
+
+us
+
+90
+
+100
+
+t_off
+
+|
+
+E-mail: sales@fluxlight.com
+
+|
+
+www.fluxlight.com
+
+Page 2 of 3
+Revision: 0718
+
+CISCO SFP-10G-SR
+
+Dual-LC, 850nm, MMF, 300m
+
+RX
+Parameter
+
+Symbol
+
+Min
+
+Center Wavelength
+
+λc
+
+840
+
+Receive Sensitivity
+
+Pin
+
+-
+
+PMAX
+
+-1
+
+Signal Detect Threshold-Assertion:
+
+SDHIGH
+
+-
+
+-
+
+-12
+
+dBm
+
+Signal Detect Threshold-Deassertion:
+
+SDLOW
+
+-25
+
+-
+
+-
+
+dBm
+
+Pin
+
+90
+
+100
+
+110
+
+Ω
+
+Receiver Overload
+
+Pmax
+
+0.5
+
+Optical Return Loss
+
+ORL
+
+-12
+
+dB
+
+High
+
+2.0
+
+Vcc+0.3
+
+V
+
+Low
+
+0
+
+0.8
+
+Maximum Input Power
+
+Output Differential Impedance
+
+LOS
+
+Typ
+
+Max
+
+Unit
+
+850
+
+860
+
+nm
+
+-
+
+-11.1
+
+dBm
+dBm
+
+dBm
+
+Absolute Maximum Ratings (TC=25℃)
+Parameter
+Storage Temperature
+
+Symbol
+
+Min
+
+Max
+
+Unit
+
+TST
+
+-40
+
++85
+
+℃
+
+0
+
++70
+
+-40
+
++85
+
+0
+
+5
+
+Operating Temperature (Standard)
+
+℃
+
+TIP
+Operating Temperature (Industrial)
+Input Voltage
+
+TCC
+
+V
+
+Recommend Operation Environment
+Parameter
+Supply Voltage
+
+Symbol
+
+Min
+
+Typ
+
+Max
+
+Unit
+
+VCC
+
++3.15
+
+3.3
+
++3.45
+
+V
+
+0
+
+-
+
++70
+
+-40
+
+-
+
++85
+
+Operating Temperature (Standard)
+TOP
+Operating Temperature (Industrial)
+
+FluxLight, Inc.
+
+Tel: 888-874-7574
+
+|
+
+Fax: 866-267-3045
+
+|
+
+E-mail: sales@fluxlight.com
+
+|
+
+www.fluxlight.com
+
+℃
+
+Page 3 of 3
+Revision: 0718
+
+

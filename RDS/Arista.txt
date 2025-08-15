@@ -1,0 +1,5425 @@
+Optics Modules and Cables
+Data Sheet
+
+Key Features
+
+Overview
+
+• Deployment flexibility with 800G
+(dual 400G), 400G, 100G, 50G, 40G,
+25G, 10G or 1G modules.
+
+Arista's Optical Modules and Cable portfolio offer a wide variety of
+high-density and low-power 800G (dual 400G), 400G, 200G, 100G,
+50G, 40G, 25G, 10G, 1G, and 100M Ethernet connectivity options
+over fiber or copper.
+
+• Hot swappable to maximize uptime
+and simplify serviceability
+• Data rates from 1GbE to 25GbE
+supported using the SFP form factor,
+for the smallest, and lowest power
+solutions
+
+To accommodate an increasing spectrum of applications, Arista
+offers a wide choice of OSFP, QSFP-DD, QSFP, SFP, SFP-DD and DSFP
+transceivers and cables that comply with industry standards, offering
+a broad range of connectivity options. Each module is optimized for
+different media and reach (ranging from 0.5 meters to 80 kilometers).
+
+• SFP+ Optical interoperability with
+10GbE XFP, X2 and XENPAK
+pluggable form factors
+
+All interface speeds, from 1G to 400GE have connectivity options
+that include Direct Attach copper Cables (DACs), Active Optical
+Cables (AOCs), multi-mode fiber and single-mode fiber transceivers.
+
+• QSFP+ Universal transceiver for 40G
+operations over duplex multi-mode
+and single-mode fiber. Interoperable
+with IEEE 40GbE LR4 and LRL4 for
+easier migrations from 10G to 40G
+and to single mode fiber
+• 100G QSFP pluggable transceivers
+and cables for high density 100G
+deployments. Optical interoperability
+with 100GbE CFP, CFP2 and CPAK
+• Parallel QSFP transceivers for both
+multi-mode and single-mode enable
+flexible 4x25G and 4x10G options for
+gradual migration from 10G to 40G
+and 25G to 100G connectivity
+
+800G OSFP
+(Dual 400G-FR4, Dual 400G-XDR4)
+
+100GBASE-LRL4 and LR4 QSFP
+
+400GBASE-DR4, SR8, 2FR4 OSFP
+
+100GBASE-CR4 Copper Cable
+
+400GBASE-AOC
+
+40GBASE-CR4 to 4x 10GBASE-CR
+Copper Cable
+
+• 100G SFP-DD and DSFP cables for
+cost effective NIC connectivity
+• 200G QSFP optics, AOCs and cables
+for simple upgrade from 100G
+• A Broad range of 400GE optics, AOCs
+and cables, in both OSFP and
+QSFP-DD form-factors
+
+40GBASE-LRL4, UNIV, LR4 and XSR4 QSFP+
+
+25GBASE-CR, AOC, SR and LR
+
+• 400G-ZR optics, with pluggable linesystem for simple, cost effective DCI
+• Flexibility of media and interface
+choice on a port-by-port basis
+• Support for tunable 10G and 400G
+DWDM for DCI and long-haul optical
+fiber networks
+
+10GBASE-SR and LR SFP+ 1000BASE-T SFP
+
+10GBASE-CR Copper Cable
+
+Optics Modules and Cables | Technical Specifications
+
+800G OSFP Options
+PHY Type
+
+Reach
+
+800GBASE-CR8 /
+2x 400GBASE-CR4
+
+Twin-ax passive copper cables with link lengths of 1m - 2m.
+
+800GBASE-AOC /
+2x 400GBASE-AOC
+
+Active Optical Cable with link lengths of 1m to 30m pre-terminated
+
+2x 400GBASE-XDR4
+
+Dual 400G optics, up to 2km over parallel single-mode fiber (optical interoperability with 4 x 100GBASE-FR up to 2km)
+
+2x 400GBASE-PLR4
+
+Dual 400G optics, up to 10km over parallel single-mode fiber (optical interoperability with 4 x 100GBASE-LR up to 10km)
+
+2x 400GBASE-FR4
+
+Dual 400G optics, up to 2km over single-mode fiber
+
+2x 400GBASE-LR4
+
+Dual 400G optics, up to 10km over single-mode fiber
+
+2x 400GBASE-VR4
+
+Dual 400G optics up to 50m over multi-mode fiber/ OM4
+
+800GBASE-VR8
+
+Single connector 800G optic up to 50m over multi-mode fiber/ OM4
+
+800G QSFP-DD Options
+PHY Type
+
+Reach
+
+800GBASE-CR8 /
+2x 400GBASE-CR4
+
+Twin-ax passive copper cables with link lengths of 1m - 2m.
+
+800GBASE-AOC /
+2x 400GBASE-AOC
+
+Active Optical Cable with link lengths of 1m to 30m pre-terminated
+
+2x 400GBASE-XDR4
+
+Dual 400G optics, up to 2km over parallel single-mode fiber (optical interoperability with 4 x 100GBASE-FR up to 2km)
+
+2x 400GBASE-PLR4
+
+Dual 400G optics, up to 10km over parallel single-mode fiber (optical interoperability with 4 x 100GBASE-LR up to 10km)
+
+2x 400GBASE-FR4
+
+Dual 400G optics, up to 2km over single-mode fiber
+
+2x 400GBASE-LR4
+
+Dual 400G optics, up to 10km over single-mode fiber
+
+800G (Dual 400G) OSFP and QSFP-DD Optics (OSFP models shown above)
+
+Optics Modules and Cables | Technical Specifications
+400 Gigabit Ethernet OSFP and QSFP-DD Options
+PHY Type
+
+Reach
+
+400GBASE-CR8
+
+Twin-ax passive copper cables with link lengths from 1m-3m. Active copper breakout cables with link
+length up to 5m.
+
+400GBASE-AOC
+
+Active Optical Cable with link lengths of 1m to 30m pre-terminated. Includes 400G QSFP-DD/OSFP to
+400G QSFP-DD/OSFP, 400G QSFP-DD/OSFP to 400G QSFP112 and 400G QSFP-DD/OSFP to 2x 200G
+QSFP56 breakout AOCs.
+
+400GBASE-VSR4
+
+Up to 50m over parallel multi-mode fiber
+
+400GBASE-SR8 & SR8-C
+
+Up to 100m over parallel OM4 multi-mode fiber
+
+400GBASE-BIDI (400G-SR4.2) /
+4x 100GBASE-BIDI / 4x 100GBASE-SR1.2 1
+
+Up to 70m / 100m over parallel OM3 / OM4 MMF. Optical interoperability with 400G-SR4.2,
+4x 100GBASE-BIDI (100G-SRBD) and 4x 100GBASE-SR1.2
+
+400GBASE-DR4
+
+Up to 500m over parallel single-mode fiber. Optical interoperability with 4 x 100GBASE-DR up to 500m
+
+400GBASE-XDR4
+
+Up to 2km over parallel single-mode fiber. Optical interoperability with 4 x 100GBASE-FR up to 2km
+
+400GBASE-PLR4
+
+Up to 10km over parallel single-mode fiber. Optical interoperability with 4 x 100GBASE-LR up to 10km
+
+400GBASE-FR4
+
+Up to 2km over single-mode fiber
+
+400GBASE-LR4
+
+Up to 10km over single-mode fiber
+
+400GBASE-ZR2
+
+Up to 120km over single-mode fiber with optical amplification
+
+Dual 200GBASE-FR4 OSFP
+PHY Type
+
+Reach
+
+400GBASE-2FR4
+
+Up to 2km over 2 pairs of single-mode fiber. Optical interoperability with 2 x 200GBASE-FR4 up to 2km
+
+Dual 100GBASE-LR4 OSFP and QSFP-DD Options
+PHY Type
+
+Reach
+
+200GBASE-2LR4
+
+Up to 10km over 2 pairs of single-mode fiber (Optical interoperability with 2x 100GBASE-LR4)
+
+8x25G-SR-E / 8x 10G-SR Enhanced Performance QSFP-DD Transceiver for Low Latency
+PHY Type
+
+Reach
+
+8x 25GBASE-SR-E / 8x 10GBASE-SR
+
+At 25G: Up to 30m / 50m over OM3 / OM4 parallel MMF without FEC (for low latency) or
+Up to 70m / 100m over OM3 / OM4 parallel MMF with FEC.
+At 10G: Up to 300m / 400m over OM3 / OM4 parallel MMF without FEC.
+
+200 Gigabit Ethernet QSFP Options
+PHY Type
+
+Reach
+
+200GBASE-CR4
+
+Twin-ax copper cables with link lengths of 1m, 2m, and 3m
+
+200GBASE-AOC
+
+Active Optical Cable with link lengths of 1m to 30m pre-terminated
+
+200GBASE-SR4
+
+200G/100G dual rate , up to 70m/100m over parallel OM3 / OM4 multi-mode fiber
+
+200GBASE-FR4
+
+Up to 2km over duplex single-mode fiber, 200G/100G dual rate
+
+1. The 400GBASE-BIDI (OSFP-400G-SRBD & QDD-400G-SRBD) transceivers are software configurable for point to point 400GE links (400GBASE-SR4.2),
+breakout to 4x 100GBASE-BIDI (100G-SRBD) or breakout to 4x 100GBASE-SR1.2 links.
+2. 400G-ZR modules supported on specific platforms. Refer to Arista’s Transceiver and Cable Guide for supported platforms.
+
+Optics Modules and Cables | Technical Specifications
+100 Gigabit Ethernet QSFP Options
+PHY Type
+
+Reach
+
+100GBASE-CR4
+
+Twin-ax copper cables with link lengths of 0.5m, 1m, 1.5m, 2m, 2.5m, 3m and 5m
+
+100GBASE-AOC
+
+Active Optical Cable with link lengths of 1m to 30m pre-terminated
+
+100GBASE-SR4
+
+Up to 70m over parallel OM3 multi-mode fiber or 100m over parallel OM4 multi-mode fiber
+
+100GBASE-SR4-E
+
+Up to 30m/50m over OM3/OM4 parallel MMF without FEC (for low latency) or
+70m/100m over OM3/OM4 parallel MMF with FEC.
+
+100GBASE-XSR4
+
+Up to 150m over parallel OM3 multi-mode fiber or 300m over parallel OM4 multi-mode fiber
+
+100GBASE-SWDM4
+
+Up to 70m over duplex OM3 multi-mode fiber or 100m over duplex OM4 multi-mode fiber
+
+100GBASE-BIDI
+
+Up to 70m over duplex OM3 multi-mode fiber or 100m over duplex OM4 multi-mode fiber
+
+100GBASE-PSM4
+
+Up to 500m over parallel single-mode fiber, 100G/40G Dual rate
+
+100GBASE-PLRL4
+
+Up to 2km over parallel single-mode fiber, 100G/40G Dual rate
+
+100GBASE-PLR4
+
+Up to 10km over parallel single-mode fiber, 100G/40G Dual rate
+
+100GBASE-LR4
+
+Up to 10km over single-mode fiber (optical interoperability with 100GBASE-LRL4 up to 2km)
+
+100GBASE-LRL4
+
+Up to 2km over single-mode fiber (optical interoperability with 100GBASE-LR4 up to 2km)
+
+100GBASE-CWDM4
+
+Up to 2km over single-mode fiber, 100G/40G Dual rate
+
+100GBASE-XCWDM4
+
+Up to 10km over single-mode fiber, 100G/40G Dual rate
+
+100GBASE-ERL4
+
+Up to 40km over single-mode fiber (optical interoperability with IEEE 100GBASE-ER4 up to 30km)
+
+100GBASE-ZR41
+
+Up to 80km over single-mode fiber
+
+100GBASE-DR
+
+Up to 500m over single-mode fiber (optical interoperability with 400GBASE-DR4 / XDR4 / PLR4 up to 500m)
+
+100GBASE-FR
+
+Up to 2km over single-mode fiber (optical interoperability with 400GBASE-DR4 / XDR4 & PLR4 up to 500m / 2km)
+
+100GBASE-LR
+
+Up to 10km over single-mode fiber (optical interoperability with 400GBASE- DR4 / XDR4 / PLR4 up to 500m / 2km / 100km)
+
+100GBASE-ER
+
+Up to 40km over single-mode fiber
+
+40 Gigabit Ethernet QSFP+ Options
+PHY Type
+
+Reach
+
+40GBASE-CR4
+
+Twin-ax copper cables with link lengths of 0.5m, 1m, 2m, 3m and 5m
+
+40GBASE-AOC
+
+Active Optical Cable with link lengths of 3m to 100m pre-terminated
+
+40GBASE-SR4
+
+Up to 100m over parallel OM3 multi-mode fiber or 150m over parallel OM4 multi-mode fiber
+
+40GBASE-XSR4
+
+Up to 300m over parallel OM3 multi-mode fiber or 400m over parallel OM4 multi-mode fiber
+
+40GBASE-BIDI
+
+Up to 100m over duplex OM3 multi-mode fiber or 150m over duplex OM4 multi-mode fiber
+
+40GBASE-UNIV
+
+Up to 150m over duplex OM3/OM4 multi-mode fiber or 500m over duplex single-mode fiber
+
+40GBASE-LR4
+
+Up to 10km over duplex single-mode fiber (Optical interoperability with 40GBASE-LRL4 up to 1km)
+
+40GBASE-LRL4
+
+Up to 1km over duplex single-mode fiber (Optical interoperability with 40GBASE-LR4 up to 1km)
+
+40GBASE-PLRL4
+
+Up to 1km over parallel single-mode fiber (Optical interoperability with 4x10G LR/LRL up to 1km)
+
+40GBASE-PLR4
+
+Up to 10km over parallel single-mode fiber (Optical interoperability with 4x10G LR up to 10km and LRL up to 1km)
+
+40GBASE-ER4
+
+Up to 40km over duplex single-mode fiber
+
+100G SFP-DD and DSFP Options
+PHY Type
+100GBASE-CR2
+
+Reach
+Twin-ax copper cables with link lengths of 1m, 2m, 3m.
+
+1. QSFP-100G-ZR4 supported on specific platforms. Refer to Arista’s Transceiver and Cable Guide for supported platforms.
+
+Optics Modules and Cables | Technical Specifications
+50G SFP Options
+PHY Type
+50GBASE-CR
+
+Reach
+Twin-ax copper cables with link lengths of 1m, 2m, 3m. Can be used in 50G SFP and 100G SFP-DD / DSFP ports.
+
+25 Gigabit Ethernet SFP Options
+PHY Type
+
+Reach
+
+25GBASE-CR
+
+Twin-ax copper cables with link lengths of 1m, 2m, 3m and 5m
+
+25GBASE-AOC
+
+Active Optical Cable with link lengths of 3m, 5m, 7m, 10m, 15m, 20m, 25m and 30m
+
+25GBASE-SR
+
+Up to 70m/100m over OM3/OM4 duplex multimode fiber
+
+25GBASE-MR-SR
+
+Dual rate (25G/10G), up to 70m/100m over OM3/OM4 MMF at 25G and 300m/400m over OM3/OM4 MMF at 10G.
+Interoperates with 10G-SR when operated at 10G.
+
+25GBASE-MR-XSR 1
+
+Dual rate (25G/10G), extended reach, up to 200m/300m over OM3/OM4 MMF at 25G & 300m/400m over OM3/OM4 at 10G.
+
+25GBASE-SR-E
+
+Up to 30m/50m over duplex OM3/OM4 MMF without FEC (for low latency), or 70m/100m over OM3/OM4 MMF with FEC
+
+25GBASE-LR
+
+Up to 10km over duplex single-mode fiber
+
+25GBASE-MR-LR 1
+
+Dual rate (25G/10G) up to 10km over duplex single-mode fiber
+
+25GBASE-LR-E
+
+Up to 2km over over duplex SMF without FEC (for low latency), or up to 10km over duplex SMF with FEC
+
+25GBASE-ER 3
+
+Up to 40km over duplex single-mode fiber
+
+10 Gigabit Ethernet SFP+ Options
+PHY Type
+
+Reach
+
+10GBASE-T 2
+
+Up to 30m link length over Category 6a copper cables
+
+10GBASE-MRA-T 2
+
+Up to 30m link length over Category 6a copper cables (rate adapting transceiver)
+
+10GBASE-CR
+
+Twin-ax copper cables with link lengths of 0.5m, 1m, 1.5m, 2m, 2.5m, 3m and 5m
+
+10GBASE-AOC
+
+Active Optical Cable with link lengths of 3m, 5m, 7m, 10m, 15m, 20m, 25m and 30m
+
+10GBASE-SR
+
+Up to 300m link length with 2000 MHz*km duplex MMF (OM3). Optical interoperability with 10GBASE-SRL
+
+10GBASE-SRL
+
+Up to 100m link length with 2000 MHz*km duplex MMF (OM3). Optical interoperability with 10GBASE-SR
+
+10GBASE-LR
+
+Up to 10km link length over duplex single-mode fiber. Optical interoperability with 10GBASE-LRL
+
+10GBASE-LRL
+
+Up to 1km link length over duplex single-mode fiber. Optical interoperability with 10GBASE-LR
+
+10GBASE-ER
+
+Up to 40km link length over duplex single-mode fiber
+
+10GBASE-ERLBD
+
+Up to 30km link length over a single strand of single-mode fiber
+
+10GBASE-ERBD 3
+
+Up to 40km link length over a single strand of single-mode fiber
+
+10GBASE-ZR
+
+Up to 80km link length over duplex single-mode fiber
+
+10GBASE-DWDM 3
+
+Up to 80km link length DWDM over duplex single-mode fiber
+
+Gigabit and 100M Ethernet SFP Options
+PHY Type
+
+1.
+2.
+3.
+4.
+
+Reach
+
+1000BASE-SX
+
+Up to 550m link length with 500 MHz km MMF (OM2). Rate adapting option available (SFP-10G-RA-1G-SX) 2
+
+1000BASE-LX
+
+Up to 10km link length over duplex SMF and up to 550m on MMF 4. Rate adapting option available (SFP-10G-RA-1G-LX) 2
+
+1000BASE-T
+
+Up to 100m link length over Category 5 copper cables, supporting both 100 Megabit and 1 Gigabit Ethernet
+
+100BASE-FX
+
+Up to 2km link length over MMF, with SGMII Electrical interface
+
+May require attenuation when connecting to 10G-LR / SR optics. Refer to the relevant 10G-LR / SR optical specifications for requirements.
+Supported on specific platforms. Refer to Arista’s Transceiver and Cable Guide for supported platforms.
+Proper optical attenuation is required for shorter links to protect the receiver from permanent damage.
+When 1000BASE-LX is used with FDDI grade OM1 or OM2 multi-mode fiber, a mode conditioning patch cord must be used at the transmitter to ensure
+specifications are met. Mode conditioning patch cord is not required for OM3 fiber.
+
+Optics Modules and Cables | Technical Specifications
+Physical Characteristics (HxWxD)
+•
+•
+•
+•
+•
+
+SFP: 8.55 x 13.7 x 56.5mm
+QSFP: 13.5 x 18.4 x 72.4mm
+QSFP-DD, Type 1: 13.5 x 18.4 x 78.3mm
+QSFP-DD, Type 2: 13.5 x 18.4 x 93.3mm
+OSFP: 13.0 x 22.6 x 100.4mm
+
+Environmental Characteristics
+•
+•
+•
+•
+
+Operating case temperature: 0 to 70C
+Storage Temperature: -40 to 70C
+Relative Humidity: 5 to 95%
+Operating Altitude: 0-10,000 ft
+
+Power Requirements (Maximum)
+• SFP/SFP+ (except 10G ER, ZR, DWDM,
+BASE-T and 25G SR, XSR, LR): 1 W
+• SFP-10G-T-RP, SFP-1G-T, &
+SFP-100M-FX: 1.5W
+• 40G QSFP+ AOC, 40GBASE-SR4, XSR4;
+SFP+ ERLBD, ERBD, ER, ZR, DWDM and
+25G SR, MR-SR MR-XSR, LR, MR-LR: 1.5 W
+• SFP-10G-T, SFP-10G-RA-1G-SX,
+SFP-10G-RA-1G-LX, SFP-25G-ER: 2W
+• SFP-10G-MRA-T: 2W
+• 40G QSFP+ AOC, BIDI, UNIV, LRL4, LR4,
+PLR4, PLRL4 and ER4: 3.5 W
+• 100G QSFP AOC, SR4, XSR4, SWDM4,
+BIDI, PSM4, CWDM4, XCWDM4: 3.5W
+• 100G QSFP LRL4: 4.0W
+• 100G QSFP LR4, ERL4, DR, FR, LR, ER: 4.5W
+• 200G QSFP SR4: 4.5W
+• 100G QSFP ZR4: 5.5W
+• 200G QSFP FR4: 6.5W
+• QDD-200G-2LR4 & OSFP-200G-2LR4
+modules: 8W
+• 400G OSFP & QSFP-DD AOC, VSR4, SR8,
+BIDI, DR4, XDR4,PLR4, FR4, LR4 2FR4: 12W
+• 400G OSFP/QSFP-DD to QSFP112 AOC:
+OSFP/QSFP-DD: 12W, QSFP112: 8W
+• 400G OSFP/QSFP-DD to 2x QSFP56 AOC:
+OSFP/QSFP-DD: 12W, QSFP56: 4.5W
+• 400G OSFP & QSFP-DD LR8: 14W
+• 400G OSFP & QSFP-DD to 4x QSFP100
+breakout Active Copper Cables: OSFP/
+QSFP-DD: 10W, QSFP: 4W
+• 800G OSFP & QSFP-DD AOC, 2XDR4,
+2PLR4, 2FR4, 2LR4, VSR8, DR8: 16W
+• LPO 800G 2DR4, DR8: 9W
+
+Gigabit and 100M Ethernet SFP Specifications
+PHY Type
+
+Connector
+Type
+
+Wavelength
+(nm)
+
+Cable Type
+
+1000BASE-SX
+
+LC
+
+850
+
+1000BASE-LX
+
+LC
+
+Core
+Size
+(um)
+
+Modal
+Bandwidth
+(MHz*Km)
+
+Tx power
+(dBm)
+
+Rx
+power
+(dBm)
+
+MMF
+
+62.5
+62.5
+50.0
+50.0
+
+MMF1
+
+160
+200
+400
+500
+
+-9.5 to -4.0
+
+-17 to 0.0
+
+220m
+275m
+500m
+550m
+
+62.5
+50.0
+50.0
+
+500
+400
+500
+
+-9.5 to -3.0
+
+-19 to -3.0
+
+550m
+550m
+550m
+
+SMF
+
+G.652
+
+–
+
+-9.5 to -3.0
+
+-19 to -3.0
+
+10km
+
+1310
+
+Max Reach
+
+1000BASE-T
+
+RJ-45
+
+–
+
+Cat5 (UTP)
+
+–
+
+–
+
+–
+
+–
+
+100m
+
+100BASE-FX
+
+LC
+
+1310
+
+MMF
+
+62.5
+50
+
+200
+500
+
+-20 to -14
+
+-8 to -31
+
+550m
+2km
+
+10 Gigabit Ethernet Cable Specifications
+PHY Type
+
+Connector Type
+
+Wavelength
+(nm)
+
+Cable Type
+
+Max Reach
+
+10GBASE-CR
+
+SFP+ (Both ends)
+
+–
+
+Twinax Copper
+
+0.5m to 5m
+
+10GBASE-CR
+
+QSFP+ to 4 x SFP+
+
+–
+
+Twinax Copper
+
+0.5m to 5m
+
+10GBASE-AOC
+
+SFP+ (Both ends)
+
+850nm
+
+MMF
+
+3m to 30m
+
+10 Gigabit Ethernet SFP/SFP+ Specifications
+PHY Type
+
+Conn.
+Type
+
+Wavelength
+(nm)
+
+Cable
+Type
+
+Core Size
+(um)
+
+Modal
+Bandwidth
+(MHz*Km)
+
+Tx power
+(dBm)
+
+Rx power
+(dBm)
+
+Max Reach
+
+10GBASE-T
+
+RJ-45
+
+-
+
+Cat6a
+
+-
+
+-
+
+-
+
+-
+
+30m
+
+10GBASEMRA-T
+
+RJ-45
+
+-
+
+Cat6a
+
+-
+
+-
+
+-
+
+-
+
+30m
+
+MMF
+
+62.5
+50.0
+50.0
+50.0
+50.0
+
+200
+400
+500
+2000 (OM3)
+4700 (OM4)
+
+-9.9 to -1.0
+
+33m
+66m
+82m
+300m
+400m
+
+200
+400
+500
+2000 (OM3)
+4700 (OM4)
+
+-8.0 to -1.0
+
+-9.9 to -1.0
+
+11m
+22m
+27m
+100m
+150m
+
+10GBASE-SR
+
+LC
+
+850
+
+-7.3 to -1.0
+
+10GBASE-SRL
+
+LC
+
+850
+
+MMF
+
+62.5
+50.0
+50.0
+50.0
+50.0
+
+10GBASE-LRL
+
+LC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-8.2 to 0.5
+
+-12.5 to 0.5
+
+1km
+
+10GBASE-LR
+
+LC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-8.2 to 0.5
+
+-14.4 to 0.5
+
+10km
+
+10GBASEERLBD-U/D
+
+LC
+
+1270 /
+1330
+
+SMF
+
+G.652
+
+–
+
+0 to 5.0
+
+0 to -15
+
+30km
+
+10GBASEERBD-U/D2
+
+LC
+
+1270 /
+1330
+
+SMF
+
+G.652
+
+–
+
+0 to 5.0
+
+-9 to -21
+
+40km3
+
+10GBASE-ER2
+
+LC
+
+1550
+
+SMF
+
+G.652
+
+–
+
+-4.7 to 4.0
+
+-15.0 to -1.0
+
+40km3
+
+10GBASE-ZR2
+
+LC
+
+1550
+
+SMF
+
+G.652
+
+–
+
+-1.0 to 4.0
+
+-23.0 to -7.0
+
+80km3
+
+10GBASEDWDM2
+
+LC
+
+1567.95 to
+1529.94
+
+SMF
+
+G.652
+
+–
+
+-1.0 to 3.0
+
+-23.0 to -7.0
+
+80km3
+
+1. When 1000BASE-LX is used with OM1 or OM2 MMF a mode conditioning patch cable is required at the
+transmitter. This cable is not required for OM3 fiber.
+2. Proper optical attenuation is required for shorter links to protect the receiver from permanent damage
+3. Per IEEE 802.3ae - Links beyond 30 km over single-mode fiber are considered engineered links
+
+Optics Modules and Cables | Technical Specifications
+25 Gigabit Ethernet SFP25 Cable Specifications
+
+IEEE Compliance
+• 802.3 IEEE Ethernet
+
+PHY Type
+
+Connector Type
+
+Wavelength (nm)
+
+Cable Type
+
+Max Reach
+
+25GBASE-CR
+
+SFP (Both ends)
+
+–
+
+Twinax Copper
+
+1m to 5m
+
+–
+
+Twinax Copper
+
+1m to 5m
+
+850nm
+
+MMF
+
+3m to 30m
+
+MSA & Standards Compliance
+GR-20-CORE
+GR-326-CORE
+GR-1435-CORE
+QSFP+/QSFP28: SFF-8449 and
+8636
+• SFP+: SFF-8431, 8461 and 8472
+• 100G CWDM4 MSA
+• 100G PSM4 MSA
+• 100G SWDM4 Alliance
+• 100G Lambda MSA
+• OSFP MSA
+• QSFP-DD MSA
+- As per IEEE spec’s, min cabling
+distance for LR, SR, SX, LX, FR1, DR1
+modules is 2m
+•
+•
+•
+•
+
+25GBASE-CR
+
+QSFP100 to 4 x SFP25
+SFP (Both ends)
+
+25GBASE-AOC
+
+25 Gigabit Ethernet SFP25 Optical Specifications
+Tx power
+(dBm)
+
+Rx power (dBm)
+
+Max Reach
+
+25GBASE-SR
+
+-8.4 to 2.4
+
+-10.3 to 2.4
+
+70m/100m
+
+25GBASE-MR-SR
+
+-8.4 to 2.4 @ 25G
+-7.3 to -0.5 @ 10G
+
+-10.3 to 2.4 @ 25G
+-9.9 to 2.4 @10G
+
+70m/100m @ 25G
+300m/400m @ 10G
+
+-6 to 2.4
+
+-10.3 to 2.4
+
+200m/300m @ 25G
+300m/400m @ 10G
+
+25GBASE-SR-E
+
+-4.5 to 2.4
+
+-5.9 to 2.4 w/o FEC, or
+-10.3 to 2.4 w FEC
+
+30m / 50m w/o FEC,
+or 70m/100m
+w FEC
+
+25GBASE-LR
+
+-7 to 2.0
+
+-13.3 to 2.0
+
+10km
+
+-7 to 2.0
+
+-13.3 to 2.0
+
+10km
+
+-4 to 2.0
+
+-7.2 to 2.0 w/o FEC, or
+-13.3 to 2.0 w FEC
+
+2km w/o FEC, or
+10km with FEC
+
+-3 to 6
+
+-21 to -4
+
+40km
+
+PHY Type
+
+25GBASE-MR-XSR 1
+
+SFP-25G-MR-LR
+
+Conn
+Type
+
+LC
+
+Wavelength
+(nm)
+
+Cable
+Type
+
+850
+
+MMF
+
+Core
+Size
+(um)
+
+50.0
+
+Modal
+Bandwidth
+(MHz*Km)
+
+2000 (OM3)
+4700 (OM4)
+
+25GBASE-MR-LR 1
+25GBASE-LR-E
+
+LC
+
+1310
+
+SMF
+
+G.65
+2
+
+–
+
+SFP-25G-MR-XSR
+25GBASE-ER 2
+
+1.
+
+When connecting 25G-MR-XSR/LR optics to legacy fixed rate 10G optics, attenuation may be required to ensure the
+optical input power to the 10G optical module is within allowable limits.
+
+2. Proper optical attenuation is required for shorter links to protect the receiver from permanent damage
+
+50G Gigabit Ethernet SFP50 Cable Specifications
+
+100GBASE-CR2: SFP-DD to QSFP
+
+PHY Type
+
+Connector Type
+
+Wavelength (nm)
+
+Cable Type
+
+Max Reach
+
+50GBASE-CR
+
+SFP (Both ends)
+
+–
+
+Twinax Copper
+
+1m to 3m
+
+Wavelength (nm)
+
+Cable Type
+
+Max Reach
+
+–
+
+Twinax Copper
+
+1m to 3m
+
+–
+
+Twinax Copper
+
+1m to 3m
+
+100G Gigabit SFP-DD & DSFP Cable Specifications
+PHY Type
+
+Connector Type
+SFP-DD to SFP-DD
+SFP-DD to QSFP
+
+100GBASE-CR2
+DSFP to DSFP
+DSFP to QSFP
+
+100GBASE-CR2 to 2x
+50GBASE-CR
+
+SFP-DD to 2x SFP
+DSFP to 2x SFP
+
+Optics Modules and Cables | Technical Specifications
+40 Gigabit Ethernet QSFP+ Cable Specifications
+
+40GBASE-UNIV QSFP+
+
+40GBASE-LR4 QSFP+
+
+10GBASE-CR: QSFP+ to 4 x SFP+
+
+PHY Type
+
+Connector Type
+
+Wavelength (nm)
+
+Cable Type
+
+Max Reach
+
+40GBASE-CR4
+
+QSFP+ to QSFP+
+
+–
+
+Twinax Copper
+
+0.5m to 5m
+
+10GBASE-CR
+
+QSFP+ to 4 x SFP
+
+–
+
+Twinax Copper
+
+0.5m to 5m
+
+40GBASE-AOC
+
+QSFP+ to QSFP+
+
+850
+
+MMF
+
+3m to 100m
+
+40 Gigabit Ethernet QSFP+ Optical Specifications
+PHY Type
+
+Connector
+Type
+
+Wavelength
+(nm)
+
+40GBASE-SR4
+
+MPO-12 UPC
+
+40GBASE-XSR4
+40GBASE-BIDI
+
+Cable
+Type
+
+Core
+Size
+(um)
+
+Modal
+Bandwidth
+(MHz*Km)
+
+Tx power
+(dBm)
+
+Rx power
+(dBm)
+
+Max Reach
+
+850
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-7.6 to +2.4
+/lane
+
+-9.5 to +2.4
+/lane
+
+100m
+150m
+
+MPO-12 UPC
+
+850
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-7.5 to +1
+/lane
+
+-9.9 to +2.4
+/lane
+
+300m
+400m
+
+LC
+
+850
+900
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-4 to +5
+/lane
+
+-6 to +5
+/lane
+
+100m
+150m
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-7 to +4.3
+/lane
+
+-10 to +4.3
+/lane
+
+150m
+150m
+
+SMF
+
+G.652
+
+–
+
+-10 to +2.3
+/lane
+
+-13.7 to +2.3
+/lane
+
+500m
+
+SMF
+
+G.652
+
+–
+
+-7 to +2.3
+/lane
+
+-13.7 to +2.3
+/lane
+
+10km
+
+40GBASE-UNIV
+
+LC
+
+1271
+1291
+1311
+1331
+
+40GBASE-LR4
+
+LC
+
+40GBASE-LRL4
+
+LC
+
+SMF
+
+G.652
+
+–
+
+-7 to +2.3
+/lane
+
+-11.5 to +2.3
+/lane
+
+1km
+
+40GBASE-ER4*
+
+LC
+
+SMF
+
+G.652
+
+–
+
+-2.7 to +3.8
+/lane
+
+-21.2 to -4.5
+/lane
+
+40km**
+
+40GBASE-PLRL4
+
+MPO-12 APC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-8.2 to +0.5
+/lane
+
+-12.5 to +0.5
+/lane
+
+1km
+
+40GBASE-PLR4
+
+MPO-12 APC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-8.2 to +0.5
+/lane
+
+-14.4 to +0.5
+/lane
+
+10km
+
+* Proper optical attenuation is required for shorter links to protect the receiver from permanent damage
+** Per IEEE 802.3 - Links beyond 30 km over single-mode fiber are considered engineered links
+
+100 Gigabit Ethernet QSFP Cable Specifications
+
+40GBASE-AOC Cable
+
+PHY Type
+
+Connector Type
+
+Wavelength (nm)
+
+Cable Type
+
+Max Reach
+
+100GBASE-CR4
+
+QSFP to QSFP
+
+–
+
+Twinax Copper
+
+1, 2, 3, 5m
+
+50GBASE-CR2
+
+QSFP to 2x QSFP
+
+–
+
+Twinax Copper
+
+1, 2, 3, 5m
+
+25GBASE-CR
+
+QSFP to 4 x SFP
+
+–
+
+Twinax Copper
+
+1, 2, 3m
+
+100GBASE-AOC
+
+QSFP to QSFP
+
+850
+
+MMF
+
+1m to 30m
+
+Optics Modules and Cables | Technical Specifications
+100 Gigabit Ethernet QSFP Optical Specifications
+
+100GBASE-LR4 QSFP
+
+100GBASE-PSM4 QSFP
+
+PHY Type
+
+Connector
+Type
+
+Wavelength
+(nm)
+
+Cable
+Type
+
+Core
+Size
+(um)
+
+Modal
+Bandwidth
+(MHz*Km)
+
+Tx power (dBm)
+
+Rx power (dBm)
+
+Max Reach
+
+100GBASE-SR4
+
+MPO-12 UPC
+
+850
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-8.4 to +2.4 / lane
+
+-10.3 to +2.4
+/lane
+
+70m
+100m
+
+100GBASE-SR4-E
+
+MPO-12 UPC
+
+850
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-4.5 to 2.4 / lane
+
+-5.9 to +2.4 w/o
+FEC, or -10.3 to
+
+30m/50m w/o FEC,
+or 70m/100m w FEC
+
+100GBASE-XSR4
+
+MPO-12 UPC
+
+850
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-8.3 to +2.4 / lane
+
+-10.3 to +2.4
+/lane
+
+150m
+300m
+
+100GBASE-SWDM4
+
+LC
+
+850
+880
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700(OM4)
+
+-7.5 to +3.4 / lane
+
+-9.3 to +3.4 / lane
+
+70m
+100m
+
+100GBASE-BIDI
+
+LC
+
+855
+908
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-6 to + 4 / lane
+
+-7.9 to +4
+/lane
+
+70m
+100m
+
+SMF
+
+G.652
+
+–
+
+-6.5 to +2.5 / lane
+
+-11.5 to +2.5 / lane
+
+2km
+
+SMF
+
+G.652
+
+–
+
+-6.5 to +2.5 / lane
+
+-13 to +2.5 / lane
+
+10km
+
+SMF
+
+G.652
+
+–
+
+-9.4 to +2.0 / lane
+
+-12.6 to +2.0 / lane
+
+500m
+
+100GBASE-CWDM4
+
+LC
+
+100GBASE-XCWDM4
+
+LC
+
+100GBASE-PSM4
+
+MPO-12 APC
+
+1271
+1291
+1311
+1310
+
+100GBASE-PLRL4
+
+MPO-12 APC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-5.5 to +1.5 / lane
+
+-12.6 to +2.0 / lane
+
+2km
+
+100GBASE-PLR4
+
+MPO-12 APC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-5.5 to +2.0 / lane
+
+-10.2 to +2.0 / lane
+
+10km
+
+100GBASE-LR4
+
+LC
+
+SMF
+
+G.652
+
+–
+
+-4.3 to +4.5 /lane
+
+-10.6 to +4.5 /lane
+
+10km
+
+100GBASE-LRL4
+
+LC
+
+SMF
+
+G.652
+
+–
+
+-6.0 to +4.5 / lane
+
+-10.0 to +4.5 / lane
+
+2km
+
+100GBASE-ERL4*
+
+LC
+
+SMF
+
+G.652
+
+–
+
+-2.9 to +4.5 / lane
+
+-16.9 to -4.9 / lane
+
+30km
+without FEC
+
+100GBASE-ZR4*
+
+LC
+
+SMF
+
+G.652
+
+–
+
++2 to +7 / lane
+
+-20.9 to -4.9 / lane
+-5.0 to -28.0 / lane
+
+40km
+80km
+
+100GBASE-DR
+
+LC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-2.9 to +4.0
+
+-5.9 to +4.0
+
+500m
+
+100GBASE-FR
+
+LC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-2.4 to +4.0
+
+-6.4 to +4.5
+
+2km
+
+100GBASE-LR
+
+LC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-1.4 to +4.0
+
+-7.7 to +4.5
+
+10km
+
+100GBASE-ER*
+
+LC
+
+1310
+
+SMF
+
+G.652
+
+–
+
++1.7 to + 7.1
+
+-16 to -3.4
+
+40km
+
+1295.56
+1300.05
+1304.58
+1309.14
+
+* Optical attenuation is required for shorter links to protect the receiver from permanent damage
+
+200 Gigabit Ethernet QSFP Cable Specifications
+100GBASE-CR4
+
+PHY Type
+
+Connector Type
+
+Wavelength (nm)
+
+Cable Type
+
+Max Reach
+
+200GBASE-CR4
+
+QSFP to QSFP
+
+–
+
+Twinax Copper
+
+1, 2, 3m
+
+100GBASE-CR2
+
+QSFP to2 x QSFP
+
+–
+
+Twinax Copper
+
+1, 2, 3m
+
+50GBASE-CR
+
+QSFP to 4x SFP
+
+–
+
+Twinax Copper
+
+1, 2, 3m
+
+200 Gigabit Ethernet QSFP Optical Specifications
+
+QSFP100 to 4 x SFP+
+
+PHY Type
+
+Connector
+Type
+
+Wavelength
+(nm)
+
+Cable
+Type
+
+Core
+Size
+(um)
+
+Modal
+Bandwidth
+(MHz*Km)
+
+Tx power (dBm)
+
+Rx power (dBm)
+
+Max Reach
+
+200GBASE-SR4
+
+MPO-12 UPC
+
+850
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-6.5 to +4.0 / lane
+
+-8.4 to +4.0 / lane
+
+70m
+100m
+
+200GBASE-FR4
+
+LC
+
+1271, 1291,
+1311, 1331
+
+SMF
+
+G.652
+
+–
+
+-4.2 to 4.7 / lane
+
+-8.2 to 4.7 / lane
+
+2km
+
+8x 25 Gigabit Ethernet / 8x 10 Gigabit Ethernet QSFP-DD Optical Specifications
+PHY Type
+8x 25GBASE-SR-E
+/8x 10GBASE-SR
+
+WaveCore
+Modal
+Connector
+Cable
+length
+Size Bandwidth
+Type
+Type
+(nm)
+(um) (MHz*Km)
+MPO-16
+APC
+
+850
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+Tx power
+(dBm)
+
+Rx power (dBm)
+
+Max Reach
+
+-4.5 to 2.4 @ 25G,
+-6.8 to -0.5 @ 10G
+
+-5.9 to 2.4 w/o FEC @25G,
+or -10.3 to 2.4 w FEC @25G,
+or -9.9 to -0.5 @10G
+
+30m/50m w/o FEC @ 25G, or
+70m/100m w FEC @ 25G, or
+300m/400m @10G
+
+Optics Modules and Cables | Technical Specifications
+400 Gigabit Ethernet Cable Specifications
+PHY Type
+
+Connector Type
+
+Wavelength
+(nm)
+
+Cable Type
+
+Max Reach
+
+OSFP to OSFP
+
+–
+
+Twinax Copper
+
+1, 2, 3m
+
+QSFP-DD to QSFP-DD
+
+–
+
+Twinax Copper
+
+1, 2, 2.5, 3m
+
+OSFP to 2x QSFP
+
+–
+
+Twinax Copper
+
+1, 2, 3m
+
+QSFP-DD to 2x QSFP
+
+–
+
+Twinax Copper
+
+1, 2, 2.5m
+
+OSFP to 2x QSFP
+
+–
+
+Twinax Copper
+
+1, 2, 3m
+
+QSFP-DD to 2x QSFP
+
+–
+
+Twinax Copper
+
+1, 2, 2.5m
+
+OSFP to 4x QSFP
+
+–
+
+Twinax Copper
+
+1, 2, 3m
+
+QSFP-DD to 4x QSFP
+
+–
+
+Twinax Copper
+
+1, 2, 2.5m
+
+OSFP to 4x QSFP
+
+–
+
+Active Copper Cable
+
+1, 2, 3, 5m
+
+QSFP-DD to 4x QSFP
+
+–
+
+Active Copper Cable
+
+1, 2, 3, 5m
+
+OSFP to 4x QSFP
+
+–
+
+Twinax Copper
+
+1, 2, 3m
+
+QSFP-DD to 4x QSFP
+
+–
+
+Twinax Copper
+
+1, 2, 2.5m
+
+OSFP to 8x SFP
+
+–
+
+Twinax Copper
+
+1, 2, 3m
+
+QSFP-DD to 8x SFP
+
+–
+
+Twinax Copper
+
+1, 2, 2.5m
+
+OSFP to 8x SFP
+
+–
+
+Twinax Copper
+
+1, 2, 3m
+
+QSFP-DD to 8x SFP
+
+–
+
+Twinax Copper
+
+1, 2, 2.5m
+
+OSFP/QSFP-DD to OSFP/QSFP-DD,
+OSFP/QSFP-DD to 400G QSFP112, or
+OSFP-QSFP-DD to 2x 200G QSFP56
+
+850
+
+MMF
+
+1m to 30m
+
+400GBASE-CR8
+
+400GBASE-CR8 to
+2x 200GBASE-CR4
+
+400GBASE-DR4 OSFP
+
+200GBASE-CR8 to
+2x 100GBASE-CR4*
+400GBASE-CR8 to
+4x 100GBASE-CR2
+400GBASE-CR8 to
+4x 100GBASE-CR4
+200GBASE-CR8 to
+4x 50GBASE-CR2*
+
+400GBASE-SR8 OSFP
+
+400GBASE-CR8 to
+8x 50GBASE-CR
+200GBASE-CR8 to
+8x 25GBASE-CR*
+
+400GBASE-AOC
+
+400GBASE-2FR4 OSFP
+
+400GBASE-AOC OSFP
+
+400 Gigabit Ethernet Optical Specifications
+PHY Type
+
+Connector
+Type
+
+Wavelength
+(nm)
+
+Cable
+Type
+
+Core
+Size
+(um)
+
+Modal
+Bandwidth
+(MHz*Km)
+
+Tx power
+(dBm)
+
+Rx power
+(dBm)
+
+Max Reach
+
+400GBASE-VSR4
+
+MPO-12 APC
+
+850
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
++4.0 to -4.6
+/lane
+
++4.0 to -6.3
+/lane
+
+30m
+50m
+
+400GBASE-SR8 &
+SR8-C
+
+MPO-16 APC
+
+850
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-6.5 to +4.0
+/lane
+
+-8.4 to +4.0
+/lane
+
+70m
+100m
+
+400GBASE-BIDI
+(400G-BASE SR4.2)
+
+MPO-12 UPC
+
+855
+908
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-6 to +4
+/lane
+
+-7.9 to +4
+/lane
+
+70m
+100m
+
+400GBASE-FR4
+
+LC
+
+1271, 1291
+1311, 1331
+
+SMF
+
+G.652
+
+–
+
+-3.3 to +3.5
+/lane
+
+-7.3 to +3.5
+/ lane
+
+2km
+
+400GBASE-LR4
+
+LC
+
+1271, 1291
+1311, 1331
+
+SMF
+
+G.652
+
+–
+
+-2.7 to +5.1
+/lane
+
+-9 to 5.1
+/lane
+
+10km
+
+400GBASE-LR8
+
+LC
+
+SMF
+
+G.652
+
+–
+
+-2.8 to +5.3
+/lane
+
+-9.1 to +5.3
+/lane
+
+10km
+
+400GBASE-2FR4
+
+CS
+
+SMF
+
+G.652
+
+–
+
+-4.2 to 4.7
+/lane
+
+-8.2 to 4.7
+/lane
+
+2km
+
+400GBASE-DR4
+
+MPO-12 APC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-2.9 to +4.0
+/lane
+
+-5.9 to +4.0 /
+lane
+
+500m
+
+400GBASE-XDR4
+
+MPO-12 APC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-2.4 to +4.0
+/lane
+
+-6.4 to +4.5
+/lane
+
+2km
+
+400GBASE-PLR4
+
+MPO-12 APC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-1.4 to +4.0
+/lane
+
+-7.7 to +4.5
+/lane
+
+10km
+
+400GBASE-ZR**
+
+LC
+
+1528.77 to
+1566.52
+
+SMF
+
+G.652
+
+–
+
+>-10
+
+-16 to 0
+
+120km
+
+1274, 1278,
+1282, 1287,
+1296, 1300,
+1305, 1309
+1271, 1291
+1311, 1331
+
+400GBASE-CR8 OSFP
+
+* Requires the OSFP/QSFP-DD port to be configured for 200G using 8 x 25G NRZ electrical lanes. Allows interop with legacy 100G QSFP and 25G SFP ports.
+** Refer to 400ZR DCI Solution Datasheet for more details
+
+Optics Modules and Cables | Technical Specifications
+800G Cable Specifications
+PHY Type
+
+800GBASE-CR8 /
+2x 400GBASE-CR8
+
+800GBASE-2FR4 OSFP
+
+Connector Type
+
+Wavelength
+(nm)
+
+Cable Type
+
+Max Reach
+
+OSFP to OSFP
+
+–
+
+Twinax Copper
+
+1, 2m
+
+QSFP-DD to QSFP-DD
+
+–
+
+Twinax Copper
+
+1, 2m
+
+–
+
+–
+
+1m to 30m
+
+OSFP to OSFP
+
+800GBASE-AOC /
+2x 400GBASE-AOC
+
+QSFP-DD to QSFP-DD
+
+800G Optical Specifications
+
+800GBASE-2VSR4 OSFP
+
+PHY Type
+
+Connector
+Type
+
+Wavelength
+(nm)
+
+Cable
+Type
+
+Core Size
+(um)
+
+Modal
+Bandwidth
+(MHz*Km)
+
+Tx power
+(dBm)
+
+Rx power
+(dBm)
+
+Max
+Reach
+
+800GBASE-2FR4
+(2x 400GBASE-FR4)
+
+2x LC
+
+1271, 1291
+1311, 1331
+
+SMF
+
+G.652
+
+–
+
+-3.3 to +3.5
+/lane
+
+-7.3 to +3.5 /
+lane
+
+2km
+
+800GBASE-2LR4
+(2x 400GBASE-LR4)
+
+2x LC
+
+1271, 1291
+1311, 1331
+
+SMF
+
+G.652
+
+–
+
+-2.7 to +5.1
+/lane
+
+-9 to 5.1
+/lane
+
+10km
+
+800GBASE-2XDR4
+(2x 400GBASE-2XDR4)
+
+2x MPO-12
+APC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-2.4 to +4.0
+/lane
+
+-6.4 to +4.5
+/lane
+
+2km
+
+800GBASE-PLR4
+(2x 400GBASE-2PLR4)
+
+2x MPO-12
+APC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-1.4 to +4.0
+/lane
+
+-7.7 to +4.5
+/lane
+
+10km
+
+800GBASE-2VSR4
+(2x 400GBASE-VSR4)
+
+2x MPO-12
+APC
+
+850
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-4.6 to +4/
+lane
+
+-6.3 to +4/lane
+
+30m
+50m
+
+800GBASE-VSR8
+
+MPO-16 APC
+
+850
+
+OM3
+OM4
+
+50.0
+50.0
+
+2000 (OM3)
+4700 (OM4)
+
+-4.6 to +4/
+lane
+
+-6.3 to +4/lane
+
+30m
+50m
+
+LPO-800G-2DR4
+
+2x MPO-12
+APC
+
+1310
+
+SMF
+
+G.652
+
+–
+
+-2.4 to +4.0
+/lane
+
+-6.4 to +4.5
+/lane
+
+500m
+
+800GBASE-2XDR4 OSFP
+
+800GBASE-AOC OSFP
+
+800GBASE-CR8 OSFP
+
+LPO-800G-2DR4
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+800G OSFP Twinax Copper Cables
+C-O800-O800-1M
+
+800GBASE-CR8 (2x 400GBASE-CR4) OSFP to OSFP Twinax Copper Cable 1 meter
+
+C-O800-O800-2M
+
+800GBASE-CR8 (2x 400GBASE-CR4) OSFP to OSFP Twinax Copper Cable 2 meter
+
+800G OSFP Active Optical Cables
+A-O800-O800-1M
+
+800G OSFP to OSFP Active Optical Cable, 1m
+
+A-O800-O800-3M
+
+800G OSFP to OSFP Active Optical Cable, 3m
+
+A-O800-O800-5M
+
+800G OSFP to OSFP Active Optical Cable, 5m
+
+A-O800-O800-7M
+
+800G OSFP to OSFP Active Optical Cable, 7m
+
+A-O800-O800-10M
+
+800G OSFP to OSFP Active Optical Cable, 10m
+
+A-O800-O800-15M
+
+800G OSFP to OSFP Active Optical Cable, 15m
+
+A-O800-O800-20M
+
+800G OSFP to OSFP Active Optical Cable, 20m
+
+A-O800-O800-25M
+
+800G OSFP to OSFP Active Optical Cable, 25m
+
+A-O800-O800-30M
+
+800G OSFP to OSFP Active Optical Cable, 30m
+
+800G OSFP Optics
+OSFP-800G-2XDR4
+
+8x 100GBASE-FR (or 2x 400G-XDR4) OSFP Transceiver, 2x MPO-12 APC connectors, up to 2km over parallel SMF
+
+OSFP-800G-2PLR4
+
+8x 100GBASE-LR (or 2x 400G-PLR4) OSFP Transceiver, 2x MPO-12 APC connectors up to 10km over parallel SMF
+
+OSFP-800G-2FR4
+
+2x 400GBASE-FR4 OSFP Transceiver, 2x duplex LC connectors, up to 2km over duplex SMF
+
+OSFP-800G-2LR4
+
+2x 400GBASE-LR4 OSFP Transceiver, 2x duplex LC connectors, up to 10km over duplex SMF
+
+OSFP-800G-2VSR4
+
+2x 400GBASE-VSR4 OSFP Transceiver, dual MPO-12 APC connectors, up to 50m over parallel MMF
+
+OSFP-800G-VSR8
+
+800GBASE-VSR8 OSFP Transceiver, MPO-16 APC connector, up to 50m over parallel MMF
+
+OSFP-800G-XDR8
+
+800GBASE-DR8 / 2x 400GBASE-XDR4 QSFP-DD Transceiver, MPO-16 connector, up to 2km over parallel SMF
+
+LPO-800G-2DR4
+
+2x 400GBASE-DR4 Linear Pluggable OSFP Transceiver, Dual MPO-12, up to 500m over parallel SMF
+
+LPO-800G-DR8
+
+800GBASE-DR8 Linear Pluggable OSFP Transceiver, MPO-16, up to 500m over parallel SMF
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+800G QSFP-DD Twinax Copper Cables
+C-D800-D800-1M
+
+800GBASE-CR8 QSFP-DD to QSFP-DD Twinax Copper Cable 1 meter
+
+C-D800-D800-2M
+
+800GBASE-CR8 QSFP-DD to QSFP-DD Twinax Copper Cable 2 meter
+
+800G QSFP-DD Active Optical Cables
+A-D800-D800-1M
+
+800G QSFP-DD to QSFP-DD Active Optical Cable, 1m
+
+A-D800-D800-3M
+
+800G QSFP-DD to QSFP-DD Active Optical Cable, 3m
+
+A-D800-D800-5M
+
+800G QSFP-DD to QSFP-DD Active Optical Cable, 5m
+
+A-D800-D800-7M
+
+800G QSFP-DD to QSFP-DD Active Optical Cable, 7m
+
+A-D800-D800-10M
+
+800G QSFP-DD to QSFP-DD Active Optical Cable, 10m
+
+A-D800-D800-15M
+
+800G QSFP-DD to QSFP-DD Active Optical Cable, 15m
+
+A-D800-D800-20M
+
+800G QSFP-DD to QSFP-DD Active Optical Cable, 20m
+
+A-D800-D800-25M
+
+800G QSFP-DD to QSFP-DD Active Optical Cable, 25m
+
+A-D800-D800-30M
+
+800G QSFP-DD to QSFP-DD Active Optical Cable, 30m
+
+800G Ethernet QSFP-DD Optics
+QDD-800G-2XDR4
+
+8x 100GBASE-FR (or 2x 400G-XDR4) QSFP-DD Transceiver, 2x MPO-12 APC connectors, up to 2km over parallel SMF
+
+QDD-800G-2PLR4
+
+8x 100GBASE-LR (or 2x 800G-PLR4) QSFP-DD Transceiver, 2x MPO-12 APC connectors, up to 10km over parallel SMF
+
+QDD-800G-2FR4
+
+2x 400GBASE-FR4 QSFP-DD Transceiver, 2x duplex LC connectors, up to 2km over duplex SMF
+
+QDD-800G-2LR4
+
+2x 400GBASE-LR4 QSFP-DD Transceiver, 2x duplex LC connectors, up to 10km over duplex SMF
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+400 Gigabit Ethernet OSFP Twinax Copper Cables
+CAB-O-O-400G-1M
+
+400GBASE-CR8 OSFP to OSFP Twinax Copper Cable 1 meter
+
+CAB-O-O-400G-2M
+
+400GBASE-CR8 OSFP to OSFP Twinax Copper Cable 2 meter
+
+CAB-O-O-400G-3M
+
+400GBASE-CR8 OSFP to OSFP Twinax Copper Cable 3 meter
+
+CAB-O-2Q-400G-1M
+
+400GBASE-CR8 OSFP to 2 x 200GBASE-CR4 QSFP Twinax Copper Cable, 1 meter
+
+CAB-O-2Q-400G-2M
+
+400GBASE-CR8 OSFP to 2 x 200GBASE-CR4 QSFP Twinax Copper Cable, 2 meter
+
+CAB-O-2Q-400G-3M
+
+400GBASE-CR8 OSFP to 2 x 200GBASE-CR4 QSFP Twinax Copper Cable, 3 meter
+
+CAB-O-2Q-200G-1M
+
+200GBASE-CR8 OSFP to 2 x 100GBASE-CR4 QSFP Twinax Copper Cable, 1 meter
+
+CAB-O-2Q-200G-2M
+
+200GBASE-CR8 OSFP to 2 x 100GBASE-CR4 QSFP Twinax Copper Cable, 2 meter
+
+CAB-O-2Q-200G-3M
+
+200GBASE-CR8 OSFP to 2 x 100GBASE-CR4 QSFP Twinax Copper Cable, 3 meter
+
+CAB-O-4Q-400G-1M
+
+400GBASE-CR8 OSFP to 4 x 100GBASE-CR2 QSFP Twinax Copper Cable, 1 meter
+
+CAB-O-4Q-400G-2M
+
+400GBASE-CR8 OSFP to 4 x 100GBASE-CR2 QSFP Twinax Copper Cable, 2 meter
+
+CAB-O-4Q-400G-3M
+
+400GBASE-CR8 OSFP to 4 x 100GBASE-CR2 QSFP Twinax Copper Cable, 3 meter
+
+CAB-O-4Q-200G-1M
+
+200GBASE-CR8 OSFP to 4 x 50GBASE-CR2 QSFP Twinax Copper Cable, 1 meter
+
+CAB-O-4Q-200G-2M
+
+200GBASE-CR8 OSFP to 4 x 50GBASE-CR2 QSFP Twinax Copper Cable, 2 meter
+
+CAB-O-4Q-200G-3M
+
+200GBASE-CR8 OSFP to 4 x 5GBASE-CR2 QSFP Twinax Copper Cable, 3 meter
+
+CAB-O-8S-400G-1M
+
+400GBASE-CR8 OSFP to 8 x 50GBASE-CR SFP Twinax Copper Cable, 1 meter
+
+CAB-O-8S-400G-2M
+
+400GBASE-CR8 OSFP to 8 x 50GBASE-CR SFP Twinax Copper Cable, 2 meter
+
+CAB-O-8S-400G-3M
+
+400GBASE-CR8 OSFP to 8 x 50GBASE-CR SFP Twinax Copper Cable, 3 meter
+
+CAB-O-8S-200G-1M
+
+200GBASE-CR8 OSFP to 8 x 25GBASE-CR SFP Twinax Copper Cable, 1 meter
+
+CAB-O-8S-200G-2M
+
+200GBASE-CR8 OSFP to 8 x 25GBASE-CR SFP Twinax Copper Cable, 2 meter
+
+CAB-O-8S-200G-3M
+
+200GBASE-CR8 OSFP to 8 x 25GBASE-CR SFP Twinax Copper Cable, 3 meter
+
+400 Gigabit Ethernet OSFP Twinax Active Copper Cables*
+H-O400-4Q100-1M
+
+400GBASE-CR8 OSFP to 4 x 100GBASE-CR4 QSFP Twinax Active Copper Cable, 1 meter
+
+H-O400-4Q100-2M
+
+400GBASE-CR8 OSFP to 4 x 100GBASE-CR4 QSFP Twinax Active Copper Cable, 2 meter
+
+H-O400-4Q100-3M
+
+400GBASE-CR8 OSFP to 4 x 100GBASE-CR4 QSFP Twinax Active Copper Cable, 3 meter
+
+H-O400-4Q100-5M
+
+400GBASE-CR8 OSFP to 4 x 100GBASE-CR4 QSFP Twinax Active Copper Cable, 5 meter
+
+* The Arista 400G OSFP to 4x QSFP100 active copper cables allow a 400G OSFP port (with 8x 50G PAM-4 electrical lanes) to connect to 4x QSFP100 ports (with
+4x 25G NRZ electrical lanes per QSFP). A gearbox inside the QSFP end of the cable implements the 2x 50G PAM-4 to 4x 25G NRZ conversion.
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+400 Gigabit Ethernet OSFP to OSFP Active Optical Cables
+AOC-O-O-400G-1M
+
+400GbE OSFP to OSFP Active Optical Cable, 1 meter
+
+AOC-O-O-400G-3M
+
+400GbE OSFP to OSFP Active Optical Cable, 3 meter
+
+AOC-O-O-400G-5M
+
+400GbE OSFP to OSFP Active Optical Cable, 5 meter
+
+AOC-O-O-400G-7M
+
+400GbE OSFP to OSFP Active Optical Cable, 7 meter
+
+AOC-O-O-400G-10M
+
+400GbE OSFP to OSFP Active Optical Cable, 10 meter
+
+AOC-O-O-400G-15M
+
+400GbE OSFP to OSFP Active Optical Cable, 15 meter
+
+AOC-O-O-400G-20M
+
+400GbE OSFP to OSFP Active Optical Cable, 20 meter
+
+AOC-O-O-400G-25M
+
+400GbE OSFP to OSFP Active Optical Cable, 25 meter
+
+AOC-O-O-400G-30M
+
+400GbE OSFP to OSFP Active Optical Cable, 30 meter
+
+400 Gigabit Ethernet OSFP to 400G QSFP112 Active Optical Cables
+A-O400-Q400-1M
+
+400GbE OSFP to QSFP112 Active Optical Cable, 1 meter
+
+A-O400-Q400-3M
+
+400GbE OSFP to QSFP112 Active Optical Cable, 3 meter
+
+A-O400-Q400-5M
+
+400GbE OSFP to QSFP112 Active Optical Cable, 5 meter
+
+A-O400-Q400-7M
+
+400GbE OSFP to QSFP112 Active Optical Cable, 7 meter
+
+A-O400-Q400-10M
+
+400GbE OSFP to QSFP112 Active Optical Cable, 10 meter
+
+A-O400-Q400-15M
+
+400GbE OSFP to QSFP112 Active Optical Cable, 15 meter
+
+A-O400-Q400-20M
+
+400GbE OSFP to QSFP112 Active Optical Cable, 20 meter
+
+A-O400-Q400-25M
+
+400GbE OSFP to QSFP112 Active Optical Cable, 25 meter
+
+A-O400-Q400-30M
+
+400GbE OSFP to QSFP112 Active Optical Cable, 30 meter
+
+400 Gigabit Ethernet OSFP to 2x 200G QSFP56 Breakout Active Optical Cables
+A-O400-2Q200-1M
+
+400GbE OSFP to 2 x QSFP56 Active Optical Cable, 1 meter
+
+A-O400-2Q200-3M
+
+400GbE OSFP to 2 x QSFP56 Active Optical Cable, 3 meter
+
+A-O400-2Q200-5M
+
+400GbE OSFP to 2 x QSFP56 Active Optical Cable, 5 meter
+
+A-O400-2Q200-7M
+
+400GbE OSFP to 2 x QSFP56 Active Optical Cable, 7 meter
+
+A-O400-2Q200-10M
+
+400GbE OSFP to 2 x QSFP56 Active Optical Cable, 10 meter
+
+A-O400-2Q200-15M
+
+400GbE OSFP to 2 x QSFP56 Active Optical Cable, 15 meter
+
+A-O400-2Q200-20M
+
+400GbE OSFP to 2 x QSFP56 Active Optical Cable, 20 meter
+
+A-O400-2Q200-25M
+
+400GbE OSFP to 2 x QSFP56 Active Optical Cable, 25 meter
+
+A-O400-2Q200-30M
+
+400GbE OSFP to 2 x QSFP56 Active Optical Cable, 30 meter
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+400 Gigabit Ethernet OSFP Optics
+OSFP-400G-VSR4
+
+400GBASE-VSR4 OSFP Transceiver, MPO-12 APC connector, up to 50m over parallel OM4 MMF.
+
+OSFP-400G-SR8
+
+400GBASE-SR8 OSFP Transceiver, MPO-16 APC connector, up to 100m over parallel OM4 MMF.
+
+OSFP-400G-SR8-C
+
+400GBASE-SR8 and 8x 50G / 25G-SR OSFP Transceiver, MPO-16 APC connector , 100m over parallel OM4 MMF
+
+OSFP-400G-SRBD1
+
+400GBASE-BIDI (400GBASE-SR4.2) , 4x 100GBASE-BIDI and 4x 100GBASE-SR1.2 OSFP Transceiver, MPO-12 UPC connector,
+70m / 100m over parallel OM3 / OM4 MMF.
+
+OSFP-400G-DR4
+
+400GBASE-DR4 OSFP Transceiver, MPO12 APC connector, up to 500m over parallel SMF
+
+OSFP-400G-XDR4
+
+4x 100GBASE-FR (or 400G-XDR4) OSFP Transceiver, MPO12 APC connector, up to 2km over parallel SMF
+
+OSFP-400G-XDR4-S
+
+4x 100GBASE-FR (or 400G-XDR4) OSFP Transceiver, with SN optical connectors, up to 2km over parallel SMF
+
+OSFP-400G-PLR4
+
+4x 100GBASE-LR (or 400G-PLR4) OSFP Transceiver, MPO12 APC connector, up to 10km over parallel SMF
+
+OSFP-400G-PLR4-S
+
+4x 100GBASE-LR (or 400G-PLR4) OSFP Transceiver, with SN optical connectors, up to 10km over parallel SMF
+
+OSFP-400G-FR4
+
+400GBASE-FR4 OSFP Transceiver, up to 2km over duplex SMF
+
+OSFP-400G-LR4
+
+400GBASE-LR4 OSFP Transceiver, up to 10km over duplex SMF
+
+OSFP-400G-LR8
+
+400GBASE-LR8 OSFP Transceiver, up to 10km over duplex SMF
+
+OSFP-400G-2FR4
+
+400GBASE-2FR4 (2x 200G-FR4) OSFP Transceiver, up to 2km over 2 pairs of duplex SMF
+
+OSFP-400G-ZR2
+
+400GBASE-ZR OSFP Digital Coherent Tunable Transceiver, up to 120km over duplex SMF with amplification
+
+Dual 100 Gigabit Ethernet OSFP Optics
+OSFP-200G-2LR43
+
+2 x 100GBASE-LR4 OSFP Transceiver, with 2x LC optical connectors, up to 10km over two pairs of duplex SMF
+
+1. The OSFP-400G-SRBD is software configurable for point to point 400GE links (400GBASE-SR4.2), breakout to 4x 100GBASE-BIDI (100G-SRBD) or breakout to 4x
+100GBASE-SR1.2 optics.
+2. OSFP-400G-ZR supported on specific platforms. Refer to Arista’s 400ZR DCI Solution Data Sheet for detailed specifications and to Arista’s Transceiver and
+Cable Guide for supported platforms
+3. Requires the OSFP port to be configured as 2x 100G-4
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+400 Gigabit Ethernet QSFP-DD Twinax Copper cables
+CAB-D-D-400G-1M
+
+400GBASE-CR8 QSFP-DD to QSFP-DD Twinax Copper Cable 1 meter
+
+CAB-D-D-400G-2M
+
+400GBASE-CR8 QSFP-DD to QSFP-DD Twinax Copper Cable 2 meter
+
+CAB-D-D-400-2.5
+
+400GBASE-CR8 QSFP-DD to QSFP-DD Twinax Copper Cable 2.5 meter
+
+CAB-D-D-400G-3M
+
+400GBASE-CR8 QSFP-DD to QSFP-DD Twinax Copper Cable 3 meter
+
+CAB-D-2Q-400G-1M
+
+400GBASE-CR8 QSFP-DD to 2 x 200GBASE-CR4 QSFP Twinax Copper Cable, 1 meter
+
+CAB-D-2Q-400G-2M
+
+400GBASE-CR8 QSFP-DD to 2 x 200GBASE-CR4 QSFP Twinax Copper Cable, 2 meter
+
+CAB-D-2Q-400-2.5
+
+400GBASE-CR8 QSFP-DD to 2 x 200GBASE-CR4 QSFP Twinax Copper Cable, 2.5 meter
+
+CAB-D-2Q-400G-3M
+
+400GBASE-CR8 QSFP-DD to 2 x 200GBASE-CR4 QSFP Twinax Copper Cable, 3 meter
+
+CAB-D-2Q-200G-1M
+
+200GBASE-CR8 QSFP-DD to 2 x 100GBASE-CR4 QSFP Twinax Copper Cable, 1 meter
+
+CAB-D-2Q-200G-2M
+
+200GBASE-CR8 QSFP-DD to 2 x 100GBASE-CR4 QSFP Twinax Copper Cable, 2 meter
+
+CAB-D-2Q-200-2.5
+
+200GBASE-CR8 QSFP-DD to 2 x 100GBASE-CR4 QSFP Twinax Copper Cable, 2.5 meter
+
+CAB-D-4Q-400G-1M
+
+400GBASE-CR8 QSFP-DD to 4 x 100GBASE-CR2 QSFP Twinax Copper Cable, 1 meter
+
+CAB-D-4Q-400G-2M
+
+400GBASE-CR8 QSFP-DD to 4 x 100GBASE-CR2 QSFP Twinax Copper Cable, 2 meter
+
+CAB-D-4Q-400-2.5
+
+400GBASE-CR8 QSFP-DD to 4 x 100GBASE-CR2 QSFP Twinax Copper Cable, 2.5 meter
+
+CAB-D-4Q-400G-3M
+
+400GBASE-CR8 QSFP-DD to 4 x 100GBASE-CR2 QSFP Twinax Copper Cable, 3 meter
+
+CAB-D-4Q-200G-1M
+
+200GBASE-CR8 QSFP-DD to 4 x 50GBASE-CR2 QSFP Twinax Copper Cable, 1 meter
+
+CAB-D-4Q-200G-2M
+
+200GBASE-CR8 QSFP-DD to 4 x 50GBASE-CR2 QSFP Twinax Copper Cable, 2 meter
+
+CAB-D-4Q-200-2.5
+
+200GBASE-CR8 QSFP-DD to 4 x 50GBASE-CR2 QSFP Twinax Copper Cable, 2.5 meter
+
+CAB-D-8S-400G-1M
+
+400GBASE-CR8 QSFP-DD to 8 x 50GBASE-CR SFP Twinax Copper Cable, 1 meter
+
+CAB-D-8S-400G-2M
+
+400GBASE-CR8 QSFP-DD to 8 x 50GBASE-CR SFP Twinax Copper Cable, 2 meter
+
+CAB-D-8S-400-2.5
+
+400GBASE-CR8 QSFP-DD to 8 x 50GBASE-CR SFP Twinax Copper Cable, 2.5 meter
+
+CAB-D-8S-200G-1M
+
+200GBASE-CR8 QSFP-DD to 8 x 25GBASE-CR SFP Twinax Copper Cable, 1 meter
+
+CAB-D-8S-200G-2M
+
+200GBASE-CR8 QSFP-DD to 8 x 25GBASE-CR SFP Twinax Copper Cable, 2 meter
+
+CAB-D-8S-200-2.5
+
+200GBASE-CR8 QSFP-DD to 8 x 25GBASE-CR SFP Twinax Copper Cable, 2.5 meter
+
+400 Gigabit Ethernet QSFP-DD Twinax Active Copper Cables*
+H-D400-4Q100-1M
+
+400GBASE-CR8 QSFP-DD to 4 x 100GBASE-CR4 QSFP Twinax Active Copper Cable, 1 meter
+
+H-D400-4Q100-2M
+
+400GBASE-CR8 QSFP-DD to 4 x 100GBASE-CR4 QSFP Twinax Active Copper Cable, 2 meter
+
+H-D400-4Q100-3M
+
+400GBASE-CR8 QSFP-DD to 4 x 100GBASE-CR4 QSFP Twinax Active Copper Cable, 3 meter
+
+H-D400-4Q100-5M
+
+400GBASE-CR8 QSFP-DD to 4 x 100GBASE-CR4 QSFP Twinax Active Copper Cable, 5 meter
+
+* The Arista 400G QSFP-DD to 4x QSFP100 active copper cables allow a 400G OSFP port (with 8x 50G PAM-4 electrical lanes) to connect to 4x QSFP100 ports
+(with 4x 25G NRZ electrical lanes per QSFP). A gearbox inside the QSFP end of the cable implements the 2x 50G PAM-4 to 4x 25G NRZ conversion.
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+400 Gigabit Ethernet QSFP-DD to QSFP-DD Active Optical Cables
+AOC-D-D-400G-1M
+
+400GbE QSFP-DD to QSFP-DD Active Optical Cable, 1m
+
+AOC-D-D-400G-3M
+
+400GbE QSFP-DD to QSFP-DD Active Optical Cable, 3m
+
+AOC-D-D-400G-5M
+
+400GbE QSFP-DD to QSFP-DD Active Optical Cable, 5m
+
+AOC-D-D-400G-7M
+
+400GbE QSFP-DD to QSFP-DD Active Optical Cable, 7m
+
+AOC-D-D-400G-10M
+
+400GbE QSFP-DD to QSFP-DD Active Optical Cable, 10m
+
+AOC-D-D-400G-15M
+
+400GbE QSFP-DD to QSFP-DD Active Optical Cable, 15m
+
+AOC-D-D-400G-20M
+
+400GbE QSFP-DD to QSFP-DD Active Optical Cable, 20m
+
+AOC-D-D-400G-25M
+
+400GbE QSFP-DD to QSFP-DD Active Optical Cable, 25m
+
+AOC-D-D-400G-30M
+
+400GbE QSFP-DD to QSFP-DD Active Optical Cable, 30m
+
+400 Gigabit Ethernet QSFP-DD to 400G QSFP112 Active Optical Cables
+A-D400-Q400-1M
+
+400GbE QSFP-DD to QSFP112 Active Optical Cable, 1 meter
+
+A-D400-Q400-3M
+
+400GbE QSFP-DD to QSFP112 Active Optical Cable, 3 meter
+
+A-D400-Q400-5M
+
+400GbE QSFP-DD to QSFP112 Active Optical Cable, 5 meter
+
+A-D400-Q400-7M
+
+400GbE QSFP-DD to QSFP112 Active Optical Cable, 7 meter
+
+A-D400-Q400-10M
+
+400GbE QSFP-DD to QSFP112 Active Optical Cable, 10 meter
+
+A-D400-Q400-15M
+
+400GbE QSFP-DD to QSFP112 Active Optical Cable, 15 meter
+
+A-D400-Q400-20M
+
+400GbE QSFP-DD to QSFP112 Active Optical Cable, 20 meter
+
+A-D400-Q400-25M
+
+400GbE QSFP-DD to QSFP112 Active Optical Cable, 25 meter
+
+A-D400-Q400-30M
+
+400GbE QSFP-DD to QSFP112 Active Optical Cable, 30 meter
+
+400 Gigabit Ethernet QSFP-DD to 2x200G QSFP56 Active Optical Cables
+A-D400-2Q200-1M
+
+400GbE QSFP-DD to 2 x QSFP56 Active Optical Cable, 1 meter
+
+A-D400-2Q200-3M
+
+400GbE QSFP-DD to 2 x QSFP56 Active Optical Cable, 3 meter
+
+A-D400-2Q200-5M
+
+400GbE QSFP-DD to 2 x QSFP56 Active Optical Cable, 5 meter
+
+A-D400-2Q200-7M
+
+400GbE QSFP-DD to 2 x QSFP56 Active Optical Cable, 7 meter
+
+A-D400-2Q200-10M
+
+400GbE QSFP-DD to 2 x QSFP56 Active Optical Cable, 10 meter
+
+A-D400-2Q200-15M
+
+400GbE QSFP-DD to 2 x QSFP56 Active Optical Cable, 15 meter
+
+A-D400-2Q200-20M
+
+400GbE QSFP-DD to 2 x QSFP56 Active Optical Cable, 20 meter
+
+A-D400-2Q200-25M
+
+400GbE QSFP-DD to 2 x QSFP56 Active Optical Cable, 25 meter
+
+A-D400-2Q200-30M
+
+400GbE QSFP-DD to 2 x QSFP56 Active Optical Cable, 30 meter
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+400 Gigabit Ethernet QSFP-DD Optics
+QDD-400G-VSR4
+
+400GBASE-VSR4 QSFP-DD Transceiver, MPO-12 APC connector, up to 50m over parallel OM4 MMF.
+
+QDD-400G-SR8
+
+400GBASE-SR8 QSFP-DD Transceiver, MPO-16 APC connector, up to 100m over parallel OM4 MMF.
+
+QDD-400G-SR8-C
+
+400GBASE-SR8 and 8x 50G-SR / 25G-SR QSFP-DD transceiver, MPO-16 APC connector, up to 100m over parallel OM4 MMF
+
+QDD-400G-SRBD1
+
+400GBASE-SR4.2 (400G-BIDI), 4x 100GBASE-BIDI (100G-SRBD) and 4x 100GBASE-SR1.2 QSFP-DD Transceiver,
+MPO-12 UPC connector, 70m / 100m over parallel OM3 / OM4 MMF.
+
+QDD-400G-DR4
+
+400GBASE-DR4 QSFP-DD Transceiver, MPO12 APC connector, up to 500m over parallel SMF
+
+QDD-400G-XDR4
+
+4x 100GBASE-FR (or400G-XDR4) QSFP-DD Transceiver, MPO12 APC connector, up to 2km over parallel SMF
+
+QDD-400G-XDR4-S
+
+4x 100GBASE-FR (or400G-XDR4) QSFP-DD Transceiver, with SN optical connectors, up to 2km over parallel SMF
+
+QDD-400G-PLR4
+
+4x 100GBASE-LR (or 400G-PLR4) QSFP-DD Transceiver, MPO12 APC connector, up to 10km over parallel SMF
+
+QDD-400G-PLR4-S
+
+4x 100GBASE-LR (or 400G-PLR4) QSFP-DD Transceiver, with SN optical connectors, up to 10km over parallel SMF
+
+QDD-400G-FR4
+
+400GBASE-FR4 QSFP-DD Transceiver, up to 2km over duplex SMF
+
+QDD-400G-LR4
+
+400GBASE-LR4 QSFP-DD Transceiver, up to 10km over duplex SMF
+
+QDD-400G-LR8
+
+400GBASE-LR8 QSFP-DD Transceiver, up to 10km over duplex SMF
+
+QDD-400G-ZR2
+
+400GBASE-ZR QSFP-DD Digital Coherent Tunable Transceiver, up to 120km over duplex SMF with amplification
+
+QDD-400G-ZRP2
+
+400GBASE-ZR+, OpenZR+ Compliant, QSFP-DD Digital Coherent Tunable Transceiver
+
+Dual 100 Gigabit Ethernet QSFP-DD Optics
+QDD-200G-2LR43
+
+2 x 100GBASE-LR4 QSFP-DD Transceiver, with 2x CS optical connectors, up to 10km over two pairs of duplex SMF
+
+1. The QDD-400G-SRBD is software configurable for point to point 400GE links (400GBASE-SR4.2), breakout to 4x 100GBASE-BIDI (100G-SRBD) or breakout
+to 4x 100GBASE-SR1.2 optics.
+2. QDD-400G-ZR supported on specific platforms. Refer to Arista’s 400ZR DCI Solution Data Sheet for detailed specifications and to Arista’s Transceiver
+and Cable Guide for supported platforms
+3. Requires the QSFP-DD port to be configured as 2x 100G
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+8x 25 Gigabit Ethernet / 8x 10 Gigabit Ethernet QSFP-DD Optics with Enhanced Optical Performance for Low Latency
+
+QDD-8X25-MR-SR-E
+
+8x 25GBASE-SR-Enhanced / 8x 10GBASE-SR QSFP-DD E-Series Transceiver for low latency, MPO-16 APC optical connector,
+Up to 30m / 50m over parallel MMF without FEC @ 25G (for low latency),
+Up to 70m / 100m over parallel MMF with FEC @ 25G, or
+Up to 300m / 400m over parallel MMF at 10G
+
+200 Gigabit Ethernet QSFP Twinax Copper cables
+C-Q200-Q200-1M
+
+200GBASE-CR4 QSFP to QSFP Twinax Copper Cable 1 meter
+
+C-Q200-Q200-2M
+
+200GBASE-CR4 QSFP to QSFP Twinax Copper Cable 2 meter
+
+C-Q200-Q200-3M
+
+200GBASE-CR4 QSFP to QSFP Twinax Copper Cable 3 meter
+
+C-Q200-2Q100-1M
+
+200GBASE-CR4 QSFP to 2 x 100GBASE-CR2 QSFP Twinax Copper Cable, 1M
+
+C-Q200-2Q100-2M
+
+200GBASE-CR4 QSFP to 2 x 100GBASE-CR2 QSFP Twinax Copper Cable, 2M
+
+C-Q200-2Q100-3M
+
+200GBASE-CR4 QSFP to 2 x 100GBASE-CR2 QSFP Twinax Copper Cable, 3M
+
+C-Q200-4S50-1M
+
+200GBASE-CR4 QSFP to 4 x 50GBASE-CR SFP Twinax Copper Cable, 1 meter
+
+C-Q200-4S50-2M
+
+200GBASE-CR4 QSFP to 4 x 50GBASE-CR SFP Twinax Copper Cable, 2 meter
+
+C-Q200-4S50-3M
+
+200GBASE-CR4 QSFP to 4 x 50GBASE-CR SFP Twinax Copper Cable, 3 meter
+
+200 Gigabit Ethernet QSFP Active Optical Cables
+A-Q200-Q200-1M
+
+200GbE QSFP to QSFP Active Optical Cable, 1m
+
+A-Q200-Q200-3M
+
+200GbE QSFP to QSFP Active Optical Cable, 3m
+
+A-Q200-Q200-5M
+
+200GbE QSFP to QSFP Active Optical Cable, 5m
+
+A-Q200-Q200-7M
+
+200GbE QSFP to QSFP Active Optical Cable, 7m
+
+A-Q200-Q200-10M
+
+200GbE QSFP to QSFP Active Optical Cable, 10m
+
+A-Q200-Q200-15M
+
+200GbE QSFP to QSFP Active Optical Cable, 15m
+
+A-Q200-Q200-20M
+
+200GbE QSFP to QSFP Active Optical Cable, 20m
+
+A-Q200-Q200-25M
+
+200GbE QSFP to QSFP Active Optical Cable, 25m
+
+A-Q200-Q200-30M
+
+200GbE QSFP to QSFP Active Optical Cable, 30m
+
+200 Gigabit Ethernet QSFP Optics
+QSFP-200G-SR4
+
+200GBASE-SR4 QSFP Transceiver, MPO12 UPC connector, up to 70m/100m over OM3/OM4 parallel MMF, 200G/100G dual
+rate
+
+QSFP-200G-FR4
+
+200GBASE-FR4 QSFP Transceiver, up to 2km over duplex single-mode fiber, 200G/100G dual rate
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+100 Gigabit Ethernet QSFP Twinax Copper cables
+CAB-Q-Q-100G-0.5
+
+100GBASE-CR4 QSFP to QSFP Twinax Copper Cable 0.5 meter
+
+CAB-Q-Q-100G-1M
+
+100GBASE-CR4 QSFP to QSFP Twinax Copper Cable 1 meter
+
+CAB-Q-Q-100G-1.5
+
+100GBASE-CR4 QSFP to QSFP Twinax Copper Cable 1.5 meter
+
+CAB-Q-Q-100G-2M
+
+100GBASE-CR4 QSFP to QSFP Twinax Copper Cable 2 meter
+
+CAB-Q-Q-100G-2.5
+
+100GBASE-CR4 QSFP to QSFP Twinax Copper Cable 2.5 meter
+
+CAB-Q-Q-100G-3M
+
+100GBASE-CR4 QSFP to QSFP Twinax Copper Cable 3 meter
+
+CAB-Q-Q-100G-5M
+
+100GBASE-CR4 QSFP to QSFP Twinax Copper Cable 5 meter
+
+CAB-Q-4S-100G-1M
+
+100GBASE-CR4 QSFP to 4 x 25GBASE-CR SFP Twinax Copper Cable, 1 meter
+
+CAB-Q-4S-100G-2M
+
+100GBASE-CR4 QSFP to 4 x 25GBASE-CR SFP Twinax Copper Cable, 2 meter
+
+CAB-Q-4S-100G-3M
+
+100GBASE-CR4 QSFP to 4 x 25GBASE-CR SFP Twinax Copper Cable, 3 meter
+
+CAB-Q-4S-100G-5M
+
+100GBASE-CR4 QSFP to 4 x 25GBASE-CR SFP Twinax Copper Cable, 5 meter
+
+CAB-Q-2Q-100G-1M
+
+100GBASE-CR4 QSFP to 2 x 50GBASE-CR2 QSFP Twinax Copper Cable, 1M
+
+CAB-Q-2Q-100G-2M
+
+100GBASE-CR4 QSFP to 2 x 50GBASE-CR2 QSFP Twinax Copper Cable, 2M
+
+CAB-Q-2Q-100G-3M
+
+100GBASE-CR4 QSFP to 2 x 50GBASE-CR2 QSFP Twinax Copper Cable, 3M
+
+CAB-Q-2Q-100G-5M
+
+100GBASE-CR4 QSFP to 2 x 50GBASE-CR2 QSFP Twinax Copper Cable, 5M
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+100 Gigabit Ethernet QSFP Active Optical Cables
+AOC-Q-Q-100G-1M
+
+100GbE QSFP to QSFP Active Optical Cable, 1m
+
+AOC-Q-Q-100G-3M
+
+100GbE QSFP to QSFP Active Optical Cable, 3m
+
+AOC-Q-Q-100G-5M
+
+100GbE QSFP to QSFP Active Optical Cable, 5m
+
+AOC-Q-Q-100G-7M
+
+100GbE QSFP to QSFP Active Optical Cable, 7m
+
+AOC-Q-Q-100G-10M
+
+100GbE QSFP to QSFP Active Optical Cable, 10m
+
+AOC-Q-Q-100G-15M
+
+100GbE QSFP to QSFP Active Optical Cable, 15m
+
+AOC-Q-Q-100G-20M
+
+100GbE QSFP to QSFP Active Optical Cable, 20m
+
+AOC-Q-Q-100G-25M
+
+100GbE QSFP to QSFP Active Optical Cable, 25m
+
+AOC-Q-Q-100G-30M
+
+100GbE QSFP to QSFP Active Optical Cable, 30m
+
+100 Gigabit Ethernet QSFP Optics
+QSFP-100G-SR4
+
+100GBASE-SR4 QSFP Transceiver, MPO12 UPC connector, up to 70m/100m over parallel OM3/OM4 MMF
+
+QSFP-100G-SR4-E
+
+100GBASE-SR4-Enhanced QSFP E-Series Transceiver for low latency, MPO12 UPC connector,
+up to 30m/50m over parallel OM3/OM4 MMF without FEC (for low latency) or
+up to 70m/100m over OM3/OM4 MMF with FEC
+
+QSFP-100G-XSR4
+
+100GBASE-XSR4 QSFP Transceiver, MPO12 UPC connector, up to 150m / 300m over OM3 / OM4 MMF
+
+QSFP-100G-SR1.2
+
+100GBASE-SR1.2 QSFP transceiver with KP FEC, up to 70m over Duplex OM3 or 100m over OM4 multi-mode fiber.
+
+QSFP-100G-SWDM4
+
+100GBASE-SWDM4 QSFP Transceiver, up to 70m over OM3 or 100m over OM4 duplex multi-mode fiber
+
+QSFP-100G-SRBD
+
+100GBASE-BIDI QSFP Transceiver, up to 70m / 100m over OM3 / OM4 duplex multi-mode fiber
+
+QSFP-100G-PSM4
+
+100GBASE-PSM4 QSFP Transceiver, MPO12 APC connector, up to 500m over parallel SMF, 100G/40G dual rate
+
+QSFP-100G-PLRL4
+
+100GBASE-PLRL4 QSFP Transceiver, MPO12 APC connector, up to 2KMm over parallel SMF, 100G/40G dual rate
+
+QSFP-100G-LR4
+
+100GBASE-LR4 QSFP Transceiver, up to 10km over duplex SMF
+
+QSFP-100G-LRL4
+
+100GBASE-LRL4 QSFP Transceiver, up to 2km over duplex SMF
+
+QSFP-100G-CWDM4
+
+100GBASE-CWDM4 QSFP Transceiver, up to 2km over duplex SMF, 100G/40G dual rate
+
+QSFP-100G-XCWDM4
+
+100GBASE-XCWDM4 QSFP Transceiver, up to 10km over duplex SMF, 100G/40G dual rate
+
+QSFP-100G-ERL41
+
+100GBASE-ERL4 QSFP Transceiver, 30 to 40km over single-mode fiber
+
+QSFP-100G-ZR42
+
+100GBASE-ZR4 QSFP Transceiver, up to 80km over single-mode fiber
+
+QSFP-100G-DR
+
+100GBASE-DR single lambda QSFP Transceiver, up to 500m over duplex SMF
+
+QSFP-100G-FR
+
+100GBASE-FR single lambda QSFP Transceiver, up to 2km over duplex SMF
+
+QSFP-100G-LR
+
+100GBASE-LR single lambda QSFP Transceiver, up to 10km over duplex SMF
+
+QSFP-100G-ER1
+
+100GBASE-ER single lambda QSFP Transceiver, up to 40km over duplex SMF
+
+OSFP to 100G QSFP Adapter
+ADPT-O-Q-100G3
+
+OSFP to 100G QSFP adapter
+
+1. Optical attenuation is required for shorter links to protect the receiver from permanent damage
+2. QSFP-100G-ZR4 supported on specific platforms. Refer to Arista’s Transceiver and Cable Guide for supported platforms.
+3. Enables the use of 100G QSFP optical modules in an OSFP port when the port is configured for 100G. Copper cables or 200G QSFP optical modules
+should not be used with this adapter. The adapter does not allow a QSFP-DD module to be used in an OSFP port (only 100G QSFP optical modules).
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+40 Gigabit Ethernet QSFP+ Twinax Copper Cables
+CAB-Q-Q-0.5M
+
+40GBASE-CR4 QSFP+ to QSFP+ Twinax Copper Cable 0.5 meter
+
+CAB-Q-Q-1M
+
+40GBASE-CR4 QSFP+ to QSFP+ Twinax Copper Cable 1 meter
+
+CAB-Q-Q-2M
+
+40GBASE-CR4 QSFP+ to QSFP+ Twinax Copper Cable 2 meter
+
+CAB-Q-Q-3M
+
+40GBASE-CR4 QSFP+ to QSFP+ Twinax Copper Cable 3 meter
+
+CAB-Q-Q-5M
+
+40GBASE-CR4 QSFP+ to QSFP+ Twinax Copper Cable 5 meter
+
+CAB-Q-S-0.5M
+
+4 x 10GbE QSFP+ to 4 x SFP+ Twinax Copper Cable 0.5 meter
+
+CAB-Q-S-1M
+
+4 x 10GbE QSFP+ to 4 x SFP+ Twinax Copper Cable 1 meter
+
+CAB-Q-S-2M
+
+4 x 10GbE QSFP+ to 4 x SFP+ Twinax Copper Cable 2 meter
+
+CAB-Q-S-3M
+
+4 x 10GbE QSFP+ to 4 x SFP+ Twinax Copper Cable 3 meter
+
+CAB-Q-S-5M
+
+4 x 10GbE QSFP+ to 4 x SFP+ Twinax Copper Cable 5 meter
+
+40 Gigabit Ethernet QSFP+ Active Optical Cables
+AOC-Q-Q-40G-3M
+
+QSFP+ to QSFP+ 40GbE Active Optical Cable 3 meter
+
+AOC-Q-Q-40G-5M
+
+QSFP+ to QSFP+ 40GbE Active Optical Cable 5 meter
+
+AOC-Q-Q-40G-7M
+
+QSFP+ to QSFP+ 40GbE Active Optical Cable 7 meter
+
+AOC-Q-Q-40G-10M
+
+QSFP+ to QSFP+ 40GbE Active Optical Cable 10 meter
+
+AOC-Q-Q-40G-15M
+
+QSFP+ to QSFP+ 40GbE Active Optical Cable 15 meter
+
+AOC-Q-Q-40G-20M
+
+QSFP+ to QSFP+ 40GbE Active Optical Cable 20 meter
+
+AOC-Q-Q-40G-25M
+
+QSFP+ to QSFP+ 40GbE Active Optical Cable 25 meter
+
+AOC-Q-Q-40G-30M
+
+QSFP+ to QSFP+ 40GbE Active Optical Cable 30 meter
+
+AOC-Q-Q-40G-50M
+
+QSFP+ to QSFP+ 40GbE Active Optical Cable 50 meter
+
+AOC-Q-Q-40G-75M
+
+QSFP+ to QSFP+ 40GbE Active Optical Cable 75 meter
+
+AOC-Q-Q-40G-100M
+
+QSFP+ to QSFP+ 40GbE Active Optical Cable 100 meter
+
+40 Gigabit Ethernet QSFP+ Optics
+QSFP-40G-SR4
+
+40GBASE-SR4 QSFP+ Transceiver, MPO12 UPC connector, up to 100m over OM3 MMF or 150m over OM4 MMF
+
+QSFP-40G-XSR4
+
+40GBASE-XSR4 QSFP+ Transceiver, MPO12 UPC connector, up to 300m over OM3 MMF or 400m over OM4 MMF
+
+QSFP-40G-SRBD
+
+40GBASE-BIDI Bidirectional QSFP+ Transceiver, up to 100m over duplex OM3 or 150m over duplex OM4 MMF
+
+QSFP-40G-SRBD-R
+
+40GBASE-BIDI Receiver only QSFP+, up to 100m over duplex OM3 or 150m over duplex OM4 MMF
+
+QSFP-40G-UNIV
+
+40G Universal QSFP+ Transceiver, up to 150m over duplex OM3 and OM4 MMF or 500m over duplex SMF
+
+QSFP-40G-LR4
+
+40GBASE-LR4 QSFP+ Transceiver, up to 10km over SMF
+
+QSFP-40G-LRL4
+
+40G QSFP+ Transceiver, up to 1km over duplex SMF
+
+QSFP-40G-PLR4
+
+40G QSFP+ Transceiver, up to 10km over parallel SMF (4x10G LR up to 10km) MTP-12
+
+QSFP-40G-PLRL4
+
+40G QSFP+ Transceiver, up to 1km over parallel SMF (4x10G LR up to 1km) MTP-12
+
+QSFP-40G-ER4
+
+40GBASE-ER4 QSFP+ Transceiver, up to 40km over SMF
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+100 Gigabit Ethernet SFP-DD Twin Copper Cables
+C-Z100-Z100-1M
+
+100GBASE-CR2 SFP-DD to SFP-DD Twin Copper Cable, 1 meter
+
+C-Z100-Z100-2M
+
+100GBASE-CR2 SFP-DD to SFP-DD Twin Copper Cable, 2meter
+
+C-Z100-Z100-3M
+
+100GBASE-CR2 SFP-DD to SFP-DD Twinax Copper Cable, 2 meter
+
+C-Z100-Q100-1M
+
+100GBASE-CR2 SFP-DD to QSFP Twinax Copper Cable, 1 meter
+
+C-Z100-Q100-2M
+
+100GBASE-CR2 SFP-DD to QSFP Twinax Copper Cable, 2meter
+
+C-Z100-Q100-3M
+
+100GBASE-CR2 SFP-DD to QSFP Twinax Copper Cable, 3meter
+
+C-Z100-2S50-1M
+
+100GBASE-CR2 SFP-DD to 2x 50GBASE-CR SFP Twinax Copper Cable, 1 meter
+
+C-Z100-2S50-2M
+
+100GBASE-CR2 SFP-DD to 2x 50GBASE-CR SFP Twinax Copper Cable, 2meter
+
+C-Z100-2S50-3M
+
+100GBASE-CR2 SFP-DD to 2x 50GBASE-CR SFP Twinax Copper Cable, 3meter
+
+100 Gigabit Ethernet DSFP Twin Copper Cables
+C-Y100-Y100-1M
+
+100GBASE-CR2 DSFP to DSFP Twinax Copper Cable, 1 meter
+
+C-Y100-Y100-2M
+
+100GBASE-CR2 DSFP to DSFP Twinax Copper Cable, 2meter
+
+C-Y100-Y100-3M
+
+100GBASE-CR2 DSFP to DSFP Twinax Copper Cable, 2 meter
+
+C-Y100-Q100-1M
+
+100GBASE-CR2 DSFP to QSFP Twinax Copper Cable, 1 meter
+
+C-Y100-Q100-2M
+
+100GBASE-CR2 DSFP to QSFP Twinax Copper Cable, 2meter
+
+C-Y100-Q100-3M
+
+100GBASE-CR2 DSFP to QSFP Twinax Copper Cable, 3meter
+
+C-Y100-2S50-1M
+
+100GBASE-CR2 DSFP to 2x 50GBASE-CR SFP Twinax Copper Cable, 1 meter
+
+C-Y100-2S50-2M
+
+100GBASE-CR2 DSFP to 2x 50GBASE-CR SFP Twinax Copper Cable, 2meter
+
+C-Y100-2S50-3M
+
+100GBASE-CR2 DSFP to 2x 50GBASE-CR SFP Twinax Copper Cable, 3meter
+
+50 Gigabit Ethernet SFP Twinax Copper Cables
+C-S50-S50-1M
+
+50GBASE-CR SFP to SFP Twinax Copper Cable 1 meter
+
+C-S50-S50-2M
+
+50GBASE-CR SFP to SFP Twinax Copper Cable 2 meter
+
+C-S50-S50-3M
+
+50GBASE-CR SFP to SFP Twinax Copper Cable 2 meter
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+25 Gigabit Ethernet SFP Twinax Copper Cables
+CAB-S-S-25G-0.5M
+
+25GBASE-CR SFP to SFP Twinax Copper Cable 0.5 meter
+
+CAB-S-S-25G-1M
+
+25GBASE-CR SFP to SFP Twinax Copper Cable 1 meter
+
+CAB-S-S-25G-1.5M
+
+25GBASE-CR SFP to SFP Twinax Copper Cable 1.5 meter
+
+CAB-S-S-25G-2M
+
+25GBASE-CR SFP to SFP Twinax Copper Cable 2 meter
+
+CAB-S-S-25G-2.5M
+
+25GBASE-CR SFP to SFP Twinax Copper Cable 2.5 meter
+
+CAB-S-S-25G-3M
+
+25GBASE-CR SFP to SFP Twinax Copper Cable 3 meter
+
+CAB-S-S-25G-5M
+
+25GBASE-CR SFP to SFP Twinax Copper Cable 5 meter
+
+25 Gigabit Ethernet SFP Active Optical Cables
+AOC-S-S-25G-3M
+
+SFP to SFP 25GbE Active Optical Cable 3 meter
+
+AOC-S-S-25G-5M
+
+SFP to SFP 25GbE Active Optical Cable 5 meter
+
+AOC-S-S-25G-7M
+
+SFP to SFP 25GbE Active Optical Cable 7 meter
+
+AOC-S-S-25G-10M
+
+SFP to SFP 25GbE Active Optical Cable 10 meter
+
+AOC-S-S-25G-15M
+
+SFP to SFP 25GbE Active Optical Cable 15 meter
+
+AOC-S-S-25G-20M
+
+SFP to SFP 25GbE Active Optical Cable 20 meter
+
+AOC-S-S-25G-25M
+
+SFP to SFP 25GbE Active Optical Cable 25 meter
+
+AOC-S-S-25G-30M
+
+SFP to SFP 25GbE Active Optical Cable 30 meter
+
+25 Gigabit Ethernet SFP Optics
+SFP-25G-SR
+
+25GBASE-SR SFP Transceiver, up to 70m over OM3 MMF or 100m over OM4 MMF
+
+SFP-25G-MR-SR
+
+10/25GBASE-MR-SR Dual rate SFP Transceiver, up to 70m/100m over OM3/OM4 MMF at 25G and
+300m/400m over OM3/OM4 MMF at 10G. Interoperates with 10G-SR when operated at 10G.
+
+SFP-25G-MR-XSR *
+
+10/25GBASE-MR-XSR (Extended Reach) Dual rate SFP Transceiver, up to 200m/300m over OM3/OM4 MMF at 25G and
+300m/400m over OM3/OM4 MMF at 10G
+
+SFP-25G-SR-E
+
+25GBASE-SR-Enhanced SFP E-Series Transceiver for low latency,
+Up to 30m/50m over OM3/OM4 MMF without FEC (for low latency), or
+Up to 50m/100m over OM3/OM4 MMF with FEC
+
+SFP-25G-LR
+
+25GBASE-LR SFP Transceiver, up to 10 km over duplex SMF
+
+SFP-25G-MR-LR *
+
+10/25GBASE-MR-LR Dual rate SFP Transceiver, up to 10 km over duplex SMF
+
+SFP-25G-LR-E
+
+25GBASE-LR-Enhanced SFP E-Series Transceiver for low latency,
+Up to 2km over SMF without FEC (for low latency), or
+Up to 10km over SMF with FEC
+
+SFP-25G-ER
+
+25GBASE-ER SFP Transceiver, up to 40 km over duplex SMF
+
+* When connecting 25G-MR-XSR/LR optics to legacy fixed rate 10G optics, attenuation may be required to ensure the optical input power to the 10G
+optical module is within allowable limits. Refer to the relevant 10G-LR / SR optical specifications for requirements.
+
+Optics Modules and Cables | Ordering Information
+Product Number
+
+Product Description
+
+10 Gigabit Ethernet SFP+ Cables
+CAB-SFP-SFP-0.5M
+
+10GBASE-CR SFP+ Cable 0.5 meter
+
+CAB-SFP-SFP-1M
+
+10GBASE-CR SFP+ Cable 1 meter
+
+CAB-SFP-SFP-1.5M
+
+10GBASE-CR SFP+ Cable 1.5 meter
+
+CAB-SFP-SFP-2M
+
+10GBASE-CR SFP+ Cable 2 meter
+
+CAB-SFP-SFP-2.5M
+
+10GBASE-CR SFP+ Cable 2.5 meter
+
+CAB-SFP-SFP-3M
+
+10GBASE-CR SFP+ Cable 3 meter
+
+CAB-SFP-SFP-5M
+
+10GBASE-CR SFP+ Cable 5 meter
+
+10G Gigabit Ethernet SFP+ Active Optical Cables
+AOC-S-S-10G-3M
+
+SFP+ to SFP+ 10GbE Active Optical Cable 3 meter
+
+AOC-S-S-10G-5M
+
+SFP+ to SFP+ 10GbE Active Optical Cable 5 meter
+
+AOC-S-S-10G-7M
+
+SFP+ to SFP+ 10GbE Active Optical Cable 7 meter
+
+AOC-S-S-10G-10M
+
+SFP+ to SFP+ 10GbE Active Optical Cable 10 meter
+
+AOC-S-S-10G-15M
+
+SFP+ to SFP+ 10GbE Active Optical Cable 15 meter
+
+AOC-S-S-10G-20M
+
+SFP+ to SFP+ 10GbE Active Optical Cable 20 meter
+
+AOC-S-S-10G-25M
+
+SFP+ to SFP+ 10GbE Active Optical Cable 25 meter
+
+AOC-S-S-10G-30M
+
+SFP+ to SFP+ 10GbE Active Optical Cable 30 meter
+
+10 Gigabit Ethernet SFP+ Optics
+SFP-10G-T 1
+
+10G/1G/100M BASE-T Copper (RJ45) Transceiver, up to 30m over Cat6a cable
+
+SFP-10G-T-RP 2
+
+10G/1G/100M BASE-T Copper (RJ45) Transceiver, up to 30m over Cat6a cable, with reduced power consumption
+
+SFP-10G-MRA-T 1
+
+10G/1G/100M BASE-T Copper (RJ45) Rate Adapting Transceiver, up to 30m over Cat6a cable
+
+SFP-10G-SRL
+
+10GBASE-SRL SFP+ Transceiver, up to 100m over OM3 MMF or 150m over OM4 MMF
+
+SFP-10G-SR
+
+10GBASE-SR SFP+ Transceiver, up to 300m over OM3 MMF or 400m over OM4 MMF
+
+SFP-10G-LRL
+
+10GBASE-LRL SFP+ Transceiver, up to 1km over duplex SMF
+
+SFP-10G-LR
+
+10GBASE-LR SFP+ Transceiver, up to 10km over duplex SMF
+
+SFP-10G-ERLBD-U
+
+10GBASE-ERLBD SFP+ Transceiver, uplink, up to 30km over single fiber SMF
+
+SFP-10G-ERLBD-D
+
+10GBASE-ERLBD SFP+ Transceiver, downlink, up to 30km over single fiber SMF
+
+SFP-10G-ERBD-U
+
+10GBASE-ERBD SFP+ Transceiver, uplink, up to 40km over single fiber SMF
+
+SFP-10G-ERBD-D
+
+10GBASE-ERBD SFP+ Transceiver, downlink, up to 40km over single fiber SMF
+
+SFP-10G-ER
+
+10GBASE-ER SFP+ Transceiver, up to 40km over duplex SMF
+
+SFP-10G-ZR
+SFP-10G-DZ-T
+
+10GBASE-ZR SFP+ Transceiver, up to 80km over duplex SMF
+10GBASE-DWDM Tunable SFP+ Transceiver, Full C-Band 50 GHz ITU Grid, up to 80km over duplex SMF
+
+3
+
+Gigabit and 100M Ethernet SFP Optics and Copper
+SFP-1G-SX
+
+1000BASE-SX SFP Transceiver
+
+SFP-10G-RA-1G-SX 1
+
+1000BASE-SX (media interface) to 10G (host interface) rate adapting SFP Transceiver
+
+SFP-1G-LX
+
+1000BASE-LX SFP Transceiver
+
+SFP-10G-RA-1G-LX
+
+1
+
+1000BASE-LX (media interface) to 10G (host interface) rate adapting SFP Transceiver
+
+SFP-1G-T
+
+100/1000BASE-T SFP Copper Transceiver
+
+SFP-100M-FX
+
+100BASE-FX SFP Transceiver with SGMII Interface
+
+1. SFP-10G-T & rate adapting transceivers supported on specific platforms - refer to Arista’s Transceiver and Cable Guide for supported platforms.
+2. The SFP-10G-T-RP has identical performance to the SFP-10G-T, but with a lower module power consumption of 1.5W, enabling support in all Arista
+SFP+ and SFP25 ports, unless otherwise specified.
+3. A full list of 50GHz grid and 100GHZ grid channel numbers, wavelengths and frequencies are listed in the following pages of this data sheet.
+
+SFP-10G-DZ-T, DWDM Tunable SFP+ | 50GHz Channel Numbers
+Arista 50GHz Channel Numbers and Wavelengths (50GHz ITU grid) for SFP-10G-DZ-T
+Channel
+Number
+
+Frequency
+(THz)
+
+1
+
+191.2
+
+2
+
+Wavelength
+(nm)
+
+Channel
+Number
+
+Frequency
+(THz)
+
+1554.94
+
+65
+
+194.4
+
+1542.14
+
+192.85
+
+1554.53
+
+66
+
+194.45
+
+1541.74
+
+35
+
+192.9
+
+1554.13
+
+67
+
+194.5
+
+1541.35
+
+1566.72
+
+36
+
+192.95
+
+1553.73
+
+68
+
+194.55
+
+1540.95
+
+191.4
+
+1566.31
+
+37
+
+193.0
+
+1553.33
+
+69
+
+194.6
+
+1540.55
+
+6
+
+191.45
+
+1565.90
+
+38
+
+193.05
+
+1552.92
+
+70
+
+194.65
+
+1540.16
+
+7
+
+191.5
+
+1565.49
+
+39
+
+193.1
+
+1552.52
+
+71
+
+194.7
+
+1539.76
+
+8
+
+191.55
+
+1565.08
+
+40
+
+193.15
+
+1552.12
+
+72
+
+194.75
+
+1539.37
+
+9
+
+191.6
+
+1564.68
+
+41
+
+193.2
+
+1551.72
+
+73
+
+194.8
+
+1538.97
+
+10
+
+191.65
+
+1564.27
+
+42
+
+193.25
+
+1551.32
+
+74
+
+194.85
+
+1538.58
+
+11
+
+191.7
+
+1563.86
+
+43
+
+193.3
+
+1550.92
+
+75
+
+194.9
+
+1538.18
+
+12
+
+191.75
+
+1563.45
+
+44
+
+193.35
+
+1550.51
+
+76
+
+194.95
+
+1537.79
+
+13
+
+191.8
+
+1563.04
+
+45
+
+193.4
+
+1550.11
+
+77
+
+195.0
+
+1537.39
+
+14
+
+191.85
+
+1562.64
+
+46
+
+193.45
+
+1549.71
+
+78
+
+195.05
+
+1537.00
+
+15
+
+191.9
+
+1562.23
+
+47
+
+193.5
+
+1549.31
+
+79
+
+195.1
+
+1536.61
+
+16
+
+191.95
+
+1561.82
+
+48
+
+193.55
+
+1548.91
+
+80
+
+195.15
+
+1536.21
+
+17
+
+192.0
+
+1561.42
+
+49
+
+193.6
+
+1548.51
+
+81
+
+195.2
+
+1535.82
+
+18
+
+192.05
+
+1561.01
+
+50
+
+193.65
+
+1548.11
+
+82
+
+195.25
+
+1535.43
+
+19
+
+192.1
+
+1560.60
+
+51
+
+193.7
+
+1547.71
+
+83
+
+195.3
+
+1535.03
+
+20
+
+192.15
+
+1560.20
+
+52
+
+193.75
+
+1547.31
+
+84
+
+195.35
+
+1534.64
+
+21
+
+192.2
+
+1559.79
+
+53
+
+193.8
+
+1546.91
+
+85
+
+195.4
+
+1534.25
+
+22
+
+192.25
+
+1559.39
+
+54
+
+193.85
+
+1546.52
+
+86
+
+195.45
+
+1533.86
+
+23
+
+192.3
+
+1558.98
+
+55
+
+193.9
+
+1546.12
+
+87
+
+195.5
+
+1533.46
+
+24
+
+192.35
+
+1558.58
+
+56
+
+193.95
+
+1545.72
+
+88
+
+195.55
+
+1533.07
+
+25
+
+192.4
+
+1558.17
+
+57
+
+194.0
+
+1545.32
+
+89
+
+195.6
+
+1532.68
+
+26
+
+192.45
+
+1557.77
+
+58
+
+194.05
+
+1544.92
+
+90
+
+195.65
+
+1532.29
+
+27
+
+192.5
+
+1557.36
+
+59
+
+194.1
+
+1544.52
+
+91
+
+195.7
+
+1531.90
+
+28
+
+192.55
+
+1556.96
+
+60
+
+194.15
+
+1544.13
+
+92
+
+195.75
+
+1531.50
+
+29
+
+192.6
+
+1556.55
+
+61
+
+194.2
+
+1543.73
+
+93
+
+195.8
+
+1531.11
+
+30
+
+192.65
+
+1556.15
+
+62
+
+194.25
+
+1543.33
+
+94
+
+195.85
+
+1530.72
+
+31
+
+192.7
+
+1555.74
+
+63
+
+194.3
+
+1542.93
+
+95
+
+195.9
+
+1530.33
+
+32
+
+192.75
+
+1555.34
+
+64
+
+194.35
+
+1542.54
+
+96
+
+195.95
+
+1529.94
+
+Channel
+Number
+
+Frequency
+(THz)
+
+1567.95
+
+33
+
+192.8
+
+191.25
+
+1567.54
+
+34
+
+3
+
+191.3
+
+1567.13
+
+4
+
+191.35
+
+5
+
+Wavelength
+(nm)
+
+Wavelength
+(nm)
+
+SFP-10G-DZ-T, DWDM Tunable SFP+ | 100GHz Channel Numbers
+Arista 100GHz Channel Numbers and Wavelengths (100GHz ITU grid) for SFP-10G-DZ-T
+Channel
+Number
+
+Frequency
+(THz)
+
+1554.94
+
+33
+
+194.4
+
+1542.14
+
+192.9
+
+1554.13
+
+34
+
+194.5
+
+1541.35
+
+19
+
+193.0
+
+1553.33
+
+35
+
+194.6
+
+1540.55
+
+1565.49
+
+20
+
+193.1
+
+1552.52
+
+36
+
+194.7
+
+1539.76
+
+191.6
+
+1564.68
+
+21
+
+193.2
+
+1551.72
+
+37
+
+194.8
+
+1538.97
+
+6
+
+191.7
+
+1563.86
+
+22
+
+193.3
+
+1550.92
+
+38
+
+194.9
+
+1538.18
+
+7
+
+191.8
+
+1563.04
+
+23
+
+193.4
+
+1550.11
+
+39
+
+195.0
+
+1537.39
+
+8
+
+191.9
+
+1562.23
+
+24
+
+193.5
+
+1549.31
+
+40
+
+195.1
+
+1536.61
+
+9
+
+192.0
+
+1561.42
+
+25
+
+193.6
+
+1548.51
+
+41
+
+195.2
+
+1535.82
+
+10
+
+192.1
+
+1560.60
+
+26
+
+193.7
+
+1547.71
+
+42
+
+195.3
+
+1535.03
+
+11
+
+192.2
+
+1559.79
+
+27
+
+193.8
+
+1546.91
+
+43
+
+195.4
+
+1534.25
+
+12
+
+192.3
+
+1558.98
+
+28
+
+193.9
+
+1546.12
+
+44
+
+195.5
+
+1533.46
+
+13
+
+192.4
+
+1558.17
+
+29
+
+194.0
+
+1545.32
+
+45
+
+195.6
+
+1532.68
+
+14
+
+192.5
+
+1557.36
+
+30
+
+194.1
+
+1544.52
+
+46
+
+195.7
+
+1531.90
+
+15
+
+192.6
+
+1556.55
+
+31
+
+194.2
+
+1543.73
+
+47
+
+195.8
+
+1531.11
+
+16
+
+192.7
+
+1555.74
+
+32
+
+194.3
+
+1542.93
+
+48
+
+195.9
+
+1530.33
+
+Channel
+Number
+
+Frequency
+(THz)
+
+1
+
+191.2
+
+2
+
+Wavelength
+(nm)
+
+Channel
+Number
+
+Frequency
+(THz)
+
+1567.95
+
+17
+
+192.8
+
+191.3
+
+1567.13
+
+18
+
+3
+
+191.4
+
+1566.31
+
+4
+
+191.5
+
+5
+
+Wavelength
+(nm)
+
+Wavelength
+(nm)
+
+Optics Modules and Cables | Contact Information
+Standards Compliance & Certifications
+EMC Emissions
+& Immunity
+
+Subpart B, Part 15 FCC Class A, ICES-003 Issue 7
+EN 55032:2015, BS EN 55032:2015,
+EN 55035:2017, EN 300 386 V2.1.1
+
+Safety
+
+EN 62368-1:2014 + A11:2017, IEC 62368-1:2014
+21CFR-1040.10 LN#50,
+Laser Class 1 or 1M IEC 60825-1,
+Laser Class 1 or 1M EN 60825-1,
+
+Certifications
+
+CE
+South Korea KCC
+Australia RCM
+UKCA
+
+European Union
+Directives
+
+2014/35/EU Low Voltage Directive
+2014/30/EU EMC Directive
+2012/19/EU WEEE Directive
+2011/65/EU RoHS
+2015/863/EU Commission Delegated Directive
+
+Warranty
+Arista pluggables and cables include a one-year limited hardware warranty, which covers parts, repair, or replacement with a 10
+business day turn-around after the unit is received.
+
+Service and Support
+Support services including next business day and 4-hour advance hardware replacement are available. For service depot locations,
+please see: http://www.arista.com/en/service
+
+Headquarters
+
+Support
+
+Sales
+
+5453 Great America Parkway
+Santa Clara, California 95054
+408-547-5500
+
+support@arista.com
+408-547-5502
+866-476-0000
+
+sales@arista.com
+408-547-5501
+866-497-0000
+
+Copyright 2024 Arista Networks, Inc. The information contained herein is subject to change without notice. Arista, the
+Arista logo and EOS are trademarks of Arista Networks. Other product or service names may be trademarks or service marks
+of others.
+
+www.arista.com
+
+May 2025
+
+03-0027-37
+
+
