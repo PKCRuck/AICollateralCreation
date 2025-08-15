@@ -293,14 +293,19 @@ def get_ruckus_logo_base64():
     """Get the Ruckus dog logo as base64 string"""
     try:
         pics_folder = "Pics"
-        logo_path = os.path.join(pics_folder, "Ruckus dog.png")
-        
-        if os.path.exists(logo_path):
-            with open(logo_path, "rb") as img_file:
-                return base64.b64encode(img_file.read()).decode()
-        else:
-            # Return a placeholder or create a simple SVG logo
-            return None
+        candidate_names = [
+            "Ruckus dog.png",
+            "Ruckus dog.PNG",
+            "Ruckus_dog.png",
+            "Ruckus_dog.PNG",
+            "RDogg.PNG",
+        ]
+        for name in candidate_names:
+            logo_path = os.path.join(pics_folder, name)
+            if os.path.exists(logo_path):
+                with open(logo_path, "rb") as img_file:
+                    return base64.b64encode(img_file.read()).decode()
+        return None
     except Exception as e:
         st.warning(f"Could not load Ruckus logo: {str(e)}")
         return None
