@@ -25,11 +25,14 @@ except ImportError:
 # PDF generation imports
 try:
     from reportlab.lib.pagesizes import letter, A4
-    from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
+    from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, Image as RLImage
     from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-    from reportlab.lib.units import inch
+    from reportlab.lib.units import inch, mm
     from reportlab.lib import colors
     from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_JUSTIFY
+    from reportlab.pdfgen import canvas
+    from reportlab.platypus.doctemplate import PageTemplate, BaseDocTemplate
+    from reportlab.platypus.frames import Frame
     import markdown
     from bs4 import BeautifulSoup
     PDF_AVAILABLE = True
@@ -67,14 +70,18 @@ except ImportError:
     IMAGE_PROCESSING_AVAILABLE = False
 
 # Hardcoded API key (as requested)
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 
 # Page configuration
 st.set_page_config(
-    page_title="Ruckus Datasheet Generator",
-    page_icon="📊",
+    page_title="RUCKUS Datasheet Generator",
+    page_icon="🐕",
     layout="wide"
 )
+
+col1, col2, col3 = st.columns([1, 1, 1])
+with col2:
+    st.image("Pics/Ruckus_logo_stacked_white-orange.png", width=250)
 
 # Initialize session state
 if "templates" not in st.session_state:
@@ -112,6 +119,40 @@ if "generation_complete" not in st.session_state:
 
 # Enhanced Product type configurations
 PRODUCT_TYPES = {
+    "optic_transceiver": {
+        "name": "Optical Transceiver",
+        "keywords": [
+            "qsfp28", "optical", "transceiver", "100gbase", "lr4",
+            "fiber", "dfb", "laser", "receiver", "optics", "sfp", "sfp+", "qsfp", "osfp"
+        ],
+        "spec_fields": [
+            ("model_number", "Model Number", "text"),
+            ("form_factor", "Form Factor", "text"),
+            ("data_rate", "Data Rate", "text"),
+            ("wavelengths", "Wavelengths", "text"),
+            ("connector_type", "Connector Type", "text"),
+            ("fiber_type", "Fiber Type", "text"),
+            ("transmission_distance", "Transmission Distance", "text"),
+            ("power_dissipation", "Power Dissipation", "text"),
+            ("operating_temp", "Operating Temperature", "text"),
+            ("power_supply_voltage", "Power Supply Voltage", "text"),
+            ("tx_power", "Transmit Power", "text"),
+            ("rx_power", "Receive Power", "text"),
+            ("receiver_sensitivity", "Receiver Sensitivity", "text"),
+            ("extinction_ratio", "Extinction Ratio", "text"),
+            ("digital_diagnostics", "Digital Diagnostics Monitoring", "textarea"),
+            ("standards_compliance", "Standards Compliance", "textarea"),
+            ("ieee_standard", "IEEE Standard", "text"),
+            ("dimensions", "Dimensions", "text"),
+            ("weight", "Weight", "text")
+        ],
+        "prd_keywords": [
+            "qsfp28", "optical", "fiber", "transceiver", "wavelength",
+            "connector", "dbm", "lr4", "digital diagnostics",
+            "ieee", "sff", "standard", "msa"
+        ]
+    },
+
     "wireless_ap": {
         "name": "Wireless Access Point",
         "keywords": ["access point", "wireless", "wifi", "802.11", "antenna", "ssid", "wlan", "mimo", "radio", "beamflex"],
@@ -192,6 +233,29 @@ PRODUCT_TYPES = {
 
 # Enhanced specification extraction patterns
 SPEC_EXTRACTION_PATTERNS = {
+    "optic_transceiver": {
+        "model_number": [r"(?:Model|Part)\s*(?:Number|No\.?|#|ID)[:\s]*([A-Z0-9\-]+)"],
+        "form_factor": [r"(QSFP28|QSFP56|SFP\+|SFP28|OSFP|QSFP-DD)"],
+        "data_rate": [r"(\d+\.?\d*\s*Gb/s|\d+\s*Gbps|\d+\s*G)"],
+        "wavelengths": [r"((?:1294|1295|1296|1299|1300|1301|1303|1304|1305|1308|1309|1310)\s*nm[^\n]*)",
+                        r"(\d{4}\s*nm(?:,\s*\d{4}\s*nm)+)"],
+        "connector_type": [r"(LC\s*connector|LC\s*receptacle|MPO\s*(?:\d+)?\s*connector)"],
+        "fiber_type": [r"(single\s*mode\s*fiber|SMF|multi\s*mode\s*fiber|MMF)"],
+        "transmission_distance": [r"(\d+\s*km)"],
+        "power_dissipation": [r"Power\s*dissipation[:\s]*([0-9\.]+\s*W)"],
+        "operating_temp": [r"(?:Case\s*)?Operating\s*Temperature[:\s]*([^\n]+)"],
+        "power_supply_voltage": [r"(?:Power\s*Supply\s*Voltage|VCC)[:\s]*([0-9\.]+\s*V)"],
+        "tx_power": [r"(?:Transmit(?:ted)?\s*optical\s*power|Average\s*launch\s*power)[^-\n]*([\-+]?\d+\.?\d*\s*dBm)"],
+        "rx_power": [r"(?:Receive(?:d)?\s*optical\s*power|Average\s*input\s*power)[^-\n]*([\-+]?\d+\.?\d*\s*dBm)"],
+        "receiver_sensitivity": [r"(?:Receiver\s*sensitivity)[^-\n]*([\-+]?\d+\.?\d*\s*dBm)"],
+        "extinction_ratio": [r"(?:Extinction\s*Ratio|ER)\s*[:\s]*([0-9\.]+\s*dB)"],
+        "digital_diagnostics": [r"(Digital\s*Diagnostics[\s\S]+?)(?:\n[A-Z][^\n]+:|\Z)"],
+        "standards_compliance": [r"(Compliant(?:\s*to|\s*with)[\s\S]+?)(?:\n[A-Z][^\n]+:|\Z)"],
+        "ieee_standard": [r"(IEEE\s*802\.\d+[a-z]?)", r"(IEEE\s*802\.3[a-z]?)"],
+        "dimensions": [r"Dimensions?\s*[:\-]\s*([^\n]+)"],
+        "weight": [r"Weight\s*[:\-]\s*([^\n]+)"]
+    },
+
     "wireless_ap": {
         "model_number": [
             r"(?:Model|Part|Product)\s*(?:Number|#|ID)?\s*:?\s*([A-Z0-9\-]+)",
@@ -224,6 +288,661 @@ SPEC_EXTRACTION_PATTERNS = {
         ]
     }
 }
+
+def get_ruckus_logo_base64():
+    """Get the Ruckus dog logo as base64 string"""
+    try:
+        pics_folder = "Pics"
+        logo_path = os.path.join(pics_folder, "Ruckus dog.png")
+        
+        if os.path.exists(logo_path):
+            with open(logo_path, "rb") as img_file:
+                return base64.b64encode(img_file.read()).decode()
+        else:
+            # Return a placeholder or create a simple SVG logo
+            return None
+    except Exception as e:
+        st.warning(f"Could not load Ruckus logo: {str(e)}")
+        return None
+
+def create_professional_html_template(content: str, product_name: str, generation_metrics: Dict) -> str:
+    """Create a professional HTML template matching Ruckus datasheet format"""
+    
+    logo_base64 = get_ruckus_logo_base64()
+    logo_img = f'<img src="data:image/png;base64,{logo_base64}" alt="Ruckus Logo" style="height: 60px; margin-right: 20px;">' if logo_base64 else ""
+    
+    # Enhanced CSS styling to match Ruckus datasheets
+    professional_css = """
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            font-size: 11pt;
+        }
+        
+        .datasheet-container {
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0;
+            background: white;
+        }
+        
+        /* Header Section */
+        .header-section {
+            background: linear-gradient(135deg, #ff6600, #ff8533);
+            color: white;
+            padding: 20px 30px;
+            margin-bottom: 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            transform: skewX(-15deg);
+            transform-origin: top;
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .logo-section {
+            display: flex;
+            align-items: center;
+        }
+        
+        .ruckus-logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+            letter-spacing: 1px;
+        }
+        
+        .product-title {
+            text-align: right;
+            flex-grow: 1;
+            margin-left: 40px;
+        }
+        
+        .product-title h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .product-subtitle {
+            font-size: 14px;
+            opacity: 0.95;
+            font-weight: 400;
+        }
+        
+        /* Data Sheet Label */
+        .datasheet-label {
+            background: #333;
+            color: white;
+            padding: 8px 20px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+        }
+        
+        /* Content Section */
+        .content-section {
+            padding: 0 30px 30px 30px;
+        }
+        
+        /* Headings */
+        h1 {
+            color: #ff6600;
+            font-size: 22px;
+            font-weight: 700;
+            margin: 30px 0 15px 0;
+            border-bottom: 3px solid #ff6600;
+            padding-bottom: 8px;
+        }
+        
+        h2 {
+            color: #ff6600;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 25px 0 12px 0;
+            border-left: 4px solid #ff6600;
+            padding-left: 12px;
+        }
+        
+        h3 {
+            color: #333;
+            font-size: 15px;
+            font-weight: 600;
+            margin: 20px 0 10px 0;
+        }
+        
+        h4 {
+            color: #555;
+            font-size: 13px;
+            font-weight: 600;
+            margin: 15px 0 8px 0;
+        }
+        
+        /* Benefits Section */
+        .benefits-section {
+            background: #f8f9fa;
+            padding: 25px;
+            margin: 20px 0;
+            border-left: 5px solid #ff6600;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 10pt;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        th {
+            background: linear-gradient(135deg, #ff6600, #ff8533);
+            color: white;
+            padding: 12px 10px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 11pt;
+            border: none;
+        }
+        
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: top;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        tr:hover {
+            background-color: #e3f2fd;
+            transition: background-color 0.3s ease;
+        }
+        
+        /* Lists */
+        ul {
+            margin: 15px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        li {
+            margin: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            line-height: 1.5;
+        }
+        
+        li::before {
+            content: "▶";
+            color: #ff6600;
+            font-weight: bold;
+            position: absolute;
+            left: 8px;
+            font-size: 10px;
+        }
+        
+        /* Special sections */
+        .specification-section {
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .feature-highlight {
+            background: linear-gradient(135deg, #fff3e0, #ffe0b3);
+            border-left: 4px solid #ff6600;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        /* Generation metrics */
+        .generation-metrics {
+            background: #f0f8ff;
+            border: 1px solid #b3d9ff;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            font-size: 10pt;
+        }
+        
+        .metric-badge {
+            display: inline-block;
+            background: #e8f5e8;
+            color: #2d5d2d;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 9pt;
+            margin: 3px;
+            font-weight: 500;
+        }
+        
+        /* Footer */
+        .footer-section {
+            background: #f8f9fa;
+            border-top: 3px solid #ff6600;
+            padding: 20px 30px;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 10pt;
+            color: #666;
+        }
+        
+        .footer-section .company-info {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        /* Responsive adjustments for print */
+        @media print {
+            .datasheet-container {
+                max-width: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .header-section {
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+            }
+            
+            body {
+                font-size: 10pt;
+            }
+            
+            table {
+                break-inside: avoid;
+            }
+            
+            h1, h2, h3 {
+                break-after: avoid;
+            }
+        }
+        
+        /* Code blocks */
+        pre, code {
+            background: #f4f4f4;
+            border-radius: 4px;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 9pt;
+            overflow-x: auto;
+        }
+        
+        /* Blockquotes */
+        blockquote {
+            border-left: 4px solid #ff6600;
+            padding-left: 20px;
+            margin: 20px 0;
+            color: #555;
+            font-style: italic;
+            background: #f9f9f9;
+            padding: 15px 15px 15px 35px;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        /* Horizontal rules */
+        hr {
+            border: none;
+            height: 3px;
+            background: linear-gradient(to right, #ff6600, #ff8533);
+            margin: 30px 0;
+            border-radius: 2px;
+        }
+        
+        /* Text formatting */
+        strong, b {
+            font-weight: 600;
+            color: #333;
+        }
+        
+        em, i {
+            font-style: italic;
+            color: #555;
+        }
+        
+        /* Links */
+        a {
+            color: #ff6600;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    """
+    
+    # Convert markdown content to HTML and enhance it
+    html_content = markdown.markdown(content, extensions=['tables', 'nl2br', 'codehilite'])
+    
+    # Process the HTML to add professional classes
+    html_content = enhance_html_content(html_content)
+    
+    # Create the complete HTML document
+    full_html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{product_name} - Professional Datasheet</title>
+    {professional_css}
+</head>
+<body>
+    <div class="datasheet-container">
+        <!-- Header Section -->
+        <div class="header-section">
+            <div class="header-content">
+                <div class="logo-section">
+                    {logo_img}
+                    <div class="ruckus-logo">RUCKUS®</div>
+                </div>
+                <div class="product-title">
+                    <h1>{product_name}</h1>
+                    <div class="product-subtitle">Professional Enterprise Network Solution</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Data Sheet Label -->
+        <div class="datasheet-label">DATA SHEET</div>
+        
+        <!-- Generation Metrics -->
+        <div class="generation-metrics">
+            <strong>📊 Professional Datasheet Generation:</strong>
+            <div style="margin-top: 8px;">
+                <span class="metric-badge">🎯 {generation_metrics.get('word_count', 0):,} Words</span>
+                <span class="metric-badge">📝 {generation_metrics.get('section_count', 0)} Sections</span>
+                <span class="metric-badge">📊 {generation_metrics.get('table_count', 0)} Tables</span>
+                <span class="metric-badge">✅ {generation_metrics.get('overall_quality', 0):.1%} Quality</span>
+                <span class="metric-badge">🔴 Live Generated</span>
+                <span class="metric-badge">📅 {datetime.now().strftime('%Y-%m-%d %H:%M')}</span>
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="content-section">
+            {html_content}
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer-section">
+            <div class="company-info">© {datetime.now().year} CommScope, Inc. All rights reserved.</div>
+            <div>RUCKUS, RUCKUS WIRELESS and RUCKUS NETWORKS are trademarks of CommScope, Inc.</div>
+            <div style="margin-top: 10px; font-size: 9pt;">
+                <em>Generated by Ruckus Professional Datasheet Generator • Live Streaming Technology • Advanced AI Content Creation</em>
+            </div>
+        </div>
+    </div>
+</body>
+</html>"""
+    
+    return full_html
+
+def enhance_html_content(html_content: str) -> str:
+    """Enhance HTML content with professional classes and formatting"""
+    
+    # Add classes to tables for better styling
+    html_content = re.sub(r'<table>', '<table class="professional-table">', html_content)
+    
+    # Enhance headers
+    html_content = re.sub(r'<h1([^>]*)>', r'<h1\1 class="section-header">', html_content)
+    html_content = re.sub(r'<h2([^>]*)>', r'<h2\1 class="subsection-header">', html_content)
+    
+    # Add classes to important sections
+    html_content = re.sub(
+        r'(<h[12][^>]*>[^<]*(?:benefits|features)[^<]*</h[12]>)',
+        r'<div class="benefits-section">\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
+    # Close benefits sections
+    html_content = re.sub(
+        r'(</div>)(\s*<h[12])',
+        r'\1</div>\2',
+        html_content
+    )
+    
+    # Add specification section wrapper
+    html_content = re.sub(
+        r'(<h[12][^>]*>[^<]*(?:specification|technical)[^<]*</h[12]>)',
+        r'<div class="specification-section">\1',
+        html_content,
+        flags=re.IGNORECASE
+    )
+    
+    return html_content
+
+def create_professional_pdf(content: str, product_name: str, generation_metrics: Dict) -> BytesIO:
+    """Create a professional PDF matching Ruckus datasheet format"""
+    if not PDF_AVAILABLE:
+        return None
+    
+    buffer = BytesIO()
+    
+    # Custom page template for professional layout
+    class RuckusPageTemplate(PageTemplate):
+        def __init__(self, doc):
+            self.doc = doc
+            frame = Frame(
+                0.75*inch, 0.75*inch, 
+                7*inch, 9.5*inch,
+                leftPadding=0, rightPadding=0,
+                topPadding=0, bottomPadding=0
+            )
+            super().__init__('professional', [frame])
+        
+        def beforeDrawPage(self, canvas, doc):
+            # Draw header
+            canvas.saveState()
+            
+            # Orange header background
+            canvas.setFillColor(colors.HexColor('#ff6600'))
+            canvas.rect(0, doc.pagesize[1] - 1.2*inch, doc.pagesize[0], 1.2*inch, fill=1)
+            
+            # Logo and title
+            canvas.setFillColor(colors.white)
+            canvas.setFont("Helvetica-Bold", 20)
+            canvas.drawString(0.75*inch, doc.pagesize[1] - 0.6*inch, "RUCKUS®")
+            
+            # Product title
+            canvas.setFont("Helvetica-Bold", 16)
+            title_width = canvas.stringWidth(product_name, "Helvetica-Bold", 16)
+            canvas.drawRightString(doc.pagesize[0] - 0.75*inch, doc.pagesize[1] - 0.6*inch, product_name)
+            
+            # Data sheet label
+            canvas.setFillColor(colors.HexColor('#333333'))
+            canvas.rect(0, doc.pagesize[1] - 1.6*inch, doc.pagesize[0], 0.4*inch, fill=1)
+            canvas.setFillColor(colors.white)
+            canvas.setFont("Helvetica-Bold", 10)
+            canvas.drawString(0.75*inch, doc.pagesize[1] - 1.4*inch, "DATA SHEET")
+            
+            # Footer
+            canvas.setFillColor(colors.HexColor('#666666'))
+            canvas.setFont("Helvetica", 8)
+            footer_text = f"© {datetime.now().year} CommScope, Inc. All rights reserved."
+            canvas.drawString(0.75*inch, 0.4*inch, footer_text)
+            
+            # Page number
+            canvas.drawRightString(doc.pagesize[0] - 0.75*inch, 0.4*inch, f"Page {doc.page}")
+            
+            canvas.restoreState()
+    
+    # Create document
+    doc = BaseDocTemplate(buffer, pagesize=letter, topMargin=2*inch, bottomMargin=0.75*inch)
+    doc.addPageTemplates([RuckusPageTemplate(doc)])
+    
+    # Styles
+    styles = getSampleStyleSheet()
+    
+    # Custom styles
+    title_style = ParagraphStyle(
+        'CustomTitle',
+        parent=styles['Heading1'],
+        fontSize=18,
+        spaceAfter=20,
+        textColor=colors.HexColor('#ff6600'),
+        fontName='Helvetica-Bold'
+    )
+    
+    heading_style = ParagraphStyle(
+        'CustomHeading',
+        parent=styles['Heading2'],
+        fontSize=14,
+        spaceAfter=12,
+        spaceBefore=20,
+        textColor=colors.HexColor('#ff6600'),
+        fontName='Helvetica-Bold'
+    )
+    
+    body_style = ParagraphStyle(
+        'CustomBody',
+        parent=styles['Normal'],
+        fontSize=10,
+        spaceAfter=6,
+        fontName='Helvetica'
+    )
+    
+    # Build story
+    story = []
+    
+    # Generation metrics
+    metrics_text = f"""<b>Professional Datasheet Generation:</b><br/>
+    Words: {generation_metrics.get('word_count', 0):,} | 
+    Sections: {generation_metrics.get('section_count', 0)} | 
+    Quality: {generation_metrics.get('overall_quality', 0):.1%} | 
+    Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')}"""
+    
+    story.append(Paragraph(metrics_text, body_style))
+    story.append(Spacer(1, 0.2*inch))
+    
+    # Process content for PDF
+    content_lines = content.split('\n')
+    current_table_data = []
+    in_table = False
+    
+    for line in content_lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        # Handle headers
+        if line.startswith('# '):
+            story.append(Paragraph(line[2:], title_style))
+        elif line.startswith('## '):
+            story.append(Paragraph(line[3:], heading_style))
+        elif line.startswith('### '):
+            story.append(Paragraph(line[4:], styles['Heading3']))
+        
+        # Handle tables
+        elif '|' in line and not line.startswith('|--'):
+            if not in_table:
+                in_table = True
+                current_table_data = []
+            
+            # Parse table row
+            cells = [cell.strip() for cell in line.split('|')[1:-1]]
+            current_table_data.append(cells)
+            
+        elif in_table and '|' not in line:
+            # End of table
+            if current_table_data:
+                # Create table
+                table = Table(current_table_data)
+                table.setStyle(TableStyle([
+                    ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#ff6600')),
+                    ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+                    ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
+                    ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+                    ('FONTSIZE', (0, 0), (-1, 0), 10),
+                    ('FONTNAME', (0, 1), (-1, -1), 'Helvetica'),
+                    ('FONTSIZE', (0, 1), (-1, -1), 9),
+                    ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+                    ('TOPPADDING', (0, 1), (-1, -1), 6),
+                    ('BOTTOMPADDING', (0, 1), (-1, -1), 6),
+                    ('GRID', (0, 0), (-1, -1), 1, colors.HexColor('#e0e0e0')),
+                    ('ROWBACKGROUNDS', (0, 1), (-1, -1), [colors.white, colors.HexColor('#f8f9fa')])
+                ]))
+                story.append(table)
+                story.append(Spacer(1, 0.1*inch))
+            
+            current_table_data = []
+            in_table = False
+            
+            # Process the current line
+            if line:
+                story.append(Paragraph(line, body_style))
+        
+        # Handle regular content
+        elif not in_table:
+            if line.startswith('* ') or line.startswith('- '):
+                # Bullet point
+                bullet_text = f"• {line[2:]}"
+                story.append(Paragraph(bullet_text, body_style))
+            elif line.startswith('**') and line.endswith('**'):
+                # Bold text
+                story.append(Paragraph(f"<b>{line[2:-2]}</b>", body_style))
+            else:
+                story.append(Paragraph(line, body_style))
+    
+    # Handle final table if exists
+    if current_table_data:
+        table = Table(current_table_data)
+        table.setStyle(TableStyle([
+            ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#ff6600')),
+            ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+            ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
+            ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+            ('FONTSIZE', (0, 0), (-1, 0), 10),
+            ('FONTNAME', (0, 1), (-1, -1), 'Helvetica'),
+            ('FONTSIZE', (0, 1), (-1, -1), 9),
+            ('GRID', (0, 0), (-1, -1), 1, colors.HexColor('#e0e0e0')),
+        ]))
+        story.append(table)
+    
+    # Build PDF
+    doc.build(story)
+    buffer.seek(0)
+    return buffer
 
 def format_markdown_table(headers: List[str], rows: List[List[str]]) -> str:
     """Create a properly formatted markdown table"""
@@ -1433,7 +2152,7 @@ def validate_datasheet_accuracy(content: str, specs: Dict, features: List[str]) 
     return accuracy_metrics
 
 # Main UI
-st.title("📊 Ruckus Professional Datasheet Generator")
+st.title("🐕 Ruckus Professional Datasheet Generator")
 st.markdown("**Enhanced with Live Streaming Generation & Comprehensive Content Creation**")
 
 # Top navigation
@@ -1976,7 +2695,7 @@ elif st.session_state.current_step == 3:
                         
                         # Enhanced download options
                         st.divider()
-                        st.subheader("📥 Download Comprehensive Datasheet")
+                        st.subheader("📥 Download Professional Datasheet")
                         
                         col1, col2, col3, col4 = st.columns(4)
                         
@@ -1984,245 +2703,50 @@ elif st.session_state.current_step == 3:
                             st.download_button(
                                 label="📄 Download Markdown",
                                 data=generated_content,
-                                file_name=f"{datasheet['product_name']}_comprehensive.md",
+                                file_name=f"{datasheet['product_name']}_professional.md",
                                 mime="text/markdown",
                                 use_container_width=True,
                                 help="Download as Markdown for editing"
                             )
                         
                         with col2:
-                            # Enhanced HTML with better styling
-                            html_content = f"""<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>{datasheet['product_name']} - Comprehensive Datasheet</title>
-    <style>
-        body {{ 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            margin: 0;
-            padding: 40px; 
-            line-height: 1.6; 
-            color: #333;
-            background: #ffffff;
-        }}
-        .header-banner {{
-            background: linear-gradient(135deg, #ff6600, #ff8533);
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-            text-align: center;
-        }}
-        .quality-badge {{
-            background: #e8f5e8;
-            color: #2d5d2d;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            display: inline-block;
-            margin: 5px;
-        }}
-        h1, h2, h3 {{ 
-            color: #ff6600; 
-            margin-top: 35px;
-            margin-bottom: 15px;
-        }}
-        h1 {{ 
-            font-size: 2.8em; 
-            text-align: center;
-            border-bottom: 3px solid #ff6600;
-            padding-bottom: 15px;
-        }}
-        h2 {{ 
-            font-size: 2.2em;
-            border-left: 5px solid #ff6600;
-            padding-left: 15px;
-        }}
-        h3 {{ 
-            font-size: 1.6em; 
-            color: #333;
-        }}
-        h4 {{ 
-            font-size: 1.3em; 
-            color: #555; 
-        }}
-        table {{ 
-            border-collapse: collapse; 
-            width: 100%; 
-            margin: 25px 0; 
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border-radius: 8px;
-            overflow: hidden;
-        }}
-        th, td {{ 
-            border: 1px solid #ddd; 
-            padding: 15px 12px; 
-            text-align: left; 
-        }}
-        th {{ 
-            background: linear-gradient(135deg, #ff6600, #ff8533);
-            color: white; 
-            font-weight: bold; 
-            font-size: 1.1em;
-        }}
-        tr:nth-child(even) {{ 
-            background-color: #f8f9fa; 
-        }}
-        tr:hover {{
-            background-color: #e8f4fd;
-            transition: background-color 0.3s ease;
-        }}
-        ul {{
-            list-style-type: none;
-            padding-left: 0;
-        }}
-        ul li {{
-            margin: 12px 0;
-            padding-left: 30px;
-            position: relative;
-            line-height: 1.5;
-        }}
-        ul li:before {{
-            content: "▶";
-            color: #ff6600;
-            font-weight: bold;
-            display: inline-block;
-            width: 1em;
-            margin-left: -1em;
-            position: absolute;
-            left: 10px;
-        }}
-        hr {{
-            border: none;
-            border-top: 3px solid #ff6600;
-            margin: 40px 0;
-        }}
-        .metrics-section {{
-            background: #f8f9fa;
-            padding: 25px;
-            border-radius: 10px;
-            border-left: 5px solid #ff6600;
-            margin: 30px 0;
-        }}
-        .footer {{
-            margin-top: 60px;
-            padding: 30px;
-            background: #f8f9fa;
-            border-radius: 10px;
-            text-align: center;
-            color: #666;
-            font-size: 0.95em;
-            border-top: 3px solid #ff6600;
-        }}
-        blockquote {{
-            border-left: 4px solid #ff6600;
-            padding-left: 20px;
-            margin-left: 0;
-            color: #555;
-            font-style: italic;
-        }}
-        .section-divider {{
-            text-align: center;
-            margin: 50px 0;
-            color: #ff6600;
-            font-size: 1.5em;
-        }}
-    </style>
-</head>
-<body>
-    <div class="header-banner">
-        <h1 style="color: white; margin: 0; border: none; font-size: 2.2em;">🎯 COMPREHENSIVE DATASHEET</h1>
-        <p style="margin: 10px 0 0 0; font-size: 1.1em;">Generated with Live Streaming & Advanced AI</p>
-    </div>
-    
-    <div class="metrics-section">
-        <strong>📊 Generation Metrics:</strong>
-        <div class="quality-badge">🎯 {accuracy_analysis['word_count']:,} Words</div>
-        <div class="quality-badge">📝 {accuracy_analysis['section_count']} Sections</div>
-        <div class="quality-badge">📊 {accuracy_analysis['table_count']} Tables</div>
-        <div class="quality-badge">✅ {accuracy_analysis['overall_quality']:.1%} Quality</div>
-        {('<div class="quality-badge">🎯 Verified Template</div>' if template.get('accuracy_verified') else '')}
-        {('<div class="quality-badge">📝 PRD Enhanced</div>' if st.session_state.selected_prd_id else '')}
-    </div>
-    
-    {markdown.markdown(generated_content, extensions=['tables', 'nl2br'])}
-    
-    <div class="footer">
-        <strong>Generated on {datetime.now().strftime("%Y-%m-%d at %H:%M")}</strong><br>
-        Powered by Ruckus Datasheet Generator v9.0<br>
-        <em>🔴 Live Streaming Generation • 🎯 Comprehensive Content • ✅ Professional Formatting</em>
-    </div>
-</body>
-</html>"""
+                            # Create professional HTML
+                            professional_html = create_professional_html_template(
+                                generated_content, 
+                                datasheet['product_name'], 
+                                accuracy_analysis
+                            )
+                            
                             st.download_button(
                                 label="🌐 Download HTML",
-                                data=html_content,
-                                file_name=f"{datasheet['product_name']}_comprehensive.html",
+                                data=professional_html,
+                                file_name=f"{datasheet['product_name']}_professional.html",
                                 mime="text/html",
                                 use_container_width=True,
-                                help="Download as styled HTML"
+                                help="Download as professional styled HTML"
                             )
                         
                         with col3:
                             if PDF_AVAILABLE:
                                 try:
-                                    from reportlab.lib.pagesizes import letter
-                                    from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
-                                    from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-                                    from reportlab.lib.colors import HexColor
-                                    
-                                    buffer = BytesIO()
-                                    doc = SimpleDocTemplate(buffer, pagesize=letter, 
-                                                          topMargin=1*inch, bottomMargin=1*inch,
-                                                          leftMargin=1*inch, rightMargin=1*inch)
-                                    styles = getSampleStyleSheet()
-                                    
-                                    # Custom styles
-                                    title_style = ParagraphStyle(
-                                        'CustomTitle',
-                                        parent=styles['Heading1'],
-                                        fontSize=16,
-                                        spaceAfter=20,
-                                        textColor=HexColor('#ff6600')
+                                    pdf_buffer = create_professional_pdf(
+                                        generated_content,
+                                        datasheet['product_name'],
+                                        accuracy_analysis
                                     )
                                     
-                                    story = []
-                                    
-                                    # Add header
-                                    story.append(Paragraph(f"COMPREHENSIVE DATASHEET", title_style))
-                                    story.append(Paragraph(f"{datasheet['product_name']}", styles['Heading2']))
-                                    story.append(Spacer(1, 0.2*inch))
-                                    
-                                    # Add metrics
-                                    metrics_text = f"""Generated: {datetime.now().strftime("%Y-%m-%d %H:%M")} | 
-                                    Words: {accuracy_analysis['word_count']:,} | 
-                                    Quality: {accuracy_analysis['overall_quality']:.1%} | 
-                                    Live Streamed Generation"""
-                                    story.append(Paragraph(metrics_text, styles['Normal']))
-                                    story.append(Spacer(1, 0.3*inch))
-                                    
-                                    # Add content (simplified for PDF)
-                                    content_lines = generated_content.split('\n')
-                                    for line in content_lines[:100]:  # First 100 lines for PDF
-                                        if line.strip():
-                                            if line.startswith('#'):
-                                                story.append(Paragraph(line.replace('#', ''), 
-                                                            styles['Heading3'] if line.count('#') <= 2 else styles['Heading4']))
-                                            else:
-                                                story.append(Paragraph(line, styles['Normal']))
-                                            story.append(Spacer(1, 6))
-                                    
-                                    doc.build(story)
-                                    
-                                    st.download_button(
-                                        label="📄 Download PDF",
-                                        data=buffer.getvalue(),
-                                        file_name=f"{datasheet['product_name']}_comprehensive.pdf",
-                                        mime="application/pdf",
-                                        use_container_width=True,
-                                        help="Download as PDF (summary)"
-                                    )
+                                    if pdf_buffer:
+                                        st.download_button(
+                                            label="📄 Download PDF",
+                                            data=pdf_buffer.getvalue(),
+                                            file_name=f"{datasheet['product_name']}_professional.pdf",
+                                            mime="application/pdf",
+                                            use_container_width=True,
+                                            help="Download as professional PDF"
+                                        )
+                                    else:
+                                        st.button("❌ PDF Error", disabled=True, use_container_width=True)
+                                        
                                 except Exception as e:
                                     st.button("❌ PDF Error", disabled=True, use_container_width=True, 
                                             help=f"PDF generation error: {str(e)}")
@@ -2242,7 +2766,7 @@ elif st.session_state.current_step == 3:
                         
                         # Final display of generated content
                         st.divider()
-                        st.subheader("📋 Generated Comprehensive Datasheet")
+                        st.subheader("📋 Generated Professional Datasheet")
                         
                         # Create a styled container for the final preview
                         st.markdown("""
@@ -2268,7 +2792,7 @@ elif st.session_state.current_step == 3:
                         """, unsafe_allow_html=True)
                         
                         with st.container():
-                            st.markdown(f'<div class="completion-badge">✅ COMPREHENSIVE GENERATION COMPLETE • {accuracy_analysis["word_count"]:,} WORDS • {accuracy_analysis["overall_quality"]:.1%} QUALITY</div>', unsafe_allow_html=True)
+                            st.markdown(f'<div class="completion-badge">✅ PROFESSIONAL GENERATION COMPLETE • {accuracy_analysis["word_count"]:,} WORDS • {accuracy_analysis["overall_quality"]:.1%} QUALITY</div>', unsafe_allow_html=True)
                             st.markdown('<div class="final-datasheet-preview">', unsafe_allow_html=True)
                             st.markdown(generated_content)
                             st.markdown('</div>', unsafe_allow_html=True)
@@ -2313,7 +2837,8 @@ elif st.session_state.current_step == 3:
 - More specifications = more detailed content
 - Verified templates produce comprehensive outputs
 - PRD integration auto-populates specifications
-- Live metrics show generation progress"""
+- Live metrics show generation progress
+- Professional HTML/PDF formatting included"""
                 
                 st.info(tips_content)
 
@@ -2322,7 +2847,7 @@ elif st.session_state.current_step == 4:
     st.header("📋 Generated Datasheets Library")
     
     if not st.session_state.generated_datasheets:
-        st.info("🎯 No datasheets generated yet. Click 'Home' to start generating comprehensive datasheets with live streaming.")
+        st.info("🎯 No datasheets generated yet. Click 'Home' to start generating professional datasheets with live streaming.")
         
         # Show generation encouragement
         col1, col2, col3 = st.columns(3)
@@ -2514,62 +3039,47 @@ elif st.session_state.current_step == 4:
                         use_container_width=True
                     )
                     
-                    # HTML download with quality badge
-                    html_with_quality = f"""<!DOCTYPE html>
-<html><head><title>{ds['product_name']} - Quality: {quality_score:.1%}</title>
-<style>
-body {{font-family: Arial; margin: 40px; line-height: 1.6;}}
-.quality-header {{background: #f0f8ff; padding: 20px; border-radius: 10px; margin-bottom: 30px;}}
-h1,h2,h3 {{color: #ff6600;}} table {{border-collapse: collapse; width: 100%; margin: 20px 0;}}
-th,td {{border: 1px solid #ddd; padding: 12px; text-align: left;}}
-th {{background-color: #ff6600; color: white;}}
-</style></head><body>
-<div class="quality-header">
-<h2>📊 Generated: {ds['generation_date']} | Quality: {quality_score:.1%} | Words: {word_count:,}</h2>
-</div>
-{markdown.markdown(ds['content'], extensions=['tables'])}
-</body></html>"""
+                    # Professional HTML download
+                    professional_html = create_professional_html_template(
+                        ds['content'], 
+                        ds['product_name'], 
+                        ds.get('accuracy_analysis', {})
+                    )
                     
                     st.download_button(
                         label="🌐 Download HTML",
-                        data=html_with_quality,
+                        data=professional_html,
                         file_name=f"{ds['product_name']}{file_suffix}.html",
                         mime="text/html",
                         key=f"download_html_{ds['id']}",
                         use_container_width=True
                     )
                     
-                    # Analysis button
-                    if st.button("📊 View Analysis", key=f"analysis_{ds['id']}", use_container_width=True):
-                        with st.expander("📊 Detailed Analysis", expanded=True):
-                            if ds.get('accuracy_analysis'):
-                                analysis = ds['accuracy_analysis']
-                                
-                                st.subheader("📈 Content Analysis")
-                                col_a, col_b = st.columns(2)
-                                with col_a:
-                                    st.write(f"**Word Count:** {analysis.get('word_count', 0):,}")
-                                    st.write(f"**Character Count:** {analysis.get('character_count', 0):,}")
-                                    st.write(f"**Section Count:** {analysis.get('section_count', 0)}")
-                                    st.write(f"**Technical Tables:** {analysis.get('table_count', 0)}")
-                                with col_b:
-                                    st.write(f"**Has Overview:** {'✅' if analysis.get('has_overview') else '❌'}")
-                                    st.write(f"**Has Specifications:** {'✅' if analysis.get('has_specifications') else '❌'}")
-                                    st.write(f"**Has Features:** {'✅' if analysis.get('has_features') else '❌'}")
-                                    st.write(f"**Has Security:** {'✅' if analysis.get('has_security') else '❌'}")
-                                
-                                st.subheader("🎯 Quality Breakdown")
-                                quality_metrics = {
-                                    "Overall Quality": analysis.get('overall_quality', 0),
-                                    "Specification Accuracy": analysis.get('spec_accuracy', 0),
-                                    "Feature Coverage": analysis.get('feature_coverage', 0),
-                                    "Completeness Score": analysis.get('completeness_score', 0),
-                                    "Professional Formatting": analysis.get('professional_formatting', 0),
-                                    "Technical Depth": analysis.get('technical_depth', 0)
-                                }
-                                
-                                for metric, value in quality_metrics.items():
-                                    st.progress(value, text=f"{metric}: {value:.1%}")
+                    # Professional PDF download
+                    if PDF_AVAILABLE:
+                        try:
+                            pdf_buffer = create_professional_pdf(
+                                ds['content'],
+                                ds['product_name'],
+                                ds.get('accuracy_analysis', {})
+                            )
+                            
+                            if pdf_buffer:
+                                st.download_button(
+                                    label="📄 Download PDF",
+                                    data=pdf_buffer.getvalue(),
+                                    file_name=f"{ds['product_name']}{file_suffix}.pdf",
+                                    mime="application/pdf",
+                                    key=f"download_pdf_{ds['id']}",
+                                    use_container_width=True
+                                )
+                            else:
+                                st.button("❌ PDF Error", disabled=True, use_container_width=True, key=f"pdf_error_{ds['id']}")
+                        except Exception as e:
+                            st.button("❌ PDF Error", disabled=True, use_container_width=True, 
+                                    help=f"PDF error: {str(e)}", key=f"pdf_error_{ds['id']}")
+                    else:
+                        st.button("❌ PDF N/A", disabled=True, use_container_width=True, key=f"pdf_na_{ds['id']}")
                     
                     # Delete button
                     if st.button("🗑️ Delete", key=f"delete_{ds['id']}", use_container_width=True, type="secondary"):
@@ -3058,7 +3568,7 @@ elif st.session_state.current_step == 5:
                                     st.info("No performance metrics extracted")
                 
                 with col2:
-                    integration_button_text = "🚀 Use PRD for Comprehensive Generation"
+                    integration_button_text = "🚀 Use PRD for Professional Generation"
                     if confidence >= 0.8:
                         integration_button_text = "🎯 Use High-Confidence PRD"
                     
@@ -3434,6 +3944,7 @@ elif st.session_state.current_step == 6:
                 "Verified Templates": any(ds.get('template_verified') for ds in st.session_state.generated_datasheets),
                 "Live Streaming": any(ds.get('generation_method') == 'live_streaming' for ds in st.session_state.generated_datasheets),
                 "Comprehensive Generation": any(ds.get('word_count', 0) >= 4000 for ds in st.session_state.generated_datasheets),
+                "Professional Formatting": any(ds.get('professional_formatting') for ds in st.session_state.generated_datasheets),
             }
             
             for feature, adopted in feature_adoption.items():
@@ -3511,17 +4022,17 @@ st.markdown(
                 background: linear-gradient(135deg, #f8f9fa, #e9ecef); 
                 padding: 25px; border-radius: 15px; border: 2px solid #ff6600;'>
         <div style='font-size: 1.3em; font-weight: bold; color: #ff6600; margin-bottom: 15px;'>
-            🚀 Ruckus Datasheet Generator v9.0
+            🚀 Ruckus Professional Datasheet Generator v10.0
         </div>
         <div style='font-size: 1.1em; margin-bottom: 10px;'>
-            <strong>🔴 Live Streaming Generation • 📊 Comprehensive Content • 🎯 Verified Templates</strong>
+            <strong>🔴 Live Streaming Generation • 📊 Professional Formatting • 🎯 Verified Templates</strong>
         </div>
         <div style='margin-bottom: 10px;'>
             {footer_status}
         </div>
         <div style='font-size: 0.9em; color: #555;'>
             📈 Session Status: {session_performance} | 
-            🎛️ Features: Template Selection • PRD Integration • Live Generation • Quality Analytics<br>
+            🎛️ Features: Professional HTML/PDF • Template Selection • PRD Integration • Live Generation • Quality Analytics<br>
             📊 Total Generated: {len(st.session_state.generated_datasheets)} | 
             📄 PRDs: {len(st.session_state.prd_documents)} | 
             🏆 Templates: {len(st.session_state.templates)}

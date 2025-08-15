@@ -8,3 +8,4 @@ beautifulsoup4
 python-docx
 PyPDF2
 Pillow numpy
+anthropic
