@@ -1,0 +1,1133 @@
+Maximum flexibility: Gigabit, Multigigabit edge ports and 
+Fiber to the Room 
+	· Optimized for latest generation Wi-Fi 6/6E/7 AP deployments 
+with multigigabit ports.
+	· 8, 24 and 48 Gigabit Ethernet ports 
+	· Up to 24x 1/2.5G Multigigabit RJ45 ports
+	· Up to 4× 1/2.5/5/10 Gbps Multigigabit RJ-45 ports
+	· Up to 48x 1G SFP fiber ports
+	· Up to 24x 10G SFP+ fiber ports 
+Power next generation APs and PoE devices 
+	· PoE+ 802.3at, 30W per port on all ports
+	· PoE++ 802.3bt, 60/90W on multigigabit ports
+	· Up to 1480W PoE budget with two power supplies
+25 GbE uplinks/stacking for maximum performance  
+and future-proofing
+	· Stacking comes standard with all ICX 8200
+	· Up to 8x 1/10/25GbE SFP28 fiber ports for uplink and/or 
+stacking
+Enhanced Security and data privacy 
+	· VXLAN* support for advanced network segmentation and 
+data confidentiality 	
+	
+Advanced L3 routing delivers network design flexibility 
+	· IPv4 and IPv6 L3 routing
+	· Static routes, RIP, OSPF, VRRP, VRF, GRE, PIM, PBR
+Broad range of unified management options for 
+maximum flexibility
+	· On Premises: SmartZone
+	· Cloud Based: RUCKUS Cloud*
+	· Controllerless: RUCKUS Unleashed*
+	· RUCKUS Analytics 
+Enhanced availability
+	· Redundant, load-sharing power supplies and fans on 
+specific models
+Services and Support Included
+	· 3 Years remote TAC support included with every ICX 
+8200 model
+	· Limited lifetime warranty  
+The RUCKUS ICX 8200 Switch series is purposely designed to handle 
+next generation wireless first and IoT campus networks. These 
+intelligent, scalable edge switches deliver enterprise-class functionality 
+at an affordable price without compromising performance and 
+reliability. 
+The RUCKUS ICX 8200 raises the bar with up to 8× 25 GbE ports for 
+uplinks or stacking, PoE++ (802.3bt), VXLAN, advanced L2/L3 features 
+and market-leading stacking density with up to 12 switches per stack. 
+In addition, the RUCKUS ICX 8200 combines enterprise-class features, 
+manageability, performance, and reliability with the flexibility, cost-
+effectiveness, and “pay as you grow” scalability of stackable solution.
+Benefits
+DATA SHEET
+RUCKUS® ICX 8200
+Enterprise-class stackable access switch with future-proof expandability
+© 2022 CommScope, Inc. All rights reserved.
+* Available in a future software release
+RUCKUS ICX 8200  |  Enterprise-class stackable access switch with future-proof expandability	
+2
+RUCKUS ICX 8200 with RJ45 Copper ports and fixed power supply and fans
+These stackable RUCKUS ICX 8200 models offer a single integrated power supply, one RJ-45 Ethernet port for out-of-band network management, 
+one USB Type-C port for console management, one RJ-45 port for serial console management, and one USB port for external file storage.
+ICX 8200-24 
+	· 24× 10/100/1000 Mbps RJ-45 ports
+	· 4× 1/10/25 GbE uplink/stacking SFP28 ports
+ICX 8200-24P PoE 
+	· 24× 10/100/1000 Mbps RJ-45 PoE+ ports
+	· 4× 1/10/25 GbE uplink/stacking SFP28 ports
+	· 370 W PoE budget. PoE+ 802.3at
+ICX 8200-24ZP Multigigabit PoE 
+	· 24× 100/1000/2500 Mbps RJ-45 PoE++ 90W ports
+	· 4× 1/10/25 GbE uplink/stacking SFP28 ports
+	· 740 W PoE budget. 
+ICX 8200-48 
+	· 48× 10/100/1000 Mbps RJ-45 ports
+	· 4× 1/10/25 GbE uplink/stacking SFP28 ports
+ICX 8200-48P PoE 
+	· 48× 10/100/1000 Mbps RJ-45 PoE+ ports
+	· 4× 1/10/25 GbE uplink/stacking SFP28 ports
+	· 370 W PoE budget. PoE+ 802.3at 
+ICX 8200-48PF PoE 
+	· 48× 10/100/1000 Mbps RJ-45 PoE+ ports
+	· 4× 1/10/25 GbE uplink/stacking SFP28 ports
+	· 740 W PoE budget. PoE+ 802.3at
+RUCKUS ICX 8200 with hot-swap power supplies and fans
+These stackable RUCKUS ICX 8200 models offers 2 slots for redundant hot swappable load sharing power supplies, 2 slots for hot swappable fans, 
+one RJ-45 Ethernet port for out-of-band network management, one USB Type-C port for console management, one RJ-45 port for serial console 
+management, and one USB port for external file storage.
+ICX 8200-48PF2 PoE  
+	· 48× 10/100/1000 Mbps RJ-45 PoE+ ports
+	· 4× 1/10/25 GbE uplink/stacking SFP28 ports
+	· 1440 W PoE budget with two PSUs (740W with one PSU) 
+	· Dual hot swappable power supplies and fans
+ICX 8200-48ZP2 Multigigabit PoE  
+	· 32× 10/100/1000 Mbps RJ-45 PoE+ ports
+	· 16× 100/1000/2500 Mbps RJ-45 PoE++ 90W ports
+	· 4× 1/10/25 GbE uplink/stacking SFP28 ports
+	· 1480 W PoE budget with two PSUs (740W with one PSU) 
+	· Dual hot swappable power supplies and fans
+RUCKUS ICX 8200  |  Enterprise-class stackable access switch with future-proof expandability	
+3
+RUCKUS ICX 8200 Compact 
+These RUCKUS ICX 8200 compact switches offer a single integrated power supply, one USB Type-C port for console management, one RJ-45 
+Ethernet port for out-of-band network management, one RJ-45 port for serial console management, and one USB port for external file storage.
+ICX 8200-C08PF PoE  
+	· 8× 10/100/1000 Mbps RJ-45 PoE+ ports
+	· 2× 1/10GbE uplink/stacking SFP+ ports
+	· 124 W PoE budget PoE+ 802.3at
+ICX 8200-C08ZP Multigigabit PoE  
+	· 4× 100/1000/2500 Mbps RJ-45 PoE++ 90W ports
+	· 4× 1/2.5/5/10 Gbps RJ-45 PoE++ 90W ports
+	· 2× 1/10/25 GbE uplink/stacking SFP28 ports
+	· 240 W PoE budget 
+RUCKUS ICX 8200 Fiber 
+These stackable RUCKUS ICX 8200 models offer a single integrated power supply, one RJ-45 Ethernet port for out-of-band network management, 
+one USB Type-C port for console management, one RJ-45 port for serial console management, and one USB port for external file storage
+ICX 8200-24F Fiber   
+	· 24× 1GbE SFP ports
+	· 4× 1/10/25 GbE uplink/stacking SFP28 ports 
+ICX 8200-48F Fiber 
+	· 48× 1GbE SFP ports
+	· 4× 1/10/25 GbE uplink/stacking SFP28 ports
+ICX 8200-24FX 10G Fiber   
+	· 16× 1/10GbE SFP+ ports
+	· 8× 1/10/25 GbE uplink/stacking SFP28 ports
+RUCKUS ICX 8200  |  Enterprise-class stackable access switch with future-proof expandability	
+4
+Feature
+Switching capacity 
+(data rate, full duplex) 
+56 Gbps
+248 Gbps
+296 Gbps
+248 Gbps
+296 Gbps
+296 Gbps
+296 Gbps
+Forwarding capacity 
+(data rate, full duplex)
+42 Mpps
+ 184 Mpps
+ 220 Mpps
+ 184 Mpps
+220 Mpps
+220 Mpps
+ 220 Mpps
+10/100/1000 Mbps RJ45 
+8
+24
+48
+24
+48
+48
+48
+100/1000 Mbps SFP uplinks
+1/10 Gbps SFP/SFP+ uplinks
+2
+1/10/25 Gbps SFP/SFP+/SFP28 uplinks
+4
+4
+4
+4
+4
+4
+PoE/PoE+ 802.3at ports
+8
+24
+48
+48
+48
+Dual hot-swap power supplies and fan 
+modules
+Yes
+Max PoE Class 3 ports
+(15.4 W per port)
+8
+24
+48
+48
+48
+Max PoE+ Class 4 ports 
+(30 W per port)
+4
+12
+12
+24
+48 (2 PSU)
+Energy Efficient Ethernet (802.3az)
+Yes
+Base IPv4/v6 Layer 3 routing 
+(static routing, RIP)
+Yes
+Advanced IPv4/v6 Layer 3  
+(OSPF, VRRP, VRF, GRE, PIM, PBR)
+With License
+Aggregated stacking bandwidth 
+(data rate, full duplex)
+240 Gbps
+1.2 Tbps
+Stacking density 
+(maximum switches in a stack)
+12
+Stacking ports 
+(maximum ports usable for stacking)
+Up to 
+2×10 GbE 
+SFP+
+Up to 
+4×25 GbE SFP28
+Maximum stacking distance (distance 
+between stacked switches) 
+10 km
+RUCKUS ICX 8200 Feature/Model Comparison 
+Gigabit  
+Compact
+Gigabit  
+Non-PoE 
+Gigabit  
+PoE 
+RUCKUS ICX 
+8200-C08PF
+RUCKUS ICX 
+8200-24
+RUCKUS ICX 
+8200-48
+RUCKUS ICX 
+8200-24P
+RUCKUS ICX 
+8200-48P
+RUCKUS ICX 
+8200-48PF
+RUCKUS ICX 
+8200-48PF2
+RUCKUS ICX 8200  |  Enterprise-class stackable access switch with future-proof expandability	
+5
+RUCKUS ICX 8200 Feature/Model Comparison 
+Gigabit  
+Compact
+Gigabit  
+Non-PoE 
+Gigabit  
+PoE 
+RUCKUS ICX 
+8200-C08PF
+RUCKUS ICX 
+8200-24
+RUCKUS ICX 
+8200-48
+RUCKUS ICX 
+8200-24P
+RUCKUS ICX 
+8200-48P
+RUCKUS ICX 
+8200-48PF
+RUCKUS ICX 
+8200-48PF2
+Features
+POWER
+Power inlet (AC)
+C14
+Input voltage/frequency
+AC: 100 to 240 VAC @ 50 to 60 Hz
+Power Supply Hold Time
+10ms
+10ms
+10ms
+20ms
+20ms
+10ms
+10ms
+Power supply rated max (AC)
+240 W
+65 W
+100 W
+525 W
+525 W
+880 W
+920W x 2
+PoE power budget (AC)
+124 W
+370 W
+370 W
+740 W
+740W (1 PSU)
+1440W (2 PSU)
+Switch power usage (25°C)
+  10% traffic* (no PoE load)
+  100% traffic** (full PoE load)
+18 W
+150 W
+31 W
+38 W
+47 W
+54 W
+36 W
+445 W
+49 W
+451 W
+51W
+854 W
+86 W
+1667 W
+Airflow
+Fanless
+Fanless Mode.***
+Front and side to back
+Fanless Mode.***
+Front and side to back
+Front to Back
+Switch power dissipation (25°C)
+  10% traffic* (no PoE load)
+  100% traffic** (full PoE load)
+ 
+61 BTU/hr
+514 BTU/hr
+ 
+106 BTU/hr
+132 BTU/hr
+ 
+160 BTU/hr.
+184 BTU/hr
+ 
+124 BTU/hr
+256 BTU/hr
+ 
+167 BTU/hr
+276 BTU/hr
+ 
+174 BTU/hr
+389 BTU/hr
+ 
+294 BTU/hr
+775 BTU/hr
+Features
+Net Weight 
+2.27 kg 
+5.00 lb
+3.74 kg
+8.24 lb
+4.96 kg
+10.93 lb
+4.34 kg
+9.57 lb
+5.57 kg
+12.28 lb
+5.51kg
+12.15 lb
+6.39 kg
+14.08 lb
+Dimensions  
+  Height  
+  Width  
+  Depth
+ 
+4.40 cm 
+1.73 Inches
+27.00 cm 
+10.63 inches 
+21.40 cm 
+8.42 inches
+ 
+4.40 cm 
+1.73 Inches
+44.00 cm 
+17.32 inches
+28.00 cm 
+11.02 inches
+ 
+4.40 cm 
+1.73 inches
+44.00 cm 
+17.32 inches
+37.00 cm 
+14.57 inches
+ 
+4.40 cm 
+1.73 inches
+44.00 cm 
+17.32 inches
+28.00 cm 
+11.02 inches
+ 
+4.40 cm 
+1.73 inches
+44.00 cm 
+17.32 inches
+37.00 cm 
+14.57 inches
+ 
+4.40 cm 
+1.73 inches
+44.00 cm 
+17.32 inches
+37.00 cm 
+14.57 inches
+ 
+4.40 cm 
+1.73 inches
+44.00 cm 
+17.32 inches
+37.00 cm 
+14.57 inches
+Acoustics (25°C, min fan speed)
+Fanless
+40.0 dBA
+40.0 dBA
+41.0 dBA
+41.0 dBA
+41.0 dBA
+51.0 dBA
+MTBF (25°C)
+2,007,096hr
+1,543,328hr
+1,136,723hr
+1,550,360hr
+1,297,288hr
+1,070,987hr
+561,966hr
+Features
+MANAGEMENT PORTS
+USB Type-C port
+(For console management)
+Yes
+RJ45 serial port
+(For serial console management)
+Yes
+USB Type-A port
+(For external file storage)
+Yes
+RJ45 Ethernet port
+(For out of band network management)
+Yes
+* All downlink ports, stacking ports, and uplink ports are linked up with 10% traffic rate. No PoE load on PoE models. Fans are at nominal speed.
+** All downlink ports, stacking ports, and uplink ports are linked up with 100% traffic rate. 100% PoE load on PoE models. Fans are at high speed.
+*** In Fanless Mode, 25GbE ports are restricted to 10GbE max speed and PoE budget is restricted to 150W max per switch.
+RUCKUS ICX 8200  |  Enterprise-class stackable access switch with future-proof expandability	
+6
+RUCKUS ICX 8200 Feature/Model Comparison 
+Multigigabit Ethernet
+PoE++
+Fiber Ethernet
+RUCKUS ICX  
+8200-C08ZP
+RUCKUS ICX  
+8200-24ZP
+RUCKUS ICX  
+8200-48ZP2
+RUCKUS ICX  
+8200-24F
+RUCKUS ICX  
+8200-24FX
+RUCKUS ICX  
+8200-48F
+Features
+Switching capacity  
+(data rate, full duplex)
+200 Gbps
+320 Gbps
+344 Gbps
+248 Gbps
+720 Gbps
+296 Gbps
+Forwarding capacity  
+(data rate, full duplex)
+148 Mpps
+237 Mpps
+254 Mpps
+184 Mpps
+533 Mpps
+219 Mpps
+10/100/1000 Mbps RJ45 
+32
+100/1000 Mbps/2.5 Gbps RJ45 
+downlinks (full duplex only)
+4
+24
+16
+100Mbps/1/2.5/5/10 Gbps RJ45 
+downlinks 
+4
+100/1000 Mbps SFP 
+24
+48
+1/10 Gbps SFP+
+16
+1/10/25 Gbps SFP/SFP+/SFP28 uplinks
+2
+4
+4
+4
+8
+4
+PoE/PoE+ 802.3at ports
+32
+PoH / PoE / PoE+ / PoE++ 802.3bt ports
+8
+24
+16
+Dual hot-swap power supplies and fan 
+modules
+Yes
+Maximum PoE Class 3 ports  
+(15.4 W per port)
+8
+24
+48
+Maximum PoE+ Class 4 ports  
+(30 W per port)
+8
+24
+24 (1 PSU)
+48 (2 PSU)
+Maximum PoE++ Class 6 ports  
+(60 W per port)
+4
+12
+12 (1PSU)
+16 (2 PSU)
+Maximum PoE++ Class 8 Ports  
+(90 W per port)
+2
+8
+8(1PSU) 
+16 (2PSU
+Energy Efficient Ethernet (802.3az)
+Yes
+Base IPv4/v6 Layer 3 routing  
+(static routing, RIP)
+Yes
+Advanced IPv4/v6 Layer 3 routing  
+(OSPF, VRRP, VRF, GRE, PIM, PBR)
+With License
+Aggregated stacking bandwidth 
+(data rate, full duplex)
+600 Gbps
+1.2 Tbps
+Stacking density  
+(maximum switches in a stack)
+12
+Stacking ports  
+(maximum ports usable for stacking)
+Up to  
+2×25 GbE SFP28
+Up to  
+4×25 GbE SFP28
+Maximum stacking distance 
+(distance between stacked switches)
+10 km
+RUCKUS ICX 8200  |  Enterprise-class stackable access switch with future-proof expandability	
+7
+RUCKUS ICX 8200 Feature/Model Comparison 
+Multigigabit Ethernet
+PoE++
+Fiber Ethernet
+RUCKUS ICX  
+8200-C08ZP
+RUCKUS ICX  
+8200-24ZP
+RUCKUS ICX  
+8200-48ZP2
+RUCKUS ICX  
+8200-24F
+RUCKUS ICX  
+8200-24FX
+RUCKUS ICX  
+8200-48F
+Features
+POWER
+Power inlet (AC)
+C14
+Input voltage/frequency
+AC: 100 to 240 VAC @ 50 to 60 Hz
+Power supply hold time
+20ms
+10ms
+10ms
+10ms
+10ms
+10ms
+Power supply rated max (AC)
+305W
+950W
+920W x 2
+100W
+150W
+180W
+PoE power budget (AC)
+240W
+740W
+740W (1 PSU)
+1480W (2 PSU)
+Switch power usage (25°C)
+  10% traffic* (no PoE load)
+  100% traffic** (full PoE load)
+41W
+300W
+69W
+920W
+90W
+1839W
+65W
+78W
+82W
+93W
+106W
+118W
+Airflow
+Fanless 
+Front to side & back
+Front to side & back
+Switch power dissipation (25°C)
+  10% traffic* (no PoE load)
+  100% traffic** (full PoE load)
+140 BTU/hr.
+1023 BTU/hr.
+235 BTU/hr.
+3139 BTU/hr.
+305 BTU/hr.
+6275 BTU/hr.
+223 BTU/hr.
+264 BTU/hr.
+279 BTU/hr.
+316 BTU/hr.
+362 BTU/hr.
+402 BTU/hr.
+Features
+Net Weight 
+3.23 Kg
+5.22 Kg
+6.64 Kg 
+ (2 PSUs)
+3.77 Kg
+3.81 Kg
+4.30 Kg
+Dimensions 
+  Height  
+  Width  
+  Depth
+4.40 cm 
+1.73 Inches 
+27.00 cm 
+10.63 inches 
+26.00 cm 
+10.24 inches
+4.40 cm 
+1.73 inches
+44.00 cm 
+17.32 inches
+28.00 cm 
+11.02 inches
+4.40 cm 
+1.73 inches
+44.00 cm 
+17.32 inches
+37.00 cm 
+14.57 inches
+4.40 cm 
+1.73 inches
+44.00 cm 
+17.32 inches
+28.00 cm 
+11.02 inches
+4.40 cm 
+1.73 inches
+44.00 cm 
+17.32 inches
+28.00 cm 
+11.02 inches
+4.40 cm 
+1.73 inches
+44.00 cm 
+17.32 inches
+28.00 cm 
+11.02 inches
+Acoustics (25°C, min fan speed)
+Fanless
+41.0 dBA
+51.0 dBA
+41.0 dBA
+41.0 dBA
+41.0 dBA
+MTBF (25°C)
+539,091hr 
+936,765hr 
+536,710hr 
+1,190,512hr 
+890,716hr
+1,699,974hr
+Features
+USB Type-C port
+(For console management)
+Yes
+RJ45 serial port
+(For serial console management)
+Yes
+USB Type-A port
+(For external file storage)
+Yes
+RJ45 Ethernet port
+(For out of band network management)
+Yes
+* All downlink ports, stacking ports, and uplink ports are linked up with 10% traffic rate. No PoE load on PoE models. Fans are at nominal speed.
+** All downlink ports, stacking ports, and uplink ports are linked up with 100% traffic rate. 100% PoE load on PoE models. Fans are at high speed.
+RUCKUS ICX 8200  |  Enterprise-class stackable access switch with future-proof expandability	
+8
+RUCKUS ICX 8200 Specifications
+Features
+SPECIFICATIONS
+Connector options
+	· 10/100/1000 Mbps RJ-45
+	· 1/2.5 Gbps RJ-45
+	· 1/2.5/5/10 Gbps RJ-45
+	· 1 Gbps SFP ports
+	· 1/10 Gbps SFP+ ports
+	· 1/10/25 Gbps SFP28 ports
+	· Out-of-band Ethernet management: 10/100/1000 Mbps RJ-45
+	· Console management: RJ45 serial port and USB Type-C port 
+with serial communication device class support
+	· File transfer: USB port, standard-A plug
+For the latest information about supported optics, please visit 
+www.commscope.com/ruckus.
+DRAM
+NVRAM (eMMC)
+Packet buffer size
+	· 4 GB
+	· 8 GB
+	· 4 MB 
+Maximum MAC addresses
+	· 32K
+Maximum VLANs
+Maximum PVLANs
+	· 4,095
+	· 32
+Maximum STP
+(spanning trees instances)
+	· 253
+Maximum VEs
+	· 512
+Maximum ARP entries
+	· 8192
+Maximum routes (in hardware)
+	· 16k IPv4, 4k IPv6
+	· Next hop address: 8k
+Trunking
+	· Maximum ports per LAG : 8
+	· Maximum Link Aggregation Groups : 128
+Maximum jumbo frame size
+	· 9,216 bytes
+QoS priority queues
+	· 8 per port
+Multicast groups
+	· 4096 (Layer2 IGMP) 512 (Layer2 MLD)
+	· 4096 (IPv4 PIM) 512 (IPv6 PIM)
+Quality of Service (QoS
+	· ACL Mapping and Marking of ToS/DSCP (CoS)
+	· ACL Mapping and Marking of 802.1p
+	· ACL Mapping to Priority Queue
+	· Classifying and Limiting Flows Based on TCP Flags
+	· DiffServ Support
+	· Honoring DSCP and 802.1p (CoS)
+	· MAC Address Mapping to Priority Queue
+	· Priority Queue Management using Weighted Round Robin
+	· (WRR), Strict Priority (SP), and a combination of WRR and SP
+Traffic management
+	· ACL-based inbound rate limiting and traffic policies
+	· Broadcast, multicast, and unknown unicast rate limiting
+	· Inbound rate limiting per port
+	· Outbound rate limiting per port and per queue
+Security
+	· 802.1X authentication
+	· MAC authentication
+	· Flexible authentication
+	· Web authentication
+	· DHCP snooping
+	· Dynamic ARP inspection
+	· Neighbor Discovery (ND) Inspection
+	· Bi-level Access Mode (Standard and EXEC Level)
+	· EAP pass-through support
+	· IEEE 802.1X username export in sFlow
+	· Protection against Denial of Service (DoS) attacks
+	· Authentication, Authorization, and Accounting (AAA)
+	· MAC Address Locking MAC Port Security
+	· Advanced Encryption Standard (AES) with SSHv2
+	· RADIUS/TACACS/TACACS+
+	· Secure Copy (SCP)
+	· Secure Shell (SSHv2)
+	· Protected Ports
+	· Local Username/Password
+	· Change of Authorization (CoA) RFC 5176
+	· Trusted Platform Module
+	· RADSEC (RFC 6614)
+	· Encrypted Syslog (RFC 5425
+SDN features
+	· OpenFlow1 v1.0 and v1.3 
+	· Operates with OpenDayLight Controller
+	· OpenFlow hybrid port mode (Supports both OpenFlow traffic 
+forwarding and regular traffic forwarding on the same port) 
+RUCKUS ICX 8200  |  Enterprise-class stackable access switch with future-proof expandability	
+9
+Features
+SPECIFICATIONS
+High availability
+	· Layer 3 VRRP/VRRP-E protocol redundancy
+	· Real-time state synchronization across the stack
+	· Hitless failover and switchover from master to standby stack controller
+	· Hot insertion and removal of stacked units
+	· Layer 2 VSRP switch redundancy
+	· In Service Software Update (ISSU
+Layer 2 feature set
+	· 802.1s Multiple Spanning Tree
+	· 802.1x Authentication
+	· Auto MDI/MDIX
+	· BPDU Guard, Root Guard
+	· Dual-Mode VLANs
+	· MAC-based VLANs, Dynamic MAC-based VLAN activation
+	· Dynamic VLAN Assignment
+	· Dynamic Voice VLAN Assignment
+	· Fast Port Span
+	· GVRP : GARP VLAN Registration Protocol
+	· IGMP Snooping (v1/v2/v3)
+	· IGMP Proxy for Static Groups
+	· IGMP v2/v3 Fast Leave
+	· Inter-Packet Gap (IPG) adjustment
+	· Link Fault Signaling (LFS)
+	· MAC Address Filtering
+	· MAC Learning Disable
+	· MLD Snooping (v1/v2)
+	· Multi-device Authentication
+	· Per-VLAN Spanning Tree (PVST/PVST+/PRST)
+	· Mirroring: Port-based, ACL-based, MAC Filter-based, and 
+VLAN-based
+	· PIM-SM v2 Snooping
+	· Port Loop Detection
+	· Private VLAN
+	· Remote Fault Notification (RFN)
+	· Single-instance Spanning Tree
+	· Trunk Groups (static, LACP)
+	· Uni-Directional Link Detection (UDLD)
+	· Metro-Ring Protocol (MRP) (v1, v2)
+	· Virtual Switch Redundancy Protocol (VSRP)
+	· Q-in-Q and selective Q-in-Q
+	· VLAN Mapping
+	· Topology Groups
+Base Layer 3 IP routing
+feature set
+	· IPv4 and IPv6 static routes
+	· RIP v1/v2, RIPng
+	· ECMP
+	· Port-based Access Control Lists
+	· Layer 3/Layer 4 ACLs
+	· Host routes
+	· Virtual Interfaces
+	· Routed Interfaces
+	· Route-only Support
+	· Routing Between Directly Connected Subnets
+Premium Layer 3 IP routing 
+feature set with software 
+license
+	· IPv4 and IPv6 dynamic routes
+	· OSPF v2, v3
+	· PIM-SM, PIM-SSM, PIM-DM, PIM passive (IPv4, IPv6)
+	· PBR
+	· Virtual Route Redundancy Protocol VRRP (IPv4)
+	· VRRP v3 (IPv6)
+	· VRRP-E(IPv4/IPv6)
+	· VRF (IPv4 and IPv6
+	· GRE
+Features
+STANDARD COMPLIANCE
+IEEE standards compliance
+	· 802.1AB LLDP/ LLDP-MED
+	· 802.1D MAC Bridging
+	· 802.1p Mapping to Priority Queue
+	· 802.1s Multiple Spanning Tree (MST)
+	· 802.1w Rapid Reconfiguration of Spanning Tree (RSTP)
+	· 802.1x Port-based Network Access Control (PNAC)
+	· 802.3 Carrier Sense Multiple Access/Collision Detection
+	· (CSMA/CD)
+	· 802.3ab 1000BASE-T
+	· 802.3 10Base-T
+	· 802.3ad Link Aggregation (Dynamic and Static)
+	· 802.1 AX-2008 Link Aggregation
+	· 802.3ae 10 Gigabit Ethernet
+	· 802.3af Power over Ethernet
+	· 802.3at Power over Ethernet Plus
+	· 802.3bz Multigigabit Ethernet
+	· 802.3u 100Base-TX
+	· 802.3x Flow Control
+	· 802.3z 1000Base-SX/LX
+	· 802.3 MAU MIB (RFC 2239)
+	· 802.1Q VLAN Tagging
+	· 802.1BR Bridge Port Extension
+	· 802.3az Energy Efficient Ethernet
+	· 802.3bt PoE++
+RFC standards compliance
+For a complete list of RFCs supported by the ICX 8200 product family, 
+please visit www.commscope.com/ruckus.
+RUCKUS ICX 8200 Specifications
+RUCKUS ICX 8200  |  Enterprise-class stackable access switch with future-proof expandability	
+10
+Features
+FEATURE SETS
+Management
+	· DHCP Auto-Configuration
+	· Configuration Logging
+	· Digital Optical Monitoring
+	· Display Log Messages on Multiple Terminals
+	· Embedded Web Management (HTTP/HTTPS)
+	· Embedded DHCP Server
+	· Industry-standard Command Line Interface (CLI)
+	· RUCKUS SmartZone, RUCKUS Cloud*, RUCKUS Unleashed*
+	· CLI activation of optional software features
+	· USB file management and storage
+	· Macro for batch execution
+	· Out-of-band Ethernet Management
+	· RSPAN
+	· TFTP
+	· TELNET Client and Server
+	· SSH / SSH V2
+	· Bootp
+	· SNMPv1/v2c
+	· DHCP Server and DHCP Relay
+	· SNMPv3 Intro to Framework
+	· Architecture for Describing SNMP Framework
+	· SNMP Message Processing and Dispatching
+	· SNMPv3 Applications
+	· SNMPv3 User-based Security Model
+	· SNMP View-based Access Control Model SNMP
+	· sFlow
+	· Network Time Protocol (NTP)
+	· Multiple Syslog Servers
+	· SCP
+	· Virtual Cable Tester (VCT)
+	· From management MIB, please see the ICX technical 
+documentation at www.commscope.com/ruckus
+Features
+ENVIRONMENT
+Ambient Temperature
+	· Operational: 0°C to 45°C (32°F to 113°F) at sea level
+	· Non-operational: 40°C to 70°C (-40°F to 158°F)
+Relative Humidity  
+(non-condensing)
+	· Operational: 10% to 90% at 50°C (122°F)
+	· Non-operational: 10% to 90% at 70°C (158°F)
+Altitude  
+(above sea level)
+	· Operational 0 to 3,048 m (10,000 ft)
+	· Non-operational: 0 to 12,000 m (39,370 ft)
+Features
+COMPLIANCE/CERTIFICATION
+Electromagnetic emissions
+	· FCC Part 15, Subpart B (Class A)
+	· EN 55032 (CE mark) (Class A)
+	· EN 55035 (CE mark) (Immunity) for Information Technology Equipment
+	· EN 55024 (CE mark) (Immunity) for Information Technology Equipment
+	· ICES-003 (Canada) (Class A)
+	· AS/NZ 55032 (Australia/New Zealand) (Class A)
+	· VCCI (Japan) (Class A)
+	· EN 300 386
+	· CNS 15936-1 (BSMI) (Taiwan) (Class A)
+	· KN 32 (South Korea) (Class A)
+	· KN 35 (South Korea) (Class A)
+	· TCVN 7189 / TCVN 7317 (Vietnam) (Class A)
+	· EN 61000-3-2
+	· EN 61000-3-3
+Safety
+	· CAN/CSA-C22.2 No. 62368-1/UL 62368-1 - Safety of Information Technology Equipment
+	· EN 60825 Safety of Laser Products - Part 1: Equipment Classification, Requirements and User’s Guide
+	· EN 60950-1/IEC 60950-1/EN 62368-1/EC 62368-1 Safety of Information Technology Equipment
+	· CNS 15598-1 (BSMI) (Taiwan)
+Environmental regulatory
+compliance
+	· 2014/35/EU and 2014/30/EU
+	· 2011/65/EU – Restriction of the use of certain hazardous substance in electrical and electronic equipment (EU RoHS)
+	· 2012/19/EU – Waste electrical and electronic equipment (EU WEEE)
+	· 94/62/EC – packaging and packaging waste (EU)
+	· 2006/66/EC – batteries and accumulators and waste batteries and accumulators (EU battery directive)
+	· 1907/2006 of the European Parliament and of the Council of 18 December 2006 concerning the Registration, Evaluation, 
+Authorisation and Restriction of Chemicals (EU REACH)
+	· Section 1502 of the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 – U.S. Conflict Minerals
+	· 30/2011/TT-BCT – Vietnam circular
+	· SJ/T 11363-2006 Requirements for Concentration Limits for Certain Hazardous Substances in EIPs (China)
+	· SJ/T 11364-2006 Marking for the Control of Pollution Caused by EIPs (China)
+	· CNS 15663 (BSMI) (Taiwan)
+Vibration
+	· IEC 68-2-36, IEC 68-2-6
+Shock and drop
+	· IEC 68-2-27, IEC 68-2-32
+TAA (Trade Agreement Act)
+	· All ICX 8200 SKUs are TAA compliant
+RUCKUS ICX 8200 Specifications
+RUCKUS ICX 8200  |  Enterprise-class stackable access switch with future-proof expandability	
+11
+Part Number
+RUCKUS ICX 8200 Switches with Three-Year Remote TAC support
+TAA-Compliant
+ICX8200-C08PF
+RUCKUS ICX 8200 Compact Switch, 8×10/100/1000 Mbps PoE+ ports, 2×10 GbE SFP+ stacking/uplink-ports, 124 W PoE budget, three-year 
+remote TAC support. Power cord not included.
+ICX8200-C08ZP
+RUCKUS ICX 8200 Compact Switch, 4×100/1000/2500 Mbps PoE++ ports, 4× 1/2.5/5/10Gbps PoE++ ports, 2×25 GbE SFP28 stacking/uplink-
+ports, 240 W PoE budget, three-year remote TAC support. Power cord not included. Must use power cord with high temperature C15 
+connector.
+ICX8200-24
+RUCKUS ICX 8200 Switch, 24×10/100/1000 Mbps ports, 4×25 GbE SFP28 stacking/uplink-ports, three-year remote TAC support. Power cord 
+not included.
+ICX8200-24P
+RUCKUS ICX 8200 Switch, 24×10/100/1000 Mbps PoE+ ports, 4×25 GbE SFP28 stacking/uplink-ports, 370 W PoE budget, three-year remote 
+TAC support. Power cord not included.
+ICX8200-24ZP
+RUCKUS ICX 8200 Switch, 24×100/1000/2500 Mbps PoE++ ports, 4×25 GbE SFP28 stacking/uplink-ports, 740 W PoE budget, three-year 
+remote TAC support. Power cord not included.
+ICX8200-48
+RUCKUS ICX 8200 Switch, 48×10/100/1000 Mbps ports, 4×25 GbE SFP28 stacking/uplink-ports, three-year remote TAC support. Power cord 
+not included.
+ICX8200-48P
+RUCKUS ICX 8200 Switch, 48×10/100/1000 Mbps PoE+ ports, 4×25 GbE SFP28 stacking/uplink-ports, 370 W PoE budget, three-year remote 
+TAC support. Power cord not included.
+ICX8200-48PF
+RUCKUS ICX 8200 Switch, 48×10/100/1000 Mbps PoE+ ports, 4×25 GbE SFP28 stacking/uplink-ports, 740 W PoE budget, three-year remote 
+TAC support. Power cord not included.
+ICX8200-48PF2-E
+RUCKUS ICX 8200 Switch, 48×10/100/1000 Mbps PoE+ ports, 4×25 GbE SFP28 stacking/uplink-ports, 740 W PoE budget (with one PSU), hot 
+swap power supplies and fans, one power supply and one fan included, three-year remote TAC support. Power cord not included.
+ICX8200-48PF2-E2
+RUCKUS ICX 8200 Switch, 48×10/100/1000 Mbps PoE+ ports, 4×25 GbE SFP28 stacking/uplink-ports, 1440 W PoE budget, hot swap power 
+supplies and fans, two power supplies and two fans included, three-year remote TAC support. Power cords not included.
+ICX8200-48ZP2-E
+RUCKUS ICX 8200 Switch, 32×10/100/1000 Mbps PoE+ ports, 16×100/1000/2500 Mbps RJ-45 PoE++ ports, 4×25 GbE SFP28 stacking/
+uplink-ports, 740 W PoE budget (with one PSU), hot swap power supplies and fans, one power supply and one fan included, three-year 
+remote TAC support. Power cord not included.
+ICX8200-48ZP2-E2
+RUCKUS ICX 8200 Switch, 32×10/100/1000 Mbps PoE+ ports, 16×100/1000/2500 Mbps RJ-45 PoE++ ports, 4×25 GbE SFP28 stacking/
+uplink-ports, 1480 W PoE budget, hot swap power supplies and fans, two power supplies and two fans included, three-year remote TAC 
+support. Power cords not included.
+ICX8200-24F
+RUCKUS ICX 8200 Switch, 24×100/1000 Mbps SFP ports, 4×25 GbE SFP28 stacking/uplink-ports, three-year remote TAC support. Power 
+cord not included.
+ICX8200-48F
+RUCKUS ICX 8200 Switch, 48×100/1000 Mbps SFP ports, 4×25 GbE SFP28 stacking/uplink-ports, three-year remote TAC support. Power 
+cord not included.
+ICX8200-24FX
+RUCKUS ICX 8200 Switch, 16×1/10GbE SFP+ ports, 8×25 GbE SFP28 stacking/uplink-ports, three-year remote TAC support. Power cord not 
+included.
+Part Number
+RUCKUS ICX 8200 Power Supplies, Fans and Accessories
+ICX8200-PREM-LIC 
+ICX 8200 Layer 3 premium license. Enables advanced layer 3 features (OSPF, VRRP, PIM, PBR, VRF, GRE)
+RPS23-E
+Hot-swap 920 W AC PoE power supply, front to back airflow. Only applicable to the ICX8200 models with hot swap power supplies (up to 2 
+per switch) Power cord not included
+ICX-FAN13-E
+Hot-swap fan tray front to back airflow. Only applicable to the ICX8200 models with hot swap fans (up to 2 per switch)
+XBR-R000295
+1U, 1.5U, and 2U Universal Kit for Four-Post Racks
+ICX7000-RMK
+Two-post fixed rack mount kit
+ICX7000-C12-RMK
+Rack mount kit for compact switches
+ICX7000-C12-WMK
+Wall Mount Bracket Kit for compact switches
+ICX-DIN-MNT
+DIN rail mount kit
+CC-USBC-USBA
+USB 2.0 Cable, Type-C to Type-A, 1 meter (for USB Type-C console port)
+CC-RJ45-DB9
+Console cable RJ45-RJ45 with RJ-45-DB9 Adapter (for RJ-45 console port)
+RUCKUS ICX 8200 Ordering Information
+Part Number
+Power Cords for All ICX 8200 models except the ICX 8200-C08ZP
+PCUSA2
+C13 POWER CORD for USA, NEMA5-15/C13, 13A, 125V
+PCEURO
+C13 Power Cord for Europe
+PCAUS
+C13 POWER CORD FOR AUSTRALIA
+PCCHINA2-IEC309
+C13 Power Cord for China, 250V 10A
+PCINDIA
+C13 6 FOOT AC POWER CORD FOR INDIA
+PCJAPAN
+C13 Power Cord for Japan version
+PCSWISS-C1312G-HF
+C13 POWER CORD for Switzerland, SEV1011 TO C13, 10A, 250V, HALOGEN-FREE
+PCUK
+C13 Power Cord for United Kingdom
+PC-C13C14
+C13/C14 15A Power Cord
+ 
+RUCKUS ICX 8200 Ordering Information
+Warranty
+RUCKUS ICX 8200 Switches are covered by the RUCKUS Assurance 
+Limited Lifetime Warranty. For details, visit www.ruckusnetworks.
+com/warranty. 
+Best-in-Class Support
+RUCKUS ICX 8200 switches are supported by next-business-day 
+advance replacement where available, as well as software defect 
+repairs and maintenance updates. 3 years remote TAC support is 
+included with the product purchase (extends to 39 months from 
+the original ship date). Many on-site and TAC support options are 
+available and can be purchased bundled with the product  
+or separately.
+Legal Disclaimer 
+Product features, functionality and specifications may change or 
+be discontinued without notice. Nothing in this document shall be 
+deemed to create a warranty of any kind, either express or implied, 
+statutory or otherwise, including but not limited to, any implied 
+warranties of merchantability, fitness for a particular purpose, non-
+infringement of third-party rights or availability with respect to any 
+products and services.
+Refer to www.commscope.com/ruckus for the latest version of this 
+document.
+Notice: This document is for informational purposes only and does 
+not set forth any warranty, expressed or implied, concerning any 
+equipment, equipment feature, or service offered or to be offered by 
+CommScope. CommScope reserves the right to make changes to this 
+document at any time, without notice, and assumes no responsibility 
+for its use. This informational document describes features that may 
+not be currently available. Contact a CommScope sales office for 
+information on feature and product availability. Export of technical 
+data contained in this document may require an export license from 
+the United States government.
+www.ruckusnetworks.com
+Visit our website or contact your local RUCKUS representative for more information. 
+© 2023 CommScope, Inc. All rights reserved. 
+All trademarks identified by ™ or ® are trademarks or registered trademarks in the US and may be registered in other countries. All 
+product names, trademarks and registered trademarks are property of their respective owners. This document is for planning purposes 
+only and is not intended to modify or supplement any specifications or warranties relating to CommScope products or services.
+About RUCKUS Networks
+RUCKUS Networks builds and delivers purpose-driven networks that perform in the demanding 
+environments of the industries we serve. Together with our network of trusted go-to-market partners, 
+we empower our customers to deliver exceptional experiences to the guests, students, residents, 
+citizens and employees who count on them.
+PA-117001.2-EN (07/23)
+* Check RUCKUS accessory guide for high temperature C15 power cords SKUs for the ICX 8200 C08ZP

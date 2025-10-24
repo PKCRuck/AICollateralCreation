@@ -70,7 +70,7 @@ except ImportError:
     IMAGE_PROCESSING_AVAILABLE = False
 
 # Hardcoded API key (as requested)
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 
 # Page configuration
 st.set_page_config(
